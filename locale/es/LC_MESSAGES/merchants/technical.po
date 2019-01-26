@@ -2,13 +2,13 @@
 # Copyright (C) 2018, Axe Core Group, Inc
 # This file is distributed under the same license as the Axe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Damian Walker <damianwalkerstrauss@gmail.com>, 2018
 # Leon White <leon.white@docs.axerunners.com>, 2018
 # Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2019
 # Ivan SIerraalta <ivansierraalta@gmail.com>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -102,12 +102,12 @@ msgid ""
 "**JSON-RPC Interface:** The majority of Bitcoin JSON-RPC commands are "
 "unchanged making integration into existing systems relatively "
 "straightforward. For a complete listing of RPC commands see the `Developer "
-"Guide <https://axe-docs.github.io/en/developer-guide>`__."
+"Guide <https://dev-docs.github.io/en/developer-guide>`__."
 msgstr ""
 "**Interfaz JSON-RPC:** La mayoría de los comandos JSON-RPC de Bitcoin no se "
 "modifican, lo que hace que la integración en los sistemas existentes sea "
 "relativamente sencilla. Para una lista completa de comandos RPC vea la `Guía"
-" del Desarrollador <https://axe-docs.github.io/en/developer-guide>`__."
+" del Desarrollador <https://dev-docs.github.io/en/developer-guide>`__."
 
 #: ../../merchants/technical.rst:39
 msgid ""
@@ -121,26 +121,26 @@ msgstr ""
 
 #: ../../merchants/technical.rst:43
 msgid ""
-"`GetTransaction <https://axe-docs.github.io/en/developer-"
+"`GetTransaction <https://dev-docs.github.io/en/developer-"
 "reference#gettransaction>`__"
 msgstr ""
-"`GetTransaction <https://axe-docs.github.io/en/developer-"
+"`GetTransaction <https://dev-docs.github.io/en/developer-"
 "reference#gettransaction>`__"
 
 #: ../../merchants/technical.rst:44
 msgid ""
-"`ListTransactions <https://axe-docs.github.io/en/developer-"
+"`ListTransactions <https://dev-docs.github.io/en/developer-"
 "reference#listtransactions>`__"
 msgstr ""
-"`ListTransactions <https://axe-docs.github.io/en/developer-"
+"`ListTransactions <https://dev-docs.github.io/en/developer-"
 "reference#listtransactions>`__"
 
 #: ../../merchants/technical.rst:45
 msgid ""
-"`ListSinceBlock <https://axe-docs.github.io/en/developer-"
+"`ListSinceBlock <https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock>`__"
 msgstr ""
-"`ListSinceBlock <https://axe-docs.github.io/en/developer-"
+"`ListSinceBlock <https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock>`__"
 
 #: ../../merchants/technical.rst:47
@@ -271,7 +271,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:77
 msgid ""
-"`Masternode Registration <https://axe-docs.github.io/en/developer-"
+"`Masternode Registration <https://dev-docs.github.io/en/developer-"
 "reference#proregtx>`__"
 msgstr ""
 
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:79
 msgid ""
-"`Update Masternode Service <https://axe-docs.github.io/en/developer-"
+"`Update Masternode Service <https://dev-docs.github.io/en/developer-"
 "reference#proupservtx>`__"
 msgstr ""
 
@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:81
 msgid ""
-"`Update Masternode Operator <https://axe-docs.github.io/en/developer-"
+"`Update Masternode Operator <https://dev-docs.github.io/en/developer-"
 "reference#proupregtx>`__"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:83
 msgid ""
-"`Masternode Revocation <https://axe-docs.github.io/en/developer-"
+"`Masternode Revocation <https://dev-docs.github.io/en/developer-"
 "reference#prouprevtx>`__"
 msgstr ""
 
@@ -323,7 +323,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:85
 msgid ""
-"`Masternode List Merkle Proof <https://axe-docs.github.io/en/developer-"
+"`Masternode List Merkle Proof <https://dev-docs.github.io/en/developer-"
 "reference#cbtx>`__"
 msgstr ""
 
@@ -337,7 +337,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:87
 msgid ""
-"`Quorum Commitment <https://axe-docs.github.io/en/developer-"
+"`Quorum Commitment <https://dev-docs.github.io/en/developer-"
 "reference#qctx>`__"
 msgstr ""
 
@@ -707,8 +707,8 @@ msgid "Axe Developer Guide"
 msgstr "Guía de desarrollador de Axe"
 
 #: ../../merchants/technical.rst:309
-msgid "https://axe-docs.github.io/en/developer-guide"
-msgstr "https://axe-docs.github.io/en/developer-guide"
+msgid "https://dev-docs.github.io/en/developer-guide"
+msgstr "https://dev-docs.github.io/en/developer-guide"
 
 #: ../../merchants/technical.rst:311
 msgid ""
@@ -724,8 +724,8 @@ msgstr ""
 "origen o desde un ejecutable precompilado."
 
 #: ../../merchants/technical.rst:317
-msgid "Documentation: https://axe-docs.github.io/en/developer-guide"
-msgstr "Documentación: https://axe-docs.github.io/en/developer-guide"
+msgid "Documentation: https://dev-docs.github.io/en/developer-guide"
+msgstr "Documentación: https://dev-docs.github.io/en/developer-guide"
 
 #: ../../merchants/technical.rst:320
 msgid "NodeJS/JavaScript: Bitcore (Axecore)"
@@ -1044,26 +1044,26 @@ msgstr ""
 
 #: ../../merchants/technical.rst:493
 msgid ""
-"GetTransaction: https://axe-docs.github.io/en/developer-"
+"GetTransaction: https://dev-docs.github.io/en/developer-"
 "reference#gettransaction"
 msgstr ""
-"Obtener transacción: https://axe-docs.github.io/en/developer-"
+"Obtener transacción: https://dev-docs.github.io/en/developer-"
 "reference#gettransaction"
 
 #: ../../merchants/technical.rst:494
 msgid ""
-"ListTransactions: https://axe-docs.github.io/en/developer-"
+"ListTransactions: https://dev-docs.github.io/en/developer-"
 "reference#listtransactions"
 msgstr ""
-"Enlistar transacciones: https://axe-docs.github.io/en/developer-"
+"Enlistar transacciones: https://dev-docs.github.io/en/developer-"
 "reference#listtransactions"
 
 #: ../../merchants/technical.rst:495
 msgid ""
-"ListSinceBlock: https://axe-docs.github.io/en/developer-"
+"ListSinceBlock: https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock"
 msgstr ""
-"ListSinceBlock: https://axe-docs.github.io/en/developer-"
+"ListSinceBlock: https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock"
 
 #: ../../merchants/technical.rst:497
@@ -1150,10 +1150,10 @@ msgstr ""
 
 #: ../../merchants/technical.rst:530
 msgid ""
-"More Information: https://axe-docs.github.io/en/developer-"
+"More Information: https://dev-docs.github.io/en/developer-"
 "reference#sendrawtransaction"
 msgstr ""
-"Más información: https://axe-docs.github.io/en/developer-"
+"Más información: https://dev-docs.github.io/en/developer-"
 "reference#sendrawtransaction"
 
 #: ../../merchants/technical.rst:532

@@ -63,7 +63,7 @@ msgstr ""
 "diferencia de la red de prueba, se pueden crear múltiples redes de "
 "desarrollo independientes y coexistir sin interferencias. Para obtener "
 "documentación práctica sobre cómo utilizar redes de desarrollo, consulta la "
-"`documentación del desarrollador <https://axe-docs.github.io/en/developer-"
+"`documentación del desarrollador <https://dev-docs.github.io/en/developer-"
 "examples#devnet-mode>`__ o esta `publicación de blog <https://blog.docs.axerunners.com"
 "/axe-devnets-bc27ecbf0085>`__."
 

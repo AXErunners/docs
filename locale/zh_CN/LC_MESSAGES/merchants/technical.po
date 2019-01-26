@@ -89,7 +89,7 @@ msgid ""
 "**JSON-RPC Interface:** The majority of Bitcoin JSON-RPC commands are "
 "unchanged making integration into existing systems relatively "
 "straightforward. For a complete listing of RPC commands see the `Developer "
-"Guide <https://axe-docs.github.io/en/developer-guide>`__."
+"Guide <https://dev-docs.github.io/en/developer-guide>`__."
 msgstr ""
 "**JSON-RPC 界面:** 绝大多数基于比特币JSON-"
 "RPC命令依然可用，这使得达世币能够非常容易的嵌入已建立的比特币生态中。查看完整的RPC命令列表，请阅读 `开发者指南 <https://axe-"
@@ -104,26 +104,26 @@ msgstr "值得注意的是几个主要的交易相关的JSON-RPC命令已被修�
 
 #: ../../merchants/technical.rst:43
 msgid ""
-"`GetTransaction <https://axe-docs.github.io/en/developer-"
+"`GetTransaction <https://dev-docs.github.io/en/developer-"
 "reference#gettransaction>`__"
 msgstr ""
-"`GetTransaction <https://axe-docs.github.io/en/developer-"
+"`GetTransaction <https://dev-docs.github.io/en/developer-"
 "reference#gettransaction>`__"
 
 #: ../../merchants/technical.rst:44
 msgid ""
-"`ListTransactions <https://axe-docs.github.io/en/developer-"
+"`ListTransactions <https://dev-docs.github.io/en/developer-"
 "reference#listtransactions>`__"
 msgstr ""
-"`ListTransactions <https://axe-docs.github.io/en/developer-"
+"`ListTransactions <https://dev-docs.github.io/en/developer-"
 "reference#listtransactions>`__"
 
 #: ../../merchants/technical.rst:45
 msgid ""
-"`ListSinceBlock <https://axe-docs.github.io/en/developer-"
+"`ListSinceBlock <https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock>`__"
 msgstr ""
-"`ListSinceBlock <https://axe-docs.github.io/en/developer-"
+"`ListSinceBlock <https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock>`__"
 
 #: ../../merchants/technical.rst:47
@@ -245,7 +245,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:77
 msgid ""
-"`Masternode Registration <https://axe-docs.github.io/en/developer-"
+"`Masternode Registration <https://dev-docs.github.io/en/developer-"
 "reference#proregtx>`__"
 msgstr ""
 
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:79
 msgid ""
-"`Update Masternode Service <https://axe-docs.github.io/en/developer-"
+"`Update Masternode Service <https://dev-docs.github.io/en/developer-"
 "reference#proupservtx>`__"
 msgstr ""
 
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:81
 msgid ""
-"`Update Masternode Operator <https://axe-docs.github.io/en/developer-"
+"`Update Masternode Operator <https://dev-docs.github.io/en/developer-"
 "reference#proupregtx>`__"
 msgstr ""
 
@@ -283,7 +283,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:83
 msgid ""
-"`Masternode Revocation <https://axe-docs.github.io/en/developer-"
+"`Masternode Revocation <https://dev-docs.github.io/en/developer-"
 "reference#prouprevtx>`__"
 msgstr ""
 
@@ -297,7 +297,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:85
 msgid ""
-"`Masternode List Merkle Proof <https://axe-docs.github.io/en/developer-"
+"`Masternode List Merkle Proof <https://dev-docs.github.io/en/developer-"
 "reference#cbtx>`__"
 msgstr ""
 
@@ -311,7 +311,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:87
 msgid ""
-"`Quorum Commitment <https://axe-docs.github.io/en/developer-"
+"`Quorum Commitment <https://dev-docs.github.io/en/developer-"
 "reference#qctx>`__"
 msgstr ""
 
@@ -638,8 +638,8 @@ msgid "Axe Developer Guide"
 msgstr "达世币研发者指南"
 
 #: ../../merchants/technical.rst:309
-msgid "https://axe-docs.github.io/en/developer-guide"
-msgstr "https://axe-docs.github.io/en/developer-guide"
+msgid "https://dev-docs.github.io/en/developer-guide"
+msgstr "https://dev-docs.github.io/en/developer-guide"
 
 #: ../../merchants/technical.rst:311
 msgid ""
@@ -652,8 +652,8 @@ msgstr ""
 " Core钱包的最新版本。"
 
 #: ../../merchants/technical.rst:317
-msgid "Documentation: https://axe-docs.github.io/en/developer-guide"
-msgstr "说明文档的链接： https://axe-docs.github.io/en/developer-guide"
+msgid "Documentation: https://dev-docs.github.io/en/developer-guide"
+msgstr "说明文档的链接： https://dev-docs.github.io/en/developer-guide"
 
 #: ../../merchants/technical.rst:320
 msgid "NodeJS/JavaScript: Bitcore (Axecore)"
@@ -936,26 +936,26 @@ msgstr ""
 
 #: ../../merchants/technical.rst:493
 msgid ""
-"GetTransaction: https://axe-docs.github.io/en/developer-"
+"GetTransaction: https://dev-docs.github.io/en/developer-"
 "reference#gettransaction"
 msgstr ""
-"GetTransaction的相关链接：https://axe-docs.github.io/en/developer-"
+"GetTransaction的相关链接：https://dev-docs.github.io/en/developer-"
 "reference#gettransaction"
 
 #: ../../merchants/technical.rst:494
 msgid ""
-"ListTransactions: https://axe-docs.github.io/en/developer-"
+"ListTransactions: https://dev-docs.github.io/en/developer-"
 "reference#listtransactions"
 msgstr ""
-"ListTransactions的相关链接：https://axe-docs.github.io/en/developer-"
+"ListTransactions的相关链接：https://dev-docs.github.io/en/developer-"
 "reference#listtransactions"
 
 #: ../../merchants/technical.rst:495
 msgid ""
-"ListSinceBlock: https://axe-docs.github.io/en/developer-"
+"ListSinceBlock: https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock"
 msgstr ""
-"ListSinceBlock的相关链接：https://axe-docs.github.io/en/developer-"
+"ListSinceBlock的相关链接：https://dev-docs.github.io/en/developer-"
 "reference#listsinceblock"
 
 #: ../../merchants/technical.rst:497
@@ -1031,10 +1031,10 @@ msgstr ""
 
 #: ../../merchants/technical.rst:530
 msgid ""
-"More Information: https://axe-docs.github.io/en/developer-"
+"More Information: https://dev-docs.github.io/en/developer-"
 "reference#sendrawtransaction"
 msgstr ""
-"更多信息：https://axe-docs.github.io/en/developer-reference#sendrawtransaction"
+"更多信息：https://dev-docs.github.io/en/developer-reference#sendrawtransaction"
 
 #: ../../merchants/technical.rst:532
 msgid ""

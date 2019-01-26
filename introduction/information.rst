@@ -18,7 +18,7 @@ Official sites
 
 - **Website:** https://www.axerunners.com
 - **User documentation:** https://docs.axerunners.com
-- **Protocol documentation:** https://axe-docs.github.io
+- **Protocol documentation:** https://dev-docs.github.io
 - **Foundation:** https://www.axefoundation.io
 - **GitHub:** https://github.com/axerunners
 - **GitHub (Evolution):** https://github.com/axerunners

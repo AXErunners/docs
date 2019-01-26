@@ -34,15 +34,15 @@ general information, are summarized below.
 2. **JSON-RPC Interface:** The majority of Bitcoin JSON-RPC commands are
    unchanged making integration into existing systems relatively
    straightforward. For a complete listing of RPC commands see the 
-   `Developer Guide <https://axe-docs.github.io/en/developer-guide>`__.
+   `Developer Guide <https://dev-docs.github.io/en/developer-guide>`__.
 
    It’s worth noting that several key Transaction-related JSON-RPC
    commands have been modified to support InstantSend through the
    addition of an “InstantLock” field and are listed below:
 
-   a. `GetTransaction <https://axe-docs.github.io/en/developer-reference#gettransaction>`__
-   b. `ListTransactions <https://axe-docs.github.io/en/developer-reference#listtransactions>`__
-   c. `ListSinceBlock <https://axe-docs.github.io/en/developer-reference#listsinceblock>`__
+   a. `GetTransaction <https://dev-docs.github.io/en/developer-reference#gettransaction>`__
+   b. `ListTransactions <https://dev-docs.github.io/en/developer-reference#listtransactions>`__
+   c. `ListSinceBlock <https://dev-docs.github.io/en/developer-reference#listsinceblock>`__
 
 3. **Block Hashing Algorithm:** Axe uses the “X11” algorithm in place
    of SHA256 used in Bitcoin. It’s important to note, however, that this
@@ -74,17 +74,17 @@ transaction types exist:
 +=========+=========+======+================+=========+==============+================================================================================================+
 | v0.13.0 | 3       | 0    | n/a            | n/a     | n/a          | Standard Transaction                                                                           |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 1    | <variable int> | <hex>   | proRegTx     | `Masternode Registration <https://axe-docs.github.io/en/developer-reference#proregtx>`__      |
+| v0.13.0 | 3       | 1    | <variable int> | <hex>   | proRegTx     | `Masternode Registration <https://dev-docs.github.io/en/developer-reference#proregtx>`__      |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 2    | <variable int> | <hex>   | proUpServTx  | `Update Masternode Service <https://axe-docs.github.io/en/developer-reference#proupservtx>`__ |
+| v0.13.0 | 3       | 2    | <variable int> | <hex>   | proUpServTx  | `Update Masternode Service <https://dev-docs.github.io/en/developer-reference#proupservtx>`__ |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 3    | <variable int> | <hex>   | proUpRegTx   | `Update Masternode Operator <https://axe-docs.github.io/en/developer-reference#proupregtx>`__ |
+| v0.13.0 | 3       | 3    | <variable int> | <hex>   | proUpRegTx   | `Update Masternode Operator <https://dev-docs.github.io/en/developer-reference#proupregtx>`__ |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 4    | <variable int> | <hex>   | proUpRevTx   | `Masternode Revocation <https://axe-docs.github.io/en/developer-reference#prouprevtx>`__      |
+| v0.13.0 | 3       | 4    | <variable int> | <hex>   | proUpRevTx   | `Masternode Revocation <https://dev-docs.github.io/en/developer-reference#prouprevtx>`__      |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 5    | <variable int> | <hex>   | cbTx         | `Masternode List Merkle Proof <https://axe-docs.github.io/en/developer-reference#cbtx>`__     |
+| v0.13.0 | 3       | 5    | <variable int> | <hex>   | cbTx         | `Masternode List Merkle Proof <https://dev-docs.github.io/en/developer-reference#cbtx>`__     |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 6    | <variable int> | <hex>   | qcTx         | `Quorum Commitment <https://axe-docs.github.io/en/developer-reference#qctx>`__                |
+| v0.13.0 | 3       | 6    | <variable int> | <hex>   | qcTx         | `Quorum Commitment <https://dev-docs.github.io/en/developer-reference#qctx>`__                |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
 
 Integration notes:
@@ -132,7 +132,7 @@ Updated transaction structure::
     "extraPayload": …
   }
 
-See the `Special Transactions developer documentation <https://axe-docs.github.io/en/developer-reference#special-transactions>`__ 
+See the `Special Transactions developer documentation <https://dev-docs.github.io/en/developer-reference#special-transactions>`__ 
 for additional detail on these data types, e.g. ``<variable int>``. See 
 the `v0.13.0 transaction types integration documentation (PDF) <https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-Resources-Axe-v0.13.0-Transaction-Types.pdf>`__
 for worked examples of each transaction type.
@@ -304,9 +304,9 @@ Axe Developer Guide
 .. image:: img/axe-logo.png
    :width: 200px
    :align: right
-   :target: https://axe-docs.github.io/en/developer-guide
+   :target: https://dev-docs.github.io/en/developer-guide
 
-https://axe-docs.github.io/en/developer-guide
+https://dev-docs.github.io/en/developer-guide
 
 The Axe Developer Guide aims to provide the information you need to
 understand Axe and start building Axe-based applications. To make the
@@ -314,7 +314,7 @@ best use of this documentation, you may want to install the current
 version of Axe Core, either from source or from a pre-compiled
 executable.
 
-- Documentation: https://axe-docs.github.io/en/developer-guide
+- Documentation: https://dev-docs.github.io/en/developer-guide
 
 NodeJS/JavaScript: Bitcore (Axecore)
 -------------------------------------
@@ -490,9 +490,9 @@ notification script / service that is configured at a server level.
    the status of a given Transaction. This true/false (boolean) value
    will indicate whether an InstantSend has been observed.
 
-   a. GetTransaction: https://axe-docs.github.io/en/developer-reference#gettransaction 
-   b. ListTransactions: https://axe-docs.github.io/en/developer-reference#listtransactions 
-   c. ListSinceBlock: https://axe-docs.github.io/en/developer-reference#listsinceblock 	
+   a. GetTransaction: https://dev-docs.github.io/en/developer-reference#gettransaction 
+   b. ListTransactions: https://dev-docs.github.io/en/developer-reference#listtransactions 
+   c. ListSinceBlock: https://dev-docs.github.io/en/developer-reference#listsinceblock 	
 
 #. Insight API: Insight API can be used to detect InstantSend
    transactions and to push notifications to clients using WebSockets.
@@ -527,7 +527,7 @@ broadcast using JSON-RPC or Insight API as a Raw Transaction.
    ``sendrawtransaction "hexstring" ( allowhighfees instantsend )``
    ``sendrawtransaction "hexstring" true true``
 
-   More Information: https://axe-docs.github.io/en/developer-reference#sendrawtransaction 
+   More Information: https://dev-docs.github.io/en/developer-reference#sendrawtransaction 
 
 #. Insight API: Raw Transactions can also be broadcast as an InstantSend
    using Insight API. In this case all that is required is to POST the

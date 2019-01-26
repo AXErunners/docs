@@ -37,7 +37,7 @@ msgid ""
 "leveraged to quickly and efficiently integrate external applications with "
 "the Axe ecosystem. Anyone can contribute to the guide by submitting an "
 "issue or pull request on GitHub. The documentation is available at: https"
-"://axe-docs.github.io/en/"
+"://dev-docs.github.io/en/"
 msgstr ""
 
 #: ../../developers/index.rst:19

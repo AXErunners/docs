@@ -56,7 +56,7 @@ msgid "**User documentation:** https://docs.axerunners.com"
 msgstr ""
 
 #: ../../introduction/information.rst:21
-msgid "**Protocol documentation:** https://axe-docs.github.io"
+msgid "**Protocol documentation:** https://dev-docs.github.io"
 msgstr ""
 
 #: ../../introduction/information.rst:22
