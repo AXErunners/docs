@@ -7,7 +7,7 @@
 .. _dip3-dev-upgrade:
 
 ============================
-Axe 0.13 Upgrade Informaion
+Axe 1.2 Upgrade Informaion
 ============================
 
 **Official binaries are available at** https://github.com/axerunners/axe/releases/tag/v1.2.0

@@ -42,8 +42,8 @@ msgstr ""
 "billeteras, mantenimiento, dip3, actualizar, determinista, dmt"
 
 #: ../../developers/dip3-upgrade.rst:11
-msgid "Axe 0.13 Upgrade Informaion"
-msgstr "Información de Actualización a Axe 0.13"
+msgid "Axe 1.2 Upgrade Informaion"
+msgstr "Información de Actualización a Axe 1.2"
 
 #: ../../developers/dip3-upgrade.rst:13
 msgid ""

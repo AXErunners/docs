@@ -709,7 +709,7 @@ msgid ""
 "which causes masternodes to automatically attempt to lock any transaction"
 " with 4 or fewer inputs — which are referred to as “simple” transactions "
 "— and removes the additional fee for InstantSend. The fee schedule for "
-"Axe 0.13.x as of December 2018 is as follows:"
+"Axe 1.2.x as of December 2018 is as follows:"
 msgstr ""
 
 #: ../../introduction/features.rst:510

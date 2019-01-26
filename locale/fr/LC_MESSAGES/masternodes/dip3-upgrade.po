@@ -39,8 +39,8 @@ msgstr ""
 "déterministe, dmt"
 
 #: ../../masternodes/dip3-upgrade.rst:9
-msgid "Axe 0.13 Upgrade Procedure"
-msgstr "Procédure de mise à jour Axe 0.13"
+msgid "Axe 1.2 Upgrade Procedure"
+msgstr "Procédure de mise à jour Axe 1.2"
 
 #: ../../masternodes/dip3-upgrade.rst:11
 msgid ""
@@ -163,7 +163,7 @@ msgstr "Vérifiez l'état de votre masternode :"
 
 #: ../../masternodes/dip3-upgrade.rst:61
 msgid ""
-"The Axe software on the masternode is now updated. Since Axe 0.13 also "
+"The Axe software on the masternode is now updated. Since Axe 1.2 also "
 "updates the protocol version, it is necessary to issue a ``masternode "
 "start`` from Axe Core or DMT command to keep your masternode in the payment"
 " list during the transition period. See the `0.12.3 documentation "
@@ -171,7 +171,7 @@ msgid ""
 "masternode>`__ for more details."
 msgstr ""
 "Le logiciel Axe sur le masternode est désormais mis à jour. Puisque Axe "
-"0.13 met également à jour la version du protocole, il est nécessaire "
+"1.2 met également à jour la version du protocole, il est nécessaire "
 "d'émettre une commande ``masternode start`` depuis AxeMasternodeTool ou "
 "depuis votre portefeuille logiciel Axe Core, afin de conserver votre "
 "masternode dans la liste des paiements pendant la période de transition. "
@@ -253,7 +253,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:119
 msgid ""
-"The Axe software on the masternode is now updated. Since Axe 0.13 also "
+"The Axe software on the masternode is now updated. Since Axe 1.2 also "
 "updates the protocol version, it is necessary to issue a ``masternode "
 "start`` command from an updated Axe Core wallet or DMT to keep your "
 "masternode in the payment list during the transition period. Ensure the "

@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:9
-msgid "Axe 0.13 Upgrade Procedure"
+msgid "Axe 1.2 Upgrade Procedure"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:11
@@ -132,7 +132,7 @@ msgstr "تحقق من حالة ماسترنود ::"
 
 #: ../../masternodes/dip3-upgrade.rst:61
 msgid ""
-"The Axe software on the masternode is now updated. Since Axe 0.13 also "
+"The Axe software on the masternode is now updated. Since Axe 1.2 also "
 "updates the protocol version, it is necessary to issue a ``masternode "
 "start`` from Axe Core or DMT command to keep your masternode in the payment"
 " list during the transition period. See the `0.12.3 documentation "
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:119
 msgid ""
-"The Axe software on the masternode is now updated. Since Axe 0.13 also "
+"The Axe software on the masternode is now updated. Since Axe 1.2 also "
 "updates the protocol version, it is necessary to issue a ``masternode "
 "start`` command from an updated Axe Core wallet or DMT to keep your "
 "masternode in the payment list during the transition period. Ensure the "

@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 
 #: ../../developers/dip3-upgrade.rst:11
-msgid "Axe 0.13 Upgrade Informaion"
+msgid "Axe 1.2 Upgrade Informaion"
 msgstr ""
 
 #: ../../developers/dip3-upgrade.rst:13
