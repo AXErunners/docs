@@ -39,7 +39,7 @@ be appended to the data directory automatically.
 Command line arguments
 ======================
 
-These commands are accurate as of Axe Core version 0.13.0.0.
+These commands are accurate as of Axe Core version 1.2.0.0.
 
 - `axed`_
 - `axe-qt`_
@@ -408,7 +408,7 @@ RPC commands
 ============
 
 This documentation lists all available RPC commands as of Axe version
-0.13.0.0, and limited documentation on what each command does. For full
+1.2.0.0, and limited documentation on what each command does. For full
 documentation of arguments, results and examples, type help ( "command"
 ) to view full details at the console. You can enter commands either
 from **Tools > Debug** console in the QT wallet, or using *axe-cli* for

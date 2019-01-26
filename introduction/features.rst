@@ -499,7 +499,7 @@ simultaneous reduction of fees by a factor of 10, while the block size
 was increased from 1MB to 2MB to promote continued growth of low-cost
 transactions even as the cost of Axe rises. Axe also supports
 :ref:`instantsend` and :ref:`privatesend` transactions, which operate on
-a different and mandatory fee schedule. Axe 0.13.0.0 introduced
+a different and mandatory fee schedule. Axe 1.2.0.0 introduced
 InstantSend autolocks, which causes masternodes to automatically attempt
 to lock any transaction with 4 or fewer inputs — which are referred to
 as “simple” transactions — and removes the additional fee for

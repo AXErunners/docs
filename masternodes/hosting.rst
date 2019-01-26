@@ -166,7 +166,7 @@ https://masternodehosting.com
 Registering a hosted masternode
 ===============================
 
-Axe 0.13.0 implements DIP003, which introduces several changes to how a
+Axe 1.2.0 implements DIP003, which introduces several changes to how a
 Axe masternode is set up and operated. A list of available
 documentation appears below:
 

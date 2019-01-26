@@ -132,19 +132,19 @@ msgid ""
 msgstr ""
 
 #: ../../merchants/technical.rst:63
-msgid "v0.13.0 Integration Notes"
+msgid "v1.2.0 Integration Notes"
 msgstr ""
 
 #: ../../merchants/technical.rst:65
 msgid ""
 "This documentation is also available as a `PDF "
 "<https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-"
-"Resources-Axe-v0.13.0-Transaction-Types.pdf>`__."
+"Resources-Axe-v1.2.0-Transaction-Types.pdf>`__."
 msgstr ""
 
 #: ../../merchants/technical.rst:67
 msgid ""
-"Axe 0.13.0 implements `DIP002 Special Transactions "
+"Axe 1.2.0 implements `DIP002 Special Transactions "
 "<https://github.com/axerunners/dips/blob/master/dip-0002.md>`__, which form a "
 "basis for new transaction types that will provide on-chain metadata to "
 "assist various consensus mechanisms. The following special transaction types"
@@ -183,7 +183,7 @@ msgstr ""
 #: ../../merchants/technical.rst:79 ../../merchants/technical.rst:81
 #: ../../merchants/technical.rst:83 ../../merchants/technical.rst:85
 #: ../../merchants/technical.rst:87
-msgid "v0.13.0"
+msgid "v1.2.0"
 msgstr ""
 
 #: ../../merchants/technical.rst:75 ../../merchants/technical.rst:77
@@ -306,7 +306,7 @@ msgstr ""
 msgid ""
 "`DIP002 Special Transactions "
 "<https://github.com/axerunners/dips/blob/master/dip-0002.md>`__ are a "
-"foundational component of Axe Core v0.13.0 and introduce a new Transaction "
+"foundational component of Axe Core v1.2.0 and introduce a new Transaction "
 "Version and related “Payload” to the network."
 msgstr ""
 
@@ -349,9 +349,9 @@ msgid ""
 "See the `Special Transactions developer documentation <https://axe-"
 "docs.github.io/en/developer-reference#special-transactions>`__ for "
 "additional detail on these data types, e.g. ``<variable int>``. See the "
-"`v0.13.0 transaction types integration documentation (PDF) "
+"`v1.2.0 transaction types integration documentation (PDF) "
 "<https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-"
-"Resources-Axe-v0.13.0-Transaction-Types.pdf>`__ for worked examples of each"
+"Resources-Axe-v1.2.0-Transaction-Types.pdf>`__ for worked examples of each"
 " transaction type."
 msgstr ""
 

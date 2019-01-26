@@ -63,19 +63,19 @@ enter the following command, pasting in the address to the latest
 version of Axe Core by right clicking or pressing **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v0.13.0.0/axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  sha256sum axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
+  sha256sum axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Extract the compressed archive and copy the new files to the directory::
 
-  tar xfv axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
-  cp -f axecore-0.13.0/bin/axed ~/.axecore/
-  cp -f axecore-0.13.0/bin/axe-cli ~/.axecore/
+  tar xfv axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  cp -f axecore-1.2.0/bin/axed ~/.axecore/
+  cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
 
 Restart Axe::
 

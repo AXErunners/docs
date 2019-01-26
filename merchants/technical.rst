@@ -59,12 +59,12 @@ general information, are summarized below.
 
 .. _013-integration:
 
-v0.13.0 Integration Notes
+v1.2.0 Integration Notes
 =========================
 
-This documentation is also available as a `PDF <https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-Resources-Axe-v0.13.0-Transaction-Types.pdf>`__.
+This documentation is also available as a `PDF <https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-Resources-Axe-v1.2.0-Transaction-Types.pdf>`__.
 
-Axe 0.13.0 implements `DIP002 Special Transactions <https://github.com/axerunners/dips/blob/master/dip-0002.md>`__, 
+Axe 1.2.0 implements `DIP002 Special Transactions <https://github.com/axerunners/dips/blob/master/dip-0002.md>`__, 
 which form a basis for new transaction types that will provide on-chain
 metadata to assist various consensus mechanisms. The following special
 transaction types exist:
@@ -72,25 +72,25 @@ transaction types exist:
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
 | Release | Version | Type | Payload Size   | Payload | Payload JSON | Transaction Purpose                                                                            |
 +=========+=========+======+================+=========+==============+================================================================================================+
-| v0.13.0 | 3       | 0    | n/a            | n/a     | n/a          | Standard Transaction                                                                           |
+| v1.2.0 | 3       | 0    | n/a            | n/a     | n/a          | Standard Transaction                                                                           |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 1    | <variable int> | <hex>   | proRegTx     | `Masternode Registration <https://dev-docs.github.io/en/developer-reference#proregtx>`__      |
+| v1.2.0 | 3       | 1    | <variable int> | <hex>   | proRegTx     | `Masternode Registration <https://dev-docs.github.io/en/developer-reference#proregtx>`__      |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 2    | <variable int> | <hex>   | proUpServTx  | `Update Masternode Service <https://dev-docs.github.io/en/developer-reference#proupservtx>`__ |
+| v1.2.0 | 3       | 2    | <variable int> | <hex>   | proUpServTx  | `Update Masternode Service <https://dev-docs.github.io/en/developer-reference#proupservtx>`__ |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 3    | <variable int> | <hex>   | proUpRegTx   | `Update Masternode Operator <https://dev-docs.github.io/en/developer-reference#proupregtx>`__ |
+| v1.2.0 | 3       | 3    | <variable int> | <hex>   | proUpRegTx   | `Update Masternode Operator <https://dev-docs.github.io/en/developer-reference#proupregtx>`__ |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 4    | <variable int> | <hex>   | proUpRevTx   | `Masternode Revocation <https://dev-docs.github.io/en/developer-reference#prouprevtx>`__      |
+| v1.2.0 | 3       | 4    | <variable int> | <hex>   | proUpRevTx   | `Masternode Revocation <https://dev-docs.github.io/en/developer-reference#prouprevtx>`__      |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 5    | <variable int> | <hex>   | cbTx         | `Masternode List Merkle Proof <https://dev-docs.github.io/en/developer-reference#cbtx>`__     |
+| v1.2.0 | 3       | 5    | <variable int> | <hex>   | cbTx         | `Masternode List Merkle Proof <https://dev-docs.github.io/en/developer-reference#cbtx>`__     |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
-| v0.13.0 | 3       | 6    | <variable int> | <hex>   | qcTx         | `Quorum Commitment <https://dev-docs.github.io/en/developer-reference#qctx>`__                |
+| v1.2.0 | 3       | 6    | <variable int> | <hex>   | qcTx         | `Quorum Commitment <https://dev-docs.github.io/en/developer-reference#qctx>`__                |
 +---------+---------+------+----------------+---------+--------------+------------------------------------------------------------------------------------------------+
 
 Integration notes:
 
 1. `DIP002 Special Transactions <https://github.com/axerunners/dips/blob/master/dip-0002.md>`__ 
-   are a foundational component of Axe Core v0.13.0 and introduce a new
+   are a foundational component of Axe Core v1.2.0 and introduce a new
    Transaction Version and related “Payload” to the network.
 
 2. Integrated Systems must be able to `serialize and deserialize <https://github.com/axerunners/dips/blob/master/dip-0002.md#serialization-hashing-and-signing>`__ 
@@ -134,7 +134,7 @@ Updated transaction structure::
 
 See the `Special Transactions developer documentation <https://dev-docs.github.io/en/developer-reference#special-transactions>`__ 
 for additional detail on these data types, e.g. ``<variable int>``. See 
-the `v0.13.0 transaction types integration documentation (PDF) <https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-Resources-Axe-v0.13.0-Transaction-Types.pdf>`__
+the `v1.2.0 transaction types integration documentation (PDF) <https://github.com/axerunners/docs/raw/master/binary/merchants/Integration-Resources-Axe-v1.2.0-Transaction-Types.pdf>`__
 for worked examples of each transaction type.
 
 .. _api-services:

@@ -87,7 +87,7 @@ statistics on the masternode network.
 DIP003 Masternode Changes
 =========================
 
-Axe 0.13.0 implements DIP003, which introduces several changes to how a
+Axe 1.2.0 implements DIP003, which introduces several changes to how a
 Axe masternode is set up and operated. A list of available
 documentation appears below:
 
@@ -213,11 +213,11 @@ rewards.
 Payment logic
 =============
 
-Masternode paymentss in Axe version 0.13.0 are entirely deterministic
+Masternode paymentss in Axe version 1.2.0 are entirely deterministic
 and based on a simple list sort algorithm. For documentation of version
 0.12.0 payment logic, see the `legacy masternode payment documentation
 <https://docs.axerunners.com/en/0.12.3/masternodes/understanding.html#payment-logic>`_. 
-Axe version 0.13.0 implements `DIP003
+Axe version 1.2.0 implements `DIP003
 <https://github.com/axerunners/dips/blob/master/dip-0003.md>`_ and defines
 two sets of masternodes.
 
@@ -238,7 +238,7 @@ masternode ProRegTx is sorted to break the tie.
 Quorum selection
 ================
 
-InstantSend transactions in Axe version 0.13.0 are secured using a
+InstantSend transactions in Axe version 1.2.0 are secured using a
 consensus of deterministically selected masternodes. This set of
 masternodes is informally termed a quorum and must be in a majority
 agreement, at least six out of ten, for a successful lock of the

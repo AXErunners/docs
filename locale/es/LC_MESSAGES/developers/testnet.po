@@ -334,14 +334,14 @@ msgstr ""
 "lugar de ``~/.axecore/masternode.conf``."
 
 #: ../../developers/testnet.rst:113
-msgid "Testnet 0.13.0"
+msgid "Testnet 1.2.0"
 msgstr ""
 
 #: ../../developers/testnet.rst:115
 msgid ""
 "In November 2018, the Axe team announced the start of testing of the "
-"upcoming Axe 0.13.0 release. Extensive internal testing has already been "
-"done on the 0.13.0 code, but there are numerous bugs that can only be "
+"upcoming Axe 1.2.0 release. Extensive internal testing has already been "
+"done on the 1.2.0 code, but there are numerous bugs that can only be "
 "revealed with actual use by real people. The Axe team invites anybody who "
 "is interested to download the software and become active on testnet. This "
 "release includes:"
@@ -400,7 +400,7 @@ msgid "Latest test binaries:"
 msgstr "Últimos binarios de prueba:"
 
 #: ../../developers/testnet.rst:137
-msgid "https://github.com/axerunners/axe/releases/tag/v0.13.0.0-rc11"
+msgid "https://github.com/axerunners/axe/releases/tag/v1.2.0.0-rc11"
 msgstr ""
 
 #: ../../developers/testnet.rst:140

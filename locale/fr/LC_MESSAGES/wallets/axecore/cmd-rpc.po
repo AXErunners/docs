@@ -136,8 +136,8 @@ msgid "Command line arguments"
 msgstr "Arguments de ligne de commande"
 
 #: ../../wallets/axecore/cmd-rpc.rst:42
-msgid "These commands are accurate as of Axe Core version 0.13.0.0."
-msgstr "Ces commandes sont exactes pour la version 0.13.0.0 de Axe Core."
+msgid "These commands are accurate as of Axe Core version 1.2.0.0."
+msgstr "Ces commandes sont exactes pour la version 1.2.0.0 de Axe Core."
 
 #: ../../wallets/axecore/cmd-rpc.rst:44
 msgid "`axed`_"
@@ -1465,7 +1465,7 @@ msgstr "Commandes RPC"
 #: ../../wallets/axecore/cmd-rpc.rst:410
 msgid ""
 "This documentation lists all available RPC commands as of Axe version "
-"0.13.0.0, and limited documentation on what each command does. For full "
+"1.2.0.0, and limited documentation on what each command does. For full "
 "documentation of arguments, results and examples, type help ( \"command\" ) "
 "to view full details at the console. You can enter commands either from "
 "**Tools > Debug** console in the QT wallet, or using *axe-cli* for headless"

@@ -23,10 +23,10 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:1
 msgid ""
-"The upgrade to Axe 0.13.0 involves changes to signature formats as defined "
+"The upgrade to Axe 1.2.0 involves changes to signature formats as defined "
 "in DIP3. This documentation walks you through the upgrade process."
 msgstr ""
-"La mise à jour vers Axe 0.13.0 entraîne des changements dans les formats de"
+"La mise à jour vers Axe 1.2.0 entraîne des changements dans les formats de"
 " signature, tels que définis par la DIP3. La présente documentation vous "
 "accompagne dans le processus de mise à jour."
 
@@ -44,11 +44,11 @@ msgstr "Procédure de mise à jour Axe 0.13"
 
 #: ../../masternodes/dip3-upgrade.rst:11
 msgid ""
-"Axe 0.13.0 implements DIP003, which introduces several changes to how a "
+"Axe 1.2.0 implements DIP003, which introduces several changes to how a "
 "Axe masternode is set up and operated. A list of available documentation "
 "appears below:"
 msgstr ""
-"Axe 0.13.0 met en œuvre la DIP003, qui introduit certains changements dans "
+"Axe 1.2.0 met en œuvre la DIP003, qui introduit certains changements dans "
 "la façon d'installer et de gérer un masternode. Veuillez trouver ci-dessous "
 "une liste de la documentation disponible :"
 
@@ -117,13 +117,13 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:32
 msgid ""
-"Step 1 should be done immediately as soon as Axe 0.13.0 is released. Once "
+"Step 1 should be done immediately as soon as Axe 1.2.0 is released. Once "
 "miners have updated and DIP003 has activated on the network, it will become "
 "possible to complete Step 2 and register a DIP003 masternode. After enough "
 "masternodes have completed this step, Spork 15 will be enabled and all new "
 "network functions will take effect."
 msgstr ""
-"La première étape doit être exécutée dès la sortie de Axe 0.13.0. Une fois "
+"La première étape doit être exécutée dès la sortie de Axe 1.2.0. Une fois "
 "que les mineurs auront fait la mise à jour et que la DIP003 aura été activée"
 " sur le réseau, il sera possible d'exécuter la seconde étape et "
 "d'enregistrer un masternode DIP003. Après qu'un nombre suffisant de "

@@ -41,7 +41,7 @@ through the :ref:`upgrade procedure <dip3-upgrade>`. You will need:
   Axe Core wallet is also supported
 - A Linux server, preferably a Virtual Private Server (VPS)
 
-Axe 0.13.0 implements DIP003, which introduces several changes to how a
+Axe 1.2.0 implements DIP003, which introduces several changes to how a
 Axe masternode is set up and operated. A list of available
 documentation appears below:
 
@@ -491,14 +491,14 @@ address to the latest version of Axe Core by right clicking or pressing
 **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v0.13.0.0/axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  wget https://github.com/axerunners/axe/releases/download/v0.13.0.0/SHA256SUMS.asc
-  sha256sum axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/SHA256SUMS.asc
+  sha256sum axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
   cat SHA256SUMS.asc
 
 You can also optionally verify the authenticity of your download as an
@@ -520,9 +520,9 @@ Create a working directory for Axe, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.axecore
-  tar xfv axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
-  cp -f axecore-0.13.0/bin/axed ~/.axecore/
-  cp -f axecore-0.13.0/bin/axe-cli ~/.axecore/
+  tar xfv axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  cp -f axecore-1.2.0/bin/axed ~/.axecore/
+  cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
 
 Create a configuration file using the following command::
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description: The upgrade to Axe 0.13.0 involves changes to signature formats as defined in DIP3. This documentation walks you through the upgrade process.
+   :description: The upgrade to Axe 1.2.0 involves changes to signature formats as defined in DIP3. This documentation walks you through the upgrade process.
    :keywords: axe, cryptocurrency, masternode, maintenance, dip3, upgrade, deterministic, dmt
 
 .. _dip3-upgrade:
@@ -8,7 +8,7 @@
 Axe 0.13 Upgrade Procedure
 ===========================
 
-Axe 0.13.0 implements DIP003, which introduces several changes to how a
+Axe 1.2.0 implements DIP003, which introduces several changes to how a
 Axe masternode is set up and operated. A list of available
 documentation appears below:
 
@@ -29,7 +29,7 @@ in DIP003. This documentation describes the upgrade procedure in two steps:
    - :ref:`From a hardware wallet <dmt-dip3-upgrade>`
    - :ref:`From the Axe Core wallet <axecore-dip3-upgrade>`
 
-Step 1 should be done immediately as soon as Axe 0.13.0 is released.
+Step 1 should be done immediately as soon as Axe 1.2.0 is released.
 Once miners have updated and DIP003 has activated on the network, it
 will become possible to complete Step 2 and register a DIP003
 masternode. After enough masternodes have completed this step, Spork 15
@@ -59,10 +59,10 @@ Check the status of your masternode::
   ~/axeman/axeman status
 
 The Axe software on the masternode is now updated. Since Axe 0.13 also
-updates the protocol version, it is necessary to issue a ``masternode start`` 
+updates the protocol version, it is necessary to issue a ``masternode start``
 from Axe Core or DMT command to keep your masternode in the payment
 list during the transition period. See the `0.12.3 documentation
-<https://docs.axerunners.com/en/0.12.3/masternodes/setup.html#start-your-masternode>`__ 
+<https://docs.axerunners.com/en/0.12.3/masternodes/setup.html#start-your-masternode>`__
 for more details.
 
 
@@ -87,19 +87,19 @@ enter the following command, pasting in the address to the latest
 version of Axe Core by right clicking or pressing **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v0.13.0.0/axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  sha256sum axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
+  sha256sum axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Extract the compressed archive and copy the new files to the directory::
 
-  tar xfv axecore-0.13.0.0-x86_64-linux-gnu.tar.gz
-  cp -f axecore-0.13.0/bin/axed ~/.axecore/
-  cp -f axecore-0.13.0/bin/axe-cli ~/.axecore/
+  tar xfv axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  cp -f axecore-1.2.0/bin/axed ~/.axecore/
+  cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
 
 Restart Axe::
 
@@ -154,17 +154,17 @@ migration wizard** appears.
 
    The DMT Masternode migration wizard
 
-All fields are prefilled with suggested values. 
+All fields are prefilled with suggested values.
 
 - It should not be necessary to change the **Collateral Tx** or
   **IP/Port** fields if you are using your existing collateral and server.
 - You can optionally modify the **Payout address** to any valid existing
   or new Axe address, since it is no longer mandatory to receive payouts
-  at the collateral address. 
+  at the collateral address.
 - If your masternode is hosted by an external operator, you can specify
   the percentage of the reward to allocate to the operator in the
   **Operator reward** field.
-- The three masternode keys (owner, operator, voting) are newly 
+- The three masternode keys (owner, operator, voting) are newly
   generated and do not need to be changed.
 
 Click **Next** when you are ready to continue. DMT will verify the
@@ -197,7 +197,7 @@ on the blockchain immediately. A window appears with the final
 configuration information. Click **Save to a file** and enter a new file
 name. This file contains various private and public keys related to the
 ownership, operation and voting for the masternode, so keep it in a
-secure location. Continue below with the :ref:`final step 
+secure location. Continue below with the :ref:`final step
 <DMT-enter-BLS>` of entering the BLS key on the masternode.
 
 Option 2: Manual method
@@ -210,22 +210,22 @@ The following window appears:
 
    Manual registration commands in the DMT Masternode migration wizard
 
-Open Axe Core and wait for the blockchain to synchronise. Complete the 
+Open Axe Core and wait for the blockchain to synchronise. Complete the
 following steps:
 
-1. In your Axe Core wallet, select an address to use as the source for 
+1. In your Axe Core wallet, select an address to use as the source for
    the transaction fee and paste it into Field 1.
 2. Open the Debug console by clicking **Tools -> Debug console**.
-3. Copy and paste the command from Field 2 of DMT into the Axe Core 
+3. Copy and paste the command from Field 2 of DMT into the Axe Core
    debug console and press **Enter**.
 4. Copy the output back and paste it into Field 3 field of the DMT
    Masternode migration wizard.
 5. Click **Sign message with hardware wallet** and confirm signing the
    message on your hardware wallet.
-6. Copy the command from Field 4 of DMT, paste it into the Axe Core 
-   debug console and press **Enter**. Axe Core will create a 
+6. Copy the command from Field 4 of DMT, paste it into the Axe Core
+   debug console and press **Enter**. Axe Core will create a
    registration transaction on the blockchain.
-7. Copy and paste the transaction hash into Field 5 of the DMT 
+7. Copy and paste the transaction hash into Field 5 of the DMT
    Masternode migration wizard and click **Continue**.
 
 A window appears with the final configuration information. Click **Save
@@ -303,7 +303,7 @@ your own masternode, generate a BLS public/private keypair as follows::
 
 **These keys are NOT stored by the wallet and must be kept secure,
 similar to the value provided in the past by the** ``masternode genkey``
-**command.** 
+**command.**
 
 Add the private key to your masternode configuration
 ----------------------------------------------------
@@ -313,7 +313,7 @@ be entered in the ``axe.conf`` file on the masternode. This allows the
 masternode to watch the blockchain for relevant Pro*Tx transactions, and
 will cause it to start serving as a masternode when the signed ProRegTx
 is broadcast by the owner (final step below). Log in to your masternode
-using ``ssh`` or PuTTY and edit the configuration file on your 
+using ``ssh`` or PuTTY and edit the configuration file on your
 masternode as follows::
 
   nano ~/.axecore/axe.conf
@@ -368,31 +368,31 @@ We will now prepare an unsigned ProRegTx special transaction using the
 ``protx register_prepare`` command. This command has the following
 syntax::
 
-  protx register_prepare collateralHash collateralIndex ipAndPort ownerKeyAddr 
+  protx register_prepare collateralHash collateralIndex ipAndPort ownerKeyAddr
     operatorPubKey votingKeyAddr operatorReward payoutAddress (feeSourceAddress)
 
 Open a text editor such as notepad to prepare this command. Replace each
 argument to the command as follows:
 
-- ``collateralHash``: The txid of the 1000 Axe collateral funding 
+- ``collateralHash``: The txid of the 1000 Axe collateral funding
   transaction
-- ``collateralIndex``: The output index of the 1000 Axe funding 
+- ``collateralIndex``: The output index of the 1000 Axe funding
   transaction
-- ``ipAndPort``: Masternode IP address and port, in the format 
+- ``ipAndPort``: Masternode IP address and port, in the format
   ``x.x.x.x:yyyy``
-- ``ownerKeyAddr``: The new Axe address generated above for the 
+- ``ownerKeyAddr``: The new Axe address generated above for the
   owner/voting address
-- ``operatorPubKey``: The BLS public key generated above (or provided 
+- ``operatorPubKey``: The BLS public key generated above (or provided
   by your hosting service)
-- ``votingKeyAddr``: The new Axe address generated above, or the 
+- ``votingKeyAddr``: The new Axe address generated above, or the
   address of a delegate, used for proposal voting
-- ``operatorReward``: The percentage of the block reward allocated to 
+- ``operatorReward``: The percentage of the block reward allocated to
   the operator as payment
-- ``payoutAddress``: A new or existing Axe address to receive the 
+- ``payoutAddress``: A new or existing Axe address to receive the
   owner's masternode rewards
-- ``feeSourceAddress``: An (optional) address used to fund ProTx fee. 
+- ``feeSourceAddress``: An (optional) address used to fund ProTx fee.
   ``payoutAddress`` will be used if not specified.
-  
+
 Note that the operator is responsible for :ref:`specifying their own
 reward <dip3-update-service>` address in a separate ``update_service``
 transaction if you specify a non-zero ``operatorReward``. The owner of
@@ -455,11 +455,11 @@ The command takes the following syntax::
 
   protx register_submit tx sig
 
-Where: 
+Where:
 
-- ``tx``: The serialized transaction previously returned in the ``tx`` 
+- ``tx``: The serialized transaction previously returned in the ``tx``
   output field from the ``protx register_prepare`` command
-- ``sig``: The message signed with the collateral key from the 
+- ``sig``: The message signed with the collateral key from the
   ``signmessage`` command
 
 Example::

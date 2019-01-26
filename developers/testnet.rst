@@ -109,12 +109,12 @@ but with a few key differences:
   ``masternode.conf`` file in ``~/.axecore/testnet3/masternode.conf``
   instead of ``~/.axecore/masternode.conf``.
 
-Testnet 0.13.0
+Testnet 1.2.0
 ==============
 
 In November 2018, the Axe team announced the start of testing of the
-upcoming Axe 0.13.0 release. Extensive internal testing has already been
-done on the 0.13.0 code, but there are numerous bugs that can only be
+upcoming Axe 1.2.0 release. Extensive internal testing has already been
+done on the 1.2.0 code, but there are numerous bugs that can only be
 revealed with actual use by real people. The Axe team invites anybody
 who is interested to download the software and become active on testnet.
 This release includes:
@@ -134,7 +134,7 @@ Discussion:
 
 Latest test binaries:
 
-- https://github.com/axerunners/axe/releases/tag/v0.13.0.0-rc11
+- https://github.com/axerunners/axe/releases/tag/v1.2.0.0-rc11
 
 Testnet 0.12.3
 ==============

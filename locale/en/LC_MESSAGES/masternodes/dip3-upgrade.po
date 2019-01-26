@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:1
 msgid ""
-"The upgrade to Axe 0.13.0 involves changes to signature formats as "
+"The upgrade to Axe 1.2.0 involves changes to signature formats as "
 "defined in DIP3. This documentation walks you through the upgrade "
 "process."
 msgstr ""
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:11
 msgid ""
-"Axe 0.13.0 implements DIP003, which introduces several changes to how a "
+"Axe 1.2.0 implements DIP003, which introduces several changes to how a "
 "Axe masternode is set up and operated. A list of available documentation"
 " appears below:"
 msgstr ""
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:32
 msgid ""
-"Step 1 should be done immediately as soon as Axe 0.13.0 is released. "
+"Step 1 should be done immediately as soon as Axe 1.2.0 is released. "
 "Once miners have updated and DIP003 has activated on the network, it will"
 " become possible to complete Step 2 and register a DIP003 masternode. "
 "After enough masternodes have completed this step, Spork 15 will be "
