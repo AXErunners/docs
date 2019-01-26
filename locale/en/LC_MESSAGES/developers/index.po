@@ -887,7 +887,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "You cannot use axeman to install "
+#~ "You cannot use axerunner to install "
 #~ "development versions of Axe. See the"
 #~ " link to downloadable builds above."
 #~ msgstr ""

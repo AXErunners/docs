@@ -507,10 +507,10 @@ msgstr ""
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but "
-"tools such as axeman now greatly simplify the process."
+"tools such as axerunner now greatly simplify the process."
 msgstr ""
 "Trong thời gian ngắn ban đầu (và cốt lõi): Các masternode thường yêu cầu "
-"việc cài đặt phức tạp, nhưng công cụ như Axeman hiện nay đã đơn giản hoá "
+"việc cài đặt phức tạp, nhưng công cụ như Axerunner hiện nay đã đơn giản hoá "
 "rất nhiều cho công đoạn này."
 
 #: ../../masternodes/understanding.rst:274

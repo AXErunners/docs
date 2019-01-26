@@ -237,9 +237,9 @@ msgstr "发送保证金时，您可以从内接头处免费获得1000 tAXE（见
 
 #: ../../developers/testnet.rst:95
 msgid ""
-"You cannot use axeman to install development versions of Axe. See the link"
+"You cannot use axerunner to install development versions of Axe. See the link"
 " to downloadable builds above."
-msgstr "您不能使用axeman安装达世币开发版。参见上文所述链接，获取可下载的构建。"
+msgstr "您不能使用axerunner安装达世币开发版。参见上文所述链接，获取可下载的构建。"
 
 #: ../../developers/testnet.rst:97
 msgid ""
@@ -345,7 +345,7 @@ msgid "Latest test binaries:"
 msgstr "最新的试验二进制文件："
 
 #: ../../developers/testnet.rst:137
-msgid "https://github.com/axerunners/axe/releases/tag/v1.2.0.0-rc11"
+msgid "https://github.com/axerunners/axe/releases/tag/v1.2.0-rc11"
 msgstr ""
 
 #: ../../developers/testnet.rst:140

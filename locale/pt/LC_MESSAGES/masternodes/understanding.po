@@ -519,10 +519,10 @@ msgstr "Um endereço IP dedicado: Estes geralmente vêm com o VPS/servidor."
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but "
-"tools such as axeman now greatly simplify the process."
+"tools such as axerunner now greatly simplify the process."
 msgstr ""
 "Um pouco de tempo e (coração): Masternodes costumava exigir uma configuração"
-" complexa, mas ferramentas como o Axeman agora simplificam bastante o "
+" complexa, mas ferramentas como o Axerunner agora simplificam bastante o "
 "processo."
 
 #: ../../masternodes/understanding.rst:274

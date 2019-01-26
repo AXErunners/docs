@@ -280,10 +280,10 @@ msgstr ""
 
 #: ../../developers/testnet.rst:95
 msgid ""
-"You cannot use axeman to install development versions of Axe. See the link"
+"You cannot use axerunner to install development versions of Axe. See the link"
 " to downloadable builds above."
 msgstr ""
-"Использовать axeman для установки версий Axe, находящихся в разработке "
+"Использовать axerunner для установки версий Axe, находящихся в разработке "
 "нельзя. Ссылку на загружаемые сборки см. выше."
 
 #: ../../developers/testnet.rst:97
@@ -401,7 +401,7 @@ msgid "Latest test binaries:"
 msgstr "Последние тестовые двоичные файлы:"
 
 #: ../../developers/testnet.rst:137
-msgid "https://github.com/axerunners/axe/releases/tag/v1.2.0.0-rc11"
+msgid "https://github.com/axerunners/axe/releases/tag/v1.2.0-rc11"
 msgstr ""
 
 #: ../../developers/testnet.rst:140

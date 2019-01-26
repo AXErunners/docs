@@ -440,7 +440,7 @@ msgstr ""
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but"
-" tools such as axeman now greatly simplify the process."
+" tools such as axerunner now greatly simplify the process."
 msgstr ""
 
 #: ../../masternodes/understanding.rst:274

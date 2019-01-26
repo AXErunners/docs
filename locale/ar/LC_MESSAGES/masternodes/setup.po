@@ -611,31 +611,31 @@ msgstr ""
 msgid ""
 "Open PuTTY or a console again and connect using the username and password "
 "you just created for your new, non-root user. There are two options to "
-"install Axe Core, an automated option using a script utility called axeman"
+"install Axe Core, an automated option using a script utility called axerunner"
 " by Axe Core Team member moocowmoo, and a more complicated option which "
 "will allow you to understand all of the key steps involved in preparing your"
 " masternode."
 msgstr ""
 "افتح PuTTY أو وحدة تحكم مرة أخرى وتواصل باستخدام اسم المستخدم وكلمة المرور "
 "اللذين أنشأتهما للتو لمستخدمك الجديد غير الأساسي. هناك خياران لتثبيت داش كور"
-" ، وهو خيار تلقائي باستخدام أداة مساعدة نصية تسمى axeman من قِبل moocowmoo "
+" ، وهو خيار تلقائي باستخدام أداة مساعدة نصية تسمى axerunner من قِبل moocowmoo "
 "من أعضاء فريق داش كور ، وخيار أكثر تعقيدًا يسمح لك بفهم جميع الخطوات "
 "الأساسية المتضمنة في إعداد ماسترنود الخاص بك."
 
 #: ../../masternodes/setup.rst:436
-msgid "Option 1: Automated installation using axeman"
-msgstr "الخيار 1: التثبيت التلقائي باستخدام axeman"
+msgid "Option 1: Automated installation using axerunner"
+msgstr "الخيار 1: التثبيت التلقائي باستخدام axerunner"
 
 #: ../../masternodes/setup.rst:438
 msgid ""
-"To install Axe using axeman, enter the following commands after logging "
+"To install Axe using axerunner, enter the following commands after logging "
 "in::"
 msgstr ""
-"لتثبيت داش باستخدام axeman ، أدخل الأوامر التالية بعد تسجيل الدخول ::"
+"لتثبيت داش باستخدام axerunner ، أدخل الأوامر التالية بعد تسجيل الدخول ::"
 
 #: ../../masternodes/setup.rst:447
 msgid ""
-"axeman will download the latest version of Axe Core for your system, as "
+"axerunner will download the latest version of Axe Core for your system, as "
 "well as an initial snapshot of the blockchain to speed up the bootstrapping "
 "process. Next download and install Sentinel, which is required for "
 "masternodes at version 0.12.1 or higher::"
@@ -644,7 +644,7 @@ msgstr ""
 #: ../../masternodes/setup.rst:454
 msgid ""
 "Your system is now running as a standard Axe node, and is busy completing "
-"synchronisation with the blockchain. Since axeman does not automatically "
+"synchronisation with the blockchain. Since axerunner does not automatically "
 "restart your masternode in the event of a system error, add a check function"
 " to crontab to make sure it checks every minute to ensure your masternode is"
 " still running::"
@@ -666,8 +666,8 @@ msgid ""
 msgstr ""
 
 #: ../../masternodes/setup.rst:478
-msgid "axeman status output showing masternode ready to be started"
-msgstr "خرج حالة axeman تظهر ماسترنود جاهزة للبدء"
+msgid "axerunner status output showing masternode ready to be started"
+msgstr "خرج حالة axerunner تظهر ماسترنود جاهزة للبدء"
 
 #: ../../masternodes/setup.rst:480
 msgid ""
@@ -901,7 +901,7 @@ msgstr ""
 
 #: ../../masternodes/setup.rst:688
 msgid ""
-"At this point you can monitor your masternode using ``axeman/axeman "
+"At this point you can monitor your masternode using ``axerunner/axerunner "
 "status``, by entering ``~/.axecore/axe-cli masternode status`` or using "
 "the **Get status** function in DMT. The final result should appear as "
 "follows:"
@@ -1166,11 +1166,11 @@ msgstr ""
 #: ../../masternodes/setup.rst:921
 msgid ""
 "At this point you can go back to your terminal window and monitor your "
-"masternode using ``axeman/axeman status``, by entering ``~/.axecore/axe-"
+"masternode using ``axerunner/axerunner status``, by entering ``~/.axecore/axe-"
 "cli masternode status`` or using the **Get status** function in DMT. The "
 "final result should appear as follows:"
 msgstr ""
 
 #: ../../masternodes/setup.rst:929
-msgid "axeman status output showing successfully started masternode"
-msgstr "خرج حالة axeman تظهر بنجاح ماسترنود"
+msgid "axerunner status output showing successfully started masternode"
+msgstr "خرج حالة axerunner تظهر بنجاح ماسترنود"

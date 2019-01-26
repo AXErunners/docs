@@ -451,8 +451,8 @@ msgstr "专用IP地址通常随服务器/虚拟专用服务器一起提供。"
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but "
-"tools such as axeman now greatly simplify the process."
-msgstr "额外付出的时间（和精力）：主节点曾经需要复杂的设置，但是axeman等工具现在已经大大简化了设置过程。"
+"tools such as axerunner now greatly simplify the process."
+msgstr "额外付出的时间（和精力）：主节点曾经需要复杂的设置，但是axerunner等工具现在已经大大简化了设置过程。"
 
 #: ../../masternodes/understanding.rst:274
 msgid ""

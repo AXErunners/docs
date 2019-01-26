@@ -532,10 +532,10 @@ msgstr "Выделенный IP адрес: обычно они прилагаю
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but "
-"tools such as axeman now greatly simplify the process."
+"tools such as axerunner now greatly simplify the process."
 msgstr ""
 "Ещё недавно настройка мастерноды была сложным процессом требовала много "
-"времени (и даже смелости), но теперь есть инструменты типа axeman, которые "
+"времени (и даже смелости), но теперь есть инструменты типа axerunner, которые "
 "заметно облегчают процесс."
 
 #: ../../masternodes/understanding.rst:274

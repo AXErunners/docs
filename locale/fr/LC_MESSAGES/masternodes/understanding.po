@@ -666,10 +666,10 @@ msgstr ""
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but "
-"tools such as axeman now greatly simplify the process."
+"tools such as axerunner now greatly simplify the process."
 msgstr ""
 "Un peu de temps et de motivation : les masternodes étaient au départ "
-"difficiles à configurer, mais des utilitaires tels que Axeman simplifient "
+"difficiles à configurer, mais des utilitaires tels que Axerunner simplifient "
 "désormais beaucoup la procédure."
 
 #: ../../masternodes/understanding.rst:274

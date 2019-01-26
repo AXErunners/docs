@@ -37,7 +37,7 @@ msgstr ""
 #: ../../developers/dip3-upgrade.rst:13
 msgid ""
 "**Official binaries are available at** "
-"https://github.com/axerunners/axe/releases/tag/v1.2.0.0"
+"https://github.com/axerunners/axe/releases/tag/v1.2.0"
 msgstr ""
 
 #: ../../developers/dip3-upgrade.rst:15
@@ -127,7 +127,7 @@ msgstr ""
 #: ../../developers/dip3-upgrade.rst:66
 msgid ""
 "Please see the official `Release Notes "
-"<https://github.com/axerunners/axe/blob/v1.2.0.0/doc/release-notes.md#rpc-"
+"<https://github.com/axerunners/axe/blob/v1.2.0/doc/release-notes.md#rpc-"
 "changes>`__ for a complete listing of RPC improvements, in summary:"
 msgstr ""
 

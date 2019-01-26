@@ -574,28 +574,28 @@ msgstr ""
 msgid ""
 "Open PuTTY or a console again and connect using the username and password "
 "you just created for your new, non-root user. There are two options to "
-"install Axe Core, an automated option using a script utility called axeman"
+"install Axe Core, an automated option using a script utility called axerunner"
 " by Axe Core Team member moocowmoo, and a more complicated option which "
 "will allow you to understand all of the key steps involved in preparing your"
 " masternode."
 msgstr ""
 "再次打开PuTTY或控制台，并使用您刚刚为您的新的、non-root用户创建的用户名和密码进行连接。有两种选项可以安装Axe "
 "Core，一种是使用脚本实用工具的自动选项，它被Axe "
-"Core团队成员moocowmoo称为axeman，另一种选项更复杂，该选项将允许您理解在准备您的主节点过程中所涉及的所有关键步骤。"
+"Core团队成员moocowmoo称为axerunner，另一种选项更复杂，该选项将允许您理解在准备您的主节点过程中所涉及的所有关键步骤。"
 
 #: ../../masternodes/setup.rst:436
-msgid "Option 1: Automated installation using axeman"
-msgstr "选项1：使用axeman自动安装"
+msgid "Option 1: Automated installation using axerunner"
+msgstr "选项1：使用axerunner自动安装"
 
 #: ../../masternodes/setup.rst:438
 msgid ""
-"To install Axe using axeman, enter the following commands after logging "
+"To install Axe using axerunner, enter the following commands after logging "
 "in::"
-msgstr "若要使用axeman安装Axe，请在登录后输入以下命令::"
+msgstr "若要使用axerunner安装Axe，请在登录后输入以下命令::"
 
 #: ../../masternodes/setup.rst:447
 msgid ""
-"axeman will download the latest version of Axe Core for your system, as "
+"axerunner will download the latest version of Axe Core for your system, as "
 "well as an initial snapshot of the blockchain to speed up the bootstrapping "
 "process. Next download and install Sentinel, which is required for "
 "masternodes at version 0.12.1 or higher::"
@@ -604,7 +604,7 @@ msgstr ""
 #: ../../masternodes/setup.rst:454
 msgid ""
 "Your system is now running as a standard Axe node, and is busy completing "
-"synchronisation with the blockchain. Since axeman does not automatically "
+"synchronisation with the blockchain. Since axerunner does not automatically "
 "restart your masternode in the event of a system error, add a check function"
 " to crontab to make sure it checks every minute to ensure your masternode is"
 " still running::"
@@ -625,8 +625,8 @@ msgid ""
 msgstr ""
 
 #: ../../masternodes/setup.rst:478
-msgid "axeman status output showing masternode ready to be started"
-msgstr "Axeman状态输出显示即将被启动的主节点"
+msgid "axerunner status output showing masternode ready to be started"
+msgstr "Axerunner状态输出显示即将被启动的主节点"
 
 #: ../../masternodes/setup.rst:480
 msgid ""
@@ -852,7 +852,7 @@ msgstr ""
 
 #: ../../masternodes/setup.rst:688
 msgid ""
-"At this point you can monitor your masternode using ``axeman/axeman "
+"At this point you can monitor your masternode using ``axerunner/axerunner "
 "status``, by entering ``~/.axecore/axe-cli masternode status`` or using "
 "the **Get status** function in DMT. The final result should appear as "
 "follows:"
@@ -1114,11 +1114,11 @@ msgstr ""
 #: ../../masternodes/setup.rst:921
 msgid ""
 "At this point you can go back to your terminal window and monitor your "
-"masternode using ``axeman/axeman status``, by entering ``~/.axecore/axe-"
+"masternode using ``axerunner/axerunner status``, by entering ``~/.axecore/axe-"
 "cli masternode status`` or using the **Get status** function in DMT. The "
 "final result should appear as follows:"
 msgstr ""
 
 #: ../../masternodes/setup.rst:929
-msgid "axeman status output showing successfully started masternode"
-msgstr "axeman状态输出显示成功启动主节点"
+msgid "axerunner status output showing successfully started masternode"
+msgstr "axerunner状态输出显示成功启动主节点"

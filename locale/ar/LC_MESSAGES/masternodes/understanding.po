@@ -502,7 +502,7 @@ msgstr "عنوان IP مخصص: تأتي هذه عادةً مع خادم / VPS .
 #: ../../masternodes/understanding.rst:271
 msgid ""
 "A little time and (heart): Masternodes used to require complex setup, but "
-"tools such as axeman now greatly simplify the process."
+"tools such as axerunner now greatly simplify the process."
 msgstr ""
 "قليل من الوقت و (قلب): ماسترنود كان يتطلب أن يتطلب إعداد معقد ، لكن الأدوات "
 "مثل رجل داش الآن تبسط العملية إلى حد كبير."

@@ -137,24 +137,24 @@ msgstr "Mise à jour du logiciel du masternode"
 #: ../../masternodes/dip3-upgrade.rst:43
 msgid ""
 "Begin by updating the Axe software on your masternode. Depending on whether"
-" you installed Axe manually or using axeman, you must follow the procedure"
+" you installed Axe manually or using axerunner, you must follow the procedure"
 " appropriate for your masternode, as described below."
 msgstr ""
 "Commencez par mettre à jour le logiciel Axe sur votre masternode. Selon la "
-"manière dont vous aviez installé ce logiciel, manuellement ou avec Axeman, "
+"manière dont vous aviez installé ce logiciel, manuellement ou avec Axerunner, "
 "vous devez suivre la procédure appropriée pour votre masternode, telle que "
 "décrite ci-dessous."
 
 #: ../../masternodes/dip3-upgrade.rst:49
-msgid "Option 1: Updating from axeman"
-msgstr "Option 1 : Mise à jour avec Axeman"
+msgid "Option 1: Updating from axerunner"
+msgstr "Option 1 : Mise à jour avec Axerunner"
 
 #: ../../masternodes/dip3-upgrade.rst:51
 msgid ""
-"To update Axe using axeman, log in to your server and enter the following "
+"To update Axe using axerunner, log in to your server and enter the following "
 "commands::"
 msgstr ""
-"Pour faire une mise à jour en utilisant Axeman, connectez-vous à votre "
+"Pour faire une mise à jour en utilisant Axerunner, connectez-vous à votre "
 "serveur et saisissez les commandes suivantes :"
 
 #: ../../masternodes/dip3-upgrade.rst:57

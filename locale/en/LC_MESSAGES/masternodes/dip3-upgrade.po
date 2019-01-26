@@ -109,17 +109,17 @@ msgstr ""
 #: ../../masternodes/dip3-upgrade.rst:43
 msgid ""
 "Begin by updating the Axe software on your masternode. Depending on "
-"whether you installed Axe manually or using axeman, you must follow the"
+"whether you installed Axe manually or using axerunner, you must follow the"
 " procedure appropriate for your masternode, as described below."
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:49
-msgid "Option 1: Updating from axeman"
+msgid "Option 1: Updating from axerunner"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:51
 msgid ""
-"To update Axe using axeman, log in to your server and enter the "
+"To update Axe using axerunner, log in to your server and enter the "
 "following commands::"
 msgstr ""
 
