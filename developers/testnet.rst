@@ -92,7 +92,7 @@ but with a few key differences:
   line to *axe.conf*: ``testnet = 1``
 - When sending the collateral, you can get the 1000 tAXE for free from
   a faucet (see above)
-- You cannot use axeman to install development versions of Axe. See
+- You cannot use axerunner to install development versions of Axe. See
   the link to downloadable builds above.
 - Your masternode configuration file must also specify testnet mode. Add
   the following line when setting up *axe.conf* on the masternode:
@@ -134,7 +134,7 @@ Discussion:
 
 Latest test binaries:
 
-- https://github.com/axerunners/axe/releases/tag/v1.2.0.0-rc11
+- https://github.com/axerunners/axe/releases/tag/v1.2.0-rc11
 
 Testnet 0.12.3
 ==============
