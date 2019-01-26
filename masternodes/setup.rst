@@ -428,31 +428,31 @@ masternodes. If not displaying a GUI, it runs as a daemon on your VPS
 Open PuTTY or a console again and connect using the username and
 password you just created for your new, non-root user. There are two
 options to install Axe Core, an automated option using a script utility
-called axeman by Axe Core Team member moocowmoo, and a more
+called axerunner by Axe Core Team member moocowmoo, and a more
 complicated option which will allow you to understand all of the key
 steps involved in preparing your masternode.
 
-Option 1: Automated installation using axeman
+Option 1: Automated installation using axerunner
 ----------------------------------------------
 
-To install Axe using axeman, enter the following commands after
+To install Axe using axerunner, enter the following commands after
 logging in::
 
   cd ~
-  git clone https://github.com/moocowmoo/axeman
-  ~/axeman/axeman install
+  git clone https://github.com/axerunners/axerunner
+  ~/axerunner/axerunner install
 
 (press **Y** and **Enter** to confirm)
 
-axeman will download the latest version of Axe Core for your system,
+axerunner will download the latest version of Axe Core for your system,
 as well as an initial snapshot of the blockchain to speed up the
 bootstrapping process. Next download and install Sentinel, which is
 required for masternodes at version 0.12.1 or higher::
 
-  ~/axeman/axeman install sentinel
+  ~/axerunner/axerunner install sentinel
 
 Your system is now running as a standard Axe node, and is busy
-completing synchronisation with the blockchain. Since axeman does not
+completing synchronisation with the blockchain. Since axerunner does not
 automatically restart your masternode in the event of a system error,
 add a check function to crontab to make sure it checks every minute to
 ensure your masternode is still running::
@@ -470,12 +470,12 @@ the file. Check the sync status and wait until all blockchain
 synchronisation and the 15 confirmations for the collateral transaction
 are complete::
 
-  ~/axeman/axeman status
+  ~/axerunner/axerunner status
 
-.. figure:: img/setup-axeman-done.png
+.. figure:: img/setup-axerunner-done.png
    :width: 400px
 
-   axeman status output showing masternode ready to be started
+   axerunner status output showing masternode ready to be started
 
 Continue with the :ref:`next step to register your masternode
 <register-masternode>`.
@@ -491,13 +491,13 @@ address to the latest version of Axe Core by right clicking or pressing
 **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/SHA256SUMS.asc
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0/SHA256SUMS.asc
   sha256sum axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
   cat SHA256SUMS.asc
 
@@ -686,7 +686,7 @@ to give Axe Core time to shut down::
   ~/.axecore/axed
 
 At this point you can monitor your masternode using 
-``axeman/axeman status``, by entering 
+``axerunner/axerunner status``, by entering 
 ``~/.axecore/axe-cli masternode status`` or using the **Get status** 
 function in DMT. The final result should appear as follows:
 
@@ -919,14 +919,14 @@ to DIP003 will only take effect once Spork 15 is enabled on the network.
 You can view the spork status using the ``spork active`` command.
 
 At this point you can go back to your terminal window and monitor your
-masternode using ``axeman/axeman status``, by entering
+masternode using ``axerunner/axerunner status``, by entering
 ``~/.axecore/axe-cli masternode status`` or using the **Get status**
 function in DMT. The final result should appear as follows:
 
-.. figure:: img/setup-axeman-started.png
+.. figure:: img/setup-axerunner-started.png
    :width: 400px
 
-   axeman status output showing successfully started masternode
+   axerunner status output showing successfully started masternode
 
 At this point you can safely log out of your server by typing ``exit``.
 Congratulations! Your masternode is now running.

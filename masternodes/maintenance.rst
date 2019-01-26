@@ -22,22 +22,22 @@ Masternode Software Update
 
 The Axe Core software requires regular updates in order to remain
 consistent with the current network consensus. Depending on whether you
-installed Axe manually or using axeman, you must follow the procedure
+installed Axe manually or using axerunner, you must follow the procedure
 appropriate for your masternode, as described below.
 
 
-Option 1: Updating from axeman
+Option 1: Updating from axerunner
 -------------------------------
 
-To update Axe using axeman, log in to your server and enter the
+To update Axe using axerunner, log in to your server and enter the
 following commands::
 
-  ~/axeman/axeman sync
-  ~/axeman/axeman update
+  ~/axerunner/axerunner sync
+  ~/axerunner/axerunner update
 
 Check the status of your masternode::
 
-  ~/axeman/axeman status
+  ~/axerunner/axerunner status
 
 The Axe software on the masternode is now updated.
 
@@ -63,7 +63,7 @@ enter the following command, pasting in the address to the latest
 version of Axe Core by right clicking or pressing **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
