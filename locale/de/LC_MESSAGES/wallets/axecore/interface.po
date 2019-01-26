@@ -1,0 +1,1243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Manuel Herrmann <manuel.herrmann@axe-embassy.org>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Nils Hermann <vk.translation@protonmail.ch>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Last-Translator: Nils Hermann <vk.translation@protonmail.ch>, 2018\n"
+"Language-Team: German (https://www.transifex.com/axe/teams/37570/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/axecore/interface.rst:1
+msgid "Description of dialogs and interfaces in the Axe Core wallet"
+msgstr "Beschreibung der Optionen und Oberflächen der Axe Core Wallet"
+
+#: ../../wallets/axecore/interface.rst:1
+msgid "axe, core, wallet, interface, dialog, synchronisation, tools options"
+msgstr ""
+"axe, core, wallet, interface, dialog, synchronisierung, werkzeug "
+"einstellungen"
+
+#: ../../wallets/axecore/interface.rst:9
+msgid "Interface"
+msgstr "Interface"
+
+#: ../../wallets/axecore/interface.rst:11
+msgid ""
+"The Axe Core Wallet is an application that runs on your computer and allows"
+" you to make transactions on the Axe network. Most transactions are for "
+"sending or receiving Axe, but it is also possible to create signed messages"
+" or control a masternode, for example. The Axe Core Wallet interface is "
+"described in detail in the following sections."
+msgstr ""
+"Das Axe Core Wallet ist eine Anwendung, die auf Ihrem Computer läuft und es"
+" Ihnen ermöglicht, Transaktionen im Axe-Netzwerk durchzuführen. Die meisten"
+" Transaktionen dienen zum Senden oder Empfangen von Axe, aber es ist auch "
+"möglich, signierte Nachrichten zu erstellen oder z.B. einen Masternode zu "
+"steuern. Das Interface der Axe Core Wallet wird in den folgenden "
+"Abschnitten ausführlich beschrieben."
+
+#: ../../wallets/axecore/interface.rst:18
+msgid "The Main Window"
+msgstr "Das Hauptfenster"
+
+#: ../../wallets/axecore/interface.rst:22
+msgid "The Axe Core Wallet"
+msgstr "Das Axe Core Wallet"
+
+#: ../../wallets/axecore/interface.rst:24
+msgid "The Axe Core window is broken up into several areas:"
+msgstr "Das Axe Core Fenster ist in mehrere Bereiche aufgeteilt:"
+
+#: ../../wallets/axecore/interface.rst:26
+msgid "The menu bar"
+msgstr "Die Menüleiste"
+
+#: ../../wallets/axecore/interface.rst:27
+msgid "The tab bar"
+msgstr "Die Tab-Leiste"
+
+#: ../../wallets/axecore/interface.rst:28
+msgid "The main area"
+msgstr "Der Hauptbereich"
+
+#: ../../wallets/axecore/interface.rst:29
+msgid "The status bar"
+msgstr "Die Statusleiste"
+
+#: ../../wallets/axecore/interface.rst:32
+msgid "The Menu Bar"
+msgstr "Die Menüleiste"
+
+#: ../../wallets/axecore/interface.rst:34
+msgid ""
+"The menu bar provides access to all functions of Axe Core. There are four "
+"menus available:"
+msgstr ""
+"Die Menüleiste bietet Zugriff auf alle Funktionen von Axe Core. Es stehen "
+"vier Menüs zur Verfügung:"
+
+#: ../../wallets/axecore/interface.rst:37
+msgid "File"
+msgstr "Ordner"
+
+#: ../../wallets/axecore/interface.rst:38
+msgid "The File menu is used to manage your wallet, messages and addresses."
+msgstr ""
+"Das Menü Datei dient zur Verwaltung Ihres Wallets, Ihrer Nachrichten und "
+"Adressen."
+
+#: ../../wallets/axecore/interface.rst:40
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../../wallets/axecore/interface.rst:40
+msgid ""
+"The Settings menu provides access to wallet encryption options and general "
+"software settings."
+msgstr ""
+"Das Menü Einstellungen bietet Zugriff auf Verschlüsselungsoptionen und "
+"allgemeine Softwareeinstellungen."
+
+#: ../../wallets/axecore/interface.rst:43
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: ../../wallets/axecore/interface.rst:43
+msgid ""
+"The Tools menu provides information on the network, allows you modify "
+"masternode configuration files and other advanced functions."
+msgstr ""
+"Das Menü Extras bietet Informationen über das Netzwerk, erlaubt es Ihnen, "
+"die Konfigurationsdateien für Masternode und andere erweiterte Funktionen zu"
+" ändern."
+
+#: ../../wallets/axecore/interface.rst:47
+msgid "Help"
+msgstr "Hilfe"
+
+#: ../../wallets/axecore/interface.rst:46
+msgid ""
+"The Help menu links to documentation, guides and legal statements relating "
+"to Axe Core."
+msgstr ""
+"Im Menü Hilfe finden Sie Links zu Dokumentationen, Handbüchern und "
+"rechtlichen Hinweisen zu Axe Core."
+
+#: ../../wallets/axecore/interface.rst:50
+msgid "The Tab Bar"
+msgstr "Die Tab-Leiste"
+
+#: ../../wallets/axecore/interface.rst:52
+msgid ""
+"The tab bar is used to quickly switch between the main areas of the Axe "
+"Core. The content in the main area of Axe Core changes depending on which "
+"tab you have selected. The following tabs are available:"
+msgstr ""
+"Die Tab-Leiste dient zum schnellen Umschalten zwischen den Hauptbereichen "
+"des Axe Core. Der Inhalt im Hauptbereich von Axe Core ändert sich je "
+"nachdem, welche Registerkarte Sie ausgewählt haben. Die folgenden "
+"Registerkarten sind verfügbar:"
+
+#: ../../wallets/axecore/interface.rst:57
+msgid "The Overview tab"
+msgstr "Die Registerkarte Übersicht"
+
+#: ../../wallets/axecore/interface.rst:59
+msgid ""
+"The overview tab offers quick access to your balance and most recent "
+"transactions, as well as the PrivateSend feature and options for coin "
+"mixing."
+msgstr ""
+"Die Registerkarte Übersicht bietet schnellen Zugriff auf Ihr Guthaben und "
+"die letzten Transaktionen, sowie die PrivateSend-Funktion und Optionen für "
+"das Coin-Mixing."
+
+#: ../../wallets/axecore/interface.rst:65
+msgid "The Axe Core Overview tab"
+msgstr "Die Axe Core Übersicht Registerkarte"
+
+#: ../../wallets/axecore/interface.rst:67
+msgid ""
+"The left part of the main area is divided into two areas. The upper area "
+"shows your balances:"
+msgstr ""
+"Der linke Teil des Hauptbereichs ist in zwei Bereiche unterteilt. Der obere "
+"Bereich zeigt Ihr Guthaben an:"
+
+#: ../../wallets/axecore/interface.rst:72
+msgid "Available"
+msgstr "Verfügbar"
+
+#: ../../wallets/axecore/interface.rst:71
+msgid ""
+"This shows your current liquid balance. This is the amount of Axe you can "
+"spend now."
+msgstr ""
+"Hier wird Ihr aktueller Liquiditätssaldo angezeigt. Das ist der Betrag von "
+"Axe, den du jetzt ausgeben kannst."
+
+#: ../../wallets/axecore/interface.rst:75
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: ../../wallets/axecore/interface.rst:75
+msgid "This shows funds waiting for a transaction to complete."
+msgstr ""
+"Hier werden die Beträge angezeigt, die auf den Abschluss einer Transaktion "
+"warten."
+
+#: ../../wallets/axecore/interface.rst:79
+msgid "Immature"
+msgstr "Unfertig"
+
+#: ../../wallets/axecore/interface.rst:78
+msgid ""
+"This shows funds from masternode or mining payments which have not yet "
+"reached the required number of confirmations."
+msgstr ""
+"Hier werden Beträge aus Masternode- oder Miningzahlungen angezeigt, die noch"
+" nicht die erforderliche Anzahl von Bestätigungen erreicht haben."
+
+#: ../../wallets/axecore/interface.rst:82
+msgid "Total"
+msgstr "Gesamtbetrag"
+
+#: ../../wallets/axecore/interface.rst:82
+msgid "This is simply your available and pending funds added together."
+msgstr ""
+"Dies ist einfach die Summe Ihrer verfügbaren und ausstehenden Beträge."
+
+#: ../../wallets/axecore/interface.rst:84
+msgid ""
+"The lower area shows the status of PrivateSend and allows you to mix your "
+"funds using the Axe Masternode Network."
+msgstr ""
+"Der untere Bereich zeigt den PrivateSend-Status an und erlaubt das Mischen "
+"der Coins durch das Axe Masternode Netzwerk."
+
+#: ../../wallets/axecore/interface.rst:87
+msgid ""
+"The right part of the screen shows your recent transactions. These are "
+"identified by icons as follows:"
+msgstr ""
+"Die rechte Seite des Fensters zeigt die letzten Transaktionen an. Diese sind"
+" mit den folgenden Symbolen versehen:"
+
+#: ../../wallets/axecore/interface.rst:94
+msgid "Recent incoming transactions appear black, prefixed by a + sign"
+msgstr ""
+"Die zuletzt eingegangenen Transaktionen sind schwarz und ihnen steht ein + "
+"voran"
+
+#: ../../wallets/axecore/interface.rst:95
+msgid "Recent outgoing transactions appear red, prefixed by a – sign"
+msgstr ""
+"Die zuletzt getätigten Transaktionen sind rot und ihnen steht ein - voran"
+
+#: ../../wallets/axecore/interface.rst:96
+msgid "Incoming mining or masternode payments also appear black"
+msgstr "Eingehende Mining- oder Masternode-Zahlungen sind ebenfalls schwarz"
+
+#: ../../wallets/axecore/interface.rst:98
+msgid ""
+"For more details on your transaction history, see the Transactions tab."
+msgstr ""
+"Weitergehende Details zur Transaktionsgeschichte befinden sich im "
+"Transaktions-Tab."
+
+#: ../../wallets/axecore/interface.rst:101
+msgid "The Send Tab"
+msgstr "Der Überweisen-Tab"
+
+#: ../../wallets/axecore/interface.rst:103
+msgid ""
+"The Send tab allows you to send funds to another address on the Axe "
+"network. It contains fields to enter the recipient’s address, a label for "
+"the address, and the amount of Axe you wish to send. Options related to the"
+" transaction fee, InstantSend and PrivateSend are also available. A quick "
+"view of your total balance is also available in the lower right corner."
+msgstr ""
+"Der Überweisen-Tab ermöglicht das Versenden eines Betrages an eine andere "
+"Adresse im Axe-Netzwerk. Im Tab können die Empfängeradresse, Notizen zu "
+"dieser und der Sendungsbetrag eingetragen werden. Zudem gibt es Optionen für"
+" die Transaktionsgebühr, InstantSend und PrivateSend. Am unteren rechten "
+"Rand des Fensters befindet sich auch eine Anzeige, die das aktuelle Guthaben"
+" der Wallet anzeigt."
+
+#: ../../wallets/axecore/interface.rst:112
+msgid "The Send tab"
+msgstr "Der Überweisen-Tab"
+
+#: ../../wallets/axecore/interface.rst:115
+msgid "The Receive Tab"
+msgstr "Der Empfangen-Tab"
+
+#: ../../wallets/axecore/interface.rst:117
+msgid ""
+"The Receive tab allows you to create addresses to receive Axe. You can "
+"create a request for a specific amount of Axe or include a specific "
+"message, and send it to another user as a link or QR code."
+msgstr ""
+"Der Empfangen-Tab ermöglicht es dem Nutzer eine Axe-Adresse zu erstellen. "
+"Diese Adresse kann über einen Link oder QR-Code weitergeben werden, der "
+"einen spezifischen Betrag oder auch eine Nachricht übermitteln kann."
+
+#: ../../wallets/axecore/interface.rst:123
+msgid "The Receive tab"
+msgstr "Der Empfangen-Tab"
+
+#: ../../wallets/axecore/interface.rst:126
+msgid "The Transactions Tab"
+msgstr "Der Transaktionen-Tab"
+
+#: ../../wallets/axecore/interface.rst:128
+msgid ""
+"The transactions tab shows the entire transaction history for all addresses "
+"associated with your wallet. This appears as a table showing the time, type,"
+" label and amount of Axe for each transaction. You can also export the "
+"transaction history as a CSV file by clicking the Export button in the "
+"bottom right corner of the window."
+msgstr ""
+"Der Transaktionen-Tab zeigt den gesamten Transaktionsverlauf aller Adressen "
+"an, die zu der Wallet eines Nutzers gehören. Dies geschieht über eine "
+"Tabelle, welche Zeit, Art, Beschreibung und Betragshöhe einer Transaktion "
+"anzeigt. Der Transaktionsverlauf kann zudem als CSV-Datei exportiert werden."
+" Hierfür muss der Knopf mit der Aufschrift „Exportieren“ gedrückt werden."
+
+#: ../../wallets/axecore/interface.rst:134
+msgid ""
+"The icons in the leftmost column indicate the status of the transaction. A "
+"tick indicates that the recommended number of confirmations has been passed,"
+" while a clock indicates that the transaction has yet to reach six "
+"confirmations."
+msgstr ""
+"Die Symbole in der linken Spalte zeigen den Status der Transaktion an. Ein "
+"Haken bedeutet, dass die notwendige Zahl an Bestätigungen erreicht wurde, "
+"während eine Uhr darauf hinweist, dass die Transaktion noch nicht mindestens"
+" 6-mal bestätigt wurde."
+
+#: ../../wallets/axecore/interface.rst:141
+msgid "The transactions tab"
+msgstr "Der Transaktionen-Tab"
+
+#: ../../wallets/axecore/interface.rst:144
+msgid "The Status Bar"
+msgstr "Die Statusleiste"
+
+#: ../../wallets/axecore/interface.rst:146
+msgid ""
+"The status bar shows a synchronization progress bar and a row of status "
+"icons which indicate the status of your connection to the Axe network."
+msgstr ""
+"Die Statusleiste zeigt den Synchronisierungsfortschritt und eine Reihe an "
+"Symbolen, welche den Status der Verbindung mit dem Axe-Netzwerk "
+"wiedergeben."
+
+#: ../../wallets/axecore/interface.rst:150
+msgid "The Synchronization Bar"
+msgstr "Der Synchronisierungsfortschritt"
+
+#: ../../wallets/axecore/interface.rst:152
+msgid ""
+"This bar shows the synchronization status of Axe Core with the Axe "
+"network. Each time you open Axe Core, it will begin downloading the blocks "
+"which have been created on the blockchain in the time since you last opened "
+"the app. These blocks are downloaded from other Axe users and masternodes. "
+"If you have never opened the app before, this could mean several years’ "
+"worth of blocks need downloading. The following statuses are possible:"
+msgstr ""
+"Diese Leiste zeigt den Synchronisierungsstatus der Axe Core Wallet mit dem "
+"Axe-Netzwerk an. Jedes mal, wenn Axe Core geöffnet wird, beginnt es damit "
+"die Blöcke herunterzuladen, welche seit dem letzten Öffnen der App "
+"entstanden sind. Diese Blöcke werden von anderen Axe-Nutzern und den "
+"Masternodes bezogen. Wenn die Wallet neu ist, bedeutet dies, dass mehrere "
+"Jahre an Blöcken heruntergeladen werden müssen. Die folgenden Statusanzeigen"
+" können auftreten:"
+
+#: ../../wallets/axecore/interface.rst:161
+msgid "No block source available"
+msgstr "Keine Block-Quelle verfügbar"
+
+#: ../../wallets/axecore/interface.rst:161
+msgid ""
+"This occurs if your internet connection is down, or if the ports required by"
+" Axe Core are blocked by a firewall."
+msgstr ""
+"Dieses Symbol erscheint, wenn keine Internetverbindung besteht oder eine "
+"Firewall die Ports verschließt, welche von Axe Core verwendet werden."
+
+#: ../../wallets/axecore/interface.rst:163
+msgid "Synchronizing with network"
+msgstr "Synchronisierung mit dem Netzwerk"
+
+#: ../../wallets/axecore/interface.rst:164
+msgid "Axe Core is downloading blocks from the network."
+msgstr "Axe Core lädt Blöcke aus dem Netzwerk herunter."
+
+#: ../../wallets/axecore/interface.rst:166
+msgid "Synchronizing masternodes/masternode payments/governance objects"
+msgstr "Synchronisiere Masternodes/Masternode Zahlungs-/Governance-Objekte"
+
+#: ../../wallets/axecore/interface.rst:166
+msgid "Axe Core is synchronizing other data with the second layer network."
+msgstr ""
+"Axe Core synchronisiert zusätzliche Daten mit der zweiten Netzwerksebene"
+
+#: ../../wallets/axecore/interface.rst:168
+msgid ""
+"Once synchronization is complete, the progress bar will disappear and a tick"
+" will appear on the right of the status bar."
+msgstr ""
+"Nachdem der Synchronisierungsvorgang abgeschlossen wurde, verschwindet die "
+"Fortschrittsleiste und am rechten Rand der Statusleiste erscheint ein Haken."
+
+#: ../../wallets/axecore/interface.rst:172
+msgid "The Status Icons"
+msgstr "Die Status-Symbole"
+
+#: ../../wallets/axecore/interface.rst:178
+msgid ""
+"The lock icons indicate the status of your wallet: either locked or "
+"unlocked. You need to unlock your wallet to send funds or perform certain "
+"other actions."
+msgstr ""
+"Das Schloss-Symbol zeigt den Status der Wallet an: entweder verschlossen "
+"oder aufgeschlossen. Die Wallet muss aufgeschlossen werden, damit "
+"Transaktionen oder bestimmte andere Funktionen durchgeführt werden können."
+
+#: ../../wallets/axecore/interface.rst:186
+msgid ""
+"These icons indicate the quality of your connection to the Axe network. If "
+"you cannot connect because of network problems, you will see the icon on the"
+" left. More bars indicate more connections to your peers on the network."
+msgstr ""
+"Diese Symbole geben die Verbindungsstärke mit dem Axe-Netzwerk wieder. Wenn"
+" keine Verbindung hergestellt werden konnte, da Netzwerkprobleme aufgetreten"
+" sind, wird das Symbol links erscheinen. Je mehr Striche angezeigt werden, "
+"desto stärker ist die Verbindung zu anderen Netzwerksteilnehmern."
+
+#: ../../wallets/axecore/interface.rst:195
+msgid ""
+"These icons show the synchronization status of Axe Core with the network. "
+"Once synchronization is complete, the refresh icon will become a blue tick."
+msgstr ""
+"Diese Symbole stellen den Synchronisierungszustand der Axe Core Wallet mit "
+"dem Netzwerk da. Sobald die Synchronisierung abgeschlossen wurde, wird aus "
+"dem Aktualisierungs-Symbol ein blauer Haken."
+
+#: ../../wallets/axecore/interface.rst:203
+msgid ""
+"These icons indicate whether your wallet is running in hierarchical "
+"deterministic (HD) mode or standard mode."
+msgstr ""
+"Diese Symbole zeigen an, ob die Wallet im hierarchisch-deterministischen "
+"(HD) Modus oder im Standardmodus ausgeführt werden."
+
+#: ../../wallets/axecore/interface.rst:208
+msgid "The Options Dialog"
+msgstr "Die Konfigurationseinstellungen"
+
+#: ../../wallets/axecore/interface.rst:210
+msgid ""
+"This documentation describes the functionality of the Axe Core Options "
+"dialog, available under the **Settings > Options** menu in Axe Core."
+msgstr ""
+"Diese Dokumentation beschreibt die Einstellungsmöglichkeiten innerhalb der "
+"Axe Core Konfigurationseinstellungen, der sich unter **Einstellungen > "
+"Konfiguration** im Axe Core Menüs befindet."
+
+#: ../../wallets/axecore/interface.rst:214
+msgid "Main tab"
+msgstr "Allgemein-Tab"
+
+#: ../../wallets/axecore/interface.rst:216
+msgid ""
+"The Main tab of the Options dialog contains settings related to startup and "
+"performance of the Axe Core app."
+msgstr ""
+"Der Allgemein-Tab der Konfigurationseinstellungen beinhaltet Einstellungen, "
+"die sich auf den Start und die Leistungsstärke der Axe Core Wallet "
+"beziehen."
+
+#: ../../wallets/axecore/interface.rst:222
+msgid "The Main tab of the Axe Core Options dialog"
+msgstr "Der Allgemein-Tab der Axe Core Konfigurationseinstellungen"
+
+#: ../../wallets/axecore/interface.rst:228
+msgid "Start Axe Core on system login"
+msgstr "Starte Axe Core nach Systemanmeldung"
+
+#: ../../wallets/axecore/interface.rst:225
+msgid ""
+"This option causes Axe Core to start automatically when the current user "
+"logs in. On most computers there is only one main user account which is "
+"logged in automatically when the computer turns on, so this option is "
+"effectively the same as starting Axe Core together with the operating "
+"system."
+msgstr ""
+"Wenn diese Einstellung aktiviert wird, startet die Axe Core Wallet "
+"automatisch nach dem Login. Sollte der Computer ein automatisches Login "
+"durchführen, da nur ein Benutzerkonto existiert, ist dies gleichbedeutend "
+"mit einem Start der Axe Core Wallet bei Systemstart."
+
+#: ../../wallets/axecore/interface.rst:233
+msgid "Size of database cache"
+msgstr "Größe des Datenbankcaches"
+
+#: ../../wallets/axecore/interface.rst:231
+msgid ""
+"This option specifies the size of the database cache in memory. A higher "
+"value will result in increased performance when adding new blocks at the "
+"cost of higher memory usage. The default value is 100MB and it should not be"
+" set lower than this level."
+msgstr ""
+"Diese Einstellung bestimmt die Größe, welche die Datenbank im Cache "
+"beanspruchen darf. Ein höherer Wert führt dazu, dass neue Blöcke schneller "
+"hinzugefügt werden, diese aber auch mehr Datenbankcache verbrauchen. Der "
+"Standardwert liegt bei 100MB und er sollte nicht auf eine geringere Zahl "
+"gesetzt werden."
+
+#: ../../wallets/axecore/interface.rst:243
+msgid "Number of script verification threads"
+msgstr "Anzahl an Skript-Verifizierungs-Threads"
+
+#: ../../wallets/axecore/interface.rst:236
+msgid ""
+"This option sets the number of script verification threads, ranging from -4 "
+"to 16. `Script verification <https://en.bitcoin.it/wiki/Script>`__ is the "
+"process of following instructions recorded in the blockchain to ensure the "
+"transactions are valid. 0 means automatic and will allow script verification"
+" to scale to the number of cores available on your processor. Setting a "
+"positive number specifies that Axe Core should use that number of processor"
+" cores, while setting a negative number will leave that number of processor "
+"cores free."
+msgstr ""
+"Diese Einstellung setzt die Anzahl der Skript-Verifizierungs-Threads auf "
+"einen Wert zwischen -4 und 16. `Skript-Verifizierung "
+"<https://en.bitcoin.it/wiki/Script>`__ ist der Name des Prozesses, der "
+"Instruktionen innerhalb der Blockchain verfolgt, um sicherzustellen, dass "
+"eine Transaktion gültig ist. 0 bedeutet automatisch und erlaubt es dem "
+"Skript bis zur maximalen Anzahl der CPU-Kerne zu skalieren. Eine positive "
+"Zahl bedeutet, dass die entsprechende Anzahl verwendet werden soll, während "
+"eine negative Zahl bedeutet, dass die entsprechende Anzahl nicht verwendet "
+"werden soll."
+
+#: ../../wallets/axecore/interface.rst:246
+msgid "Wallet tab"
+msgstr "Wallet-Tab"
+
+#: ../../wallets/axecore/interface.rst:248
+msgid ""
+"The Wallet tab of the Options dialog contains settings related to how "
+"addresses are managed in the Axe Core app. The first time you run Axe "
+"Core, it will generate a new wallet containing 1000 unique Axe addresses. "
+"This tab allows you to configure how these addresses are used as inputs with"
+" the Coin Control, PrivateSend and Masternode features."
+msgstr ""
+"Der Wallet-Tab der Konfigurationseinstellungen beinhaltet "
+"Einstellungsmöglichkeiten zur Verwaltung der Coins, die sich in einer Wallet"
+" befinden. Wenn Axe Core zum ersten Mal gestartet wird, wird es 1000 "
+"einzigartige Axe-Adressen generieren. Dieser Tab gibt dem Nutzer die "
+"Möglichkeit zu konfigurieren, wie diese Adressen verwendet werden, wenn es "
+"um Coin Control, PrivateSend und Masternode-Funktionen geht."
+
+#: ../../wallets/axecore/interface.rst:257
+msgid "The Wallet tab of the Axe Core Options dialog"
+msgstr "Der Wallet-Tab der Axe Core Konfigurationseinstellungen"
+
+#: ../../wallets/axecore/interface.rst:271
+msgid "Enable coin control features"
+msgstr "\"Coin Control\"-Funktionen aktivieren"
+
+#: ../../wallets/axecore/interface.rst:260
+msgid ""
+"Your Axe Core wallet balance is actually the sum total of all addresses "
+"holding balance that are associated with your wallet. When you spend Axe, "
+"Axe Core will withdraw from as many inputs as necessary to make up the "
+"desired amount of Axe to be transferred. This behavior may be undesirable "
+"if you want to keep a certain balance on one address. The most common use "
+"case is the requirement to maintain 1000 Axe on a single address as "
+"collateral for a masternode. Enabling this option will add a button labelled"
+" **Inputs** on the **Send** tab. This provides access to the **Coin "
+"selection** dialog, which can be used to lock, unlock and prioritize "
+"different addresses in your wallet. See :ref:`here <coin-control>` for a "
+"more detailed explanation of Coin Control."
+msgstr ""
+"Der Betrag, der als Axe Core Wallet Gesamtguthaben angezeigt wird, ist die "
+"Summe aller Einzelguthaben, die in den unterschiedlichen Adressen liegen. "
+"Wenn eine Transaktion durchgeführt wird, hebt die Axe Core Wallet "
+"automatisch von so vielen Adressen ab, wie notwendig ist. Dieses Verhalten "
+"kann unter Umständen unerwünscht sein, wenn die Inhalte verschiedener "
+"Adressen nicht miteinander vermischt werden sollen. Dies kann z.B. der Fall "
+"sein, wenn in einer Adresse 1000 Axe liegen, die für eine Masternode "
+"hinterlegt sind. Wenn die Funktion aktiviert wird, erscheint ein Knopf mit "
+"der Aufschrift **Inputs** unter **Überweisen**. Durch diesen Knopf wird das "
+"**Coin-Control** Menü geöffnet, durch welches bestimmte Adressen einer "
+"Wallet verschlossen und andere priorisiert werden können. :ref:`Hier<coin-"
+"control>` ist eine detaillierte Erklärung der CoinControl-Funktion zu "
+"finden."
+
+#: ../../wallets/axecore/interface.rst:280
+msgid "Show Masternodes tab"
+msgstr "Masternode Tabulator anzeigen"
+
+#: ../../wallets/axecore/interface.rst:274
+msgid ""
+"Enabling this option causes Axe Core to display an additional Masternodes "
+"tab to the right of the Transactions tab. This option requires you to "
+"restart the Axe Core app. The Masternodes tab can be used to manage "
+"interactions (start, stop, check status, etc.) with masternodes controlled "
+"by this wallet. This tab is an advanced feature not required by users that "
+"do not operate a masternode on the Axe network."
+msgstr ""
+"Durch diese Option wird Axe Core ein Masternode-Tab rechts des "
+"Transaktions-Tab anzeigen. Diese Funktion erfordert einen Neustart der Axe "
+"Core Wallet. Der Masternode-Tab kann dazu verwendet werden mit einer "
+"Masternode, die von dieser Wallet kontrolliert wird, zu interagieren "
+"(starten, stoppen, Status anzeigen, etc.). Dieser Tab zeigt erweiterte "
+"Funktionen, die für Nutzer, die keine Masternode im Axe-Netzwerk besitzen, "
+"nicht relevant ist."
+
+#: ../../wallets/axecore/interface.rst:287
+msgid "Enable advanced PrivateSend interface"
+msgstr "Erweiterte PrivateSend Schnittstelle anzeigen"
+
+#: ../../wallets/axecore/interface.rst:283
+msgid ""
+"Enabling this option changes the PrivateSend mixing interface on the "
+"Overview tab of the Axe Core wallet to include more options, such as Try "
+"Mix and percentage completion. See :ref:`here <axecore-privatesend-"
+"instantsend>` for a full explanation of how to use PrivateSend."
+msgstr ""
+"Diese Funktion verändert die PrivateSend Mixing-Anzeige im Übersichts-Tab "
+"der Axe Core Wallet, wodurch erweiterte Funktionen, wie etwa eine "
+"Prozentanzeige aktiviert werden. :ref:`Hier<axecore-privatesend-"
+"instantsend>` befindet sich eine detaillierte Erklärung des PrivateSend-"
+"Vorgangs."
+
+#: ../../wallets/axecore/interface.rst:297
+msgid "Warn if PrivateSend is running out of keys"
+msgstr "Warnung anzeigen, wenn alle Schlüssel aufgebraucht sind"
+
+#: ../../wallets/axecore/interface.rst:290
+msgid ""
+"Enabling this option will cause Axe Core to display a warning when your "
+"original set of 1000 addresses is running out, which may affect PrivateSend "
+"mixing. Every time a mixing event happens, up to 9 of your addresses are "
+"used up. This means those 1000 addresses last for about 100 mixing events. "
+"When 900 of them are used, your wallet must create more addresses. It can "
+"only do this, however, if you have automatic backups enabled. Consequently, "
+"users who have backups disabled will also have PrivateSend disabled."
+msgstr ""
+"Diese Funktion lässt eine Warnung anzeigen, sobald die ursprünglichen 1000 "
+"Adressen fast aufgebraucht wurden und der PrivateSend-Mischvorgang dadurch "
+"beeinträchtigt werden könnte. Während jedes Mischvorgangs werden bis zu 9 "
+"Adressen verbraucht, was bedeutet, dass 1000 Adressen etwa 100 Mischvorgänge"
+" ermöglichen. Sobald 900 davon verbraucht wurden, muss die Wallet weitere "
+"Adressen generieren. Dies ist nur möglich, wenn automatische Backups "
+"aktiviert wurden. Dies bedeutet, dass Nutzer, die keine automatischen "
+"Backups aktiviert haben, auch kein PrivateSend verwenden können."
+
+#: ../../wallets/axecore/interface.rst:305
+msgid "Enable PrivateSend multi-session"
+msgstr "PrivateSend multisession aktivieren"
+
+#: ../../wallets/axecore/interface.rst:300
+msgid ""
+"Normally PrivateSend mixing is completed in several consecutive rounds, each"
+" using a single masternode. Enabling this option allows multi-session, which"
+" means you can use multiple masternode servers at the same time, greatly "
+"increasing the speed of the mixing process at the cost of creating more "
+"addresses and thus requiring more frequent wallet backups. This feature is "
+"experimental as of Axe Core 12.1.5."
+msgstr ""
+"Normalerweise wird PrivateSend-Mixing in mehreren aufeinander folgenden "
+"Runden, die jeweils eine Masternode verwenden, durchgeführt. Mit dieser "
+"Option ist es möglich mehrere Mischvorgänge gleichzeitig durchzuführen, was "
+"die Geschwindigkeit des Gesamtvorgangs erhöht, aber auch zur Erzeugung "
+"zusätzlich Adressen führt, wodurch häufigere Wallet-Backups nötig werden. "
+"Diese Funktion ist seit Axe Core 12.1.5 als experimentell enthalten."
+
+#: ../../wallets/axecore/interface.rst:315
+msgid "Spend unconfirmed change"
+msgstr "Unbestätigtes Wechselgeld darf ausgegeben werden"
+
+#: ../../wallets/axecore/interface.rst:308
+msgid ""
+"When this option is enabled, the Axe Core wallet permits you to immediately"
+" spend change from previous transactions that has been transferred "
+"internally between addresses associated with the same wallet. This is "
+"possible even if the transaction has not yet been confirmed because the "
+"wallet knows it will eventually be confirmed since it created the internal "
+"transaction itself. Leaving this option enabled allows you to create new "
+"transactions even if previous transactions have not yet been confirmed."
+msgstr ""
+"Wenn diese Funktion aktiviert wird, erlaubt die Axe Core Wallet das "
+"sofortige Versenden von Guthaben, welches innerhalb der eigenen Wallet "
+"zwischen verschiedenen Adressen versandt wurde. Dies ist möglich, da die "
+"Wallet weiß, dass die Transaktionen die benötigten Bestätigungen erhalten "
+"werden, da sie diese innerhalb von sich selbst durchgeführt hat. Diese "
+"Option ermöglicht es neue Transaktionen zu erstellen, selbst wenn die "
+"vorherigen noch nicht bestätigt wurden."
+
+#: ../../wallets/axecore/interface.rst:323
+msgid "PrivateSend rounds to use"
+msgstr "PrivateSend Runden"
+
+#: ../../wallets/axecore/interface.rst:318
+msgid ""
+"Use this option to control the number of rounds of PrivateSend mixing to be "
+"carried out for your chosen balance. Each round of mixing uses a new "
+"masternode. The higher the number of rounds, the more difficult it becomes "
+"to trace the Axe to its original address. This is at the expense of more "
+"time required for mixing and potentially higher fees. See here for a full "
+"explanation of how to use PrivateSend."
+msgstr ""
+"Über diese Option wird ausgewählt wie viele Runden PrivateSend-Guthaben "
+"gemischt wird, bevor es verwendet werden kann. Jede Runde greift auf eine "
+"zusätzliche Masternode zu. Je öfter der Mischvorgang durchgeführt wird, "
+"desto schwieriger wird es die Axe zur Ursprungsadresse zurückzuverfolgen. "
+"Je öfter die Coins gemischt werden, desto länger dauert der Vorgang jedoch "
+"und desto teurer wird er. An dieser Stelle befindet sich eine detaillierte "
+"Erklärung des PrivateSend-Vorgangs."
+
+#: ../../wallets/axecore/interface.rst:331
+msgid "Amount of Axe to keep anonymized"
+msgstr "Anzahl anonymisierter Axe"
+
+#: ../../wallets/axecore/interface.rst:326
+msgid ""
+"This option allows you to specify how much Axe should be kept on balance in"
+" a ready-to-use anonymized state, meaning it has already passed through the "
+"PrivateSend mixing process. If you do not have sufficient Axe available in "
+"your balance of unlocked inputs, the amount will be automatically reduced to"
+" the available balance and shown in red in the PrivateSend interface on the "
+"Overview tab."
+msgstr ""
+"Diese Funktion ermöglicht es festzulegen wie viel Axe maximal gemischt "
+"werden soll, wie viel also maximal über PrivateSend verwendbar sein soll, "
+"nachdem es bereits gemischt wurde. Wenn dieses Maximum nicht erreicht werden"
+" kann, werden alle verfügbaren Denominationen gemischt und die Gesamtsumme "
+"wird im PrivateSend-Interface des Übersicht-Tabs in Rot angezeigt. "
+
+#: ../../wallets/axecore/interface.rst:334
+msgid "Network tab"
+msgstr "Netzwerk-Tab"
+
+#: ../../wallets/axecore/interface.rst:336
+msgid ""
+"This tab includes options related to how your connection to the Axe network"
+" is made."
+msgstr ""
+"Dieser Tab beinhaltet Optionen zur Verbindungsherstellung mit dem Axe-"
+"Netzwerk."
+
+#: ../../wallets/axecore/interface.rst:342
+msgid "The Network tab of the Axe Core Options dialog"
+msgstr "Der Netzwerk-Tab der Axe Core Konfigurationseinstellungen"
+
+#: ../../wallets/axecore/interface.rst:350
+msgid "Map port using UPnP"
+msgstr "Portweiterleitung via UPnP"
+
+#: ../../wallets/axecore/interface.rst:345
+msgid ""
+"This option causes Axe Core to automatically attempt to open and map the "
+"client port on your router using `UPnP "
+"<https://en.wikipedia.org/wiki/Universal_Plug_and_Play>`__ (Universal Plug "
+"and Play). This feature is supported by most modern home routers and will "
+"allow you to connect to the Axe network without making any special settings"
+" on your router."
+msgstr ""
+"Durch diese Option wird Axe Core eine automatische Portweiterleitung über "
+"den Router mit `UPnP "
+"<https://en.wikipedia.org/wiki/Universal_Plug_and_Play>`__ (Universal Plug "
+"and Play) einrichten. Diese Funktion ist bei den meisten modernen Routern "
+"verfügbar und erlaubt eine Verbindung zum Axe-Netzwerk, ohne, dass "
+"spezielle Einstellungen am Router geändert werden müssen."
+
+#: ../../wallets/axecore/interface.rst:357
+msgid "Allow incoming connections"
+msgstr "Eingehende Verbindungen erlauben"
+
+#: ../../wallets/axecore/interface.rst:353
+msgid ""
+"This option causes your client to accept external connections. Since Axe is"
+" a peer-to-peer network and Axe Core is considered a full client because it"
+" stores a copy of the blockchain on your device, enabling this option helps "
+"other clients synchronize the blockchain and network through your node."
+msgstr ""
+"Diese Option lässt den Client eine externe Verbindung akzeptieren. Da Axe "
+"ein Peer-to-Peer-Netzwerk ist und Axe Core ein Full-Client, da es die "
+"gesamte Blockchain auf dem Gerät speichert, wird diese Funktion zur "
+"Blockchain- und Netzwerk-Synchronisierung mit anderen Clients über den "
+"eigenen Knoten verwendet."
+
+#: ../../wallets/axecore/interface.rst:364
+msgid "Connect through SOCKS5 proxy (default proxy)"
+msgstr "Über einen SOCKS5-Proxy verbinden (Standardproxy)"
+
+#: ../../wallets/axecore/interface.rst:360
+msgid ""
+"These options allow users on an intranet requiring a proxy to reach the "
+"broader internet to specify the address of their proxy server to relay "
+"requests to the internet. Contact your system administrator or check out the"
+" network settings in your web browser if you are unable to connect and "
+"suspect a proxy may be the source of the problem."
+msgstr ""
+"Diese Option ermöglicht es Nutzern, die sich in einem Intranet befinden, "
+"über einen Proxy eine Verbindung zum allgemeinen Internet herzustellen, "
+"indem sie die Adresse des Proxy-Servers, der Anfragen an das Internet "
+"weiterleitet, spezifizieren. Bei Problemen mit der Herstellung einer "
+"Verbindung, bei denen ein Proxy das Problem darstellen könnte, sollte der "
+"Systemadministrator kontaktiert werden oder eine entsprechende Einstellung "
+"im Internetbrowser gesucht werden."
+
+#: ../../wallets/axecore/interface.rst:371
+msgid "Use separate SOCKS5 proxy to reach peers via Tor hidden services"
+msgstr ""
+"Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-"
+"Dienste zu erreichen"
+
+#: ../../wallets/axecore/interface.rst:367
+msgid ""
+"These options allow you to specify an additional proxy server designed to "
+"help you connect to peers on the Tor network. This is an advanced option for"
+" increased privacy and requires a Tor proxy on your network. For more "
+"information about Tor, see `here <https://www.torproject.org/>`__."
+msgstr ""
+"Diese Funktion ermöglicht es einen zusätzlichen Proxy-Server einzugeben, "
+"welcher dafür geschaffen ist sich über das Tor-Netzwerk mit den Peers zu "
+"verbinden. Diese erweiterte Option dient dazu einen höheren Grad an "
+"Privatsphäre zu erreichen und sie bedarf eines Tor-Proxys im eigenen "
+"Netzwerk. Weitere Informationen über Tor sind `hier "
+"<https://www.torproject.org/>`__ zu finden."
+
+#: ../../wallets/axecore/interface.rst:374
+msgid "Window tab"
+msgstr "Programmfenster-Tab"
+
+#: ../../wallets/axecore/interface.rst:376
+msgid ""
+"This option contains options governing behavior of the Axe Core app window "
+"under Microsoft Windows."
+msgstr ""
+"Diese Option behandelt Funktionen, die sich auf das Verhalten des Axe Core "
+"Programmfensters unter Microsoft Windows auswirken."
+
+#: ../../wallets/axecore/interface.rst:382
+msgid "The Window tab of the Axe Core Options dialog"
+msgstr "Der Programmfenster-Tab der Axe Core Konfigurationseinstellungen"
+
+#: ../../wallets/axecore/interface.rst:387
+msgid "Hide tray icon"
+msgstr "Infosymbol verbergen"
+
+#: ../../wallets/axecore/interface.rst:385
+msgid ""
+"When this option is enabled, Axe Core will not display an icon in the "
+"system tray. This option cannot be selected at the same time as **Minimize "
+"to the tray instead of the taskbar**."
+msgstr ""
+"Wenn diese Option gewählt wurde, wird kein Axe Core Symbol in der "
+"Taskleiste erscheinen. Diese Option kann nicht gleichzeitig mit der Option "
+"**In den Infobereich anstatt in die Taskleiste minimieren** gewählt werden."
+
+#: ../../wallets/axecore/interface.rst:394
+msgid "Minimize to the tray instead of the taskbar"
+msgstr "In den Infobereich anstatt in die Taskleiste minimieren"
+
+#: ../../wallets/axecore/interface.rst:390
+msgid ""
+"When this option is enabled and the Axe Core window is minimized, it will "
+"no longer appear in your taskbar as a running task. Instead, Axe Core will "
+"keep running in the background and can be re-opened from the Axe icon in "
+"the system tray (the area next to your system clock). This option cannot be "
+"selected at the same time as **Hide tray icon**."
+msgstr ""
+"Diese Option führt dazu, dass Axe Core nicht länger in der Taskleiste "
+"erscheint, nachdem das Fenster minimiert wurde. Stattdessen wird Axe Core "
+"im Hintergrund weiterlaufen und das Fenster kann über das Axe-Symbol im "
+"Infobereich geöffnet werden (der Bereich neben der Uhrzeitanzeige). Diese "
+"Option kann nicht gleichzeitig mit **Infosymbol verbergen** ausgewählt "
+"werden."
+
+#: ../../wallets/axecore/interface.rst:399
+msgid "Minimize on close"
+msgstr "Beim Schließen minimieren"
+
+#: ../../wallets/axecore/interface.rst:397
+msgid ""
+"When this option is enabled, clicking the X button in the top right corner "
+"of the window will cause Axe Core to minimize rather than close. To "
+"completely close the app, select **File > Exit**."
+msgstr ""
+"Sollte diese Option ausgewählt werden, führt das drücken des X-Knopfs am "
+"oberen rechten Rand des Bildschirms dazu, dass Axe Core minimiert und nicht"
+" geschlossen wird. Um das Programm zu schließen, muss dann stattdessen "
+"**Datei > Beenden** ausgewählt werden."
+
+#: ../../wallets/axecore/interface.rst:402
+msgid "Display tab"
+msgstr "Anzeige-Tab"
+
+#: ../../wallets/axecore/interface.rst:404
+msgid ""
+"This tab contains options relating to the appearance of the Axe Core app "
+"window."
+msgstr ""
+"Diese Option behandelt Funktionen, die sich auf das Aussehen des Axe Core "
+"Programmfensters auswirken."
+
+#: ../../wallets/axecore/interface.rst:410
+msgid "The Display tab of the Axe Core Options dialog"
+msgstr "Der Anzeige-Tab der Axe Core Konfigurationseinstellungen"
+
+#: ../../wallets/axecore/interface.rst:414
+msgid "User interface language"
+msgstr "Sprache der Benutzeroberfläche"
+
+#: ../../wallets/axecore/interface.rst:413
+msgid ""
+"Select your preferred language from this drop-down menu. Changing the "
+"language requires you to restart the Axe Core app."
+msgstr ""
+"Die bevorzugte Benutzeroberfläche kann über ein Menü ausgewählt werden. "
+"Nachdem die Sprache geändert wurde, muss die Axe Core Wallet neu gestartet "
+"werden."
+
+#: ../../wallets/axecore/interface.rst:420
+msgid "User interface theme"
+msgstr "Design/Thema der Benutzeroberfläche"
+
+#: ../../wallets/axecore/interface.rst:417
+msgid ""
+"You can use this option to select a different theme governing the appearance"
+" of the Axe Core window. All functionality is identical under the different"
+" themes, although the default Axe-light theme is most recent and most "
+"likely to work without any display artifacts."
+msgstr ""
+"Diese Option kann dazu verwendet werden, verschiedene Designs auszuwählen, "
+"die das Aussehen des Axe Core Fensters verändern. Die Funktionen sind in "
+"den unterschiedlichen Designs identisch, doch das Axe-Light Design ist das "
+"aktuellste und führt am unwahrscheinlichsten zu Anzeigefehlern."
+
+#: ../../wallets/axecore/interface.rst:426
+msgid "Unit to show amounts in"
+msgstr "Einheit der Beträge"
+
+#: ../../wallets/axecore/interface.rst:423
+msgid ""
+"This allows you to change the default unit of currency in Axe Core from "
+"AXE to mAXE, µAXE or duffs. Each unit shifts the decimal separator three "
+"places to the right. Duffs are the smallest unit into which Axe may be "
+"separated."
+msgstr ""
+"Diese Option ändert die Standardeinheit, in der Axe Core Beträge anzeigt, "
+"von AXE auf mAXE, µAXE oder Duffs. Jede Einheit verschiebt die "
+"Dezimalstelle weitere 3 Stellen nach rechts. Duffs sind die kleinste "
+"Einheit, in die Axe aufgeteilt werden kann."
+
+#: ../../wallets/axecore/interface.rst:431
+msgid "Decimal digits"
+msgstr "Dezimalziffern"
+
+#: ../../wallets/axecore/interface.rst:429
+msgid ""
+"This option allows you to select how many decimal digits will be displayed "
+"in the user interface. This does not affect internal accounting of your "
+"inputs and balance."
+msgstr ""
+"Diese Option ermöglicht eine Änderung der Dezimalstellen, die in der Wallet "
+"angezeigt werden. Hierdurch wird nicht der reale Gesamtbetrag der "
+"vorhandenen Beträge beeinflusst."
+
+#: ../../wallets/axecore/interface.rst:440
+msgid "Third party transaction URLs"
+msgstr "Externe Transaktions-URLs"
+
+#: ../../wallets/axecore/interface.rst:434
+msgid ""
+"This option allows you to specify and external website to inspect a "
+"particular address or transaction on the blockchain. Several blockchain "
+"explorers are available for this. To use this feature, enter the URL of your"
+" favorite blockchain explorer, replacing the %s with the transaction ID. You"
+" will then be able to access this blockchain explorer directly from Axe "
+"Core using the context menu of any given transaction."
+msgstr ""
+"Diese Option ermöglicht es eine Website auszuwählen, mit deren Hilfe eine "
+"bestimmte Adresse oder Transaktion auf der Blockchain angezeigt wird. "
+"Hierfür gibt es verschiedene Blockchain-Explorer. Um auf einen Blockchain-"
+"Explorer zuzugreifen, muss dessen URL hier eingetragen werden und die %s "
+"muss durch die Transaktions-ID ersetzt werden. Über das Kontextmenü jeder "
+"beliebigen Transaktion kann Axe Core hierdurch direkt auf den Blockchain-"
+"Explorer zugreifen."
+
+#: ../../wallets/axecore/interface.rst:443
+msgid "The Tools Dialog"
+msgstr "Die Werkzeugsleiste"
+
+#: ../../wallets/axecore/interface.rst:445
+msgid ""
+"This documentation describes the functionality of the Axe Core Tools "
+"dialog, available under the **Tools** menu in Axe Core."
+msgstr ""
+"Diese Dokumentation beschreibt die Axe Core Werkzeugsleiste, die sich unter"
+" **Werkzeuge** im Axe Core Menü befindet."
+
+#: ../../wallets/axecore/interface.rst:449
+msgid "Information tab"
+msgstr "Information-Tab"
+
+#: ../../wallets/axecore/interface.rst:454
+msgid "The Information tab of the Axe Core Tools dialog"
+msgstr "Der Information-Tab der Axe Core Werkzeugsleiste"
+
+#: ../../wallets/axecore/interface.rst:459
+msgid "General"
+msgstr "Allgemein"
+
+#: ../../wallets/axecore/interface.rst:457
+msgid ""
+"This section displays information on the name and version of the client and "
+"database, and the location of the current application data directory."
+msgstr ""
+"Dieser Abschnitt führt Informationen über den Namen und die Version des "
+"Clients und der Datenbank sowie den momentanen Speicherort der Anwendung."
+
+#: ../../wallets/axecore/interface.rst:463
+msgid "Network"
+msgstr "Netzwerk"
+
+#: ../../wallets/axecore/interface.rst:462
+msgid ""
+"This section displays information and statistics on the network to which you"
+" are connected."
+msgstr ""
+"Dieser Abschnitt führt Informationen und Statistiken zu dem Netzwerk, mit "
+"welchem der Client verbunden ist."
+
+#: ../../wallets/axecore/interface.rst:466
+msgid "Block chain"
+msgstr "Blockchain"
+
+#: ../../wallets/axecore/interface.rst:466
+msgid "This section shows the current status of the blockchain."
+msgstr "Dieser Abschnitt zeigt den momentanen Status der Blockchain an."
+
+#: ../../wallets/axecore/interface.rst:472
+msgid "Memory pool"
+msgstr "Memory Pool"
+
+#: ../../wallets/axecore/interface.rst:469
+msgid ""
+"This section shows the status of the memory pool, which contains "
+"transactions that could not yet be written to a block. This includes both "
+"transactions created since the last block and transactions which could not "
+"be entered in the last block because it was full."
+msgstr ""
+"Dieser Abschnitt zeigt den Status des Memory Pools an, welcher Transaktionen"
+" führt, die noch nicht in einen Block geschrieben werden konnten. Dies "
+"umfasst sowohl Informationen, die seit dem letzten Block neu hinzukamen, "
+"sowie Informationen, die die Speicherkapazität des letzten Blocks "
+"überschritten hatten."
+
+#: ../../wallets/axecore/interface.rst:476
+msgid "Open debug log file"
+msgstr "Debugprotokolldatei öffnen"
+
+#: ../../wallets/axecore/interface.rst:475
+msgid ""
+"This button opens debug.log from the application data directory. This file "
+"contains output from Axe Core which may help to diagnose errors."
+msgstr ""
+"Dieser Knopf öffnet die Datei debug.log aus dem Speicherort der Anwendung. "
+"Diese Datei beinhaltet Angaben der Axe Core Wallet, die beim Finden eines "
+"Fehlers helfen können."
+
+#: ../../wallets/axecore/interface.rst:479
+msgid "Console tab"
+msgstr "Konsole-Tab"
+
+#: ../../wallets/axecore/interface.rst:481
+msgid ""
+"The Console tab provides an interface with the Axe Core RPC (remote "
+"procedure call) console. This is equivalent to the ``axe-cli`` command on "
+"headless versions of Axe, such as ``axed`` running on a masternode. Click "
+"the red ``–`` icon to clear the console, and see the detailed documentation "
+"on RPC commands to learn about the possible commands you can issue."
+msgstr ""
+"Der Tab Konsole bietet eine Schnittstelle mit der Axe Core RPC-Konsole "
+"(Remote Procedure Call). Dies stellt das Äquivalent eines ``axe-cli`` "
+"Befehls, wie ``axed`` zum Betreiben einer Masternode, dar. Über das rote "
+"``–`` Symbol kann die Konsole gesäubert werden. Eine detaillierte "
+"Beschreibung der RPC-Befehle, die verfügbar sind, kann ebenfalls eingesehen "
+"werden."
+
+#: ../../wallets/axecore/interface.rst:491
+msgid "The Console tab of the Axe Core Tools dialog"
+msgstr "Der Konsole-Tab der Axe Core Werkzeugleiste"
+
+#: ../../wallets/axecore/interface.rst:494
+msgid "Network Traffic tab"
+msgstr "Netzwerkauslastungs-Tab"
+
+#: ../../wallets/axecore/interface.rst:496
+msgid ""
+"The Network Traffic tab shows a graph of traffic sent and received to peers "
+"on the network over time. You can adjust the time period using the slider or"
+" **Clear** the graph."
+msgstr ""
+"Der Tab zur Netzwerksauslastung zeigt einen Graphen, der den versendeten und"
+" empfangenen Traffic mit dem Netzwerk über einen längeren Zeitraum "
+"darstellt. Der Zeitabschnitt kann über den Schieberegler geändert werden und"
+" der Graph kann zudem **gesäubert** werden."
+
+#: ../../wallets/axecore/interface.rst:503
+msgid "The Network Traffic tab of the Axe Core Tools dialog"
+msgstr "Der Netzwerkauslastungs-Tab der Axe Core Werkzeugsleiste"
+
+#: ../../wallets/axecore/interface.rst:506
+msgid "Peers tab"
+msgstr "Gegenstellen-Tab"
+
+#: ../../wallets/axecore/interface.rst:508
+msgid ""
+"The Peers tab shows a list of other full nodes connected to your Axe Core "
+"client. The IP address, version and ping time are visible. Selecting a peer "
+"shows additional information on the data exchanged with that peer."
+msgstr ""
+"Der Gegenstellen-Tab zeigt eine Liste anderer Full Nodes an, die mit dem "
+"Axe Core Client verbunden sind. IP-Adresse, Version und Ping-Zeit sind "
+"sichtbar. Die Auswahl eines Peers zeigt detaillierte Informationen zu den "
+"Daten, die mit einem Peer ausgetauscht wurden."
+
+#: ../../wallets/axecore/interface.rst:516
+msgid "The Peers tab of the Axe Core Tools dialog"
+msgstr "Der Gegenstellen-Tab der Axe Core Werkzeugleiste"
+
+#: ../../wallets/axecore/interface.rst:519
+msgid "Wallet Repair tab"
+msgstr "Wallet-Reparatur-Tab"
+
+#: ../../wallets/axecore/interface.rst:521
+msgid ""
+"The Wallet Repair tab offers a range of startup commands to restore a wallet"
+" to a functional state. Selecting any of these commands will restart Axe "
+"Core with the specified command-line option."
+msgstr ""
+"Der Wallet-Reparatur-Tab zeigt verschiedene Startbefehle an, durch die eine "
+"Wallet repariert werden kann. Jeder dieser Befehle startet die Wallet neu "
+"und greift dabei auf ein spezifisches Startkommando zurück."
+
+#: ../../wallets/axecore/interface.rst:528
+msgid "The Wallet Repair tab of the Axe Core Tools dialog"
+msgstr "Der Wallet-Reparatur-Tab der Axe Core Werkzeugleiste"
+
+#: ../../wallets/axecore/interface.rst:535
+msgid "Salvage wallet"
+msgstr "Wallet Datenwiederherstellung"
+
+#: ../../wallets/axecore/interface.rst:531
+msgid ""
+"Salvage wallet assumes wallet.dat is corrupted and cannot be read. It makes "
+"a copy of wallet.dat to wallet.<date>.bak and scans it to attempt to recover"
+" any private keys. Check your debug.log file after running salvage wallet "
+"and look for lines beginning with \"Salvage\" for more information on "
+"operations completed."
+msgstr ""
+"Die Datenwiederherstellung der Wallet setzt voraus, dass eine wallet.dat "
+"korrumpiert wurde und nicht gelesen werden kann. Hierdurch wird eine Kopie "
+"der wallet.dat unter wallet.<date>.bak erstellt und ein Scan versucht alle "
+"privaten Schlüssel zu extrahieren. Nachdem der Befehl ausgeführt wurde, kann"
+" unter debug.log nach Zeilen gesucht werden, die mit „Salvage“ beginnen, "
+"damit diesen weitere Informationen über den Abschluss des Vorgangs entnommen"
+" werden können."
+
+#: ../../wallets/axecore/interface.rst:542
+msgid "Rescan blockchain files"
+msgstr "Dateien der Blockchain erneut durchsuchen"
+
+#: ../../wallets/axecore/interface.rst:538
+msgid ""
+"Rescans the already downloaded blockchain for any transactions affecting "
+"accounts contained in the wallet. This may be necessary if you replace your "
+"wallet.dat file with a different wallet or a backup - the wallet logic will "
+"not know about these transactions, so a rescan is necessary to determine "
+"balances."
+msgstr ""
+"Die bereits heruntergeladene Blockchain nach Transaktionen durchsuchen, "
+"welche Adressen der Wallet betreffen. Dies kann notwendig werden, wenn die "
+"wallet.dat mit einer anderen Wallet oder einem Backup ausgetauscht wird - "
+"die Wallet-Logik wird nichts von derartigen Transaktionen wissen, wodurch "
+"ein erneuter Scan notwendig ist, um das tatsächliche Guthaben zu bestimmen."
+
+#: ../../wallets/axecore/interface.rst:551
+msgid "Recover transactions"
+msgstr "Transaktion wiederherstellen"
+
+#: ../../wallets/axecore/interface.rst:545
+msgid ""
+"The recover transactions commands can be used to remove unconfirmed "
+"transactions from the memory pool. Your wallet will restart and rescan the "
+"blockchain, recovering existing transactions and removing unconfirmed "
+"transactions. Transactions may become stuck in an unconfirmed state if there"
+" is a conflict in protocol versions on the network during PrivateSend "
+"mixing, for example, or if a transaction is sent with insufficient fees when"
+" blocks are full."
+msgstr ""
+"Durch die Funktion Transaktion wiederherstellen können unbestätigte "
+"Transaktionen aus dem Memory Pool entfernt werden. Hierdurch wird die Wallet"
+" neu starten und die Blockchain erneut scannen, wodurch existierende "
+"Transaktionen erkannt und unbestätigte entfernt werden. Transaktionen können"
+" unbestätigt bleiben, falls ein Konflikt zwischen Protokollversionen z.B. "
+"während des PrivateSend-Mischvorgangs auftritt oder wenn eine Transaktionen "
+"mit nicht ausreichenden Gebühren versandt wird, während der Block bereits "
+"voll ist. "
+
+#: ../../wallets/axecore/interface.rst:557
+msgid "Upgrade wallet format"
+msgstr "Wallet-Format aktualisieren"
+
+#: ../../wallets/axecore/interface.rst:554
+msgid ""
+"This command is available for very old wallets where an upgrade to the "
+"wallet version is required in addition to an update to the wallet software. "
+"You can view your current wallet version by running the ``getwalletinfo`` "
+"command in the console."
+msgstr ""
+"Dieser Befehl ist notwendig, wenn die Wallet sehr alt ist und zusätzlich zur"
+" Aktualisierung der Wallet Software auch einer Aktualisierung der Wallet "
+"Version bedarf. Die aktuelle Version kann herausgefunden werden, wenn der "
+"Befehlt ``getwalletinfo`` in der Konsole eingegeben wird."
+
+#: ../../wallets/axecore/interface.rst:561
+msgid "Rebuild index"
+msgstr "Index neu aufbauen"
+
+#: ../../wallets/axecore/interface.rst:560
+msgid ""
+"Discards the current blockchain and chainstate indexes (the database of "
+"unspent transaction outputs) and rebuilds it from existing block files. This"
+" can be useful to recover missing or stuck balances."
+msgstr ""
+"Hierdurch werden die aktuelle Blockchain und die Chainstate Indixes (die "
+"Datenbanken der nicht-ausgegebenen Outputs) verworfen und aus bestehenden "
+"Block-Dateien wiederaufgebaut. Dies kann nützlich sein, wenn es darum geht "
+"verschollene oder festhängende Guthaben zurückzugewinnen."

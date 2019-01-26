@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Language-Team: Italian (https://www.transifex.com/axe/teams/37570/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/axecore/installation-macos.rst:1
+msgid "How to download, install and encrypt the Axe Core wallet in macOS"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:1
+msgid "axe, core, wallet, macos, installation"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:8
+msgid "macOS Installation Guide"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:10
+msgid ""
+"This guide describes how to download, install and encrypt the Axe Core "
+"wallet for macOS. The guide is written for macOS Sierra, but the steps "
+"should be similar for other versions."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:15
+msgid "Downloading the Axe Core wallet"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:17
+msgid ""
+"Visit https://www.axerunners.com/get-axe to download the latest Axe Core wallet."
+" In most cases, the website will properly detect which version you need. "
+"Click the blue **Axe Core** button to download the installer directly."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:25
+msgid "The website properly detects the wallet appropriate for your system"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:27
+msgid ""
+"If detection does not work, you will need to manually choose your operating "
+"system. Go to https://www.axerunners.com/wallets and select the **OSX** tab, then "
+"click **Download DMG**."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:34
+msgid "Manually selecting and downloading an installer"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:36
+msgid "Save the file you downloaded to your Downloads folder."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:39
+msgid "Verifying Axe Core"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:41
+msgid ""
+"This step is optional, but recommended to verify the integrity of the file "
+"you downloaded. This is done by checking its SHA256 hash against the hash "
+"published by the Axe Core development team. To view the published hash, "
+"click the **Hash file** button on the wallet download page."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:50
+msgid "Downloading the Axe Core hash file"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:52
+msgid ""
+"Once both the Axe Core file and the hash file have downloaded, double-click"
+" the hash file or view it in your browser and find the hash value for the "
+"Axe Core file you downloaded."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:59
+msgid "Viewing the Axe Core hash file"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:61
+msgid ""
+"This hash value should correspond with the hash value of the file you have "
+"downloaded to ensure it is authentic and was not corrupted during transit. "
+"To do this, open **Terminal**, browse to the location where you saved the "
+"file, and run the following command, replacing the version with the specific"
+" version of the file you downloaded::"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:72
+msgid "Generating an SHA256 hash for the downloaded file"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:74
+msgid ""
+"If the hashes match, then you have an authentic copy of Axe Core for macOS."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:78
+#: ../../wallets/axecore/installation-macos.rst:95
+msgid "Installing Axe Core"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:80
+msgid ""
+"Open Finder and browse to your Downloads folder. Then double-click on the "
+".dmg file you downloaded to decompress it. A window appears showing the "
+"contents of the file."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:87
+msgid "Opening the Axe Core .dmg file"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:89
+msgid ""
+"Drag the Axe Core application file into your Applications folder to install"
+" Axe Core."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:98
+msgid "Running Axe Core for the first time"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:100
+msgid ""
+"To run Axe Core for the first time, either open Launchpad or browse to your"
+" **Applications** folder in Finder. Double-click **Axe Core** or **Axe-"
+"Qt** to start the application. You may see a warning about opening an app "
+"from an unidentified developer. To resolve this problem, simply Control-"
+"click the app icon and choose **Open** from the shortcut menu, then click "
+"**Open** again in the dialog box. The app is saved as an exception to your "
+"security settings, and you can open it in the future by double-clicking it "
+"just as you can any registered app."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:115
+msgid "Unblocking macOS from running Axe Core"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:117
+msgid ""
+"The first time the program is launched, you will be offered a choice of "
+"where you want to store your blockchain and wallet data. Choose a location "
+"with enough free space, as the blockchain can reach 10GB+ in size. It is "
+"recommended to use the default data folder if possible."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:125
+msgid "Choosing the Axe Core data folder"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:127
+msgid ""
+"Axe Core will then start up. This will take a little longer than usual the "
+"first time you run it, since Axe Core needs to generate cryptographic data "
+"to secure your wallet."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:134
+msgid "Starting Axe Core"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:137
+msgid "Synchronizing Axe Core to the Axe network"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:139
+msgid ""
+"Once Axe Core is successfully installed and started, you will see the "
+"wallet overview screen. You will notice that the wallet is “out of sync”, "
+"and the status bar at the bottom of the window will show the synchronization"
+" progress."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:147
+msgid "Axe Core begins synchronizing with the Axe network"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:149
+msgid ""
+"During this process, Axe Core will download a full copy of the Axe "
+"blockchain from other nodes to your device. Depending on your internet "
+"connection, this may take a long time. If you see the message “No block "
+"source available”, check your internet connection. When synchronization is "
+"complete, you will see a small blue tick in the lower right corner."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:158
+msgid "Axe Core synchronization is complete"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:160
+msgid "You can now begin to use your wallet to send and receive funds."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:163
+msgid "Encrypting your Axe wallet"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:165
+msgid ""
+"After your wallet has synchronized with the Axe network, it is strongly "
+"advised to encrypt the wallet with a password or passphrase to prevent "
+"unauthorized access. You should use a strong, new password that you have "
+"never used somewhere else. Take note of your password and store it somewhere"
+" safe or you will be locked out of your wallet and lose access to your "
+"funds."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:172
+msgid "To encrypt your wallet, click **Settings** > **Encrypt Wallet**."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:177
+msgid "Encrypting the Axe wallet with a password"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:179
+msgid "You will be asked to enter and verify a password."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:184
+msgid "Enter a password"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:189
+msgid "Confirm you want to encrypt your wallet"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:191
+msgid ""
+"When the encryption process is complete, you will see a warning that past "
+"backups of your wallet will no longer be usable, and be asked to shut down "
+"Axe Core. When you restart Axe Core, you will see a small blue lock in the"
+" lower right corner."
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:199
+msgid "Fully encrypted and synchronized Axe Core wallet"
+msgstr ""
+
+#: ../../wallets/axecore/installation-macos.rst:201
+msgid "You can now begin to use your wallet to safely send and receive funds."
+msgstr ""

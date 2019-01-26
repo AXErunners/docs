@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kien Bui <kientemp2@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Last-Translator: Leon White <leon.white@docs.axerunners.com>, 2018\n"
+"Language-Team: Vietnamese (https://www.transifex.com/axe/teams/37570/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid ""
+"How to download and install the Axe Core wallet. Compilation guide also "
+"available"
+msgstr ""
+
+#: ../../wallets/axecore/installation.rst:1
+msgid "axe, core, wallet, linux, windows, macos, installation, compile"
+msgstr ""
+
+#: ../../wallets/axecore/installation.rst:9
+msgid "Installation"
+msgstr "Cài đặt"
+
+#: ../../wallets/axecore/installation.rst:11
+msgid ""
+"Installing Axe Core is as simple as going to https://www.axerunners.com/ and "
+"downloading the appropriate file for your system, then following the "
+"appropriate installation steps for your system. Detailed guides are "
+"available for Linux, macOS and Windows operating systems below."
+msgstr ""
+"Cài đặt Axe Core khá đơn giản chỉ bằng việc vào trang web "
+"https://www.axerunners.com/ và tải file phù hợp cho hệ thống của bạn, sau đó theo "
+"những bược cài đặt phù hợp với hệ thống của bạn. Hướng dẫn chi tiết cũng có "
+"sẵn cho các hệ điều hành Linux, macOS và Windows ở dưới đây:"
+
+#: ../../wallets/axecore/installation.rst:16
+msgid ""
+"It is also possible to :ref:`compile Axe Core from source code <compiling-"
+"axe>`."
+msgstr "Cũng có thể :ref:`biên dịch Axe Core từ mã nguồn <compiling-axe>`."
+
+#: ../../wallets/axecore/installation.rst:27
+msgid "Video installation guides"
+msgstr "Video hướng dẫn cài đặt"
+
+#: ../../wallets/axecore/installation.rst:29
+msgid ""
+"These videos show how to download, verify the checksum and install the Axe "
+"Core Wallet on Linux, macOS and Windows systems. While they are somewhat out"
+" of date, the procedure is still largely the same. The main difference is "
+"that the official Axe website is now https://www.axerunners.com/ rather than "
+"https://www.axerunners.io/ as stated in the videos, although the old site will "
+"redirect you to the new one. Also, in later versions of Axe Core, "
+"application data such as the blockchain is now stored in the \"AxeCore\" "
+"rather than \"Axe\" folder."
+msgstr ""
+"Những video sau đây sẽ hướng dẫn bạn tải, kiểm tra mã checksum và cài đặt ví"
+" Axe Core trên các hệ điều hành Linux, macOS và Windows. Dù nó có thể là "
+"phiên bản hơi cũ, nhưng về mặt quy trình thì phần lớn là giống như vậy. Khác"
+" biệt chính chỉ là trang web chính thức bây giờ là https://www.axerunners.com/ chứ"
+" không phải là  https://www.axerunners.io/ như trong các video trên, mặc dù "
+"trang web cũ cũng sẽ tái định hướng đến trang web mới bây giờ. Cũng vậy, "
+"trong các phiên bản mới hơn của Axe Core, dữ liệu của chương trình như "
+"blockchain bây giờ được đặt trong thư mục \"AxeCore\" thay vì trong thư mục"
+" \"Axe\"."
+
+#: ../../wallets/axecore/installation.rst:38
+msgid "**How to Install AxeQT Wallet on Linux**"
+msgstr "*Làm thế nào cài đặt ví AxeQT trên Linux**"
+
+#: ../../wallets/axecore/installation.rst:46
+msgid "**How to Verify the CheckSum of AxeQT Wallet for Linux**"
+msgstr "**Làm thế nào kiểm tra CheckSum của ví AxeQT cho Linux**"
+
+#: ../../wallets/axecore/installation.rst:54
+msgid "**How to Install AxeQT Wallet on macOS**"
+msgstr "**Làm thế nào cài đặt ví AxeQT trên macOS**"
+
+#: ../../wallets/axecore/installation.rst:62
+msgid "**How to Verify the CheckSum of AxeQT Wallet for macOS**"
+msgstr "**Làm thế nào kiểm tra CheckSum của ví AxeQT cho macOS**"
+
+#: ../../wallets/axecore/installation.rst:70
+msgid "**How to Install AxeQT Wallet on Windows**"
+msgstr "*Làm thế nào cài đặt ví AxeQT trên Windows**"
+
+#: ../../wallets/axecore/installation.rst:78
+msgid "**How to Verify CheckSum of AxeQT Wallet for Windows**"
+msgstr "**Làm thế nào kiểm tra CheckSum của ví AxeQT cho Windows**"
+
+#: ../../wallets/axecore/installation.rst:86
+msgid "**How to Encrypt/Decrypt Your AxeQT Wallet**"
+msgstr "**Làm thế nào Mã hoá/Giải mã ví AxeQT của bạn**"

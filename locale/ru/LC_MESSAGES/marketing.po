@@ -1,0 +1,1581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Андрей Дегтяр <diusha1711@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Дмитрий <dmitry.zhludin@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-04-09 11:00+0000\n"
+"Last-Translator: Дмитрий <dmitry.zhludin@gmail.com>, 2018\n"
+"Language-Team: Russian (https://www.transifex.com/axe/teams/37570/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../marketing.rst:1
+msgid ""
+"Downloads of various templates and designs intended for use as office "
+"stationary and presentations."
+msgstr ""
+"Файлы различных шаблонов и дизайнов для создания плакатов и презентаций."
+
+#: ../../marketing.rst:1
+msgid "axe, marketing, designs, presentations, brochures, logo"
+msgstr "axe, маркетинг, дизайн, презентации, брошюры, логотип"
+
+#: ../../marketing.rst:9
+msgid "Marketing"
+msgstr "Маркетинг"
+
+#: ../../marketing.rst:11
+msgid ""
+"This page includes downloads of various templates and designs intended for "
+"use as office stationary and presentations. For a visual overview of "
+"existing web and sticker designs, please see the following links."
+msgstr ""
+"Эта страница содержит файлы различных шаблонов и дизайнов для создания "
+"плакатов и презентаций. Для визуального обзора существующих дизайнов веб-"
+"сайтов и стикеров смотрите ссылки ниже."
+
+#: ../../marketing.rst:15
+msgid ""
+"`Rendered designs, badges and stickers <https://www.axerunners.com/graphics>`_"
+msgstr ""
+"`Визуализированные дизайны, значки и стикеры "
+"<https://www.axerunners.com/graphics>`_"
+
+#: ../../marketing.rst:16
+msgid ""
+"`Vector art package for designers "
+"<https://www.axerunners.com/assets/Axe_Vector_Graphics_Collection.zip>`_"
+msgstr ""
+"`Векторный художественный пакет для дизайнеров "
+"<https://www.axerunners.com/assets/Axe_Vector_Graphics_Collection.zip>`_"
+
+#: ../../marketing.rst:18
+msgid ""
+"Axe uses the following color scheme to promote a consistent visual "
+"identity."
+msgstr ""
+"Axe использует следующую цветовую схему для обеспечения согласованной "
+"визуальной идентификации."
+
+#: ../../marketing.rst:22
+msgid "Color"
+msgstr "Цветовая модель"
+
+#: ../../marketing.rst:22
+msgid "RGB"
+msgstr "RGB"
+
+#: ../../marketing.rst:22
+msgid "CMYK"
+msgstr "CMYK"
+
+#: ../../marketing.rst:22
+msgid "Hex"
+msgstr "Hex"
+
+#: ../../marketing.rst:22
+msgid "Pantone"
+msgstr "Pantone"
+
+#: ../../marketing.rst:24
+msgid "Axe Blue"
+msgstr "Синий логотип Axe "
+
+#: ../../marketing.rst:24
+msgid "0,141,228"
+msgstr "0,141,228"
+
+#: ../../marketing.rst:24
+msgid "76,38,0,0"
+msgstr "76,38,0,0"
+
+#: ../../marketing.rst:24
+msgid "#008de4"
+msgstr "#008de4"
+
+#: ../../marketing.rst:24
+msgid "2925c"
+msgstr "2925c"
+
+#: ../../marketing.rst:26
+msgid "Deep Blue"
+msgstr "Насыщенный синий"
+
+#: ../../marketing.rst:26
+msgid "1,32,96"
+msgstr "1,32,96"
+
+#: ../../marketing.rst:26
+msgid "100,94,31,29"
+msgstr "100,94,31,29"
+
+#: ../../marketing.rst:26
+msgid "#012060"
+msgstr "#012060"
+
+#: ../../marketing.rst:26
+msgid "534c"
+msgstr "534c"
+
+#: ../../marketing.rst:28
+msgid "Midnight Blue"
+msgstr "Тёмно-синий"
+
+#: ../../marketing.rst:28
+msgid "11,15,59"
+msgstr "11,15,59"
+
+#: ../../marketing.rst:28
+msgid "100,96,41,53"
+msgstr "100,96,41,53"
+
+#: ../../marketing.rst:28
+msgid "#0b0f3b"
+msgstr "#0b0f3b"
+
+#: ../../marketing.rst:28
+msgid "5255c"
+msgstr "5255c"
+
+#: ../../marketing.rst:30
+msgid "White"
+msgstr "Белый"
+
+#: ../../marketing.rst:30
+msgid "255,255,255"
+msgstr "255,255,255"
+
+#: ../../marketing.rst:30
+msgid "0,0,0,0"
+msgstr "0,0,0,0"
+
+#: ../../marketing.rst:30
+msgid "#ffffff"
+msgstr "#ffffff"
+
+#: ../../marketing.rst:30
+msgid "\\-"
+msgstr "\\-"
+
+#: ../../marketing.rst:32
+msgid "Grey"
+msgstr "Серый"
+
+#: ../../marketing.rst:32
+msgid "120,120,120"
+msgstr "120,120,120"
+
+#: ../../marketing.rst:32
+msgid "54,46,45,11"
+msgstr "54,46,45,11"
+
+#: ../../marketing.rst:32
+msgid "#787878"
+msgstr "#787878"
+
+#: ../../marketing.rst:32
+msgid "Cool Gray 9 C"
+msgstr "Холодно-серый 9 C"
+
+#: ../../marketing.rst:34
+msgid "Black"
+msgstr "Чёрный"
+
+#: ../../marketing.rst:34
+msgid "17,25,33"
+msgstr "17,25,33"
+
+#: ../../marketing.rst:34
+msgid "82,71,59,75"
+msgstr "82,71,59,75"
+
+#: ../../marketing.rst:34
+msgid "#111921"
+msgstr "#111921"
+
+#: ../../marketing.rst:34
+msgid "Black 6 C"
+msgstr "Чёрный 6 C"
+
+#: ../../marketing.rst:39
+msgid "Design Materials"
+msgstr "Материалы для проекта"
+
+#: ../../marketing.rst:42
+msgid "Brochures"
+msgstr "Брошюры"
+
+#: ../../marketing.rst:44
+msgid ""
+"An attractive brochure about Axe, designed for handing out at conferences "
+"and events. Prepared by community member Essra in 2018 following proposal "
+"sponsorship for the German `Axe Embassy D-A-CH <http://www.axe-"
+"embassy.org>`__."
+msgstr ""
+"Привлекательная брошюра о Axe, предназначенная для раздачи на конференциях "
+"и мероприятиях. Подготовлена участником сообщества Essra в 2018 году в "
+"рамках предложения по спонсированию немецкого `Axe Embassy D-A-CH "
+"<http://www.axe-embassy.org>`__."
+
+#: ../../marketing.rst:49
+msgid ""
+"This design can be translated into your language at `Transifex here "
+"<https://www.transifex.com/axe/axe-graphics/axe-brochurexlsx/>`__. For "
+"more information on translating Axe products on Transifex, see :ref:`here "
+"<translating-axe>`. Please contact leon.white@docs.axerunners.com once translation is "
+"complete to request layout of the completed translation."
+msgstr ""
+"Этот проект может быть переведён на ваш язык на сайте `Transifex here "
+"<https://www.transifex.com/axe/axe-graphics/axe-brochurexlsx/>`__. Для "
+"получения дополнительной информации о переводе продуктов Axe на Transifex "
+"см. :ref:`здесь <translating-axe>`. После завершения перевода пожалуйста "
+"свяжитесь с leon.white@docs.axerunners.com для получения макета оформления завершённого"
+" перевода."
+
+#: ../../marketing.rst:56 ../../marketing.rst:87 ../../marketing.rst:125
+#: ../../marketing.rst:186 ../../marketing.rst:247 ../../marketing.rst:308
+#: ../../marketing.rst:332 ../../marketing.rst:364
+msgid "Language"
+msgstr "Язык"
+
+#: ../../marketing.rst:56 ../../marketing.rst:87 ../../marketing.rst:125
+#: ../../marketing.rst:158 ../../marketing.rst:186 ../../marketing.rst:247
+#: ../../marketing.rst:308 ../../marketing.rst:332 ../../marketing.rst:364
+#: ../../marketing.rst:385 ../../marketing.rst:403
+msgid "Download"
+msgstr "Скачать"
+
+#: ../../marketing.rst:58 ../../marketing.rst:89 ../../marketing.rst:127
+#: ../../marketing.rst:188 ../../marketing.rst:249 ../../marketing.rst:310
+#: ../../marketing.rst:334 ../../marketing.rst:366
+msgid "English"
+msgstr "Английский"
+
+#: ../../marketing.rst:58
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_GB_RZ_2018.pdf>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_GB_RZ_2018.pdf>`__"
+
+#: ../../marketing.rst:60 ../../marketing.rst:97 ../../marketing.rst:206
+#: ../../marketing.rst:264 ../../marketing.rst:368
+msgid "French"
+msgstr "Французский"
+
+#: ../../marketing.rst:60
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_FR_RZ_2018.pdf>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_FR_RZ_2018.pdf>`__"
+
+#: ../../marketing.rst:62 ../../marketing.rst:99 ../../marketing.rst:139
+#: ../../marketing.rst:209 ../../marketing.rst:267 ../../marketing.rst:313
+#: ../../marketing.rst:370
+msgid "German"
+msgstr "Немецкий"
+
+#: ../../marketing.rst:62
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_RZ_2018.pdf>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_RZ_2018.pdf>`__"
+
+#: ../../marketing.rst:64 ../../marketing.rst:101 ../../marketing.rst:227
+#: ../../marketing.rst:282 ../../marketing.rst:350 ../../marketing.rst:372
+msgid "Spanish"
+msgstr "Испанский"
+
+#: ../../marketing.rst:64
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_ES_RZ_2018.pdf>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_ES_RZ_2018.pdf>`__"
+
+#: ../../marketing.rst:66 ../../marketing.rst:103 ../../marketing.rst:148
+#: ../../marketing.rst:285
+msgid "Thai"
+msgstr "Тайский"
+
+#: ../../marketing.rst:66
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_TH_RZ_2018.pdf>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_TH_RZ_2018.pdf>`__"
+
+#: ../../marketing.rst:68 ../../marketing.rst:107 ../../marketing.rst:151
+#: ../../marketing.rst:230 ../../marketing.rst:288
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: ../../marketing.rst:68
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/brochures/AXE-"
+"Broschur_VI_RZ_2018.pdf>`__"
+msgstr ""
+
+#: ../../marketing.rst:73
+msgid "Flyers"
+msgstr "Флаеры"
+
+#: ../../marketing.rst:75
+msgid ""
+"An attractive flyer about Axe, designed to be folded in half and placed on "
+"flat surfaces at conferences and events. Prepared by community member Essra "
+"in 2018 following proposal sponsorship for the German `Axe Embassy D-A-CH "
+"<http://www.axe-embassy.org>`__."
+msgstr ""
+"Привлекательный флаер о Axe, разработанный с возможностью складывания "
+"пополам и размещения на плоских поверхностях во время конференций и "
+"мероприятий. Подготовлен участником сообщества Essra в 2018 году в рамках "
+"предложения по спонсированию немецкого `Axe Embassy D-A-CH <http://www"
+".axe-embassy.org>`__."
+
+#: ../../marketing.rst:80
+msgid ""
+"This design can be translated into your language at `Transifex here "
+"<https://www.transifex.com/axe/axe-graphics/axe-flyerxlsx/>`__. For more "
+"information on translating Axe products on Transifex, see :ref:`here "
+"<translating-axe>`. Please contact leon.white@docs.axerunners.com once translation is "
+"complete to request layout of the completed translation."
+msgstr ""
+"Этот проект может быть переведён на ваш язык на сайте `Transifex по ссылке "
+"<https://www.transifex.com/axe/axe-graphics/axe-flyerxlsx/>`__. Для "
+"получения дополнительной информации о переводе продуктов Axe на Transifex "
+"см. :ref:`здесь <translating-axe>`. После завершения перевода пожалуйста "
+"свяжитесь с leon.white@docs.axerunners.com для получения макета оформления завершённого"
+" перевода."
+
+#: ../../marketing.rst:89
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_GB.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_GB.pdf>`__"
+
+#: ../../marketing.rst:91 ../../marketing.rst:130 ../../marketing.rst:191
+#: ../../marketing.rst:252
+msgid "Arabic"
+msgstr "Арабский"
+
+#: ../../marketing.rst:91
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_AR.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_AR.pdf>`__"
+
+#: ../../marketing.rst:93 ../../marketing.rst:200 ../../marketing.rst:258
+msgid "Chinese (Traditional)"
+msgstr "Китайский (традиционный)"
+
+#: ../../marketing.rst:93
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_ZH_TW.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_ZH_TW.pdf>`__"
+
+#: ../../marketing.rst:95 ../../marketing.rst:136
+msgid "Dutch"
+msgstr "Нидерландский"
+
+#: ../../marketing.rst:95
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_NL.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_NL.pdf>`__"
+
+#: ../../marketing.rst:97
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_FR.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_FR.pdf>`__"
+
+#: ../../marketing.rst:99
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_DE.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_DE.pdf>`__"
+
+#: ../../marketing.rst:101
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_ES.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_ES.pdf>`__"
+
+#: ../../marketing.rst:103
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_TH.pdf>`__"
+msgstr ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_TH.pdf>`__"
+
+#: ../../marketing.rst:105
+msgid "Turkish"
+msgstr ""
+
+#: ../../marketing.rst:105
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_TR.pdf>`__"
+msgstr ""
+
+#: ../../marketing.rst:107
+msgid ""
+"`PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/flyers/Flyer_DINlang_AXE_2018_VI.pdf>`__"
+msgstr ""
+
+#: ../../marketing.rst:112
+msgid "Handouts"
+msgstr "Рекламные листовки"
+
+#: ../../marketing.rst:114
+msgid ""
+"This handout is ideal for dual-sided printing as a handout for conferences. "
+"The current version is **v3.1**; previous versions are available below."
+msgstr ""
+"Эта листовка идеально подходит для двусторонней печати в качестве "
+"раздаточного материала для конференций. Текущей версией является **v3.1**; "
+"предыдущие версии доступны ниже."
+
+#: ../../marketing.rst:118
+msgid ""
+"This design can be translated into your language at `Transifex here "
+"<https://www.transifex.com/axe/axe-graphics/axe-handout-v30txt/>`__. For "
+"more information on translating Axe products on Transifex, see :ref:`here "
+"<translating-axe>`. Please contact leon.white@docs.axerunners.com once translation is "
+"complete to request layout of the completed translation."
+msgstr ""
+"Этот проект может быть переведён на ваш язык на сайте `Transifex по ссылке "
+"<https://www.transifex.com/axe/axe-graphics/axe-handout-v30txt/>`__. Для "
+"получения дополнительной информации о переводе продуктов Axe на Transifex "
+"см. :ref:`здесь <translating-axe>`. После завершения перевода пожалуйста "
+"свяжитесь с leon.white@docs.axerunners.com для получения макета оформления завершённого"
+" перевода."
+
+#: ../../marketing.rst:127
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-EN.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-EN.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-EN.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-EN.docx>`__"
+
+#: ../../marketing.rst:130
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-AR.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-AR.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-AR.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-AR.docx>`__"
+
+#: ../../marketing.rst:133 ../../marketing.rst:203 ../../marketing.rst:261
+msgid "Czech"
+msgstr "Чешский"
+
+#: ../../marketing.rst:133
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-CS.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-CS.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-CS.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-CS.docx>`__"
+
+#: ../../marketing.rst:136
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-NL.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-NL.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-NL.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-NL.docx>`__"
+
+#: ../../marketing.rst:139
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-DE.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-DE.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-DE.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-DE.docx>`__"
+
+#: ../../marketing.rst:142 ../../marketing.rst:221 ../../marketing.rst:276
+#: ../../marketing.rst:346
+msgid "Russian"
+msgstr "Русский"
+
+#: ../../marketing.rst:142
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-RU.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-RU.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-RU.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-RU.docx>`__"
+
+#: ../../marketing.rst:145 ../../marketing.rst:224 ../../marketing.rst:279
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: ../../marketing.rst:145
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-SK.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-SK.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-SK.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-SK.docx>`__"
+
+#: ../../marketing.rst:148
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-TH.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-TH.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-TH.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-TH.docx>`__"
+
+#: ../../marketing.rst:151
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-VI.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-VI.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-VI.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v3.1-VI.docx>`__"
+
+#: ../../marketing.rst:155
+msgid "Previous versions (English only):"
+msgstr "Предыдущие версии (только английский):"
+
+#: ../../marketing.rst:158
+msgid "Version"
+msgstr "Версия"
+
+#: ../../marketing.rst:160
+msgid "2.0"
+msgstr "2.0"
+
+#: ../../marketing.rst:160
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v2.0.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v2.0.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v2.0.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v2.0.docx>`__"
+
+#: ../../marketing.rst:163
+msgid "1.0"
+msgstr "1.0"
+
+#: ../../marketing.rst:163
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v1.0.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v1.0.docx>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v1.0.pdf>`__ `DOCX "
+"<https://github.com/axerunners/docs/raw/master/binary/handouts/Axe-"
+"Handout-v1.0.docx>`__"
+
+#: ../../marketing.rst:169
+msgid "Infographics"
+msgstr "Инфографики"
+
+#: ../../marketing.rst:172
+msgid "The Axe Difference"
+msgstr "Отличия Axe"
+
+#: ../../marketing.rst:174
+msgid ""
+"This engaging infographic details the improvements the Axe network has "
+"delivered by building on the Bitcoin code base. Based on an original design "
+"by community member J. Arroyo."
+msgstr ""
+"Эта захватывающая инфографика подробно описывает улучшения, выполненные "
+"сетью Axe на базе кода Биткойна. За основу взят оригинальный дизайн "
+"участника сообщества Дж. Арройо."
+
+#: ../../marketing.rst:178
+msgid ""
+"This design can be translated into your language at `Transifex here "
+"<https://www.transifex.com/axe/axe-graphics/the-axe- differencexlsx/>`__."
+" For more information on translating Axe products on Transifex, see "
+":ref:`here <translating-axe>`. Please contact leon.white@docs.axerunners.com once "
+"translation is complete to request layout of the completed translation."
+msgstr ""
+"Этот проект может быть переведён на ваш язык на сайте `Transifex по ссылке "
+"<https://www.transifex.com/axe/axe-graphics/the-axe- differencexlsx/>`__."
+" Для получения дополнительной информации о переводе продуктов Axe на "
+"Transifex см. :ref:`здесь <translating-axe>`. После завершения перевода "
+"пожалуйста свяжитесь с leon.white@docs.axerunners.com для получения макета оформления "
+"завершённого перевода."
+
+#: ../../marketing.rst:188
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-EN.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-EN.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-EN.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-EN.png>`__"
+
+#: ../../marketing.rst:191
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-AR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-AR.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-AR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-AR.png>`__"
+
+#: ../../marketing.rst:194 ../../marketing.rst:255
+msgid "Bulgarian"
+msgstr "Болгарский"
+
+#: ../../marketing.rst:194
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-BG.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-BG.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-BG.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-BG.png>`__"
+
+#: ../../marketing.rst:197 ../../marketing.rst:338
+msgid "Chinese (Simplified)"
+msgstr "Китайский (Упрощённое письмо)"
+
+#: ../../marketing.rst:197
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-ZH-CN.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-ZH-CN.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-ZH-CN.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-ZH-CN.png>`__"
+
+#: ../../marketing.rst:200
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-ZH-TW.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-ZH-TW.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-ZH-TW.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-ZH-TW.png>`__"
+
+#: ../../marketing.rst:203
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-CS.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-CS.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-CS.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-CS.png>`__"
+
+#: ../../marketing.rst:206
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-FR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-FR.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-FR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-FR.png>`__"
+
+#: ../../marketing.rst:209
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-DE.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-DE.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-DE.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-DE.png>`__"
+
+#: ../../marketing.rst:212 ../../marketing.rst:270
+msgid "Greek"
+msgstr "Греческий"
+
+#: ../../marketing.rst:212
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-EL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-EL.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-EL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-EL.png>`__"
+
+#: ../../marketing.rst:215
+msgid "Italian"
+msgstr "Итальянский"
+
+#: ../../marketing.rst:215
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-IT.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-IT.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-IT.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-IT.png>`__"
+
+#: ../../marketing.rst:218 ../../marketing.rst:273
+msgid "Polish"
+msgstr "Польский"
+
+#: ../../marketing.rst:218
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-PL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-PL.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-PL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-PL.png>`__"
+
+#: ../../marketing.rst:221
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-RU.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-RU.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-RU.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-RU.png>`__"
+
+#: ../../marketing.rst:224
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-SK.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-SK.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-SK.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-SK.png>`__"
+
+#: ../../marketing.rst:227
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-ES.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-ES.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-ES.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-ES.png>`__"
+
+#: ../../marketing.rst:230
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-VI.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-VI.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics/The-"
+"Axe-Difference-VI.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics/The-Axe-"
+"Difference-VI.png>`__"
+
+#: ../../marketing.rst:235
+msgid "Ten Misconceptions About Axe"
+msgstr "Десять заблуждений относительно Axe"
+
+#: ../../marketing.rst:237
+msgid ""
+"This infographic refutes many common yet uninformed arguments made against "
+"Axe. Based on an original design by community member AxeDude."
+msgstr ""
+"Эта инфографика опровергает многие распространенные, но необоснованные "
+"доводы против Axe. За основу взят оригинальный дизайн участника сообщества "
+"AxeDude."
+
+#: ../../marketing.rst:240
+msgid ""
+"This design can be translated into your language at `Transifex here "
+"<https://www.transifex.com/axe/axe-graphics/misconceptionsxlsx/>`__. For "
+"more information on translating Axe products on Transifex, see :ref:`here "
+"<translating-axe>`. Please contact leon.white@docs.axerunners.com once translation is "
+"complete to request layout of the completed translation."
+msgstr ""
+"Этот проект может быть переведён на ваш язык на сайте `Transifex по ссылке "
+"<https://www.transifex.com/axe/axe-graphics/misconceptionsxlsx/>`__. Для "
+"получения дополнительной информации о переводе продуктов Axe на Transifex "
+"см. :ref:`здесь <translating-axe>`. После завершения перевода пожалуйста "
+"свяжитесь с leon.white@docs.axerunners.com для получения макета оформления завершённого"
+" перевода."
+
+#: ../../marketing.rst:249
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EN.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EN.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EN.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EN.png>`__"
+
+#: ../../marketing.rst:252
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-AR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-AR.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-AR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-AR.png>`__"
+
+#: ../../marketing.rst:255
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-BG.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-BG.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-BG.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-BG.png>`__"
+
+#: ../../marketing.rst:258
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ZH-TW.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ZH-TW.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ZH-TW.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ZH-TW.png>`__"
+
+#: ../../marketing.rst:261
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-CS.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-CS.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-CS.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-CS.png>`__"
+
+#: ../../marketing.rst:264
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-FR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-FR.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-FR.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-FR.png>`__"
+
+#: ../../marketing.rst:267
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-DE.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-DE.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-DE.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-DE.png>`__"
+
+#: ../../marketing.rst:270
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EL.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-EL.png>`__"
+
+#: ../../marketing.rst:273
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-PL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-PL.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-PL.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-PL.png>`__"
+
+#: ../../marketing.rst:276
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-RU.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-RU.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-RU.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-RU.png>`__"
+
+#: ../../marketing.rst:279
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-SK.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-SK.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-SK.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-SK.png>`__"
+
+#: ../../marketing.rst:282
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ES.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ES.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ES.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-ES.png>`__"
+
+#: ../../marketing.rst:285
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-TH.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-TH.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-TH.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-TH.png>`__"
+
+#: ../../marketing.rst:288
+msgid ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-VI.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-VI.png>`__"
+msgstr ""
+"`PDF <https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-VI.pdf>`__ `PNG "
+"<https://github.com/axerunners/docs/raw/master/binary/infographics"
+"/Misconceptions-VI.png>`__"
+
+#: ../../marketing.rst:294
+msgid "Presentations"
+msgstr "Презентации"
+
+#: ../../marketing.rst:297
+msgid "Axe Meetup"
+msgstr "Митап по Axe"
+
+#: ../../marketing.rst:302
+msgid ""
+"An attractive presentation about Axe, designed to guide the audience "
+"through the basics of cryptocurrency and advantages of Axe. Prepared by "
+"community member Essra in 2018 following proposal sponsorship for the German"
+" `Axe Embassy D-A-CH <http://www.axe-embassy.org>`__."
+msgstr ""
+"Привлекательная презентация о Axe, предназначенная для ознакомления "
+"аудитории с основами криптовалют и преимуществами Axe. Подготовлена "
+"участником сообщества Essra в 2018 году в рамках предложения по "
+"спонсированию немецкого `Axe Embassy D-A-CH <http://www.axe-"
+"embassy.org>`__."
+
+#: ../../marketing.rst:310
+msgid ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_EN.pptx>`__"
+" `PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_EN.pdf>`__"
+msgstr ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_EN.pptx>`__"
+" `PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_EN.pdf>`__"
+
+#: ../../marketing.rst:313
+msgid ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_DE.pptx>`__"
+" `PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_DE.pdf>`__"
+msgstr ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_DE.pptx>`__"
+" `PDF "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe_Meetup_Presentation_DE.pdf>`__"
+
+#: ../../marketing.rst:319
+msgid "Simple presentation"
+msgstr "Простая презентация"
+
+#: ../../marketing.rst:324
+msgid ""
+"A simple presentation about Axe, available in 5 languages, 3 aspect ratios "
+"and 2 formats. Simply click the links to download. Note that the `Noto Sans "
+"UI <https://github.com/axerunners/docs/raw/master/binary/fonts/N "
+"oto_Sans_UI.zip>`_ font must be installed if using the PowerPoint files."
+msgstr ""
+"Простая презентация о Axe доступна на 5 языках, в 3 разных соотношениях "
+"сторон и 2 форматах. Просто нажмите на ссылки для загрузки. Обратите "
+"внимание, что для использования файлов PowerPoint должен быть установлен "
+"шрифт `Noto Sans UI "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/N "
+"oto_Sans_UI.zip>`_."
+
+#: ../../marketing.rst:329
+msgid ""
+"`Browse all files on Dropbox "
+"<https://www.dropbox.com/sh/12w9zz8mr0t7kkq/AABySN1LrmAPIO98gZxZKk7_a?dl=0>`__"
+msgstr ""
+"`Все файлы доступны на Dropbox "
+"<https://www.dropbox.com/sh/12w9zz8mr0t7kkq/AABySN1LrmAPIO98gZxZKk7_a?dl=0>`__"
+
+#: ../../marketing.rst:332
+msgid "Format"
+msgstr "Формат"
+
+#: ../../marketing.rst:334 ../../marketing.rst:338 ../../marketing.rst:342
+#: ../../marketing.rst:346 ../../marketing.rst:350
+msgid "PDF"
+msgstr "PDF"
+
+#: ../../marketing.rst:334
+msgid ""
+"`16:9 "
+"<https://drive.google.com/file/d/0B8wg_voNeTcxWm15dmdPODcxNEk/view?usp=sharing>`__"
+" `4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxUUQ5TnA4ZWx0eHM>`__ `A4"
+" <https://drive.google.com/open?id=0B8wg_voNeTcxSTR0aWFpZE5FVEE>`__"
+msgstr ""
+"`16:9 "
+"<https://drive.google.com/file/d/0B8wg_voNeTcxWm15dmdPODcxNEk/view?usp=sharing>`__"
+" `4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxUUQ5TnA4ZWx0eHM>`__ `A4"
+" <https://drive.google.com/open?id=0B8wg_voNeTcxSTR0aWFpZE5FVEE>`__"
+
+#: ../../marketing.rst:336 ../../marketing.rst:340 ../../marketing.rst:344
+#: ../../marketing.rst:348 ../../marketing.rst:352
+msgid "PPTX"
+msgstr "PPTX"
+
+#: ../../marketing.rst:336
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxcEJ6UGpLdXhtUHc>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxWE1tWFNxU0ZnX2c>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxeDl0VUhFUjgySHc>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxcEJ6UGpLdXhtUHc>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxWE1tWFNxU0ZnX2c>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxeDl0VUhFUjgySHc>`__"
+
+#: ../../marketing.rst:338
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxcnZaRFpEczlDVk0>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxWjlaamJscGxZa3M>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxVTdBOHZwM0ptNFE>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxcnZaRFpEczlDVk0>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxWjlaamJscGxZa3M>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxVTdBOHZwM0ptNFE>`__"
+
+#: ../../marketing.rst:340
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxakw3YllwZlg4QTA>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxQW5pcm5fLWpLd3M>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxOEpNWURJUVZHSGM>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxakw3YllwZlg4QTA>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxQW5pcm5fLWpLd3M>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxOEpNWURJUVZHSGM>`__"
+
+#: ../../marketing.rst:342
+msgid "Portuguese"
+msgstr "Португальский"
+
+#: ../../marketing.rst:342
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxZ1A0RkNNRm9UemM>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxa3paSWc1SDRyNTA>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxODBvZjZFSjlBSU0>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxZ1A0RkNNRm9UemM>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxa3paSWc1SDRyNTA>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxODBvZjZFSjlBSU0>`__"
+
+#: ../../marketing.rst:344
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxaGVaMGE5YzhQczA>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxUkVndWo5cDE0R28>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxNXJCMGxmcW5sVUk>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxaGVaMGE5YzhQczA>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxUkVndWo5cDE0R28>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxNXJCMGxmcW5sVUk>`__"
+
+#: ../../marketing.rst:346
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxNEw3MDA3YzdXWFE>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxTXhWOVdseldOcUU>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxV3VwSjNzVER5b2s>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxNEw3MDA3YzdXWFE>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxTXhWOVdseldOcUU>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxV3VwSjNzVER5b2s>`__"
+
+#: ../../marketing.rst:348
+msgid ""
+"`16:9 <https://www.dropbox.com/s/8p5vlc8hv7ip0cl/AXE_ru_16_9.pptx?dl=0>`__ "
+"`4:3 <https://www.dropbox.com/s/r675o6drfkyn2nd/AXE_ru_4_3.pptx?dl=0>`__ "
+"`A4 <https://www.dropbox.com/s/9mfo28ulw1sqsin/AXE_ru_A4.pptx?dl=0>`__"
+msgstr ""
+"`16:9 <https://www.dropbox.com/s/8p5vlc8hv7ip0cl/AXE_ru_16_9.pptx?dl=0>`__ "
+"`4:3 <https://www.dropbox.com/s/r675o6drfkyn2nd/AXE_ru_4_3.pptx?dl=0>`__ "
+"`A4 <https://www.dropbox.com/s/9mfo28ulw1sqsin/AXE_ru_A4.pptx?dl=0>`__"
+
+#: ../../marketing.rst:350
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxbDZjTXZXQzlBOFE>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxZktReG9JTU9vckU>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxQmJhcUpFUzQxTmM>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxbDZjTXZXQzlBOFE>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxZktReG9JTU9vckU>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxQmJhcUpFUzQxTmM>`__"
+
+#: ../../marketing.rst:352
+msgid ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxSUVCdElKa2FoRVE>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxbWVVWmQ4NGpNQ1k>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxaEY0ME93a2ludTQ>`__"
+msgstr ""
+"`16:9 <https://drive.google.com/open?id=0B8wg_voNeTcxSUVCdElKa2FoRVE>`__ "
+"`4:3 <https://drive.google.com/open?id=0B8wg_voNeTcxbWVVWmQ4NGpNQ1k>`__ `A4 "
+"<https://drive.google.com/open?id=0B8wg_voNeTcxaEY0ME93a2ludTQ>`__"
+
+#: ../../marketing.rst:357
+msgid "Axe 101 Presentation"
+msgstr "Презентация по Axe 101"
+
+#: ../../marketing.rst:359
+msgid ""
+"Prepared by community member Essra in 2017 following proposal sponsorship "
+"for the German `Axe Embassy D-A-CH <http://www.axe-embassy.org>`__."
+msgstr ""
+"Подготовлена участником сообщества Essra в 2017 году в рамках предложения по"
+" спонсированию немецкого `Axe Embassy D-A-CH <http://www.axe-"
+"embassy.org>`__."
+
+#: ../../marketing.rst:366
+msgid ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-EN.pptx>`__"
+msgstr ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-EN.pptx>`__"
+
+#: ../../marketing.rst:368
+msgid ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-FR.pptx>`__"
+msgstr ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-FR.pptx>`__"
+
+#: ../../marketing.rst:370
+msgid ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-DE.pptx>`__"
+msgstr ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-DE.pptx>`__"
+
+#: ../../marketing.rst:372
+msgid ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-ES.pptx>`__"
+msgstr ""
+"`PPTX "
+"<https://github.com/axerunners/docs/raw/master/binary/presentations/Axe-101-ES.pptx>`__"
+
+#: ../../marketing.rst:377
+msgid "Business Templates"
+msgstr "Шаблоны для бизнеса"
+
+#: ../../marketing.rst:380
+msgid "Document templates"
+msgstr "Шаблоны документов"
+
+#: ../../marketing.rst:382
+msgid "Official Axe document templates."
+msgstr "Официальные шаблоны документов Axe."
+
+#: ../../marketing.rst:385 ../../marketing.rst:403 ../../marketing.rst:419
+#: ../../marketing.rst:444
+msgid "Name"
+msgstr "Наименование"
+
+#: ../../marketing.rst:387
+msgid "Word document with cover page and paragraph styles"
+msgstr "Документ Word с титульным листом и стилями разделов"
+
+#: ../../marketing.rst:387
+msgid ""
+"`DOCX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Word-Document.docx>`__"
+msgstr ""
+"`DOCX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Word-Document.docx>`__"
+
+#: ../../marketing.rst:389
+msgid "Word template with blue watermark"
+msgstr "Шаблон Word с синим водяным знаком"
+
+#: ../../marketing.rst:389
+msgid ""
+"`DOTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Word-Document-Watermark-Blue.dotx>`__"
+msgstr ""
+"`DOTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Word-Document-Watermark-Blue.dotx>`__"
+
+#: ../../marketing.rst:391
+msgid "Word template with grey watermark"
+msgstr "Шаблон Word с серым водяным знаком"
+
+#: ../../marketing.rst:391
+msgid ""
+"`DOTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Word-Document-Watermark-Grey.dotx>`__"
+msgstr ""
+"`DOTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Word-Document-Watermark-Grey.dotx>`__"
+
+#: ../../marketing.rst:395
+msgid "Presentation templates"
+msgstr "Шаблоны презентаций"
+
+#: ../../marketing.rst:397
+msgid ""
+"Official Axe presentation templates. We strongly recommend using predefined"
+" presentation slide layouts (check `here <https://support.office.com/en-"
+"us/article/Apply-or-change-a-slide- layout-158E6DBA-E53E-479B-A6FC-"
+"CAAB72609689>`_ for instructions)."
+msgstr ""
+"Официальные шаблоны презентаций Axe. Мы настоятельно рекомендуем "
+"использовать предопределённые макеты слайдов презентаций (для получения "
+"инструкций см. `ссылку <https://support.office.com/en-us/article/Apply-or-"
+"change-a-slide- layout-158E6DBA-E53E-479B-A6FC-CAAB72609689>`_)."
+
+#: ../../marketing.rst:405
+msgid "PowerPoint template with simple blue and white slides"
+msgstr "Шаблон PowerPoint с простыми синими и белыми слайдами"
+
+#: ../../marketing.rst:405
+msgid ""
+"`POTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Presentation-Template-Empty.potx>`__"
+msgstr ""
+"`POTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Presentation-Template-Empty.potx>`__"
+
+#: ../../marketing.rst:407
+msgid "PowerPoint template with sample layouts, styles and shapes"
+msgstr "Шаблон PowerPoint с образцами макетов, стилей и форм"
+
+#: ../../marketing.rst:407
+msgid ""
+"`POTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Presentation-Template-Sample-Slides.potx>`__"
+msgstr ""
+"`POTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Presentation-Template-Sample-Slides.potx>`__"
+
+#: ../../marketing.rst:409
+msgid "Presentation icons"
+msgstr "Иконки презентаций"
+
+#: ../../marketing.rst:409
+msgid ""
+"`PPTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Icons.pptx>`__"
+msgstr ""
+"`PPTX <https://github.com/axerunners/docs/raw/master/binary/templates/Axe-"
+"Icons.pptx>`__"
+
+#: ../../marketing.rst:413
+msgid "Cards"
+msgstr "Карточки"
+
+#: ../../marketing.rst:415
+msgid ""
+"High resolution cards for printing. Great for use as the back of business "
+"cards, or to hand out to explain and promote Axe."
+msgstr ""
+"Карточки с высоким разрешением для печати. Отлично подходят для "
+"использования в качестве задней части визитных карточек или в качестве "
+"раздаточного материала с пояснениями по Axe и для его продвижения."
+
+#: ../../marketing.rst:419 ../../marketing.rst:444
+msgid "Download version"
+msgstr "Версия загрузки"
+
+#: ../../marketing.rst:421
+msgid "Handout Card"
+msgstr "Рекламная карточка"
+
+#: ../../marketing.rst:421
+msgid ""
+"`English <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-EN.pdf>`_"
+msgstr ""
+"`Английская <https://github.com/axerunners/docs/raw/master/binary/cards"
+"/Handout-Card-EN.pdf>`_"
+
+#: ../../marketing.rst:423
+msgid ""
+"`Arabic <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-AR.pdf>`_"
+msgstr ""
+"`Арабская <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-AR.pdf>`_"
+
+#: ../../marketing.rst:425
+msgid ""
+"`Chinese (Simplified) "
+"<https://github.com/axerunners/docs/raw/master/binary/cards/Handout-Card-"
+"ZH.pdf>`_"
+msgstr ""
+"`Китайская (Упрощённое письмо) "
+"<https://github.com/axerunners/docs/raw/master/binary/cards/Handout-Card-"
+"ZH.pdf>`_"
+
+#: ../../marketing.rst:427
+msgid ""
+"`Czech <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-CS.pdf>`_"
+msgstr ""
+"`Чешская <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-CS.pdf>`_"
+
+#: ../../marketing.rst:429
+msgid ""
+"`French <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-FR.pdf>`_"
+msgstr ""
+"`Французская <https://github.com/axerunners/docs/raw/master/binary/cards"
+"/Handout-Card-FR.pdf>`_"
+
+#: ../../marketing.rst:431
+msgid ""
+"`Polish <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-PL.pdf>`_"
+msgstr ""
+"`Польская <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-PL.pdf>`_"
+
+#: ../../marketing.rst:433
+msgid ""
+"`Portuguese <https://github.com/axerunners/docs/raw/master/binary/cards"
+"/Handout-Card-PT.pdf>`_"
+msgstr ""
+"`Португальская <https://github.com/axerunners/docs/raw/master/binary/cards"
+"/Handout-Card-PT.pdf>`_"
+
+#: ../../marketing.rst:435
+msgid ""
+"`Russian <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-RU.pdf>`_"
+msgstr ""
+"`Русская <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-RU.pdf>`_"
+
+#: ../../marketing.rst:437
+msgid ""
+"`Spanish <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-ES.pdf>`_"
+msgstr ""
+"`Испанская <https://github.com/axerunners/docs/raw/master/binary/cards/Handout-"
+"Card-ES.pdf>`_"
+
+#: ../../marketing.rst:441
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: ../../marketing.rst:446
+msgid "Calibri"
+msgstr "Calibri"
+
+#: ../../marketing.rst:446
+msgid ""
+"`6.20 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Calibri.zip>`_"
+msgstr ""
+"`6.20 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Calibri.zip>`_"
+
+#: ../../marketing.rst:448
+msgid "Gunship Bold Italic"
+msgstr "Gunship Bold Italic"
+
+#: ../../marketing.rst:448
+msgid ""
+"`5.00 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/gunshipboldital.ttf>`_"
+msgstr ""
+"`5.00 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/gunshipboldital.ttf>`_"
+
+#: ../../marketing.rst:450
+msgid "Magistral ATT"
+msgstr "Magistral ATT"
+
+#: ../../marketing.rst:450
+msgid ""
+"`1.00 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Magistral_ATT.zip>`_"
+msgstr ""
+"`1.00 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Magistral_ATT.zip>`_"
+
+#: ../../marketing.rst:452
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: ../../marketing.rst:452
+msgid ""
+"`7.20 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Montserrat.zip>`_"
+msgstr ""
+"`7.20 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Montserrat.zip>`_"
+
+#: ../../marketing.rst:454
+msgid "Noto Sans UI"
+msgstr "Noto Sans UI"
+
+#: ../../marketing.rst:454
+msgid ""
+"`1.06 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Noto_Sans_UI.zip>`_"
+msgstr ""
+"`1.06 "
+"<https://github.com/axerunners/docs/raw/master/binary/fonts/Noto_Sans_UI.zip>`_"

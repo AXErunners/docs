@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# oscar junior <geleira@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-02 06:45+0000\n"
+"Last-Translator: oscar junior <geleira@gmail.com>, 2018\n"
+"Language-Team: Portuguese (https://www.transifex.com/axe/teams/37570/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../introduction/about.rst:1
+msgid "Introduction to the Axe cryptocurrency and links to further reading"
+msgstr "Introdução a criptomoeda Axe e links para leitura adicional"
+
+#: ../../introduction/about.rst:1
+msgid ""
+"axe, cryptocurrency, videos, documentation, roadmap, governance, funding, "
+"payments, whitepaper, roadmap"
+msgstr ""
+"axe, criptomoeda, videos, documentação, roadmap, governança, financiamento,"
+" pagamentos, whitepaper, roteiro"
+
+#: ../../introduction/about.rst:9
+msgid "What is Axe?"
+msgstr "O que é o Axe?"
+
+#: ../../introduction/about.rst:11
+msgid ""
+"Axe aims to be the most user-friendly and scalable payments-focused "
+"cryptocurrency in the world. The Axe network features :ref:`instant "
+"transaction confirmation <instantsend>`, double spend protection, "
+":ref:`anonymity <privatesend>` equal to that of physical cash, a :ref:`self-"
+"governing, self-funding model <decentralized-governance>` driven by "
+":ref:`incentivized full nodes <masternode-network>` and a `clear roadmap "
+"<https://github.com/axerunners/axe-roadmap>`_ for on-chain scaling to up to "
+"400MB blocks using custom-developed open source hardware. While Axe is "
+"based on Bitcoin and compatible with many key components of the Bitcoin "
+"ecosystem, its two-tier network structure offers significant improvements in"
+" transaction speed, anonymity and governance. This section of the "
+"documentation describes these and many more key features that set Axe apart"
+" in the blockchain economy."
+msgstr ""
+"O Axe pretende ser a criptomoeda com foco em pagamentos mais fácil de usar "
+"e escalável do mundo. A rede do Axe apresenta :ref:`confirmação instantânea"
+" de transação <instantsend>`, proteção contra gasto duplo, :ref:`anonimato "
+"<privatesend>` igual ao de dinheiro físico, a :ref:`modelo auta-governança e"
+" de auto-financiamento <decentralized-governance>` impulsionado por "
+":ref:`nós incentivados <masternode-network>` e um `roteiro claro "
+"<https://github.com/axerunners/axe-roadmap>`_ para escalonamento on-chain para"
+" blocos de até 400MB usando hardware de código aberto desenvolvido sob "
+"medida. Embora o Axe seja baseado no Bitcoin e compatível com muitos "
+"componentes-chave do ecossistema Bitcoin, sua estrutura de rede de dois "
+"níveis oferece melhorias significativas na velocidade de transação, "
+"anonimato e governança. Esta seção da documentação descreve esses e muitos "
+"outros recursos importantes que diferenciam o Axe na economia de "
+"blockchain."
+
+#: ../../introduction/about.rst:26
+msgid ""
+"The videos, links and documentation collected here can help you get started,"
+" or use the table of contents on the left to find a specific topic of "
+"interest. New users may be interested in getting started with an appropriate"
+" :ref:`wallet <wallets>`, learning about :ref:`how to buy Axe <how-to-buy>`"
+" and :ref:`where to spend Axe <earning-spending>`, learning about "
+":ref:`safety <safety>` or joining one of the many :ref:`Axe community sites"
+" <information>`."
+msgstr ""
+"Os vídeos, links e documentação coletados aqui podem ajudá-lo a começar ou "
+"usar o sumário à esquerda para encontrar um tópico específico de interesse. "
+"Novos usuários podem estar interessados em começar com um apropriado "
+":ref:`wallet <wallets>`, aprendendo sobre :ref:`como comprar Axe <how-to-"
+"buy>` e :ref:`onde gastar Axe <earning-spending>`, aprendendo sobre "
+":ref:`segurança <safety>` ou entrando rm um dos muitos :ref:`Sites da "
+"comunidade Axe <information>`."
+
+#: ../../introduction/about.rst:36
+msgid "Axe Videos"
+msgstr "Axe Videos"
+
+#: ../../introduction/about.rst:39
+msgid "Axe School"
+msgstr "Escola Axe"
+
+#: ../../introduction/about.rst:41
+msgid ""
+"Axe School is a six-part video series produced by Amanda B. Johnson. It "
+"explains Axe from a beginner's level up to descriptions of the more "
+"advanced features."
+msgstr ""
+"Escola Axe é uma série de vídeos em seis partes produzida por Amanda B. "
+"Johnson. Ela explica Axe desde o nível de um iniciante até as descrições "
+"dos recursos mais avançados."
+
+#: ../../introduction/about.rst:53
+msgid "Axe 101"
+msgstr "Axe 101"
+
+#: ../../introduction/about.rst:55
+msgid ""
+"Axe 101 is an eight-part video series produced by Aaron Koenig. It covers "
+"unique features and functions only available on the Axe network, and is "
+"available in `English "
+"<https://www.youtube.com/watch?v=DzH7cMbZQHI&list=PLiFMZOlhgsYIDP2V2XsuTFZu1C1sV5ohr>`__,"
+" `French "
+"<https://www.youtube.com/watch?v=CMGXChAR9f4&list=PLiFMZOlhgsYJvvpWN9xGSxwIVejOWVXKZ>`__,"
+" `German "
+"<https://www.youtube.com/watch?v=0YyDGu17IE4&list=PLiFMZOlhgsYKrbanA3ng7oh2aNRh7D98V>`__,"
+" `Spanish "
+"<https://www.youtube.com/watch?v=AwqrG_K8nzw&list=PLiFMZOlhgsYK8P_NViNEJKCzADzdT8k0R>`__"
+" and `Russian "
+"<https://www.youtube.com/watch?v=cAPgPUMVwzo&list=PLiFMZOlhgsYKBYORZIReix5hejKj08nUk>`__."
+msgstr ""
+"Axe 101 é uma série de vídeos de oito partes produzido por Aaron Koenig. "
+"Ele cobre recursos e funções exclusivas disponíveis apenas na rede do Axe e"
+" está disponível em `Ingles "
+"<https://www.youtube.com/watch?v=DzH7cMbZQHI&list=PLiFMZOlhgsYIDP2V2XsuTFZu1C1sV5ohr>`__,"
+" `Frances "
+"<https://www.youtube.com/watch?v=CMGXChAR9f4&list=PLiFMZOlhgsYJvvpWN9xGSxwIVejOWVXKZ>`__,"
+" `Alemão "
+"<https://www.youtube.com/watch?v=0YyDGu17IE4&list=PLiFMZOlhgsYKrbanA3ng7oh2aNRh7D98V>`__,"
+" `Espanhol "
+"<https://www.youtube.com/watch?v=AwqrG_K8nzw&list=PLiFMZOlhgsYK8P_NViNEJKCzADzdT8k0R>`__"
+" e `Russo "
+"<https://www.youtube.com/watch?v=cAPgPUMVwzo&list=PLiFMZOlhgsYKBYORZIReix5hejKj08nUk>`__."
+
+#: ../../introduction/about.rst:74
+msgid "Whitepaper"
+msgstr "Whitepaper"
+
+#: ../../introduction/about.rst:76
+msgid ""
+"The Axe Whitepaper describes the unique value proposition and key "
+"innovations in Axe from an academic and theoretical perspective. It is a "
+"living document maintained as a GitHub wiki, receiving ongoing updates and "
+"frequent community translations as new features are implemented. Various "
+"other whitepapers describing particular features in additional detail and "
+"(for historical reasons) the original whitepaper are available for download "
+"as PDF files."
+msgstr ""
+"O Whitepaper do Axe descreve a proposta de valor exclusiva e as principais "
+"inovações no Axe, de uma perspectiva acadêmica e teórica. É um documento "
+"vivo mantido como um wiki do GitHub, recebendo atualizações contínuas e "
+"traduções frequentes da comunidade, à medida que novos recursos são "
+"implementados. Vários outros documentos técnicos descrevendo características"
+" particulares com detalhes adicionais e (por razões históricas) o documento "
+"técnico original está disponível para download como arquivos PDF."
+
+#: ../../introduction/about.rst:84
+msgid ""
+"`Latest whitepaper and official translations "
+"<https://github.com/axerunners/axe/wiki/Whitepaper>`_"
+msgstr ""
+"`Último whitepaper e traduções oficiais "
+"<https://github.com/axerunners/axe/wiki/Whitepaper>`_"
+
+#: ../../introduction/about.rst:85
+msgid ""
+"`PDF whitepaper "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20V2.pdf>`_"
+msgstr ""
+"`PDF whitepaper "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20V2.pdf>`_"
+
+#: ../../introduction/about.rst:86
+msgid ""
+"`Original Darkcoin whitepaper (PDF) "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Darkcoin.pdf>`_"
+msgstr ""
+"`Original Darkcoin whitepaper (PDF) "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Darkcoin.pdf>`_"
+
+#: ../../introduction/about.rst:87
+msgid ""
+"`InstantSend whitepaper (PDF) "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_"
+msgstr ""
+"`InstantSend whitepaper (PDF) "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_"
+
+#: ../../introduction/about.rst:90
+msgid "Roadmap"
+msgstr "Cronograma"
+
+#: ../../introduction/about.rst:92
+msgid ""
+"The Axe Roadmap sets out delivery milestones for future releases of Axe "
+"and includes specific technical details describing how the development team "
+"plans to realise each challenge. Like the Whitepaper, it is versioned and "
+"maintained as a project on GitHub."
+msgstr ""
+"O cronograma do Axe define os marcos de entrega para futuras versões do "
+"Axe e inclui detalhes técnicos específicos que descrevem como a equipe de "
+"desenvolvimento planeja realizar cada desafio. Como o Whitepaper, ele é "
+"versionado e mantido como um projeto no GitHub."
+
+#: ../../introduction/about.rst:97
+msgid "`Axe Roadmap <https://github.com/axerunners/axe-roadmap>`_"
+msgstr "`Axe Roadmap <https://github.com/axerunners/axe-roadmap>`_"

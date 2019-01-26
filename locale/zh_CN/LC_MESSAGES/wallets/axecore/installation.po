@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Alex.ys <silvershark.ys@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Last-Translator: Alex.ys <silvershark.ys@gmail.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/axe/teams/37570/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid ""
+"How to download and install the Axe Core wallet. Compilation guide also "
+"available"
+msgstr "如何下载和安装Axe Core钱包。也提供编译指南"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid "axe, core, wallet, linux, windows, macos, installation, compile"
+msgstr "axe，core，钱包，linux，windows，macos，安装，编译"
+
+#: ../../wallets/axecore/installation.rst:9
+msgid "Installation"
+msgstr "安装"
+
+#: ../../wallets/axecore/installation.rst:11
+msgid ""
+"Installing Axe Core is as simple as going to https://www.axerunners.com/ and "
+"downloading the appropriate file for your system, then following the "
+"appropriate installation steps for your system. Detailed guides are "
+"available for Linux, macOS and Windows operating systems below."
+msgstr ""
+"安装Axe Core很简单，到网站 https://www.axerunners.com/ "
+"下载适合你系统的文件，并按相应的步骤安装即可。详细的Linux、macOS和Windows系统的安装指南如下。"
+
+#: ../../wallets/axecore/installation.rst:16
+msgid ""
+"It is also possible to :ref:`compile Axe Core from source code <compiling-"
+"axe>`."
+msgstr "也可以通过\\ :ref:`源代码编译Axe Core <compiling-axe>`\\ 。"
+
+#: ../../wallets/axecore/installation.rst:27
+msgid "Video installation guides"
+msgstr "视频安装教程"
+
+#: ../../wallets/axecore/installation.rst:29
+msgid ""
+"These videos show how to download, verify the checksum and install the Axe "
+"Core Wallet on Linux, macOS and Windows systems. While they are somewhat out"
+" of date, the procedure is still largely the same. The main difference is "
+"that the official Axe website is now https://www.axerunners.com/ rather than "
+"https://www.axerunners.io/ as stated in the videos, although the old site will "
+"redirect you to the new one. Also, in later versions of Axe Core, "
+"application data such as the blockchain is now stored in the \"AxeCore\" "
+"rather than \"Axe\" folder."
+msgstr ""
+"这一部分的视频讲述了如何在Linux、macOS和Windows系统里去下载，验证校验和以及安装Axe "
+"Core钱包。其内容可能有点过时，但流程大体差不多。主要的差别是达世币现在的官网是 https://www.axerunners.com/ 而不是视频里说的 "
+"https://www.axerunners.io/ ，当然旧官网也会将你重新指向新的官网。另外，在最新的Axe "
+"Core中，应用数据如区块链是存储在“AxeCore”而不是“Axe”下。"
+
+#: ../../wallets/axecore/installation.rst:38
+msgid "**How to Install AxeQT Wallet on Linux**"
+msgstr "**如何在Linux系统安装达世币QT钱包**"
+
+#: ../../wallets/axecore/installation.rst:46
+msgid "**How to Verify the CheckSum of AxeQT Wallet for Linux**"
+msgstr "**如何在Linux系统校验达世币QT钱包**"
+
+#: ../../wallets/axecore/installation.rst:54
+msgid "**How to Install AxeQT Wallet on macOS**"
+msgstr "**如何在macOS系统安装达世币QT钱包**"
+
+#: ../../wallets/axecore/installation.rst:62
+msgid "**How to Verify the CheckSum of AxeQT Wallet for macOS**"
+msgstr "**如何在macOS系统校验达世币QT钱包**"
+
+#: ../../wallets/axecore/installation.rst:70
+msgid "**How to Install AxeQT Wallet on Windows**"
+msgstr "**如何在Windows系统安装达世币QT钱包**"
+
+#: ../../wallets/axecore/installation.rst:78
+msgid "**How to Verify CheckSum of AxeQT Wallet for Windows**"
+msgstr "**如何在Windows系统校验达世币QT钱包**"
+
+#: ../../wallets/axecore/installation.rst:86
+msgid "**How to Encrypt/Decrypt Your AxeQT Wallet**"
+msgstr "**如何加密/解密你的达世币QT钱包**"

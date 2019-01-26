@@ -1,0 +1,870 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Max Aronych <taofgoar@protonmail.com>, 2019
+# Дмитрий <dmitry.zhludin@gmail.com>, 2019
+# Alex-ru <mosprivat@gmail.com>, 2019
+# Андрей Дегтяр <diusha1711@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2019-01-11 06:53+0000\n"
+"Last-Translator: Андрей Дегтяр <diusha1711@gmail.com>, 2019\n"
+"Language-Team: Russian (https://www.transifex.com/axe/teams/37570/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../masternodes/dip3-upgrade.rst:1
+msgid ""
+"The upgrade to Axe 0.13.0 involves changes to signature formats as defined "
+"in DIP3. This documentation walks you through the upgrade process."
+msgstr ""
+"Обновление Axe до версии 0.13.0 включает изменения в форматах подписи, как "
+"это определено в DIP3. Данная документация пошагово познакомит вас с "
+"процессом обновления."
+
+#: ../../masternodes/dip3-upgrade.rst:1
+msgid ""
+"axe, cryptocurrency, masternode, maintenance, dip3, upgrade, deterministic,"
+" dmt"
+msgstr ""
+"axe, криптовалюта, мастернода, обслуживание, dip3, обновление, "
+"детерминированный, dmt"
+
+#: ../../masternodes/dip3-upgrade.rst:9
+msgid "Axe 0.13 Upgrade Procedure"
+msgstr "Порядок обновления Axe до версии 0.13"
+
+#: ../../masternodes/dip3-upgrade.rst:11
+msgid ""
+"Axe 0.13.0 implements DIP003, which introduces several changes to how a "
+"Axe masternode is set up and operated. A list of available documentation "
+"appears below:"
+msgstr ""
+"В версии Axe 0.13.0 реализовано предложение по улучшению DIP003, в которое "
+"внесены несколько изменений по настройке и управлению мастернодой Axe. "
+"Список имеющейся документации приведён ниже:"
+
+#: ../../masternodes/dip3-upgrade.rst:15
+msgid ""
+"`DIP003 Deterministic Masternode Lists "
+"<https://github.com/axerunners/dips/blob/master/dip-0003.md>`__"
+msgstr ""
+"`Детерминированные списки мастернод DIP003 "
+"<https://github.com/axerunners/dips/blob/master/dip-0003.md>`__"
+
+#: ../../masternodes/dip3-upgrade.rst:16
+msgid ":ref:`dip3-changes`"
+msgstr ":ref:`изменения dip3`"
+
+#: ../../masternodes/dip3-upgrade.rst:17
+msgid ":ref:`dip3-upgrade` (you are here)"
+msgstr ":ref:`обновление dip3` (вы сейчас на этом этапе)"
+
+#: ../../masternodes/dip3-upgrade.rst:18
+msgid ":ref:`Full masternode setup guide <masternode-setup>`"
+msgstr ":ref:`Полное руководство по настройке мастерноды <masternode-setup>`"
+
+#: ../../masternodes/dip3-upgrade.rst:19
+msgid ":ref:`Information for users of hosted masternodes <hosted-setup>`"
+msgstr ":ref:`Информация для пользователей активных мастернод <hosted-setup>`"
+
+#: ../../masternodes/dip3-upgrade.rst:20
+msgid ""
+":ref:`Information for operators of hosted masternodes <operator-"
+"transactions>`"
+msgstr ""
+":ref:`Информация для операторов активных мастернод <operator-transactions>`"
+
+#: ../../masternodes/dip3-upgrade.rst:22
+msgid ""
+"It is highly recommended to first read at least the list of changes before "
+"continuing in order to familiarize yourself with the new concepts in DIP003."
+" This documentation describes the upgrade procedure in two steps:"
+msgstr ""
+"Настоятельно рекомендуется перед продолжением для начала ознакомиться хотя "
+"бы со списком изменений, чтобы узнать о новых концепциях в DIP003. Эта "
+"документация описывает процедуру обновления в два этапа:"
+
+#: ../../masternodes/dip3-upgrade.rst:26
+msgid ":ref:`Update the masternode software <masternode-dip3-update>`"
+msgstr ""
+":ref:`Обновление программного обеспечения мастернод <masternode-"
+"dip3-update>`"
+
+#: ../../masternodes/dip3-upgrade.rst:27
+msgid "Register the DIP003 masternode"
+msgstr "Регистрация мастерноды DIP003"
+
+#: ../../masternodes/dip3-upgrade.rst:29
+msgid ":ref:`From a hardware wallet <dmt-dip3-upgrade>`"
+msgstr ":ref:`Из аппаратного кошелька <dmt-dip3-upgrade>`"
+
+#: ../../masternodes/dip3-upgrade.rst:30
+msgid ":ref:`From the Axe Core wallet <axecore-dip3-upgrade>`"
+msgstr ":ref:`Из кошелька Axe Core <axecore-dip3-upgrade>`"
+
+#: ../../masternodes/dip3-upgrade.rst:32
+msgid ""
+"Step 1 should be done immediately as soon as Axe 0.13.0 is released. Once "
+"miners have updated and DIP003 has activated on the network, it will become "
+"possible to complete Step 2 and register a DIP003 masternode. After enough "
+"masternodes have completed this step, Spork 15 will be enabled and all new "
+"network functions will take effect."
+msgstr ""
+"Шаг 1 следует выполнить немедленно, сразу после релиза Axe версии 0.13.0. "
+"После обновления майнерами и активации в сети DIP003 станут возможными "
+"завершение Шага 2 и регистрация мастерноды DIP003. После того, как "
+"достаточное количество мастернод завершит этот этап, будет активирован Спорк"
+" 15 и вступят в силу новые функции сети."
+
+#: ../../masternodes/dip3-upgrade.rst:41
+msgid "Masternode Software Update"
+msgstr "Обновление программного обеспечения мастерноды"
+
+#: ../../masternodes/dip3-upgrade.rst:43
+msgid ""
+"Begin by updating the Axe software on your masternode. Depending on whether"
+" you installed Axe manually or using axeman, you must follow the procedure"
+" appropriate for your masternode, as described below."
+msgstr ""
+"Начните с обновления программного обеспечения Axe для вашей мастерноды. В "
+"зависимости от того, как вы устанавливали Axe - вручную или с "
+"использованием axeman, необходимо следовать одной из описанных ниже "
+"процедур, соответствующей вашей мастерноде."
+
+#: ../../masternodes/dip3-upgrade.rst:49
+msgid "Option 1: Updating from axeman"
+msgstr "Вариант 1: Обновление из axeman"
+
+#: ../../masternodes/dip3-upgrade.rst:51
+msgid ""
+"To update Axe using axeman, log in to your server and enter the following "
+"commands::"
+msgstr ""
+"Чтобы обновить Axe, используя axeman, войдите на ваш сервер и введите "
+"следующие команды::"
+
+#: ../../masternodes/dip3-upgrade.rst:57
+msgid "Check the status of your masternode::"
+msgstr "Проверьте статус вашей мастерноды::"
+
+#: ../../masternodes/dip3-upgrade.rst:61
+msgid ""
+"The Axe software on the masternode is now updated. Since Axe 0.13 also "
+"updates the protocol version, it is necessary to issue a ``masternode "
+"start`` from Axe Core or DMT command to keep your masternode in the payment"
+" list during the transition period. See the `0.12.3 documentation "
+"<https://docs.axerunners.com/en/0.12.3/masternodes/setup.html#start-your-"
+"masternode>`__ for more details."
+msgstr ""
+"Теперь программное обеспечние Axe для мастернорды считается обновлённым. "
+"Так как в версии Axe 0.13 также обновлена версия протокола, необходимо из "
+"Axe Core или DMT ввести команду ``masternode start`` для сохранения вашей "
+"мастерноды в списке платежей в течение переходного периода. Для более "
+"подробной информации смотрите `документацию к версии 0.12.3 "
+"<https://docs.axerunners.com/en/0.12.3/masternodes/setup.html#start-your-"
+"masternode>`__."
+
+#: ../../masternodes/dip3-upgrade.rst:70
+msgid "Option 2: Manual update"
+msgstr "Способ 2: Обновление вручную"
+
+#: ../../masternodes/dip3-upgrade.rst:72
+msgid ""
+"To update Axe manually, log in to your server using ssh or PuTTY. If your "
+"crontab contains an entry to automatically restart axed, invoke ``crontab "
+"-e`` and comment out the appropriate line by adding the ``#`` character. It "
+"should look something like this::"
+msgstr ""
+"Для обновления Axe вручную, войдите в учётную запись вашего сервера, "
+"использовав ssh или PuTTY. Если в вашем файле crontab содержится запись для "
+"автоматического перезапуска axed, запустите ``crontab -e`` и пропишите "
+"соответствующую строку добавлением символа ``#``. Это должно выглядеть вот "
+"так::"
+
+#: ../../masternodes/dip3-upgrade.rst:79
+msgid "Then stop Axe running::"
+msgstr "После этого остановите работу Axe::"
+
+#: ../../masternodes/dip3-upgrade.rst:83
+msgid ""
+"Visit the `GitHub releases page <https://github.com/axerunners/axe/releases>`_"
+" and copy the link to the latest x86_64-linux-gnu version. Go back to your "
+"terminal window and enter the following command, pasting in the address to "
+"the latest version of Axe Core by right clicking or pressing **Ctrl + V**::"
+msgstr ""
+"Посетите `страницу релизов GitHub "
+"<https://github.com/axerunners/axe/releases>`_ и скопируйте ссылку в последнюю"
+" версию x86_64-linux-gnu. Вернитесь в окно терминала и введите следующую "
+"команду, вставив адрес в последней версии Axe Core, кликнув правой кнопкой "
+"мыши или нажав **Ctrl + V**::"
+
+#: ../../masternodes/dip3-upgrade.rst:92
+msgid ""
+"Verify the integrity of your download by running the following command and "
+"comparing the output against the value for the file as shown in the "
+"``SHA256SUMS.asc`` file::"
+msgstr ""
+"Проверьте целостность вашей загрузки, выполнив следующую команду и сравнив "
+"выходные данные со значением для файла, как показано в файле "
+"``SHA256SUMS.asc``::"
+
+#: ../../masternodes/dip3-upgrade.rst:98
+msgid ""
+"Extract the compressed archive and copy the new files to the directory::"
+msgstr "Распакуйте архив и скопируйте новые файлы в следующую папку::"
+
+#: ../../masternodes/dip3-upgrade.rst:104
+msgid "Restart Axe::"
+msgstr "Перезапустите Axe::"
+
+#: ../../masternodes/dip3-upgrade.rst:108
+msgid ""
+"You will see a message reading \"Axe Core server starting\". We will now "
+"update Sentinel::"
+msgstr ""
+"Вы увидите сообщение \"Axe Core server starting\". Сейчас мы обновим "
+"Sentinel::"
+
+#: ../../masternodes/dip3-upgrade.rst:115
+msgid ""
+"Finally, uncomment the line to automatically restart Axe in your crontab by"
+" invoking ``crontab -e`` again and deleting the ``#`` character."
+msgstr ""
+"В завершение, раскомментируйте строку для автоматического перезапуска Axe в"
+" файле crontab повторным запуском ``crontab -e`` и удалением символа ``#``."
+
+#: ../../masternodes/dip3-upgrade.rst:119
+msgid ""
+"The Axe software on the masternode is now updated. Since Axe 0.13 also "
+"updates the protocol version, it is necessary to issue a ``masternode "
+"start`` command from an updated Axe Core wallet or DMT to keep your "
+"masternode in the payment list during the transition period. Ensure the "
+"protocol version is set to ``70213`` if starting from DMT; see the `legacy "
+"documentation <https://docs.axerunners.com/en/0.12.3/masternodes/setup.html#start-"
+"your-masternode>`__ for more details. After your masternode software is "
+"updated, it is necessary to wait until enough miners upgrade for DIP003 to "
+"activate before you can continue with the DIP003 masternode registration "
+"process below. You can track DIP003 activation progress `here "
+"<http://178.254.23.111/~pub/Axe/Axe_Info.html>`__."
+msgstr ""
+
+#: ../../masternodes/dip3-upgrade.rst:135
+msgid "Masternode Registration from DMT"
+msgstr "Регистрация мастерноды из DMT"
+
+#: ../../masternodes/dip3-upgrade.rst:137
+msgid ""
+"This documentation describes the procedure to register an existing "
+"masternode for the DIP003 masternode list if the collateral is held on a "
+"hardware wallet. DIP003 must be activated and DMT 0.9.21 or higher is "
+"required. It is not possible to issue the registration transactions if "
+"DIP003 is not yet active. You can update DMT by downloading the version "
+"appropriate for your system from the `DMT Releases page "
+"<https://github.com/Bertrand256/axe-masternode-tool/releases>`__.  Open DMT"
+" and ensure your existing masternode configuration appears."
+msgstr ""
+"В этой документации описывается процедура регистрации существующей "
+"мастерноды в списке мастернод DIP003 в случае хранения залога на аппаратном "
+"кошельке. Для этого требуется активировать DIP003 и установить DMT версии "
+"0.9.21 или выше. Регистрационные транзакции будет невозможно осуществить до "
+"тех пор, пока DIP003 не будет активирован. DMT можно обновить загрузив "
+"версию, подходящую для вашей системы со `страницы релизов DMT "
+"<https://github.com/Bertrand256/axe-masternode-tool/releases>`__.  Откройте"
+" DMT и убедитесь, что отображается ваша существующая конфигурация "
+"мастерноды."
+
+#: ../../masternodes/dip3-upgrade.rst:147
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: ../../masternodes/dip3-upgrade.rst:149
+msgid ""
+"Click the **Send ProRegTx** button to get started. The **Masternode "
+"migration wizard** appears."
+msgstr ""
+"Для начала нажмите кнопку **Send ProRegTx**. Появится окно мастера "
+"**Masternode migration wizard**."
+
+#: ../../masternodes/dip3-upgrade.rst:155
+msgid "The DMT Masternode migration wizard"
+msgstr "Мастер миграции мастерноды DMT"
+
+#: ../../masternodes/dip3-upgrade.rst:157
+msgid "All fields are prefilled with suggested values."
+msgstr "Все поля предварительно заполнены предполагаемыми значениями."
+
+#: ../../masternodes/dip3-upgrade.rst:159
+msgid ""
+"It should not be necessary to change the **Collateral Tx** or **IP/Port** "
+"fields if you are using your existing collateral and server."
+msgstr ""
+"Если вы используете свой существующий залог и сервер, то не должно возникать"
+" необходимости изменять поля **Collateral Tx** или **IP/Port** "
+
+#: ../../masternodes/dip3-upgrade.rst:161
+msgid ""
+"You can optionally modify the **Payout address** to any valid existing or "
+"new Axe address, since it is no longer mandatory to receive payouts at the "
+"collateral address."
+msgstr ""
+"По желанию вы можете изменить **Payout address** на любой действующий "
+"существующий или новый адрес Axe, поскольку более не обязательно получать "
+"выплаты только на адрес хранения залоговой суммы."
+
+#: ../../masternodes/dip3-upgrade.rst:164
+msgid ""
+"If your masternode is hosted by an external operator, you can specify the "
+"percentage of the reward to allocate to the operator in the **Operator "
+"reward** field."
+msgstr ""
+"Если ваша мастернода запущена с помощью внешнего оператора, то в поле "
+"**Operator reward** можно указать процент от получаемой награды, который "
+"будет получать оператор."
+
+#: ../../masternodes/dip3-upgrade.rst:167
+msgid ""
+"The three masternode keys (owner, operator, voting) are newly generated and "
+"do not need to be changed."
+msgstr ""
+"Три ключа мастерноды (для владельца, оператора и голосования) являются вновь"
+" сгенерированными и изменять их не требуется."
+
+#: ../../masternodes/dip3-upgrade.rst:170
+msgid ""
+"Click **Next** when you are ready to continue. DMT will verify the "
+"collateral is in place and prepare to create the ProRegTx special "
+"transaction to register the masternode on the blockchain. This command must "
+"be sent from a Axe Core wallet holding a balance, since a standard "
+"transaction fee is involved. You can choose to send this from the DMT "
+"developer's remote RPC node (**automatic method**), or use your own Axe "
+"Core wallet to submit the transaction and specify the source of transaction "
+"fees (**manual method**). Click **Continue** when you are ready."
+msgstr ""
+"Кликните **Next**, если готовы продолжить. DMT проверит наличие залога и "
+"подготовится к созданию специальной транзакции ProRegTx для регистрации "
+"мастерноды на блокчейне. Эта команда должна быть отправлена из кошелька Axe"
+" Core, на котором хранится баланс, поскольку взимается стандартная комиссия "
+"за транзакцию. Вы можете отправить её с удаленной RPC-ноды разработчика DMT "
+"(**автоматический метод**) или использовать свой собственный кошелек Axe "
+"Core для отправки транзакции и указать источник комиссии за транзакцию "
+"(**ручной метод**). Нажмите **Continue**, если готовы продолжить."
+
+#: ../../masternodes/dip3-upgrade.rst:181
+msgid "Option 1: Automatic method"
+msgstr "Метод 1: Автоматический "
+
+#: ../../masternodes/dip3-upgrade.rst:183
+msgid ""
+"Note that because Trezor does not yet support Axe `special transactions "
+"<https://github.com/axerunners/dips/blob/master/dip-0002.md>`__, it is "
+"necessary to transmit your owner private key (NOT the collateral private "
+"key) to the remote server to sign the registration transaction. Only use the"
+" automatic method if you are connected to your own Axe RPC client, or if "
+"you trust the operator of the node. You can see the name of the node you are"
+" connected to in the lower right corner of the main DMT window. The default "
+"nodes in DMT (named ``alice``, ``luna`` and ``suzy``) are maintained by the "
+"author of DMT, who has kindly offered to cover the transaction fees for the "
+"DIP003 upgrade."
+msgstr ""
+"Обратите внимание, что пока Trezor не поддерживает `специальные транзакции "
+"<https://github.com/axerunners/dips/blob/master/dip-0002.md>` Axe __, для "
+"подписания регистрационной транзакции необходимо передать приватный ключ "
+"владельца (НЕ залоговый приватный ключ) на удалённый сервер. Используйте "
+"автоматический метод только в том случае, если вы подключены к своему "
+"клиенту Axe RPC или доверяете оператору ноды. Имя ноды, к которой вы "
+"подключены, можно увидеть в правом нижнем углу главного окна DMT. Ноды по "
+"умолчанию в DMT (называемые ``alice``, ``luna`` и ``suzy``) поддерживаются "
+"автором DMT, который любезно предложил покрыть комиссионные расходы за "
+"транзакции для обновления DIP003."
+
+#: ../../masternodes/dip3-upgrade.rst:194
+msgid ""
+"DMT will prepare a ProTx message and prompt you to confirm signing the "
+"message on your hardware wallet. The signed message will be registered on "
+"the blockchain immediately. A window appears with the final configuration "
+"information. Click **Save to a file** and enter a new file name. This file "
+"contains various private and public keys related to the ownership, operation"
+" and voting for the masternode, so keep it in a secure location. Continue "
+"below with the :ref:`final step <DMT-enter-BLS>` of entering the BLS key on "
+"the masternode."
+msgstr ""
+"DMT подготовит сообщение ProTx и предложит подтвердить подпись сообщения на "
+"вашем аппаратном кошельке. Подписанное сообщение будет немедленно "
+"зарегистрировано на блокчейне. Появится окно с информацией об окончательной "
+"конфигурации. Кликните **Save to a file** и введите имя для нового файла. "
+"Этот файл содержит различные приватные и публичные ключи связанные с "
+"владельцами, операторами и голосованием мастернод, поэтому храните его в "
+"безопасном месте. Для продолжения выполните :ref:`заключительный этап <DMT-"
+"enter-BLS>` по введению BLS-ключа для мастерноды."
+
+#: ../../masternodes/dip3-upgrade.rst:204
+msgid "Option 2: Manual method"
+msgstr "Метод 2: Ручной "
+
+#: ../../masternodes/dip3-upgrade.rst:206
+msgid "The following window appears:"
+msgstr "Появится следующее окно:"
+
+#: ../../masternodes/dip3-upgrade.rst:211
+msgid "Manual registration commands in the DMT Masternode migration wizard"
+msgstr "Команды ручной регистрации в мастере миграции мастерноды DMT"
+
+#: ../../masternodes/dip3-upgrade.rst:213
+msgid ""
+"Open Axe Core and wait for the blockchain to synchronise. Complete the "
+"following steps:"
+msgstr ""
+"Откройте Axe Core и дождитесь полной синхронизации с блокчейном. Далее "
+"выполните следующие шаги:"
+
+#: ../../masternodes/dip3-upgrade.rst:216
+msgid ""
+"In your Axe Core wallet, select an address to use as the source for the "
+"transaction fee and paste it into Field 1."
+msgstr ""
+"В кошельке Axe Core выберите адрес, который будет использован в качестве "
+"источника комиссий за транзакции и вставьте его в Поле 1."
+
+#: ../../masternodes/dip3-upgrade.rst:218
+msgid "Open the Debug console by clicking **Tools -> Debug console**."
+msgstr "Откройте Консоль отладки кликнув **Инструменты -> Консоль отладки**."
+
+#: ../../masternodes/dip3-upgrade.rst:219
+msgid ""
+"Copy and paste the command from Field 2 of DMT into the Axe Core debug "
+"console and press **Enter**."
+msgstr ""
+"Скопируйте команду из Поля 2 DMT, вставьте её в консоль отладки кошелька "
+"Axe Core и нажмите **Enter**."
+
+#: ../../masternodes/dip3-upgrade.rst:221
+msgid ""
+"Copy the output back and paste it into Field 3 field of the DMT Masternode "
+"migration wizard."
+msgstr ""
+"Скопируйте выходное значение и вставьте его в Поле 3 в мастере миграции "
+"мастерноды DMT."
+
+#: ../../masternodes/dip3-upgrade.rst:223
+msgid ""
+"Click **Sign message with hardware wallet** and confirm signing the message "
+"on your hardware wallet."
+msgstr ""
+"Кликните **Sign message with hardware wallet** и подтвердите подпись "
+"сообщения на вашем аппаратном кошельке."
+
+#: ../../masternodes/dip3-upgrade.rst:225
+msgid ""
+"Copy the command from Field 4 of DMT, paste it into the Axe Core debug "
+"console and press **Enter**. Axe Core will create a registration "
+"transaction on the blockchain."
+msgstr ""
+"Скопируйте команду из Поля 4 DMT, вставьте её в консоль отладки кошелька "
+"Axe Core и нажмите **Enter**. Axe Core создаст на блокчейне "
+"регистрационную транзакцию."
+
+#: ../../masternodes/dip3-upgrade.rst:228
+msgid ""
+"Copy and paste the transaction hash into Field 5 of the DMT Masternode "
+"migration wizard and click **Continue**."
+msgstr ""
+"Скопируйте хеш транзакции, вставьте его в Поле 5 в мастере миграции "
+"мастерноды DMT и кликните **Continue**."
+
+#: ../../masternodes/dip3-upgrade.rst:231
+msgid ""
+"A window appears with the final configuration information. Click **Save to a"
+" file** and enter a new file name. This file contains various private and "
+"public keys related to the ownership, operation and voting for the "
+"masternode, so keep it in a secure location."
+msgstr ""
+"Появится окно с информацией об окончательной конфигурации. Кликните **Save "
+"to a file** и введите имя для нового файла. Этот файл содержит различные "
+"приватные и публичные ключи, связанные с владением, управлением и "
+"голосованием мастернод, поэтому храните его в безопасном месте."
+
+#: ../../masternodes/dip3-upgrade.rst:239
+msgid "Enter the BLS key on the masternode"
+msgstr "Введите BLS-ключ для мастерноды"
+
+#: ../../masternodes/dip3-upgrade.rst:241
+msgid ""
+"Finally, it is necessary to enter the BLS private key generated by DMT on "
+"the masternode itself, or send it to your hosting operator. If you are "
+"operating the masternode yourself, log in to your masternode using ``ssh`` "
+"or PuTTY and edit the configuration file on your masternode as follows::"
+msgstr ""
+"И наконец, необходимо ввести приватный BLS-ключ, сгенерированный DMT на "
+"самой мастерноде или отправить его вашему хостинг-оператору. Если вы "
+"управляете мастернодой сами, войдите в учётную запись своей мастерноды, "
+"используя ``ssh`` или PuTTY и отредактируйте конфигурационный файл "
+"мастерноды, как показано ниже::"
+
+#: ../../masternodes/dip3-upgrade.rst:249
+#: ../../masternodes/dip3-upgrade.rst:321
+msgid ""
+"The editor appears with the existing masternode configuration. Add this line"
+" to the end of the file, replacing the key with your BLS secret key "
+"generated above::"
+msgstr ""
+"При открытии существующей конфигурации мастерноды откроется редактор. В "
+"конце файла добавьте следующую строку, заменив ключ на секретный BLS-ключ, "
+"который был сгенерирован выше::"
+
+#: ../../masternodes/dip3-upgrade.rst:255
+#: ../../masternodes/dip3-upgrade.rst:327
+msgid ""
+"Press enter to make sure there is a blank line at the end of the file, then "
+"press **Ctrl + X** to close the editor and **Y** and **Enter** save the "
+"file. We now need to restart the masternode for this change to take effect. "
+"Enter the following commands, waiting a few seconds in between to give Axe "
+"Core time to shut down::"
+msgstr ""
+"Нажмите Enter, чтобы убедиться, что в конце файла существует пустая строка, "
+"затем нажмите **Ctrl + X**, чтобы закрыть редактор, а затем **Y** и "
+"**Enter**, чтобы сохранить файл. Теперь необходимо перезапустить мастерноду,"
+" чтобы внесённые изменения вступили в силу. Выждав несколько секунд, чтобы "
+"дать время для Axe Core закрыться, введите следующие команды::"
+
+#: ../../masternodes/dip3-upgrade.rst:264
+msgid ""
+"Your masternode is now upgraded to DIP003 and will appear on the "
+"Deterministic Masternode List. You can view this list on the **Masternodes "
+"-> DIP3 Masternodes** tab of the Axe Core wallet, or in the console using "
+"the command ``protx list valid``, where the txid of the final transaction in"
+" Step 5 identifies your DIP003 masternode. Note again that all functions "
+"related to DIP003 will only take effect once Spork 15 is enabled on the "
+"network. You can view the spork status using the ``spork active`` command."
+msgstr ""
+"Ваша мастернода теперь обновлена до DIP003 и появится в Детерминированном "
+"списке мастернод. Этот список можно посмотреть, перейдя во вкладку "
+"**Masternodes -> DIP3 Masternodes** кошелька Axe Core или в консоли, "
+"использовав команду ``protx list valid``, где txid последней транзакции в "
+"Этапе 5 является идентификатором вашей мастерноды DIP003. Ещё раз обратите "
+"внимание, что все, относящиеся к DIP003 функции начнут работать только после"
+" активации в сети Спорка 15. Проверить статус спорка можно с помощью команды"
+" ``spork active``."
+
+#: ../../masternodes/dip3-upgrade.rst:277
+msgid "Masternode Registration from Axe Core"
+msgstr "Регистрация мастерноды из Axe Core"
+
+#: ../../masternodes/dip3-upgrade.rst:279
+msgid ""
+"This documentation describes the procedure to register an existing "
+"masternode for the DIP003 masternode list if the collateral is held in the "
+"Axe Core software full wallet. It is not possible to issue the registration"
+" transactions if DIP003 is not yet active. The commands are shown as if they"
+" were entered in the Axe Core GUI by opening the console from Tools > Debug"
+" console, but the same result can be achieved on a masternode by entering "
+"the same commands and adding the prefix ``~/.axecore/axe-cli`` to each "
+"command."
+msgstr ""
+"В этой документации описывается процедура регистрации существующей "
+"мастерноды в списке мастернод DIP003 в случае хранения залога в полной "
+"версии кошелька Axe Core. Регистрационные транзакции будет невозможно "
+"осуществить до тех пор, пока DIP003 не будет активирован. Команды приведены "
+"в формате, в котором они вводятся в графическом интерфейсе кошелька Axe "
+"Core в открытой из меню Инструменты > Консоль отладки, но аналогичного "
+"результата можно достичь и на мастерноде, вводя те же команды с добавлением "
+"к каждой из них префикса ``~/.axecore/axe-cli``."
+
+#: ../../masternodes/dip3-upgrade.rst:290
+msgid "Generate a BLS key pair"
+msgstr "Генерация пары BLS-ключей"
+
+#: ../../masternodes/dip3-upgrade.rst:292
+msgid ""
+"A public/private BLS key pair is required for the operator of the "
+"masternode. If you are using a hosting service, they will provide you with "
+"their public key, and you can skip this step. If you are hosting your own "
+"masternode, generate a BLS public/private keypair as follows::"
+msgstr ""
+"Оператору мастерноды требуется пара BLS-ключей публичный/приватный. При "
+"использовании хостинг сервиса вам предоставят их публичный ключ и этот шаг "
+"можно пропустить. Если вы разместили на хостинге собственную мастерноду, "
+"сгенерируйте пару BLS-ключей публичный/приватный, как показано ниже::"
+
+#: ../../masternodes/dip3-upgrade.rst:304
+msgid ""
+"**These keys are NOT stored by the wallet and must be kept secure, similar "
+"to the value provided in the past by the** ``masternode genkey`` "
+"**command.**"
+msgstr ""
+"**Эти ключи НЕ сохраняются в кошельке и должны храниться в безопасном месте,"
+" как и значение, предоставленное в одном из предыдущих шагов после "
+"выполнения ** ``masternode genkey`` **команды.**"
+
+#: ../../masternodes/dip3-upgrade.rst:309
+msgid "Add the private key to your masternode configuration"
+msgstr "Добавьте приватный ключ в конфигурацию вашей мастерноды"
+
+#: ../../masternodes/dip3-upgrade.rst:311
+msgid ""
+"The public key will be used in following steps. The BLS secret key must be "
+"entered in the ``axe.conf`` file on the masternode. This allows the "
+"masternode to watch the blockchain for relevant Pro*Tx transactions, and "
+"will cause it to start serving as a masternode when the signed ProRegTx is "
+"broadcast by the owner (final step below). Log in to your masternode using "
+"``ssh`` or PuTTY and edit the configuration file on your masternode as "
+"follows::"
+msgstr ""
+"Публичный ключ будет использоваться в следующих шагах. Секретный BLS-ключ "
+"необходимо внести в файл ``axe.conf`` мастерноды. Это позволит мастерноде "
+"следить за блокчейном и выявлять в нём релевантные транзакции Pro*Tx, а "
+"также заставит ноду начать выполнять функции мастерноды, после того, как "
+"подписанная владельцем транзакция ProRegTx начнёт транслироваться в сеть "
+"(последний шаг ниже). Войдите в учётную запись своей мастерноды, используя "
+"``ssh`` или PuTTY и отредактируйте конфигурационный файл мастерноды, как "
+"показано ниже::"
+
+#: ../../masternodes/dip3-upgrade.rst:336
+msgid ""
+"We will now prepare the transaction used to register a DIP003 masternode on "
+"the network."
+msgstr ""
+"Теперь подготовим транзакцию, которая используется для регистрации в сети "
+"мастерноды DIP003."
+
+#: ../../masternodes/dip3-upgrade.rst:341
+msgid "Prepare a ProRegTx transaction"
+msgstr "Подготовка транзакции ProRegTx"
+
+#: ../../masternodes/dip3-upgrade.rst:343
+msgid ""
+"First, we need to get a new, unused address from the wallet to serve as the "
+"owner address. This is different to the collateral address. It must also be "
+"used as the voting address if Spork 15 is not yet active. Generate a new "
+"address as follows::"
+msgstr ""
+"Для начала необходимо задать новый, не использовавшийся ранее адрес из "
+"кошелька, который будет считаться адресом владельца. Он должен отличаться от"
+" залогового адреса. Он так же должен использоваться в качестве адреса для "
+"голосования до тех пор, пока Спорк 15 ещё не активирован. Сгенерируйте новый"
+" адрес, как показно ниже::"
+
+#: ../../masternodes/dip3-upgrade.rst:352
+msgid ""
+"Then either generate or choose an existing second address to receive the "
+"owner's masternode payouts::"
+msgstr ""
+"Затем либо сгенерируйте, либо выберите из существующих второй адрес для "
+"получения платежей от владельца мастерноды::"
+
+#: ../../masternodes/dip3-upgrade.rst:359
+msgid ""
+"You can also optionally generate and fund a third address to pay the "
+"transaction fee. The private keys to the owner and fee source addresses must"
+" exist in the wallet submitting the transaction to the network. If your "
+"wallet is protect by a password, it must now be unlocked to perform the "
+"following commands. Unlock your wallet for 5 minutes::"
+msgstr ""
+
+#: ../../masternodes/dip3-upgrade.rst:367
+msgid ""
+"We will now prepare an unsigned ProRegTx special transaction using the "
+"``protx register_prepare`` command. This command has the following syntax::"
+msgstr ""
+
+#: ../../masternodes/dip3-upgrade.rst:374
+msgid ""
+"Open a text editor such as notepad to prepare this command. Replace each "
+"argument to the command as follows:"
+msgstr ""
+"Откройте текстовый редактор, например Блокнот и подготовьте эту команду. "
+"Замените каждый аргумент команды следующим образом:"
+
+#: ../../masternodes/dip3-upgrade.rst:377
+msgid ""
+"``collateralHash``: The txid of the 1000 Axe collateral funding transaction"
+msgstr ""
+"``collateralHash``: txid транзакции залогового финансирования на 1000 AXE"
+
+#: ../../masternodes/dip3-upgrade.rst:379
+msgid ""
+"``collateralIndex``: The output index of the 1000 Axe funding transaction"
+msgstr ""
+"``collateralIndex``: Индекс выхода транзакции финансирования на 1000 AXE"
+
+#: ../../masternodes/dip3-upgrade.rst:381
+msgid ""
+"``ipAndPort``: Masternode IP address and port, in the format "
+"``x.x.x.x:yyyy``"
+msgstr "``ipAndPort``: IP-адрес и порт мастерноды в формате ``x.x.x.x:yyyy``"
+
+#: ../../masternodes/dip3-upgrade.rst:383
+msgid ""
+"``ownerKeyAddr``: The new Axe address generated above for the owner/voting "
+"address"
+msgstr ""
+"``ownerKeyAddr``: Сгенерированный выше новый адрес Axe для "
+"владельца/голосования"
+
+#: ../../masternodes/dip3-upgrade.rst:385
+msgid ""
+"``operatorPubKey``: The BLS public key generated above (or provided by your "
+"hosting service)"
+msgstr ""
+"``operatorPubKey``: Публичный BLS-ключ, сгенерированный выше (или "
+"предоставленный хостинг-сервисом)"
+
+#: ../../masternodes/dip3-upgrade.rst:387
+msgid ""
+"``votingKeyAddr``: The new Axe address generated above, or the address of a"
+" delegate, used for proposal voting"
+msgstr ""
+"``votingKeyAddr``: Новый адрес Axe, сгенерированный выше или адрес "
+"делегата, используемый для голосования по предложениям"
+
+#: ../../masternodes/dip3-upgrade.rst:389
+msgid ""
+"``operatorReward``: The percentage of the block reward allocated to the "
+"operator as payment"
+msgstr ""
+"``operatorReward``: Процент награды за блок, который выделен оператору в "
+"качестве оплаты"
+
+#: ../../masternodes/dip3-upgrade.rst:391
+msgid ""
+"``payoutAddress``: A new or existing Axe address to receive the owner's "
+"masternode rewards"
+msgstr ""
+"``payoutAddress``: Новый или существующий адрес Axe для получения платежей "
+"от владельца мастерноды"
+
+#: ../../masternodes/dip3-upgrade.rst:393
+msgid ""
+"``feeSourceAddress``: An (optional) address used to fund ProTx fee. "
+"``payoutAddress`` will be used if not specified."
+msgstr ""
+"``feeSourceAddress``: (Необязательный) адрес, используемый для "
+"финансирования комиссий ProTx. Если не указан, то будет использоваться "
+"``payoutAddress``."
+
+#: ../../masternodes/dip3-upgrade.rst:396
+msgid ""
+"Note that the operator is responsible for :ref:`specifying their own reward "
+"<dip3-update-service>` address in a separate ``update_service`` transaction "
+"if you specify a non-zero ``operatorReward``. The owner of the masternode "
+"collateral does not specify the operator's payout address."
+msgstr ""
+"Обратите внимание, что оператор несёт ответственность за указание адреса, на"
+" который будет начисляться :ref:`его собственная награда <dip3-update-"
+"service>` в отдельной транзакции ``update_service`` в случае, если вы "
+"укажете отличную от нуля награду ``operatorReward``. Владелец залогового "
+"обеспечения не указывает адрес для выплаты оператору."
+
+#: ../../masternodes/dip3-upgrade.rst:402
+msgid "Example (remove line breaks if copying)::"
+msgstr "Пример (удалите разрывы строк при копировании)::"
+
+#: ../../masternodes/dip3-upgrade.rst:414
+#: ../../masternodes/dip3-upgrade.rst:443
+#: ../../masternodes/dip3-upgrade.rst:469
+msgid "Output::"
+msgstr "На выходе::"
+
+#: ../../masternodes/dip3-upgrade.rst:422
+msgid ""
+"Next we will use the ``collateralAddress`` and ``signMessage`` fields to "
+"sign the transaction, and the output of the ``tx`` field to submit the "
+"transaction."
+msgstr ""
+"Теперь используем поля ``collateralAddress`` и ``signMessage`` для "
+"подписания транзакции и поле выхода ``tx`` для подтверждения транзакции."
+
+#: ../../masternodes/dip3-upgrade.rst:427
+msgid "Sign the ProRegTx transaction"
+msgstr "Подпишите транзакцию ProRegTx"
+
+#: ../../masternodes/dip3-upgrade.rst:429
+msgid ""
+"Now we will sign the content of the ``signMessage`` field using the private "
+"key for the collateral address as specified in ``collateralAddress``. Note "
+"that no internet connection is required for this step, meaning that the "
+"wallet can remain disconnected from the internet in cold storage to sign the"
+" message. In this example we will again use Axe Core, but it is equally "
+"possible to use the signing function of a hardware wallet. The command takes"
+" the following syntax::"
+msgstr ""
+"Теперь подпишем содержимое поля ``signMessage`` используя приватный ключ для"
+" залогового адреса, указанный в ``collateralAddress``. Обратите внимание, "
+"что для выполнения этого шага не требуется интернет-соединение, что значит, "
+"что для подписи сообщения кошелёк может оставаться отключённым от интернета "
+"в состоянии холодного хранилища. В этом примере мы снова используем Axe "
+"Core, но в равной степени возможно использовать функцию подписи аппаратного "
+"кошелька. Команда имеет следующий синтаксис::"
+
+#: ../../masternodes/dip3-upgrade.rst:439
+#: ../../masternodes/dip3-upgrade.rst:465
+msgid "Example::"
+msgstr "Пример::"
+
+#: ../../masternodes/dip3-upgrade.rst:449
+msgid "Submit the signed message"
+msgstr "Подтвердите подписанное сообщение"
+
+#: ../../masternodes/dip3-upgrade.rst:451
+msgid ""
+"We will now create the ProRegTx special transaction to register the "
+"masternode on the blockchain. This command must be sent from a Axe Core "
+"wallet holding a balance, since a standard transaction fee is involved. The "
+"command takes the following syntax::"
+msgstr ""
+"Теперь создадим специальную транзакцию ProRegTx для регистрации мастерноды "
+"на блокчейне. Данная команда должна быть отправлена из кошелька Axe Core, "
+"на котором хранится баланс, поскольку в данном случае взимается стандартная "
+"комиссия за транзакцию. Команда имеет следующий синтаксис::"
+
+#: ../../masternodes/dip3-upgrade.rst:458
+msgid "Where:"
+msgstr "Где:"
+
+#: ../../masternodes/dip3-upgrade.rst:460
+msgid ""
+"``tx``: The serialized transaction previously returned in the ``tx`` output "
+"field from the ``protx register_prepare`` command"
+msgstr ""
+"``tx``: Сериализованная транзакция, ранее возвращённая в поле выхода ``tx`` "
+"из ``protx register_prepare``"
+
+#: ../../masternodes/dip3-upgrade.rst:462
+msgid ""
+"``sig``: The message signed with the collateral key from the ``signmessage``"
+" command"
+msgstr ""
+"``sig``: Сообщение, подписанное залоговым ключом с помощью команды "
+"``signmessage``"
+
+#: ../../masternodes/dip3-upgrade.rst:473
+msgid ""
+"Your masternode is now upgraded to DIP003 and will appear on the "
+"Deterministic Masternode List after the transaction is mined to a block. You"
+" can view this list on the **Masternodes -> DIP3 Masternodes** tab of the "
+"Axe Core wallet, or in the console using the command ``protx list valid``, "
+"where the txid of the final ``protx register_submit`` transaction identifies"
+" your DIP003 masternode. Note again that all functions related to DIP003 "
+"will only take effect once Spork 15 is enabled on the network. You can view "
+"the spork status using the ``spork active`` command."
+msgstr ""
+"Ваша мастернода теперь обновлена до DIP003 и появится Детерминированном "
+"Списке Мастернод после того, как транзакция будет добавлена в блок. Этот "
+"список можно посмотреть, перейдя во вкладку **Masternodes -> DIP3 "
+"Masternodes** кошелька Axe Core или в консоли, использовав команду ``protx "
+"list valid``, где txid последней транзакции``protx register_submit`` "
+"является идентификатором вашей мастерноды DIP003. Ещё раз обратите внимание,"
+" что все, относящиеся к DIP003 функции начнут работать только после "
+"активации в сети Спорка 15. Проверить статус спорка можно с помощью команды "
+"``spork active``."

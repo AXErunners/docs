@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Gabo Remes <gaboremes@gmail.com>, 2018
+# Ivan SIerraalta <ivansierraalta@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-04-09 11:00+0000\n"
+"Last-Translator: Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/axe/teams/37570/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../earning-spending.rst:1
+msgid "Guides on debit cards, wage conversion, merchants and physical stores."
+msgstr ""
+"Guías sobre tarjetas de crédito, conversión salarial, comercios y tiendas "
+"físicas."
+
+#: ../../earning-spending.rst:1
+msgid "axe, earning, spending, merchants, debit cards"
+msgstr "axe, ganancia, gastar, comercios, tarjetas de débito."
+
+#: ../../earning-spending.rst:9
+msgid "Earning and Spending"
+msgstr "Ganar y Gastar"
+
+#: ../../earning-spending.rst:11
+msgid ""
+"Axe is designed from the ground up to function as digital cash. This "
+"documentation discusses how and where Axe users can manage all of their "
+"personal finances using Axe."
+msgstr ""
+"Axe está diseñado desde sus bases para funcionar como dinero digital. Esta "
+"documentación analiza cómo y dónde los usuarios de Axe pueden administrar "
+"todas sus finanzas personales usando Axe."
+
+#: ../../earning-spending.rst:16
+msgid "Earning"
+msgstr "Ganar"
+
+#: ../../earning-spending.rst:18
+msgid ""
+"A range of services and businesses are available to convert your wage to and"
+" from Axe as you receive it. It is of course easiest to receive payment "
+"from your employer in Axe directly, however this may not always be an "
+"option. `Uphold <https://uphold.com>`_ allows you to instantly and "
+"automatically convert any received deposits to and from Axe. Building on "
+"this functionality, `Bitwage <https://www.bitwage.com>`_ allows you to "
+"invoice and receive payment from any employer, practically anywhere in the "
+"world, and have a percentage of your wage immediately converted to Axe. You"
+" can then withdraw your wage to any Axe wallet for spending or saving. For "
+"more information, see the following blog posts:"
+msgstr ""
+"Hay una variedad de servicios y negocios disponibles para convertir tu "
+"salario cuando lo recibes a Axe o desde Axe. Por supuesto, es más fácil "
+"recibir directamente el pago de tu empleador en Axe, aunque esto no siempre"
+" es una opción. `Uphold <https://uphold.com>`_ te permite convertir "
+"instantánea y automáticamente cualquier depósito recibido a Axe o desde "
+"Axe. Sobre la base de esta funcionalidad, `Bitwage "
+"<https://www.bitwage.com>`_ te permite facturar y recibir pagos de cualquier"
+" empleador, prácticamente en cualquier parte del mundo, y tiene un "
+"porcentaje de tu salario convertido inmediatamente a Axe. Luego puedes "
+"retirar tu salario a cualquier monedero de Axe para gastar o ahorrar. Para "
+"obtener más información, consulta las siguientes publicaciones de blog:"
+
+#: ../../earning-spending.rst:29
+msgid "**Bitwage:** https://blog.bitwage.com/2018/03/12/get-axe"
+msgstr "**Bitwage:** https://blog.bitwage.com/2018/03/12/get-axe"
+
+#: ../../earning-spending.rst:30
+msgid ""
+"**Uphold:** https://uphold.com/en/blog/posts/uphold/bitwage-launches-"
+"support-of-axe-powered-by-uphold"
+msgstr ""
+"**Uphold:** https://uphold.com/en/blog/posts/uphold/bitwage-launches-"
+"support-of-axe-powered-by-uphold"
+
+#: ../../earning-spending.rst:31
+msgid ""
+"**Axe Force News:** https://www.axeforcenews.com/can-get-salary-axe-"
+"right-now"
+msgstr ""
+"**Noticias Axe Force:** https://www.axeforcenews.com/can-get-salary-axe-"
+"right-now"
+
+#: ../../earning-spending.rst:35
+msgid "Spending"
+msgstr "Gastar"
+
+#: ../../earning-spending.rst:38
+msgid "Merchant Directory"
+msgstr "Directorio de comercios"
+
+#: ../../earning-spending.rst:40
+msgid ""
+"Axe can be spent in hundreds of stores and services both online and in "
+"physical locations."
+msgstr ""
+"Axe se puede usar en cientos de tiendas y servicios tanto en línea como en "
+"ubicaciones físicas."
+
+#: ../../earning-spending.rst:47
+msgid ""
+"**Discover Axe** lists businesses around the world accepting Axe, sorted "
+"by category. It's easy to add your business to the list, and also features a"
+" short introduction for new Axe users. The site is maintained by Axe "
+"Force, and has been `featured on Axe Force News "
+"<https://www.axeforcenews.com/300-businesses-accept-axe-worldwide- come-"
+"blockcypher-grants>`_."
+msgstr ""
+"**Descubre Axe** enumera empresas de todo el mundo que aceptan Axe, "
+"clasificadas por categoría. Es fácil agregar tu negocio a la lista y también"
+" presenta una breve introducción para los nuevos usuarios de Axe. El sitio "
+"es mantenido por Axe Force, y ha sido `presentado en Noticias Axe Force "
+"<https://www.axeforcenews.com/300-businesses-accept-axe-worldwide- come-"
+"blockcypher-grants>`_."
+
+#: ../../earning-spending.rst:54
+msgid "`Discover Axe <https://discoveraxe.com>`_"
+msgstr "`Descubre Axe <https://discoveraxe.com>`_"
+
+#: ../../earning-spending.rst:55
+msgid "`Axe Merchants <https://www.axerunners.com/merchants>`_"
+msgstr "`Comercios Axe <https://www.axerunners.com/merchants>`_"
+
+#: ../../earning-spending.rst:58
+msgid "Debit Cards"
+msgstr "Tarjetas de débito "
+
+#: ../../earning-spending.rst:60
+msgid ""
+"Debit cards work by prepaying in Axe to load the account, then withdrawing "
+"cash from an ATM or spending online or anywhere debit/credit cards are "
+"supported. The Axe is either exchanged at the time of purchase or in "
+"advance. For an overview and review of all available and upcoming cards, "
+"including cards funded by the Axe budget system, see `this article on Axe "
+"Force News <https://www.axeforcenews.com/debit-card-proposal-reviews/>`_."
+msgstr ""
+"Las tarjetas de débito funcionan prepagando en Axe para cargar la cuenta, "
+"luego retirando efectivo de un cajero automático o gastando en línea o en "
+"cualquier lugar donde se admiten tarjetas de débito/crédito. Axe se "
+"intercambia en el momento de la compra o por adelantado. Para obtener una "
+"descripción general y una revisión de todas las tarjetas disponibles y "
+"venideras, incluidas las tarjetas financiadas por el sistema de presupuesto "
+"de Axe, consulta `este artículo en Noticias Axe Force "
+"<https://www.axeforcenews.com/debit-card-proposal-reviews/>`_."
+
+#: ../../earning-spending.rst:67
+msgid ""
+"The rapidly evolving approach to regulation of cryptocurrencies such as Axe"
+" and instant exchange solutions such as ShapeShift means that availability "
+"of debit cards cannot be guaranteed in any or all jurisdictions. Check with "
+"the following providers for updates on the availability of Axe debit cards."
+msgstr ""
+"El enfoque de rápida evolución de la regulación de las criptomonedas como "
+"Axe y las soluciones de intercambio instantáneo como ShapeShift significa "
+"que no se puede garantizar la disponibilidad de las tarjetas de débito en "
+"ninguna o todas las jurisdicciones. Verifica con los siguientes proveedores "
+"las actualizaciones sobre la disponibilidad de las tarjetas de débito Axe."
+
+#: ../../earning-spending.rst:73
+msgid ""
+"Disclaimer: This list is provided for informational purposes only. Axe Core"
+" is not liable for any funds transmitted in error to these providers, or for"
+" the accuracy of information on this page."
+msgstr ""
+"Descargo de responsabilidad: esta lista se proporciona solo con fines "
+"informativos. Axe Core no se responsabiliza por los fondos que se "
+"transmitan por error a estos proveedores, o por la precisión de la "
+"información en esta página."
+
+#: ../../earning-spending.rst:89
+msgid "PolisPay"
+msgstr ""
+
+#: ../../earning-spending.rst:83
+msgid "https://polispay.com"
+msgstr ""
+
+#: ../../earning-spending.rst:85
+msgid ""
+"The PolisPay Card is one of the fastest, easiest ways to turn your Axe into"
+" fiat currency. You can use your PolisPay Card for online shopping and at "
+"any brick and mortar retailer that accepts MasterCard® debit cards. You can "
+"also withdraw cash at any MasterCard®-compatible ATM."
+msgstr ""
+
+#: ../../earning-spending.rst:103
+msgid "FuzeX"
+msgstr "FuzeX"
+
+#: ../../earning-spending.rst:97
+msgid "https://fuzex.co"
+msgstr "https://fuzex.co"
+
+#: ../../earning-spending.rst:99
+msgid ""
+"The FuzeX Card & FuzeX Wallet strive to offer an all in one payment solution"
+" that provides a smarter way to pay. The card offers real-time exchange of "
+"cryptocurrency at the time of purchase. The goal is to make paying with "
+"cryptocurrency secure, fast and a seamless process for everyday use."
+msgstr ""
+"La Tarjeta FuzeX y la Billetera FuzeX se esfuerza por ofrecer una solución "
+"de pago todo en uno que provee una manera inteligente de pagar. La tarjeta "
+"ofrece intercambio de criptomonedas en tiempo real al momento de la compra. "
+"La meta es hacer que el pago con criptomonedas sea seguro, rápido y un "
+"proceso continuo para el uso diario."
+
+#: ../../earning-spending.rst:117
+msgid "Paycent"
+msgstr "Paycent"
+
+#: ../../earning-spending.rst:111
+msgid "https://paycent.com"
+msgstr ""
+
+#: ../../earning-spending.rst:113
+msgid ""
+"Paycent provides Android and iOS wallets that can be funded using both fiat "
+"and cryptocurrency. Users can transact with one another within the app, "
+"identified by their mobile numbers, or order physical debit cards to spend "
+"their balance. Axe is the preferred network partner of Paycent."
+msgstr ""
+"Paycent ofrece monederos para Android y iOS que se pueden financiar con "
+"criptomonedas o monedas fiduciarias. Los usuarios pueden realizar "
+"transacciones entre ellos dentro de la aplicación, identificados por sus "
+"números de teléfono móvil, o solicitar tarjetas de débito físicas para "
+"gastar su saldo. Axe es el socio de red preferido de Paycent."
+
+#: ../../earning-spending.rst:129
+msgid "SpectroCoin"
+msgstr "SpectroCoin"
+
+#: ../../earning-spending.rst:125
+msgid "https://spectrocoin.com"
+msgstr "https://spectrocoin.com"
+
+#: ../../earning-spending.rst:127
+msgid ""
+"Spectrocoin offers an exchange, wallet and POS service, with a physical card"
+" potentially available again soon. Axe, Bitcoin and Ethereum are supported,"
+" as well as over 20 major fiat currencies."
+msgstr ""
+"Spectrocoin ofrece un servicio de casa de cambio, monedero y POS, con una "
+"tarjeta física potencialmente disponible pronto de nuevo. Se admiten Axe, "
+"Bitcoin y Ethereum, así como más de 20 monedas fiduciarias importantes."
+
+#: ../../earning-spending.rst:141
+msgid "Bitwala"
+msgstr "Bitwala"
+
+#: ../../earning-spending.rst:137
+msgid "https://www.bitwala.com"
+msgstr "https://www.bitwala.com"
+
+#: ../../earning-spending.rst:139
+msgid ""
+"Bitwala is currently preparing legal documentation to re-launch it's card "
+"service in Europe, and has supported Axe in the past."
+msgstr ""
+"Bitwala está preparando documentación legal para relanzar su servicio de "
+"tarjetas en Europa, y ha admitido a Axe en el pasado."
+
+#: ../../earning-spending.rst:144
+msgid "Tax"
+msgstr "Impuesto"
+
+#: ../../earning-spending.rst:146
+msgid ""
+"Taxation law is different depending on where you qualify as a resident for "
+"tax purposes. The following services are available to help you calculate "
+"your tax obligations."
+msgstr ""
+"La ley de impuestos es diferente dependiendo de dónde calificas como "
+"residente a efectos de impuestos. Los siguientes servicios están disponibles"
+" para ayudarte a calcular tus obligaciones tributarias."
+
+#: ../../earning-spending.rst:150
+msgid "https://www.node40.com"
+msgstr "https://www.node40.com"
+
+#: ../../earning-spending.rst:151
+msgid "https://axe-taxes.herokuapp.com"
+msgstr "https://axe-taxes.herokuapp.com"
+
+#: ../../earning-spending.rst:152
+msgid "https://cointracking.info"
+msgstr "https://cointracking.info"
+
+#: ../../earning-spending.rst:153
+msgid "https://bitcoin.tax"
+msgstr "https://bitcoin.tax"

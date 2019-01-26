@@ -1,0 +1,572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Alex.ys <silvershark.ys@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:18+0000\n"
+"Last-Translator: Alex.ys <silvershark.ys@gmail.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/axe/teams/37570/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../wallets/axecore/advanced.rst:1
+msgid ""
+"Coin control, HD wallets, multisig, KeePass and multiple wallet files using "
+"the Axe Core wallet"
+msgstr "货币控制、HD 钱包、多重签名、KeePass和使用Axe Core钱包的各个钱包文件。"
+
+#: ../../wallets/axecore/advanced.rst:1
+msgid ""
+"axe, core, wallet, backup, restore, wallet.dat, multisig, KeePass, hd, "
+"seed, passphrase, mnemonic, coin control, hierarchical deterministic"
+msgstr "axe，core，钱包，备份，恢复，wallet.dat，多重签名，KeePass，hd，种子，密码，助记符，货币控制，分层确定性"
+
+#: ../../wallets/axecore/advanced.rst:9
+msgid "Advanced topics"
+msgstr "高级主题"
+
+#: ../../wallets/axecore/advanced.rst:14
+msgid "Coin Control"
+msgstr "货币控制"
+
+#: ../../wallets/axecore/advanced.rst:16
+msgid ""
+"Coin Control allows users of the Axe Core Wallet to specify which addresses"
+" and Unspent Transaction Outputs (UTXOs) should be used as inputs in "
+"transactions. This allows you to keep a specific balance on certain "
+"addresses in your wallet, while spending others freely. In Axe Core Wallet,"
+" click **Settings > Options > Wallet > Enable coin control features**. Now, "
+"when you go to the Send tab in your wallet, a new button labelled "
+"**Inputs…** will appear. Click this button to select which UTXOs can be used"
+" as input for any transactions you create. The following window appears:"
+msgstr ""
+"货币控制选项帮助Axe "
+"Core钱包的用户指定地址，此时，未经支付（UTXOs）的输出应当用作交易输入。这项功能不仅帮助用户在指定的钱包地址上留存指定余额，同时还能让他们自由支配其余资金。以Axe"
+" Core钱包为例，用户需要点击 **设置 > 选项 > 钱包 > 启用货币控制功能** 。现在用户只要访问钱包的发送选项卡，就会看到一个新的 "
+"**输入** 按键。只要点击这个按键，用户就能选定交易所使用的未经支付的输出了。操作页面如下所示："
+
+#: ../../wallets/axecore/advanced.rst:29
+msgid ""
+"Coin Selection window in Axe Core wallet, showing two masternodes (testnet)"
+msgstr "Axe Core钱包中的货币选择界面，显示两个主节点（测试网）"
+
+#: ../../wallets/axecore/advanced.rst:32
+msgid ""
+"Right click on the transaction(s) you do not want to spend, then select "
+"**Lock unspent**. A small lock will appear next to the transaction. You can "
+"click the **Toggle lock state** button to invert the locked/unlocked state "
+"of all UTXOs. When you are ready to continue, click **OK**. You can now "
+"safely create transactions with your remaining funds without affecting the "
+"locked UTXOs."
+msgstr ""
+"单击鼠标右键选择不想支出的（多个）交易项，然后选择 **锁定未支付**。此时，交易的旁边将会出现一把小锁的标志。用户可以点击 **切换锁定状态** "
+"按键来切换未经支付的输出的状态，即锁定或解锁状态。完成操作后，用户应点击 **OK** "
+"按键。以不影响已锁定的未经支付的输出为前提，用户就可以安全地创建交易了。"
+
+#: ../../wallets/axecore/advanced.rst:45
+msgid "Locking UTXOs in Axe Core wallet"
+msgstr "在Axe Core钱包当中锁定未经支付的输出"
+
+#: ../../wallets/axecore/advanced.rst:51
+msgid "HD Wallets"
+msgstr "HD 钱包"
+
+#: ../../wallets/axecore/advanced.rst:53
+msgid ""
+"Since version 0.12.2.0, Axe Core has included an implementation of "
+"BIP39/BIP44 compatible hierarchical deterministic (HD) key generation. This "
+"functionality is only available from the command line by specifying the "
+"``usehd`` option when starting Axe Core for the first time. Use this "
+"function with care, since the mnemonic seed and keys will be stored in plain"
+" text until you specify a wallet passphrase. Note that the wallet passphrase"
+" is different to the mnemonic passphrase, which is often also referred to as"
+" the \"25th word\" or \"extension word\". The wallet passphrase encrypts the"
+" wallet file itself, while the mnemonic passphrase is used to specify "
+"different derivation branches from the same mnemonic seed."
+msgstr ""
+"从 0.12.2.0 版本开始，Axe Core钱包就具备了兼容 BIP39/BIP44 的分层确定性（HD）密码生成功能。只有在初次启动Axe "
+"Core钱包时指定 ``usehd`` "
+"选项的用户才能通过命令行使用这一功能。用户应当慎用这一功能，因为助记符种子和密码需要以纯文本格式存储，直到用户为钱包指定密码短语。值得注意的是，钱包密码与助记符密码不同，后者通常也被称作"
+" \"第25个字符\" 或 \"扩展字符\"。此外，钱包密码用于加密钱包文件本身，而助记符密码则用于指定来自同一助记符种子的不同派生分支。"
+
+#: ../../wallets/axecore/advanced.rst:65
+msgid ""
+"We will use the Windows GUI wallet in this example, but the commands are "
+"similar if using ``axe-qt`` or ``axed`` on other operating systems. Enter "
+"the following command to get started with a randomly generated HD wallet "
+"seed and no mnemonic passphrase::"
+msgstr ""
+"在下文中，我们将以Windows GUI钱包为例，但如果用户在其他操作系统上使用 ``axe-qt`` 或 "
+"``axed``，那么要用到的命令行就是一样的。用户可以输入以下命令，以便启用随机生成的分层确定性钱包种子，此时，钱包并不具备助记符密码::"
+
+#: ../../wallets/axecore/advanced.rst:72
+msgid ""
+"A new HD wallet will be generated and Axe Core will display a warning "
+"informing you that you must encrypt your wallet after verifying it works "
+"correctly. Open the console from **Tools -> Debug console** or issue the "
+"following RPC command from ``axe-cli`` to view the mnemonic seed::"
+msgstr ""
+"新的HD钱包已经生成，Axe Core钱包将显示一则通知，告知用户必须在验证程序可正确运行后对钱包进行加密。用户可以通过 **工具 -> "
+"调试控制台** 或在 ``axe-cli`` 上执行远程过程调用命令，以便浏览助记符种子::"
+
+#: ../../wallets/axecore/advanced.rst:79
+msgid ""
+"Axe Core will display the HD seed in both hexadecimal and as a BIP39 "
+"mnemonic. To restore an existing HD wallet, or define your own separately "
+"generated mnemonic and/or passphrase, ensure no ``wallet.dat`` file exists "
+"in the ``datadir`` and enter the following command::"
+msgstr ""
+"Axe Core钱包将以十六进制和 BIP39 助记符显示HD钱包的种子。如需恢复已有的HD钱包或者定义单独生成的助记符和密码，用户需要确保 "
+"``datadir`` 中不存在 ``wallet.dat`` 文件，然后再输入以下命令::"
+
+#: ../../wallets/axecore/advanced.rst:87
+msgid ""
+"The HD wallet will be restored and your balance will appear once sync is "
+"complete."
+msgstr "HD钱包可以恢复，并且用户的余额将在完成同步后予以显示。"
+
+#: ../../wallets/axecore/advanced.rst:94
+msgid "Multisignature"
+msgstr "多重签名"
+
+#: ../../wallets/axecore/advanced.rst:96
+msgid ""
+"This section presents a worked example to demonstrate multisig functionality"
+" in Axe Core. While the transactions are no longer visible on the current "
+"testnet blockchain and some address formats or RPC responses may differ "
+"slightly from the version shown here, the principle and commands are the "
+"same. The example demonstrates how to set up a 2-of-3 multisig address and "
+"create a transaction. The example parties involved are a buyer, a seller and"
+" an arbiter. This example is based on:"
+msgstr ""
+"本章节介绍了Axe "
+"Core钱包中的多重签名功能。尽管交易在当前的测试网区块链上是不可见的，并且地址格式或远程过程调用与本文显示的稍有不同，但原则和命令是相同的。本章节提供了创建2"
+" -3多重签名地址及交易的例子，其中涉及三方，即买卖双方和仲裁者。实例如下列网站所示："
+
+#: ../../wallets/axecore/advanced.rst:104
+msgid "https://people.xiph.org/~greg/escrowexample.txt"
+msgstr "https://people.xiph.org/~greg/escrowexample.txt"
+
+#: ../../wallets/axecore/advanced.rst:105
+msgid "https://gist.github.com/gavinandresen/3966071"
+msgstr "https://gist.github.com/gavinandresen/3966071"
+
+#: ../../wallets/axecore/advanced.rst:106
+msgid "https://bitcoin.org/en/developer-examples#p2sh-multisig"
+msgstr "https://bitcoin.org/en/developer-examples#p2sh-multisig"
+
+#: ../../wallets/axecore/advanced.rst:109
+msgid "Step 1: Create three addresses"
+msgstr "步骤 1：创建三个地址"
+
+#: ../../wallets/axecore/advanced.rst:111
+#: ../../wallets/axecore/advanced.rst:179
+#: ../../wallets/axecore/advanced.rst:256
+#: ../../wallets/axecore/advanced.rst:264
+#: ../../wallets/axecore/advanced.rst:297
+msgid "Seller::"
+msgstr "卖方::"
+
+#: ../../wallets/axecore/advanced.rst:128
+#: ../../wallets/axecore/advanced.rst:187
+#: ../../wallets/axecore/advanced.rst:208
+#: ../../wallets/axecore/advanced.rst:216
+#: ../../wallets/axecore/advanced.rst:278
+#: ../../wallets/axecore/advanced.rst:289
+msgid "Buyer::"
+msgstr "买方::"
+
+#: ../../wallets/axecore/advanced.rst:145
+#: ../../wallets/axecore/advanced.rst:195
+msgid "Arbiter::"
+msgstr "仲裁者::"
+
+#: ../../wallets/axecore/advanced.rst:162
+msgid "This results in three keypairs (public/private)::"
+msgstr "结果会产生三对密钥（公钥/私钥）::"
+
+#: ../../wallets/axecore/advanced.rst:169
+msgid "Step 2: Create multisig address"
+msgstr "步骤 2：创建多重签名地址"
+
+#: ../../wallets/axecore/advanced.rst:171
+msgid ""
+"The ``createmultisig`` command takes as variables the number n signatures of"
+" m keys (supplied as json array) required. In this example, 2 of 3 keys are "
+"required to sign the transaction."
+msgstr "``createmultisig`` 命令可以创建n/m的多重签名变量（json数据提供）。本文示例创建的是2/3多重签名。"
+
+#: ../../wallets/axecore/advanced.rst:175
+msgid ""
+"Note: The address can be created by anyone, as long as the public keys and "
+"their sequence are known (resulting address and redeemScript are identical, "
+"see below)."
+msgstr "值得注意的是：只要公钥和序列已知（则地址和redeemScript都是一样的），那么任何人都可以创建地址。"
+
+#: ../../wallets/axecore/advanced.rst:204
+msgid "Step 3: Buyer funds the multisig address"
+msgstr "步骤 3：买方为多重签名地址提供资金"
+
+#: ../../wallets/axecore/advanced.rst:206
+msgid "This works the same as a usual transaction."
+msgstr "买方为多重签名地址提供资金的流程与寻常交易相同。"
+
+#: ../../wallets/axecore/advanced.rst:213
+msgid ""
+"The seller/arbiter can trace the transaction by its txid in the block "
+"explorer. Or from the console as follows."
+msgstr "卖方/仲裁者可以通过区块浏览器中的交易ID跟进交易情况或通过控制台来完成操作。"
+
+#: ../../wallets/axecore/advanced.rst:248
+msgid "Step 4: Spending the multisig"
+msgstr "步骤 4：通过多重签名功能完成支付"
+
+#: ../../wallets/axecore/advanced.rst:250
+msgid ""
+"Now we assume the deal is complete, the buyer got the goods and everyone is "
+"happy. Now the seller wants to get his Axe. As a 2-of-3 multisig was used, "
+"the transaction must be signed by 2 parties (seller + buyer or arbiter). The"
+" seller creates a transaction (we will reuse his public address from above)."
+msgstr ""
+"现在我们假定交易已完成，那么买卖双方都会得到满意的结果。如果卖方希望领取个人的达世币，那么在2 "
+"-3多重签名的情况下，交易需要取得三方中的两方的签名许可（即卖方的签名加上买方或仲裁者的签名）。这时候，卖方就可以创建交易了（在这里，我们重复使用了上述的公共地址）。"
+
+#: ../../wallets/axecore/advanced.rst:261
+msgid ""
+"And partially signs it, using the redeemScript, scriptPubKey and his private"
+" key"
+msgstr "使用redeemScript、scriptPubKey和个人私钥对多重签名交易进行部分签名"
+
+#: ../../wallets/axecore/advanced.rst:272
+msgid ""
+"Note that the output hex is getting longer, but complete flag is \"false\" "
+"as the transaction needs another signature. So now either the buyer or the "
+"arbiter can complete the signature of the transaction, using the output from"
+" above and their private key. Let's assume the buyer is completing the "
+"signature."
+msgstr ""
+"值得注意的是，十六进制的输出变得越来越长，但由于交易还需要另一个签名，因此输出的完成情况备注为 \"false\" "
+"。这时，买方或仲裁者就可以使用上述输出和私钥来完成交易签名了。我们假设买方正在完成签名。"
+
+#: ../../wallets/axecore/advanced.rst:286
+msgid ""
+"The signature is complete now, and either of the parties can transmit the "
+"transaction to the network."
+msgstr "现在交易签名已经完成了，任何一方都可以将交易传输到达世币网络上了。"
+
+#: ../../wallets/axecore/advanced.rst:294
+msgid ""
+"Again, this transaction can be traced in a block explorer. And the seller is"
+" happy to receive his coins at his public address as follows."
+msgstr "同样，用户也可以在区块浏览器中跟进交易。卖方也很乐意在如下所示的个人公共地址上接收达世币。"
+
+#: ../../wallets/axecore/advanced.rst:318
+msgid "Multiple wallets"
+msgstr "多款钱包"
+
+#: ../../wallets/axecore/advanced.rst:320
+msgid ""
+"It is possible to select between different Axe wallets when starting Axe "
+"Core by specifying the ``wallet`` argument, or even run multiple instances "
+"of Axe Core simultaneously by specifying separate data directories using "
+"the ``datadir`` argument."
+msgstr ""
+"用户可以通过 ``wallet`` 参数来启动Axe Core钱包，并在此时选用不同类型的钱包。此外，用户还可以通过 ``datadir`` "
+"参数来指定不同的数据目录，从而同时运行Axe Core钱包的不同实例。"
+
+#: ../../wallets/axecore/advanced.rst:325
+msgid ""
+"To begin, install the Axe Core wallet for your system according to the "
+":ref:`installation instructions <axecore-installation>`. When you get to "
+"the step **Running Axe Core for the first time**, you can decide whether "
+"you want to maintain separate ``wallet.dat`` files in the default location "
+"(simpler if you do not need to run the wallets simultaneously), or specify "
+"entirely separate data directories such as e.g. ``C:\\Axe1`` (simpler if "
+"you do want to run the wallets simultaneously)."
+msgstr ""
+"首先，用户应根据\\ :ref:`安装指南<axecore-installation>`\\ 的指示在个人的计算机系统上安装Axe Core钱包。在"
+" **初次运行Axe Core钱包的时候** ，用户可以决定是否将独立的 ``wallet.dat`` "
+"文件保存在默认地址上（如果用户不需要同时运行钱包，那就更简单了）。用户也可以指定完全独立的数据目录，例如 ``C:\\Axe1`` "
+"（如果用户希望同时运行钱包，那么设置将相对更简单）。"
+
+#: ../../wallets/axecore/advanced.rst:336
+msgid "Separate wallet.dat files"
+msgstr "独立的wallet.dat文件"
+
+#: ../../wallets/axecore/advanced.rst:338
+msgid ""
+"For this scenario, we will create two shortcuts on the desktop, each using a"
+" different wallet file. Navigate to the binary file used to start Axe Core "
+"(typically locatd at ``C:\\Program Files\\AxeCore\\axe-qt.exe`` or "
+"similar) and create two shortcuts on the desktop. Then open the "
+"**Properties** window for each of these shortcuts."
+msgstr ""
+"在这种情况下，用户需要分别通过不同的钱包文件在桌面上创建两个快捷方式。具体来说，用户需要导航到用于启动Axe Core钱包的二进制文件（文件通常位于 "
+"``C:\\Program Files\\AxeCore\\axe-qt.exe`` "
+"或在类似文件中），然后在桌面上创建两个快捷方式。随后，达世币需要打开这些快捷方式的 **属性** 窗口。"
+
+#: ../../wallets/axecore/advanced.rst:347
+msgid "Creating desktop shortcuts using Windows 10"
+msgstr "使用Windows 10创建桌面快捷方式"
+
+#: ../../wallets/axecore/advanced.rst:349
+msgid ""
+"Modify the **Target** property of each shortcut to point to a different "
+"wallet file by specifying the ``wallet`` argument when starting the wallet. "
+"If you do not specify a ``wallet`` argument, ``wallet.dat`` will be used by "
+"default. The specified wallet file will be created if it does not exist. The"
+" following example demonstrates two wallets named ``workwallet.dat`` and "
+"``homewallet.dat``:"
+msgstr ""
+"通过在启动钱包时指定 ``钱包`` 参数，用户可以修改各个快捷方式的 **目标** 属性，从而指向不同的钱包文件。如果用户没有指定 ``钱包`` "
+"参数，那么钱包将默认使用 ``wallet.dat`` 。如果指定的钱包文件并不存在，那么文件将会自行创建。下文以 ``workwallet.dat``"
+" 和 ``homewallet.dat`` 这两个文件为例："
+
+#: ../../wallets/axecore/advanced.rst:356
+msgid ""
+"Wallet Target 1: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=workwallet.dat``"
+msgstr ""
+"Wallet Target 1: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=workwallet.dat``"
+
+#: ../../wallets/axecore/advanced.rst:357
+msgid ""
+"Wallet Target 2: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=homewallet.dat``"
+msgstr ""
+"Wallet Target 2: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=homewallet.dat``"
+
+#: ../../wallets/axecore/advanced.rst:362
+msgid "Specifying separate wallet files"
+msgstr "指定独立的钱包文件"
+
+#: ../../wallets/axecore/advanced.rst:364
+msgid ""
+"You can now use the two icons to quickly and easily open different wallets "
+"from your desktop. Note that you cannot open both wallets simultaneously. To"
+" do this, you will need two separate data directories, as described below."
+msgstr ""
+"现在，用户可以使用这两个快捷图标轻松迅速地从桌面打开不同的钱包了。请注意，用户无法同时打开两个钱包。如果用户需要两个独立的数据目录，操作步骤如下所述。"
+
+#: ../../wallets/axecore/advanced.rst:371
+msgid "Separate data directories"
+msgstr "独立的数据目录"
+
+#: ../../wallets/axecore/advanced.rst:373
+msgid ""
+"Start Axe Core and allow it to synchronize with the network, then close "
+"Axe Core again. You can now create two directories at e.g. ``C:\\Axe1`` "
+"and ``C:\\Axe2`` and copy the ``blocks`` and ``chainstate`` directories "
+"from the synchronized data directory into the new directories. Each of these"
+" will serve as a separate data directory, allowing you to run two instances "
+"of Axe Core simultaneously. Create two (or more) shortcuts on your desktop "
+"as described above, then specify arguments for ``datadir`` as shown below:"
+msgstr ""
+"用户需启动Axe Core钱包，并等待钱包与网络同步，然后再关闭Axe Core钱包。此时，用户可以创建两个独立的数据目录，例如 "
+"``C:\\Axe1`` 和 ``C:\\Axe2`` ，然后将同步数据目录下的 ``blocks`` 和 ``chainstate`` "
+"复制到新的目录之下。它们将作为独立的数据目录，帮助Axe "
+"Core钱包同时运行不同的实例。用户可参照上述步骤创建两个（或更多的）快捷方式，并按以下方式为 ``datadir`` 指定参数。"
+
+#: ../../wallets/axecore/advanced.rst:382
+msgid ""
+"Datadir Target 1: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-datadir=C:\\Axe1 -listen=0``"
+msgstr ""
+"Datadir Target 1: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-datadir=C:\\Axe1 -listen=0``"
+
+#: ../../wallets/axecore/advanced.rst:383
+msgid ""
+"Datadir Target 2: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-datadir=C:\\Axe2 -listen=0``"
+msgstr ""
+"Datadir Target 2: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-datadir=C:\\Axe2 -listen=0``"
+
+#: ../../wallets/axecore/advanced.rst:388
+msgid "Specifying separate datadirs"
+msgstr "指定独立的数据路径"
+
+#: ../../wallets/axecore/advanced.rst:390
+msgid ""
+"You can now use the two icons to quickly and easily open different wallets "
+"simultaneously from your desktop. Both wallets maintain separate and full "
+"copies of the blockchain, which may use a lot of drive space. For more "
+"efficient use of drive space, consider using an SPV or \"light\" wallet such"
+" as :ref:`Axe Electrum <axe-electrum-wallet>` to maintain multiple "
+"separate wallets without keeping a full copy of the blockchain."
+msgstr ""
+"现在，用户可以使用这两个快捷图标快速轻松地从桌面打开不同的钱包了。两个钱包都独立地保存着区块链的完整副本，这可能会占用较大的磁盘空间。为了更有效地使用磁盘空间，用户可以考虑使用SPV或"
+" \"轻\"钱包。在这种情况下，用户可以参照\\ :ref:`达世币轻钱包 <axe-electrum-wallet>`\\ "
+"的指示在无需保存区块链完整副本的前提下维护多个独立的钱包。"
+
+#: ../../wallets/axecore/advanced.rst:400
+msgid "Two instances of Axe Core running simultaneously"
+msgstr "Axe Core钱包同时运行两个实例"
+
+#: ../../wallets/axecore/advanced.rst:403
+msgid "KeePass"
+msgstr "KeePass"
+
+#: ../../wallets/axecore/advanced.rst:405
+msgid ""
+"Since version 0.11.0, Axe Core has supported integration with KeePass, the "
+"popular open source password manager. This guide describes how to configure "
+"the association between Axe Core and KeePass, and how to save a Axe Core "
+"wallet passphrase in KeePass using the integration. When this is done, "
+"KeePass can be used to unlock the wallet."
+msgstr ""
+"从0.11.0版本开始，Axe Core钱包支持与流行的开源密码管理器KeePass的集成。本指南介绍了Axe "
+"Core钱包与KeePass之间建立关联的步骤，并指导用户通过集成在KeePass上保存Axe Core钱包的密码。在用户完成上述操作后， "
+"用户就可以通过KeePass来解锁钱包了。"
+
+#: ../../wallets/axecore/advanced.rst:412
+msgid "Installation"
+msgstr "安装"
+
+#: ../../wallets/axecore/advanced.rst:414
+msgid "You will need the following:"
+msgstr "用户可能需要参考以下网址上的信息："
+
+#: ../../wallets/axecore/advanced.rst:416
+msgid "KeePass 2: http://keepass.info"
+msgstr "KeePass 2: http://keepass.info"
+
+#: ../../wallets/axecore/advanced.rst:417
+msgid "KeePassHttp plugin: https://github.com/pfn/keepasshttp"
+msgstr "KeePassHttp plugin: https://github.com/pfn/keepasshttp"
+
+#: ../../wallets/axecore/advanced.rst:418
+msgid "Axe Core: https://www.axerunners.com"
+msgstr "Axe Core: https://www.axerunners.com"
+
+#: ../../wallets/axecore/advanced.rst:420
+msgid ""
+"If not already installed, install these packages according to the "
+"instructions linked below:"
+msgstr "如果未安装，则根据下方链接指南进行安装："
+
+#: ../../wallets/axecore/advanced.rst:423
+msgid "KeePass: https://keepass.info/help/v2/setup.html"
+msgstr "KeePass: https://keepass.info/help/v2/setup.html"
+
+#: ../../wallets/axecore/advanced.rst:424
+msgid "KeePassHttp: https://github.com/pfn/keepasshttp/blob/master/README.md"
+msgstr "KeePassHttp: https://github.com/pfn/keepasshttp/blob/master/README.md"
+
+#: ../../wallets/axecore/advanced.rst:425
+msgid ""
+"Axe Core: "
+"https://docs.axerunners.com/en/latest/wallets/axecore/installation.html"
+msgstr ""
+"Axe Core: "
+"https://docs.axerunners.com/en/latest/wallets/axecore/installation.html"
+
+#: ../../wallets/axecore/advanced.rst:428
+msgid "Commands"
+msgstr "命令"
+
+#: ../../wallets/axecore/advanced.rst:430
+msgid ""
+"The following KeePass RPC commands are available in the Axe Core client "
+"console or server:"
+msgstr "用户可以在Axe Core钱包的客户端或服务器上使用以下的KeePass远程过程调用命令："
+
+#: ../../wallets/axecore/advanced.rst:436
+msgid "keepass genkey"
+msgstr "keepass genkey"
+
+#: ../../wallets/axecore/advanced.rst:434
+msgid ""
+"Generates a base64 encoded 256 bit AES key that can be used for "
+"communication with KeePassHttp. This is only necessary for manual "
+"configuration. Use init for automatic configuration."
+msgstr ""
+"用户可生成base64编码的256位AES密钥，以便用于与KeePassHttp之间的通信。只有人工设置才需要用到这一命令，自动设置用到的则是init命令。"
+
+#: ../../wallets/axecore/advanced.rst:442
+msgid "keepass init"
+msgstr "keepass init"
+
+#: ../../wallets/axecore/advanced.rst:439
+msgid ""
+"Sets up the association between Axe and KeePass by generating an AES key "
+"and sending an association message to KeePassHttp. This will trigger KeePass"
+" to ask for an ID for the association. Returns the association and the "
+"base64 encoded string for the AES key."
+msgstr ""
+"用户可以通过生成AES密钥并向KeePassHttp发送关联消息来设置达世币和KeePass之间的关联。在此期间，KeePass将申请建立关联所需的ID。随后，达世币核心钱包将返回AES密钥的关联和Base64编码字符串。"
+
+#: ../../wallets/axecore/advanced.rst:449
+msgid "keepass setpassphrase"
+msgstr "keepass setpassphrase"
+
+#: ../../wallets/axecore/advanced.rst:445
+msgid ""
+"Updates the passphrase in KeePassHttp to a new value. This should match the "
+"passphrase you intend to use for the wallet. Please note that the standard "
+"RPC commands walletpassphrasechange and the wallet encryption from the QT "
+"GUI already send the updates to KeePassHttp, so this is only necessary for "
+"manual manipulation of the password."
+msgstr ""
+"更新KeePassHttp中的密码，此密码应与用户想要用于钱包的密码相匹配。请注意，标准的远程过程调用命令walletpassphrasechange和来自QT"
+" GUI的钱包加密已经将更新发送到了KeePassHttp，因此只有人工设置才需要借助KeePassHttp的密码更新。"
+
+#: ../../wallets/axecore/advanced.rst:451
+msgid "The following new arguments are available for axed and axe-qt:"
+msgstr "以下新参数可用于axed和axe-qt："
+
+#: ../../wallets/axecore/advanced.rst:454
+msgid "keepass"
+msgstr "keepass"
+
+#: ../../wallets/axecore/advanced.rst:454
+msgid "Use KeePass 2 integration using KeePassHttp plugin (default: 0)"
+msgstr "借助KeePassHttp插件来使用KeePass 2集成功能（默认值：0）"
+
+#: ../../wallets/axecore/advanced.rst:457
+msgid "keepassport=<port>"
+msgstr "keepassport=<port>"
+
+#: ../../wallets/axecore/advanced.rst:457
+msgid "Connect to KeePassHttp on port <port> (default: 19455)"
+msgstr "通过端口<port>上连接到KeePassHttp（默认值：19455）"
+
+#: ../../wallets/axecore/advanced.rst:460
+msgid "keepasskey=<key>"
+msgstr "keepasskey=<key>"
+
+#: ../../wallets/axecore/advanced.rst:460
+msgid "KeePassHttp key for AES encrypted communication with KeePass"
+msgstr "借助KeePassHttp密钥使用KeePass 加密通信功能"
+
+#: ../../wallets/axecore/advanced.rst:463
+msgid "keepassid=<name>"
+msgstr "keepassid=<name>"
+
+#: ../../wallets/axecore/advanced.rst:463
+msgid "KeePassHttp id for the established association"
+msgstr "已建立关联的KeePassHttp身份"
+
+#: ../../wallets/axecore/advanced.rst:466
+msgid "keepassname=<name>"
+msgstr "keepassname=<name>"
+
+#: ../../wallets/axecore/advanced.rst:466
+msgid ""
+"Name to construct url for KeePass entry that stores the wallet passphrase"
+msgstr "用于为KeePass条目构建网址的名称。该条目存储了钱包的密码"

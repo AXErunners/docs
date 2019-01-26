@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Hasna Brania <hasna.brania19@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-29 10:35+0000\n"
+"Last-Translator: Hasna Brania <hasna.brania19@gmail.com>, 2018\n"
+"Language-Team: Arabic (https://www.transifex.com/axe/teams/37570/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../../masternodes/advanced.rst:1
+msgid "Installing Axe using a package manager"
+msgstr "تثبيت داش باستخدام مدير الحزمة"
+
+#: ../../masternodes/advanced.rst:1
+msgid ""
+"axe, cryptocurrency, fedora, ubuntu, rpm, apt, git, masternode, install, "
+"binary"
+msgstr ""
+"داش، العملات الرقمية، فيدورا، يوبينتو، ربم، أبت، كيت، ماسترنود، تتبيت ، "
+"بيرني"
+
+#: ../../masternodes/advanced.rst:9
+msgid "Advanced Topics"
+msgstr "الموضوعات المتقدمة"
+
+#: ../../masternodes/advanced.rst:12
+msgid "Installing Axe on Fedora Linux"
+msgstr "تثبيت داش على فيدورا لينكس"
+
+#: ../../masternodes/advanced.rst:14
+msgid ""
+"Axe developer t0dd has developed packages and written an excellent guide on"
+" installing and running Axe as a node, masternode or on testnet."
+msgstr ""
+"مطوّرين داش t0dd طرودًا وكتب دليلًا ممتازًا حول تثبيت وتشغيل داش على شكل "
+"عقدة أو ماسترنود أو على testnet."
+
+#: ../../masternodes/advanced.rst:18
+msgid "https://github.com/taw00/axecore-rpm"
+msgstr "https://github.com/taw00/axecore-rpm"
+
+#: ../../masternodes/advanced.rst:21
+msgid "Installing Axe on Ubuntu Linux"
+msgstr "تثبيت داش على أوبونتو لينكس"
+
+#: ../../masternodes/advanced.rst:23
+msgid ""
+"Axe binaries are under development for distribution through the Ubuntu "
+"Linux Launchpad repository system. Check back here for details once a "
+"release announcement is made."
+msgstr ""
+"يتم تطوير ثنائيات  داش للتوزيع من خلال نظام مستودع أوبنتو لينكس. تحقق مرة "
+"أخرى هنا للحصول على التفاصيل بمجرد إجراء إعلان الإفراج."

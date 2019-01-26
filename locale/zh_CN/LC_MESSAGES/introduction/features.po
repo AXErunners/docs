@@ -1,0 +1,960 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Alex.ys <silvershark.ys@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-02 06:45+0000\n"
+"Last-Translator: Alex.ys <silvershark.ys@gmail.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/axe/teams/37570/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../introduction/features.rst:1
+msgid ""
+"Axe features several unique value propositions including masternodes, "
+"PrivateSend, InstantSend and a decentralized governance system"
+msgstr "达世币具备一系列新颖的特色功能，其中包括主节点、匿名发送、即时发送和去中心化管理系统。"
+
+#: ../../introduction/features.rst:1
+msgid ""
+"axe, cryptocurrency, features, masternodes, privatesend, instantsend, "
+"sporks, x11, dgw, governance, sentinel, evolution"
+msgstr "达世币，加密数字货币，特点，主节点，匿名发送，即时发送，sporks，x11，dgw，管理，哨兵，evolution"
+
+#: ../../introduction/features.rst:9
+msgid "Features"
+msgstr "特性"
+
+#: ../../introduction/features.rst:14
+msgid "Specifications"
+msgstr "参数"
+
+#: ../../introduction/features.rst:16
+msgid "First block mined at 11PM EST, 18th January 2014"
+msgstr "原始块产生于2014年1月18日，东部时间晚11点"
+
+#: ../../introduction/features.rst:17
+msgid "No premine"
+msgstr "无预挖"
+
+#: ../../introduction/features.rst:18
+msgid "X11 hashing algorithm, CPU/GPU/ASIC mining available"
+msgstr "X11算法，CPU/GPU/ASIC均可用"
+
+#: ../../introduction/features.rst:19
+msgid "2.6 minute block time, 2MB blocks, ~56 transactions per second"
+msgstr "区块时间2.6 分钟, 区块大小2MB, ~56 笔交易每秒"
+
+#: ../../introduction/features.rst:20
+msgid "Block reward decreases by 7.14% per year"
+msgstr "每年区块奖励减产率7.14%"
+
+#: ../../introduction/features.rst:21
+msgid "Dark Gravity Wave difficulty adjustment algorithm"
+msgstr "暗黑重力波难度调节算法"
+
+#: ../../introduction/features.rst:22
+msgid "Between 17.74M and 18.92M total coin supply"
+msgstr "总发行量在17.74M到18.92M之间"
+
+#: ../../introduction/features.rst:23
+msgid "Decentralized second-tier masternode network"
+msgstr "分布式双层主节点网络"
+
+#: ../../introduction/features.rst:24
+msgid "Superior transaction anonymity using PrivateSend"
+msgstr "通过匿名支付实现更优的隐私保护"
+
+#: ../../introduction/features.rst:25
+msgid "Instant transactions using InstantSend"
+msgstr "通过即时支付实现瞬时交易"
+
+#: ../../introduction/features.rst:26
+msgid ""
+"Decentralized Governance By Blockchain allows masternode owners to vote on "
+"budget proposals and decisions that affect Axe"
+msgstr "基于区块链的去中心化管理系统使得主节点持有者可以对预案进行投票，成为达世币发展的决策者。"
+
+#: ../../introduction/features.rst:33
+msgid "Masternodes"
+msgstr "主节点"
+
+#: ../../introduction/features.rst:35
+msgid ""
+"In addition to traditional Proof of Work (PoW) rewards for mining Axe, "
+"users are also rewarded for running and maintaining special servers called "
+"masternodes. Thanks to this innovative two tier network, Axe can offer "
+"innovative features in a trustless and decentralized way. Masternodes are "
+"used to power PrivateSend, InstantSend, and the governance and treasury "
+"system. Users are rewarded for running masternodes; 45% of the block reward "
+"is allocated to pay the masternode network. You can view practical guides on"
+" all topics relating to masternodes :ref:`here <masternodes>`."
+msgstr ""
+"除了传统的工作量证明（PoW）挖矿回报外，达世币的用户还可以通过运行和维护一种称为主节点的特殊服务来获得回报。感谢这种革新的双层网络，使达世币能够以非信任制和去中心化的方式提供创新的功能。主节点可以用于驱动匿名支付，即时支付以及预算管理系统。用户可以通过运行主节点获得回报，45%的区块奖励被分配支付给主节点网络。你们可以\\"
+" :ref:`浏览一下 <masternodes>`\\ 所有与主节点相关的操作指南。"
+
+#: ../../introduction/features.rst:45
+msgid "Masternodes enable the following services:"
+msgstr "主节点实现以下服务："
+
+#: ../../introduction/features.rst:47
+msgid ""
+"**InstantSend** allows for near-instant transactions. Axe InstantSend "
+"transactions are fully confirmed within two seconds."
+msgstr "**即时支付**\\ 实现几乎瞬间的交易。达世币的即时支付功能可以在两秒内完成所有交易确认。"
+
+#: ../../introduction/features.rst:49
+msgid ""
+"**PrivateSend** gives financial privacy by obscuring the source of funds on "
+"the blockchain."
+msgstr "**匿名支付**\\ 通过混淆区块链上的资金来源实现财务隐私。"
+
+#: ../../introduction/features.rst:51
+msgid ""
+"**Governance and Treasury** allows stakeholders in Axe to determine the "
+"direction of the project and devotes 10% of the block reward to development "
+"of the project and ecosystem (as of May 2018, our annual budget exceeds $30 "
+"million)."
+msgstr ""
+"**预算管理系统**\\ "
+"允许达世币的主节点持有者可以决定项目的发展方向以及如何将10%的区块奖励用于项目和生态系统的开发（截至2018年5月，我们的年度预算已经超过了3000万美元）。"
+
+#: ../../introduction/features.rst:55
+msgid ""
+"**Axe Evolution** will make using cryptocurrency as easy as using PayPal."
+msgstr "**达世币进化版**\\ 将会使数字货币变得如PayPal一样简单易用。"
+
+#: ../../introduction/features.rst:58
+msgid ""
+"Masternode owners must have possession of 1000 AXE, which they prove by "
+"signing a message and broadcasting to the network. Those coins can be moved "
+"at any time, but moving them will cause the masternode to fall out of queue "
+"and stop earning rewards. Masternode users are also given **voting rights** "
+"on proposals. Each masternode has one vote and this vote can be used on "
+"budget proposals or important decisions that affect Axe."
+msgstr ""
+"主节点拥有者必须持有1000个达世币，经电子签名后向网络广播后认证。这些币随时可以提走，但是提走后会使主节点脱离队列并停止接收奖励。主节点用户还被赋予了预算提案的\\"
+" **投票权**\\ 。每个主节点拥有一票，可以用于预算提案或者影响达世币的重要决策上。"
+
+#: ../../introduction/features.rst:66
+msgid ""
+"Masternodes cost money and effort to host so they are paid a percentage of "
+"the block reward as an incentivize. With current masternode numbers and "
+"rewards, masternodes earn approximately a 8% return on 1000 Axe (which "
+"means 6.97 Axe or USD1360 in July 2017) for the year of 2017. This `tool "
+"<https://stats.masternode.me/>`_ shows a live calculation of masternode "
+"earnings. These rewards decrease by 7% each year, but the rising value of "
+"Axe may offset these reductions. As a matter of fact, masternodes were "
+"receiving 140 Axe per month at the beginning of 2016, but this was actually"
+" less money than today: USD600 per month. There is also the possibility for "
+"masternodes to earn money from fees in the future."
+msgstr ""
+"运营主节点需要花费财力和精力，所以主节点持有者会收到一定比例的区块奖励作为激励。以现在的主节点数和区块奖励的条件下，2017年主节点回报率大约时1000个达世币的8%（以2017年7月为例，单月6.97个达世币约为1360美金）。这个\\"
+" `工具 <https://stats.masternode.me/>`_\\ "
+"显示了主节点回报率的实时计算数据。这个数据以每年7%的比例递减，但上升的币价会抵消这些递减。事实上在2016年初主节点会每个月收到140个达世币，但实际的法币金额要少于现在：每个月600美元。主节点在将来还有可能分得交易手续费。"
+
+#: ../../introduction/features.rst:82 ../../introduction/features.rst:518
+msgid "PrivateSend"
+msgstr "匿名支付"
+
+#: ../../introduction/features.rst:84
+msgid ""
+"PrivateSend gives you true financial privacy by obscuring the origins of "
+"your funds. All the Axe in your wallet is comprised of different "
+"\"inputs\", which you can think of as separate, discrete coins. PrivateSend "
+"uses an innovative process to mix your inputs with the inputs of two other "
+"people, without having your coins ever leave your wallet. You retain control"
+" of your money at all times."
+msgstr ""
+"匿名支付通过混淆你的资金来源真正保护了你的财务隐私。你钱包中的所有达世币都由不同的\"输入\"组成，你可以把它们想象成分开的离散币。匿名支付所使用的是一种革新的处理方法，将你币的输入与其他两个人的币混在一起，却不让你的币离开你的钱包。你始终保持对资金的控制。"
+
+#: ../../introduction/features.rst:91
+msgid ""
+"You can view a practical guide to use PrivateSend :ref:`here <axecore-"
+"privatesend-instantsend>`."
+msgstr "你可以在\\ :ref:`这里 <axecore-privatesend-instantsend>`\\ 浏览使用匿名支付的操作指南。"
+
+#: ../../introduction/features.rst:94
+msgid "The PrivateSend process works like this:"
+msgstr "匿名支付的实现原理时这样的："
+
+#: ../../introduction/features.rst:96
+msgid ""
+"PrivateSend begins by breaking your transaction inputs down into standard "
+"denominations. These denominations are 0.001, 0.01, 0.1, 1 and 10 AXE -- "
+"much like the paper money you use every day."
+msgstr ""
+
+#: ../../introduction/features.rst:99
+msgid ""
+"Your wallet then sends requests to specially configured software nodes on "
+"the network, called \"masternodes\". These masternodes are informed then "
+"that you are interested in mixing a certain denomination. No identifiable "
+"information is sent to the masternodes, so they never know \"who\" you are."
+msgstr ""
+"然后你的钱包会将需求发送到网络中的特殊节点上，称之为主节点服务器。这些主节点会接到通知你有兴趣混合一定的面额。不会有可识别的信息发送给主节点，所以主节点也不会知道你是谁。"
+
+#: ../../introduction/features.rst:104
+msgid ""
+"When two other people send similar messages, indicating that they wish to "
+"mix the same denomination, a mixing session begins. The masternode mixes up "
+"the inputs and instructs all three users' wallets to pay the now-transformed"
+" input back to themselves. Your wallet pays that denomination directly to "
+"itself, but in a different address (called a change address)."
+msgstr ""
+"当有其他两个人发出了类似的信息，显示他们也希望混合同样的面额时，混币便开始了。主节点将币混在一起，并给这三个用户的钱包指令，让它们把这些现在已经转化了的币回付给自己。你的钱包将这些面额直接付给自己，但是地址已经改变（称为变更地址）。"
+
+#: ../../introduction/features.rst:110
+msgid ""
+"In order to fully obscure your funds, your wallet must repeat this process a"
+" number of times with each denomination. Each time the process is completed,"
+" it's called a \"round\". Each round of PrivateSend makes it exponentially "
+"more difficult to determine where your funds originated. The user may choose"
+" between 1-16 rounds of mixing."
+msgstr ""
+
+#: ../../introduction/features.rst:116
+msgid ""
+"This mixing process happens in the background without any intervention on "
+"your part. When you wish to make a transaction, your funds will already be "
+"anonymized. No additional waiting is required."
+msgstr "这个混币过程是不需要你进行任何干预的。当你需要交易时，你的资金已经匿名化了。不需要额外的等候时间。"
+
+#: ../../introduction/features.rst:120
+msgid ""
+"Note that PrivateSend transactions will be rounded up so that all "
+"transaction inputs are spent. Any excess Axe will be spent on the "
+"transaction fee."
+msgstr "注意匿名支付的交易都会取整数，所以所有的交易输入都会被使用。任何超出部分都会被用于交易手续费。"
+
+#: ../../introduction/features.rst:124
+msgid ""
+"**IMPORTANT:** Your wallet only contains 1000 of these \"change addresses\"."
+" Every time a mixing event happens, one of your addresses is used up. Once "
+"enough of them are used, your wallet must create more addresses. It can only"
+" do this, however, if you have automatic backups enabled. Consequently, "
+"users who have backups disabled will also have PrivateSend disabled."
+msgstr ""
+"**重要：**\\ "
+"你的钱包只能含有1000个“变更地址”。每一次混币发生，一个变更地址便会被用掉。一旦他们全部被用掉，你的钱包就必须创建更多的地址。但是，你只有让自动备份生效，才可以做到这一点。同样的，如果用户让备份失效，匿名支付失效。"
+
+#: ../../introduction/features.rst:135 ../../introduction/features.rst:516
+msgid "InstantSend"
+msgstr "即时支付"
+
+#: ../../introduction/features.rst:137
+msgid ""
+"Traditional decentralized cryptocurrencies must wait for certain period of "
+"time for enough blocks to pass to ensure that a transaction is both "
+"irreversible and not an attempt to double-spend money which has already been"
+" spent elsewhere. This process is time-consuming, and may take anywhere from"
+" 15 minutes to one hour for the widely accepted number of six blocks to "
+"accumulate. Other cryptocurrencies achieve faster transaction confirmation "
+"time by centralizing authority on the network to various degrees."
+msgstr ""
+"传统的去中心化加密数字货币都要等上一段时间，通过足够多的区块广播来保证交易是不可撤消的，并且验证这些币没有在别的地方已经被花掉而产生双重花费的可能。这个过程很费时，通常被广泛接受的六步确认会花上15分钟到1个小时不等的时间。其它的加密数字货币都是通过网络上不同程度的中心化处理来实现交易确认时间加速。"
+
+#: ../../introduction/features.rst:146
+msgid ""
+"Axe suffers from neither of these limitations thanks to its second-layer "
+"network of masternodes. Masternodes can be called upon to form voting "
+"quorums to check whether or not a submitted transaction is valid. If it is "
+"valid, the masternodes \"lock\" the inputs for the transaction and broadcast"
+" this information to the network, effectively promising that the transaction"
+" will be included in subsequently mined blocks and not allowing any other "
+"spending of these inputs during the confirmation time period."
+msgstr ""
+"得力于主节点的双层网络架构，达世币不会遇到其中任何一种限制。主节点会被召集组成仲裁连的随机节点来检查所提交的交易是否有效。如果有效，主节点便会锁住用于交易的输出并将信息在网络上公布，高效地保证了交易会列入到随后的区块中，并且在确认期内不允许再花费这些资金。"
+
+#: ../../introduction/features.rst:155
+msgid ""
+"InstantSend technology will allow for cryptocurrencies such as Axe to "
+"compete with nearly instantaneous transaction systems such as credit cards "
+"for point-of-sale situations while not relying on a centralized authority. "
+"Widespread vendor acceptance of Axe and InstantSend could revolutionize "
+"cryptocurrency by shortening the delay in confirmation of transactions from "
+"as long as an hour (with Bitcoin) to as little as a few seconds."
+msgstr ""
+"即时支付技术使得像达世币这样的数字货币，在销售点的支付环境下，完全可以媲美那些接近瞬时支付的信用卡，而且不依赖任何中央集权机构。通过将交易确认时间长达几个小时（比特币）缩短到仅仅几秒，达世币被商户广泛接受的现状和即时支付技术将给加密数字货币带来一场革命。"
+
+#: ../../introduction/features.rst:163
+msgid ""
+"You can view a practical guide to use InstantSend :ref:`here <axecore-"
+"privatesend-instantsend>`. InstantSend was introduced in a whitepaper called"
+" `Transaction Locking and Masternode Consensus: A Mechanism for Mitigating "
+"Double Spending Attacks "
+"<https://github.com/axerunners/docs/blob/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_."
+msgstr ""
+"你可以在\\ :ref:`这里 <axecore-privatesend-instantsend>`\\ "
+"浏览使用即时支付的操作指南。白皮书中先前对即时支付的介绍，叫做\\ `交易锁定和主节点共识：一种减少双重花费攻击的机制 "
+"<https://github.com/axerunners/docs/blob/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_\\"
+" 。"
+
+#: ../../introduction/features.rst:169
+msgid ""
+"**How Axe 'InstantSend' Protects Merchants from Double Spends**, Axe "
+"Detailed by Amanda B. Johnson, 16 September 2016"
+msgstr "**达世币如何通过即时支付防止双花**，Amanda B. Johnson向你诠释，2016年9月16"
+
+#: ../../introduction/features.rst:182
+msgid "Sporks"
+msgstr "叉勺技术"
+
+#: ../../introduction/features.rst:184
+msgid ""
+"In response to unforeseen issues with the rollout of the major \"RC3\" "
+"update in June 2014, the Axe development team created a mechanism by which "
+"updated code is released to the network, but not immediately made active "
+"(\"enforced\"). This innovation allows for far smoother transitions than in "
+"the traditional hard fork paradigm, as well as the collection of test data "
+"in the live network environment. This process of multi-phased forking was "
+"originally to be called \"soft forking\" but the community affectionately "
+"dubbed it \"the spork\" and the name stuck."
+msgstr ""
+"为了应对2014年6月更新\"RC3\"时出现意料之外的问题，达世开发团队发明了一种机制，在这种机制下，更新代码会被发布到网络上，但不马上激活（\"实施\"）。这种创新相比于传统的硬分叉模型，能够更平稳的过渡，并且可以收集实时网络环境中的测试信息。这种多阶段分叉过程开始时被称为软分叉，但是社区中亲切地授予它“叉勺”的称呼。"
+
+#: ../../introduction/features.rst:193
+msgid ""
+"New features or versions of Axe undergo extensive testing on testnet before"
+" they are released to the main network. When a new feature or version of "
+"Axe is released on mainnet, communication is sent out to users informing "
+"them of the change and the need for them to update their clients. Those who "
+"update their clients run the new code, but it is not activated until a "
+"sufficient percentage of network participants (usually 80%) reach consensus "
+"on running it. In the event of errors occurring with the new code, the "
+"client’s blocks are not rejected by the network and unintended forks are "
+"avoided. Data about the error can then be collected and forwarded to the "
+"development team. Once the development team is satisfied with the new code’s"
+" stability in the mainnet environment – and once acceptable network "
+"consensus is attained – enforcement of the updated code can be activated "
+"remotely by multiple members of the core development team signing a network "
+"message together with their respective private keys. Should problems arise, "
+"the code can be deactivated in the same manner, without the need for a "
+"network-wide rollback or client update. For technical details on individual "
+"sporks, see :ref:`here <understanding-sporks>`."
+msgstr ""
+"达世币的新功能或新版本在发布到主网前，都会在测试网上经受大量的测试。当达世币的新功能或新版本在主网发布时，信息会发给用户，将相应的变化和向客户更新的要求通知到他们。那些已经更新了客户端的用户会运行新的代码，但不会激活，直到有足够比例的网络参与者（一般是80%）达成运行共识。如果新的代码有错误，客户端区块不会被网络拒绝，所以意外的分叉可以被避免。有关错误的数据也会被收集起来发送给开发团队。一旦开发团队对新代码在主网环境下的稳定性表示满意，并且达成同意接受的网络共识，通过核心开发团队多数成员使用各自的私人密钥进行数字签名，更新代码的实施便可被远程激活。如果有问题发生，可以用同样的方式让代码失效，而不需要整个网络的回滚或客户端更新。关于单个叉勺的技术细节，详见\\"
+" :ref:`这里  <understanding-sporks>`\\ 。"
+
+#: ../../introduction/features.rst:216
+msgid "X11 Hash Algorithm"
+msgstr "X11算法"
+
+#: ../../introduction/features.rst:218
+msgid ""
+"X11 is a widely used hashing algorithm created by Axe core developer Evan "
+"Duffield. X11’s chained hashing algorithm utilizes a sequence of eleven "
+"scientific hashing algorithms for the proof-of-work. This is so that the "
+"processing distribution is fair and coins will be distributed in much the "
+"same way Bitcoin’s were originally. X11 was intended to make ASICs much more"
+" difficult to create, thus giving the currency plenty of time to develop "
+"before mining centralization became a threat. This approach was largely "
+"successful; as of early 2016, ASICs for X11 now exist and comprise a "
+"significant portion of the network hashrate, but have not resulted in the "
+"level of centralization present in Bitcoin. Information on mining with X11 "
+"can be found in the :ref:`Mining <mining>` section of this documentation."
+msgstr ""
+"X11算法是由Axe Core创始人Evan "
+"Duffield创建并被广泛应用的算法。X11的链式算法利用了11个科学散列算法序列用于工作量证明。这是为了让分配的过程更加公平，使币的分布能像比特币最开始设想的那样。X11的初衷是想使集成电路矿机做起来比较难，这样就可以在挖矿集权成为入驻前，给货币以足够的时间去发展。这个方法在很大程度上是成功的。从2016年初开始，针对于X11算法的ASIC矿机现在已经出现并占据了很大部分的网络算力，但是并没有造成像比特币那种程度的集权。关于针对X11算法挖矿的信息可以在\\"
+" :ref:`挖矿 <mining>`\\ 专区中找到。"
+
+#: ../../introduction/features.rst:231
+msgid ""
+"X11 is the name of the chained proof-of-work (**PoW**) algorithm that was "
+"introduced in Axe (launched January 2014 as \"Xcoin\"). It was partially "
+"inspired by the chained-hashing approach of Quark, adding further \"depth\" "
+"and complexity by increasing the number of hashes, yet it differs from Quark"
+" in that the rounds of hashes are determined *a priori* instead of having "
+"some hashes being randomly picked."
+msgstr ""
+"X11是达世币（2014年1月按Xcoin命名发行）引入的工作量证明（ **POW** "
+"）的一个算法名称。它一部分受Quark的启发，通过提高散列的数量增加了更多“深度“和复杂性，但是它与Quark的不同是，散列的轮次是确定先验的而不是随机挑选的。"
+
+#: ../../introduction/features.rst:238
+msgid ""
+"The X11 algorithm uses multiple rounds of 11 different hashes (blake, bmw, "
+"groestl, jh, keccak, skein, luffa, cubehash, shavite, simd, echo), thus "
+"making it one of the safest and more sophisticated cryptographic hashes in "
+"use by modern cryptocurrencies. The name X11 is not related to the open "
+"source X11 windowing system common on UNIX-like operating systems."
+msgstr ""
+"X11算法采用的是11种不同的算法（blake、bmw、groestl、jh、keccak、skein、luffa、cubehash、shavite、simd、echo），这使其成为加密数字货币应用中最安全的更复杂的加密算法。X11的名字与类似近UNIX操作系统的X11开源WINDOWS系统没有任何关系。"
+
+#: ../../introduction/features.rst:246
+msgid "Advantages of X11"
+msgstr "X11的优势"
+
+#: ../../introduction/features.rst:248
+msgid ""
+"The increased complexity and sophistication of the chained algorithm "
+"provides enhanced levels of security and less uncertainty for a digital "
+"currency, compared to single-hash PoW solutions that are not protected "
+"against security risks like SPOF (Single Point Of Failure). For example, a "
+"possible but not probable computing breakthrough that \"breaks\" the SHA256 "
+"hash could jeopardize the entire Bitcoin network until the network shifts "
+"through a hard fork to another cryptographic hash."
+msgstr ""
+"相较于没有安全风险保护的单一算法的工作量证明解决方法，比如SPOF（单点故障），多重算法中提升的复杂性增强了数字货币的安全性，减少了不确定性。例如，如果有新的计算突破，可能但不一定会发生，攻破了SHA256算法，就有可能会危及到整个比特币网络，除非网络通过硬分叉转移到另外一个加密算法中去。"
+
+#: ../../introduction/features.rst:256
+msgid ""
+"In the event of a similar computing breakthrough, a digital currency using "
+"the X11 PoW would continue to function securely unless all 11 hashes were "
+"broken simultaneously. Even if some of the 11 hashes were to prove "
+"unreliable, there would be adequate warning for a currency using X11 to take"
+" measures and replace the problematic hashes with other more reliable "
+"hashing algorithms."
+msgstr ""
+"如果有相似的计算突破发生，使用X11算法验证PoW的数字货币还会继续安全地运行，除非11个算法同时被攻破。即使11个算法中有一些被证实不可靠，但也足够向使用X11算法的货币提出预警，以便采取措施，用其它更可靠的算法替换掉有问题的算法。"
+
+#: ../../introduction/features.rst:263
+msgid ""
+"Given the speculative nature of digital currencies and their inherent "
+"uncertainties as a new field, the X11 algorithm can provide increased "
+"confidence for its users and potential investors that single-hash approaches"
+" cannot. Chained hashing solutions, like X11, provide increased safety and "
+"longevity for store of wealth purposes, investment diversification and "
+"hedging against risks associated with single-hash currencies plagued by SPOF"
+" (Single Point Of Failure)."
+msgstr ""
+"鉴于数字货币的投机属性以及作为新领域固有的不确定性，X11算法能给其用户和潜在投资者增加信心，这一点是单一算法所不能做到的。链式算法解决方案，如X11，提升了安全性，延长了以财富为目的的存储寿命，增加了投资多样性，对冲了由于SPOF（单点故障）带来的单一算法货币的风险。"
+
+#: ../../introduction/features.rst:271
+msgid ""
+"Evan Duffield, the creator of Axe and X11 chained-hash, has written on "
+"several occasions that X11 was integrated into Axe not with the intention "
+"to prevent ASIC manufacturers from creating ASICs for X11 in the future, but"
+" rather to provide a similar migratory path that Bitcoin had (CPUs, GPUs, "
+"ASICs)."
+msgstr ""
+"Evan Duffield, "
+"达世币和X11算法的创始人，在很多场合都已经写过，将X11整合在达世币中，目的不是要阻止ASIC制造商来将来制造出针对X11的矿机，更多是提供一个跟比特币相似的发展路径（CPUs,"
+" GPUs, ASICs）。"
+
+#: ../../introduction/features.rst:281
+msgid "Dark Gravity Wave"
+msgstr "暗黑重力波"
+
+#: ../../introduction/features.rst:283
+msgid ""
+"**DGW** or *Dark Gravity Wave* is an open source difficulty-adjusting "
+"algorithm for Bitcoin-based cryptocurrencies that was first used in Axe and"
+" has since appeared in other digital currencies. DGW was authored by Evan "
+"Duffield, the developer and creator of Axe, as a response to a time-warp "
+"exploit found in *Kimoto's Gravity Well*. In concept, DGW is similar to the "
+"Kimoto Gravity Well, adjusting the difficulty levels every block (instead of"
+" every 2016 blocks like Bitcoin) based on statistical data from recently "
+"found blocks. This makes it possible to issue blocks with relatively "
+"consistent times, even if the hashing power experiences high fluctuations, "
+"without suffering from the time-warp exploit."
+msgstr ""
+"**DGW**\\ "
+"或暗黑重力波是一种开源的难度可调的，为以比特币为基础的加密数字货币提供的算法，最开始时在达世币中使用，自此之后也已经出现在其它数字货币中。DGW由达世币的开发者和创建者Evan"
+" Duffield编写，以应对Kimoto’s Gravity Well算法中发现的时间隐藏剥削问题。理念上，DGW与Kimoto Gravity "
+"Well相似，基于最近发现的区块中的统计数据，调节每个区块难度级别（而不是像比特币那样每2016个区块调节）。这样，即使算力正面临很大的波动，也可以分配给每个区块相对一致的时间，避免遭受时间隐蔽剥削。"
+
+#: ../../introduction/features.rst:295
+msgid ""
+"Version 2.0 of DGW was implemented in Axe from block 45,000 onwards in "
+"order to completely alleviate the time-warp exploit."
+msgstr "达世币在45,000个区块后执行了DGW的2.0版本，为了全面减少时间隐蔽剥削的问题。"
+
+#: ../../introduction/features.rst:298
+msgid ""
+"Version 3.0 was implemented on May 14 of 2014 to further improve difficulty "
+"re-targeting with smoother transitions. It also fixes issues with various "
+"architectures that had different levels of floating-point accuracy through "
+"the use of integers."
+msgstr ""
+"3.0版本是在2014年5月14日执行的，通过平稳过渡，进一步提升了难度重新定位。这个版本还解决了很多架构中所出现的，由于整数算法引起的不同程度的浮点精确度问题。"
+
+#: ../../introduction/features.rst:307
+msgid "Emission Rate"
+msgstr "发行率"
+
+#: ../../introduction/features.rst:309
+msgid ""
+"Cryptocurrencies such as Axe and Bitcoin are created through a "
+"cryptographically difficult process known as mining. Mining involves "
+"repeatedly solving :ref:`hash algorithms <x11-hash-algorithm>` until a valid"
+" solution for the current :ref:`mining difficulty <dark-gravity-wave>` is "
+"discovered. Once discovered, the miner is permitted to create new units of "
+"the currency. This is known as the block reward. To ensure that the currency"
+" is not subject to endless inflation, the block reward is reduced at regular"
+" intervals, as `shown in this calculation "
+"<https://docs.google.com/spreadsheets/d/1HqgEkyfZDAA6pIZ3df2PwFE8Z430SVIzQ-"
+"mCQ6wGCh4/edit#gid=523620673>`_. Graphing this data results in a curve "
+"showing total coins in circulation, known as the coin emission rate."
+msgstr ""
+"加密数字货币如达世币和比特币，都是通过一种加密难度处理过程来产生的，称之为挖矿。挖矿需要不停地解决\\ :ref:`哈希算法 <x11-hash-"
+"algorithm>`\\ 直到当前\\ :ref:`难题 <dark-gravity-wave>`\\ "
+"的有效解决方法被找到。一旦找到，矿工就会被允许生产新的货币单元。这就是大家都了解的区块奖励。为了保证货币不会受到无止境的通胀影响，区块奖励会被减少到一个正常的区间。以下\\"
+" `显示的是计算方式 <https://docs.google.com/spreadsheets/d"
+"/1HqgEkyfZDAA6pIZ3df2PwFE8Z430SVIzQ-mCQ6wGCh4/edit#gid=523620673>`_\\ "
+"。将这些数据做成图表就会形成一个显示所有流通货币的曲线，称之为货币的发行速率。"
+
+#: ../../introduction/features.rst:322
+msgid ""
+"While Axe is based on Bitcoin, it significantly modifies the coin emission "
+"rate to offer a smoother reduction in coin emission over time. While Bitcoin"
+" reduces the coin emission rate by 50% every 4 years, Axe reduces the "
+"emission by one-fourteenth (approx. 7.14%) every 210240 blocks (approx. "
+"383.25 days). It can be seen that reducing the block reward by a smaller "
+"amount each year offers a smoother transition to a fee-based economy than "
+"Bitcoin."
+msgstr ""
+"虽然达世币的创立是基于比特币，但是它很大程度地修改了货币的发行率，随着时间的推移，更加平缓地降低货币发行速率。比特币每4年将发行速率降低50%，而达世币是每210240区块（大约383.25天）降低1/14（约7.14%）。这样可以看出达世币每年减少的区块奖励幅度较小，从而为将来转向收取手续费的经济模型，提供了比比特币更为平缓的过渡。"
+
+#: ../../introduction/features.rst:333
+msgid "Bitcoin vs. Axe coin emission rate"
+msgstr "比特币 vs. 达世币的发型速率"
+
+#: ../../introduction/features.rst:337
+msgid "Total coin emission"
+msgstr "总发行量"
+
+#: ../../introduction/features.rst:339
+msgid ""
+"`Bitcoin's total coin emission <https://docs.google.com/spreadsheets/d/1 "
+"2tR_9WrY0Hj4AQLoJYj9EDBzfA38XIVLQSOOOVePNm0/pubhtml?gid=0&single=true>`_ can"
+" be calculated as the sum of a geometric series, with the total emission "
+"approaching (but never reaching) 21,000,000 BTC. This will continue until "
+"2140, but the mining reward reduces so quickly that 99% of all bitcoin will "
+"be in circulation by 2036, and 99.9% by 2048."
+msgstr ""
+"`比特币的总发行量 "
+"<https://docs.google.com/spreadsheets/d/12tR_9WrY0Hj4AQLoJYj9EDBzfA38XIVLQSOOOVePNm0/pubhtml?gid=0&single=true>`_\\"
+" "
+"是按几何级数计算出来的和，无限接近总发行量（但不达到）21,000,000个比特币。这个发行过程会持续到2140年，即时如此快速地降低挖矿奖励，但到2036年时就会有99%的比特币被挖出，而到2048年时达到总量的99.9%。"
+
+#: ../../introduction/features.rst:346
+msgid ""
+"`Axe's total coin emission <https://docs.google.com/spreadsheets/d "
+"/1JUK4Iy8pjTzQ3Fvc-iV15n2qn19fmiJhnKDDSxebbAA/edit#gid=205877544>`_ is also "
+"the sum of a geometric series, but the ultimate total coin emission is "
+"uncertain because it cannot be known how much of the 10% block reward "
+"reserved for budget proposals will actually be allocated, since this depends"
+" on future voting behavior. Axe will continue to emit coins for "
+"approximately 192 years before a full year of mining creates less than 1 "
+"AXE. After 2209 only 14 more AXE will be created. The last AXE will take "
+"231 years to be generated, starting in 2246 and ending when emission "
+"completely stops in 2477. Based on these numbers, a maximum and minimum "
+"possible coin supply in the year 2254 can be calculated to be between:"
+msgstr ""
+"`达世币的总发行量 <https://docs.google.com/spreadsheets/d /1JUK4Iy8pjTzQ3Fvc-"
+"iV15n2qn19fmiJhnKDDSxebbAA/edit#gid=205877544>`_\\ "
+"也是按几何级数计算出来的和，但是最终的数量是不确定的，因为留给预算提案的10%的区块奖励不知道会有多少能被实际花掉，而这部分取决于将来的投票行为。达世币会持续发行约192年，直到每年产出的货币少于1个AXE。2209年后只剩下14个AXE会被产出。最后一个AXE的产出将会耗时231年，从2246年开始，到2477年发行全部结束。基于这些数字，2254年最大和最小的可能发行量在这之间："
+
+#: ../../introduction/features.rst:360
+msgid "17,742,696 AXE"
+msgstr "17,742,696 AXE"
+
+#: ../../introduction/features.rst:360
+msgid "Assuming zero treasury allocation"
+msgstr "假设未分配任何预算资金"
+
+#: ../../introduction/features.rst:362
+msgid "18,921,005 AXE"
+msgstr "18,921,005 AXE"
+
+#: ../../introduction/features.rst:362
+msgid "Assuming full treasury allocation"
+msgstr "假设全部预算资金都被分配"
+
+#: ../../introduction/features.rst:366
+msgid "Block reward allocation"
+msgstr "区块奖励分配"
+
+#: ../../introduction/features.rst:368
+msgid ""
+"Unlike Bitcoin, which allocates 100% of the block reward to miners, Axe "
+"holds back 10% of the block reward for use in the decentralized :ref:`budget"
+" system <decentralized-governance>`. The remainder of the block, as well as "
+"any transaction fees, are split 50/50 between the :ref:`miner <mining>` and "
+"a :ref:`masternode <masternodes>`, which is deterministically selected "
+"according to the :ref:`payment logic <payment-logic>`. Axe features "
+"superblocks, which appear every 16616 blocks (approx. 30.29 days) and can "
+"release up to 10% of the cumulative budget held back over that :ref:`budget "
+"cycle period <budget-cycles>` to the winning proposals in the budget system."
+" Depending on budget utilization, this results in an approximate coin reward"
+" allocation over a budget cycle as follows:"
+msgstr ""
+"比特币是将区块奖励100%分配给矿工，与此不同，达世币保留了10%的区块奖励用于去中心化\\ :ref:`预算管理系统 <decentralized-"
+"governance>`\\ 。区块奖励剩下的部分同交易费用，被50/50地分配给了\\ :ref:`矿工 <mining>`\\ 和\\ "
+":ref:`主节点 <masternodes>`\\ ，这些都是根据\\ :ref:`支付逻辑 <payment-logic>`\\ "
+"被确定选择的。达世币特有的超级块，每16616个区块（差不多30.29天）就出现一个超级块，可以将高达10%的在\\ :ref:`预算周期 "
+"<budget-cycles>`\\ 内累积预算分发给预算系统中通过的提案。根据预算的使用情况，一个预算周期内的区块奖励分配如下："
+
+#: ../../introduction/features.rst:382 ../../introduction/features.rst:384
+msgid "45%"
+msgstr "45%"
+
+#: ../../introduction/features.rst:382
+msgid "Mining Reward"
+msgstr "挖矿奖励"
+
+#: ../../introduction/features.rst:384
+msgid "Masternode Reward for Proof-of-service"
+msgstr "提供服务量证明的主节点奖励"
+
+#: ../../introduction/features.rst:386
+msgid "10%"
+msgstr "10%"
+
+#: ../../introduction/features.rst:386
+msgid "Decentralized Governance Budget"
+msgstr "去中心化预算管理"
+
+#: ../../introduction/features.rst:389
+msgid ""
+"This documentation is based on calculations and posts by moocowmoo. Please "
+"see `this reddit post <https://www.reddit.com/r/axerunners/comments/ "
+"7fc2on/axe_over_1000_in_a_few_weeks/dqb4pjn/>`_ for more details, or run "
+"your own `emission calculations using this tool <https://repl.it/@moocowmoo"
+"/axe-minmax-coin-generation>`_. See `this site "
+"<https://stats.masternode.me>`_ for live data on current network statistics."
+msgstr ""
+"这个文档是基于moocowmoo的计算和帖子。详情请见\\ `这个Reddit的帖子 "
+"<https://www.reddit.com/r/axerunners/comments/ "
+"7fc2on/axe_over_1000_in_a_few_weeks/dqb4pjn/>`_\\ 或者利用\\ `此工具计算货币发行量 "
+"<https://repl.it/@moocowmoo/axe-minmax-coin-generation>`_\\ "
+"。现行网络统计的实时数据请看\\ `这个站点 <https://stats.masternode.me>`_\\ 。"
+
+#: ../../introduction/features.rst:400
+msgid "Decentralized Governance"
+msgstr "分布式管理"
+
+#: ../../introduction/features.rst:402
+msgid ""
+"Decentralized Governance by Blockchain, or DGBB, is Axe's attempt to solve "
+"two important problems in cryptocurrency: governance and funding. Governance"
+" in a decentralized project is difficult, because by definition there are no"
+" central authorities to make decisions for the project. In Axe, such "
+"decisions are made by the network, that is, by the owners of masternodes. "
+"The DGBB system allows each masternode to vote once (yes/no/abstain) for "
+"each proposal. If a proposal passes, it can then be implemented (or not) by "
+"Axe's developers. A key example is early in 2016, when Axe's Core Team "
+"submitted a proposal to the network asking whether the blocksize should be "
+"increased to 2 MB. Within 24 hours, consensus had been reached to approve "
+"this change. Compare this to Bitcoin, where debate on the blocksize has been"
+" raging for nearly three years."
+msgstr ""
+"基于区块链的去中心化管理，或称DGBB，是达世币的一个创新尝试，即解决加密数字货币中的两个重要问题：管理和资金。在去中心化的项目中，实现管理很困难，因为从定义上讲没有中央集权去为项目做决定。在达世币中，这种决定通过网络来实现，即由主节点持有者来决定。DGBB系统允许每一个主节点对每一个提案投一次票（同意/不同意/弃权）。如果提案通过，它可以被达世币的开发者执行（或者不执行）。一个重要的例子就是2016年初，当达世币核心团队向网络递交一个提案，询问区块的大小是否应该提高到2MB时，在24小时内批准此变更的共识便已经达成。与之相比，比特币关于区块大小的争论已经激烈进行了将近三年。"
+
+#: ../../introduction/features.rst:416
+msgid ""
+"DGBB also provides a means for Axe to fund its own development. While other"
+" projects have to depend on donations or premined endowments, Axe uses 10% "
+"of the block reward to fund its own development. Every time a block is "
+"mined, 45% of the reward goes to the miner, 45% goes to a masternode, and "
+"the remaining 10% is not created until the end of the month. During the "
+"month, anybody can make a budget proposal to the network. If that proposal "
+"receives net approval of at least 10% of the masternode network, then at the"
+" end of the month a series of \"superblocks\" will be created. At that time,"
+" the block rewards that were not paid out (10% of each block) will be used "
+"to fund approved proposals. The network thus funds itself by reserving 10% "
+"of the block reward for budget projects."
+msgstr ""
+"为了达世币的发展，DGBB还提供了资金自足的途径。在其它项目还只能依赖于资助和捐款时，达世币已经可以利用10%的区块奖励来资助开发。当每一个区块被挖出来后，45%的区块奖励分配给矿工，45%分配给主节点，剩下的10%在月底前不会被分配。在这一个月中，任何人都可以向网络提出自己的预算提案。如果超过10%的主节点批准了这个预案，那么在月底时，一个“超级块”便被生成。那时，当初没有被花掉的区块奖励（每个区块的10%）就会被用于预案。网络通过预留10%区块奖励的方式为自己的预算项目融资。"
+
+#: ../../introduction/features.rst:429
+msgid ""
+"You can read more about Axe governance in the :ref:`governance` section of "
+"this documentation."
+msgstr "你可以在\\ :ref:`governance`\\ 专区浏览更多关于达世币管理的文献资料。"
+
+#: ../../introduction/features.rst:436
+msgid "Sentinel"
+msgstr "哨兵"
+
+#: ../../introduction/features.rst:438
+msgid ""
+"Sentinel is an autonomous agent for persisting, processing and automating "
+"Axe 12.1 governance objects and tasks, and for expanded functions in the "
+"upcoming Axe V13 release (Evolution). Sentinel is implemented as a Python "
+"application that binds to a local version 12.1 axed instance on each Axe "
+"12.1 masternode."
+msgstr ""
+"哨兵是一个自治代理系统，用于维护、处理和自动操作 Axe 12.1 版本的管理对象和任务，以及在即将发布的 Axe V13 (Evolution) "
+"中做功能扩展。哨兵的执行就像在每个 Axe 12.1 版本的主节点上，结合本地 Axe 12.1 把本实例的一个Python应用。"
+
+#: ../../introduction/features.rst:444
+msgid ""
+"A Governance Object (or \"govObject\") is a generic structure introduced in "
+"Axe Core 12.1 to allow for the creation of Budget Proposals, Triggers, and "
+"Watchdogs. Class inheritance has been utilized to extend this generic object"
+" into a \"Proposal\" object to supplant the current Axe budget system."
+msgstr ""
+"管理对象（或称 \"govObject\"）是Axe Core 12.1 "
+"版本引入的一个通用结构，允许创建预算提案，触发器和看门狗。使用类别继承，将通用对象扩展成 \"提案\" 对象来代替现行的达世币预算系统。"
+
+#: ../../introduction/features.rst:453
+msgid "Diagram highlighting the relationship between Axe Sentinel and Core"
+msgstr "图解强调了达世币哨兵和核心之间的关系"
+
+#: ../../introduction/features.rst:457
+msgid ""
+"*\"The differences with Sentinel are really architectural and not easy/ "
+"interesting to explain to users as they are a bridge from 12.0 towards Evo "
+"features (but not fully implementing them), and Sentinel was only a part of "
+"12.1 improvements anyway. Pre-Sentinel, governance functions were 'hard "
+"wired' into core code. Sentinel abstracts this process because in Evolution "
+"there are many Object types from Users to Accounts to Contacts etc, and if "
+"we didn't make this change first, future changes / improvements in Evolution"
+" (e.g. adding a new type of Object) would require changing core code. Now "
+"Core is agnostic to types of objects and we can take this forward for user "
+"experience and not just governance. In terms of documentation, there is no "
+"whitepaper specific to Sentinel, but we have various docs for Evo in an on-"
+"going RFC process which are used as the basis for Evo development.\"*"
+msgstr ""
+"*\"哨兵差异很结构化，不容易解释也不容易引起用户的兴趣，它们是 12.0 版本通向Evo功能的桥梁（但不是全部被执行），哨兵以前也只是 12.1 "
+"版本改进的一部分。在哨兵之前，管理功能是固化在核心代码中的。哨兵抽取了这个功能，因为在Evolution中有很多对象类型，从用户到账户到联系人等等，如果我们不先做出改变，将来在Evolution中一旦有变化"
+" / "
+"改进（如增加一个新的对象类型），核心代码就不得不做出改变。现在核心对对象类型不敏感了，我们就可以向客户体验而不仅是管理方向推进。在文件资料方面，没有具体针对Sentinel的白皮书，但是我们很多有关Evo的文件还在意见征集RFC过程中，这些也用于Evo的开发。\"*"
+
+#: ../../introduction/features.rst:489
+msgid "Andy Freer, Evolution Developer"
+msgstr "Andy Freer, 进化版开发者"
+
+#: ../../introduction/features.rst:478
+msgid "Fees"
+msgstr "手续费"
+
+#: ../../introduction/features.rst:480
+msgid ""
+"Transactions on the Axe network are recorded in blocks on the blockchain. "
+"The size of each transaction is measured in bytes, but there is not "
+"necessarily a correlation between high value transactions and the number of "
+"bytes required to process the transaction. Instead, transaction size is "
+"affected by how many input and output addresses are involved, since more "
+"data must be written in the block to store this information. Each new block "
+"is generated by a miner, who is paid for completing the work to generate the"
+" block with a block reward. In order to prevent the network from being "
+"filled with spam transactions, the size of each block is artificially "
+"limited. As transaction volume increases, the space in each block becomes a "
+"scarce commodity. Because miners are not obliged to include any transaction "
+"in the blocks they produce, once blocks are full, a voluntary transaction "
+"fee can be included as an incentive to the miner to process the transaction."
+" Most wallets include a small fee by default, although some miners will "
+"process transactions even if no fee is included."
+msgstr ""
+
+#: ../../introduction/features.rst:497
+msgid ""
+"The release of Axe 0.12.2.0 and activation of DIP0001 saw a simultaneous "
+"reduction of fees by a factor of 10, while the block size was increased from"
+" 1MB to 2MB to promote continued growth of low-cost transactions even as the"
+" cost of Axe rises. Axe also supports :ref:`instantsend` and "
+":ref:`privatesend` transactions, which operate on a different and mandatory "
+"fee schedule. Axe 0.13.0.0 introduced InstantSend autolocks, which causes "
+"masternodes to automatically attempt to lock any transaction with 4 or fewer"
+" inputs — which are referred to as “simple” transactions — and removes the "
+"additional fee for InstantSend. The fee schedule for Axe 0.13.x as of "
+"December 2018 is as follows:"
+msgstr ""
+
+#: ../../introduction/features.rst:510
+msgid "Transaction type"
+msgstr "交易类型"
+
+#: ../../introduction/features.rst:510
+msgid "Recommended fee"
+msgstr "推荐手续费"
+
+#: ../../introduction/features.rst:510
+msgid "Per unit"
+msgstr "每单位"
+
+#: ../../introduction/features.rst:512
+msgid "Standard transaction"
+msgstr "标准交易"
+
+#: ../../introduction/features.rst:512 ../../introduction/features.rst:514
+msgid ".00001 AXE"
+msgstr ".00001 AXE"
+
+#: ../../introduction/features.rst:512 ../../introduction/features.rst:514
+msgid "Per kB of transaction data"
+msgstr "每 kB 交易数据"
+
+#: ../../introduction/features.rst:514
+msgid "InstantSend autolock"
+msgstr ""
+
+#: ../../introduction/features.rst:516
+msgid ".0001 AXE"
+msgstr ".0001 AXE"
+
+#: ../../introduction/features.rst:516
+msgid "Per transaction input"
+msgstr "每交易输入"
+
+#: ../../introduction/features.rst:518
+msgid ".001 AXE"
+msgstr ".001 AXE"
+
+#: ../../introduction/features.rst:518
+msgid "Per 10 rounds of mixing (average)"
+msgstr "每10轮混币（平均）"
+
+#: ../../introduction/features.rst:521
+msgid ""
+"As an example, a standard and relatively simple transaction on the Axe "
+"network with one input, one output and a possible change address typically "
+"fits in the range of 200 - 400 bytes. Assuming a price of US$100 per AXE, "
+"the fee falls in the range of $0.0002 - $0.0004, or 1/50th of a cent. "
+"Processing a simple transaction using InstantSend at the same price is free "
+"of charge, while more complex InstantSend transactions may cost around 1-2 "
+"cents per transaction, depending on the number of inputs. These fees apply "
+"regardless of the Axe or dollar value of the transaction itself."
+msgstr ""
+
+#: ../../introduction/features.rst:531
+msgid ""
+"PrivateSend works by creating denominations of 10, 1, 0.1, 0.01 and 0.001 "
+"AXE and then mixing these denominations with other users. Creation of the "
+"denominations is charged at the default fee for a standard transaction. "
+"Mixing is free, but to prevent spam attacks, an average of one in ten mixing"
+" transactions are charged a fee of 0.0001 AXE. Spending inputs mixed using "
+"PrivateSend incurs the usual standard or InstantSend fees, but to avoid "
+"creating a potentially identifiable change address, the fee is always "
+"rounded up to the lowest possible denomination. This is typically .001 AXE,"
+" so it is important to deduct the fee from the amount being sent if possible"
+" to minimise fees. Combining InstantSend and PrivateSend may be expensive "
+"due to this requirement and the fact that a PrivateSend transaction may "
+"require several inputs, while InstantSend charges a fee of 0.0001 AXE per "
+"input. Always check your fees before sending a transaction."
+msgstr ""
+
+#: ../../introduction/features.rst:550
+msgid "Evolution"
+msgstr "进化版"
+
+#: ../../introduction/features.rst:552
+msgid ""
+"`Axe Evolution <https://www.axerunners.com/evolution/>`_ is the code name for a "
+"decentralized currency platform built on Axe blockchain technology. The "
+"goal is to provide simple access to the unique features and benefits of Axe"
+" to assist in the creation of decentralized technology. Axe introduces a "
+"tiered network design, which allows users to do various jobs for the "
+"network, along with decentralized API access and a decentralized file "
+"system."
+msgstr ""
+"`达世币进化版 <https://www.axerunners.com/evolution/>`_\\ "
+"是建立在达世币区块链技术上一个去中心化货币平台的代码名称。其目标是为大家提供一个简单的接口，利用达世币独一无二的功能和有利条件，协助去中心化技术继续创新。达世币引入了多层网络设计，从而允许用户通过分布式应用程序接口DAPI和分布式文件系统为网络做各种工作。"
+
+#: ../../introduction/features.rst:560
+msgid ""
+"Axe Evolution will be released in stages. Axe Core releases 12.1 through "
+"to 12.4 will lay the groundwork for the decentralized features behind the "
+"scenes. An alpha version of Evolution is expected in the first half of 2018,"
+" including a basic implementation of AxeDrive, Primitives, DAPI and a "
+"simple T3 wallet. This will be released together with a series of Axe "
+"Improvement Proposals (DIPs), followed by a testnet phase with most basic "
+"functionality, and a first stable release in summer 2018."
+msgstr ""
+"达世币进化版将会分阶段发布。Axe Core通过发布 12.1 到 12.4 "
+"在幕后为去中心化功能打下了基础。进化版的初始版本预期在2018年的下半年发布，包括AxeDrive达世币驱动，Primitives基元，DAPI分布式应用程序接口以及简易的T3钱包等基本功能。这将与一系列的达世币改进提案（DIPs）一起发布，随后是基础功能的测试网络运行阶段，在2018年冬天发布第一个稳定版本。"
+
+#: ../../introduction/features.rst:569
+msgid ""
+"Included below is our current work on Evolution, that adds many components "
+"such as:"
+msgstr "以下便是我们目前在Evolution上所做的工作，增加了许多单元如："
+
+#: ../../introduction/features.rst:572
+msgid ""
+"**AxeDrive:** A decentralized shared file system for user data that lives "
+"on the second tier network"
+msgstr "**AxeDrive达世币驱动：**\\ 一个分布式用户数据共享文件系统，在第二层网络上实时更新"
+
+#: ../../introduction/features.rst:574
+msgid ""
+"**DAPI:** A decentralized API which allows third tier users to access the "
+"network securely"
+msgstr "**DAPI：**\\ 分布式应用程序接口，允许第三层用户安全接入网络"
+
+#: ../../introduction/features.rst:576
+msgid ""
+"**AXE Decentralized Wallets:** These wallets are light clients connected"
+" to the network via DAPI and run on various platforms"
+msgstr "**分布式AxePay钱包：**\\ 用户可通过DAPI在不同操作平台接入这些轻钱包"
+
+#: ../../introduction/features.rst:578
+msgid ""
+"**Second Tier:** The masternode network, which provides compensated "
+"infrastructure for the project"
+msgstr "**第二层网络：**\\ 主节点网络 - 可为项目提供有偿的基础设施建设"
+
+#: ../../introduction/features.rst:580
+msgid ""
+"**Budgets:** The second tier is given voting power to allocate funds for "
+"specific projects on the network via the budget system"
+msgstr "**预算：**\\ 主节点网络被赋予了投票的权力，从而可以通过预算系统为网络上具体的项目提供资金"
+
+#: ../../introduction/features.rst:582
+msgid ""
+"**Governance:** The second tier is given voting power to govern the currency"
+" and chart the course the currency takes"
+msgstr "**管理：**\\ 主节点网络被赋予了投票的权力从而管理达世币项目及发展方向"
+
+#: ../../introduction/features.rst:584
+msgid ""
+"**Quorum Chain:** This feature introduces a permanent stable masternode "
+"list, which can be used to calculate past and present quorums"
+msgstr "**仲裁链：**\\ 这个功能引入了长久固定的主节点列表，用于计算以往的和当前的仲裁链"
+
+#: ../../introduction/features.rst:586
+msgid ""
+"**Social Wallet:** We introduce a social wallet, which allows friends lists,"
+" grouping of users and shared multisig accounts."
+msgstr "**社交钱包：**\\ 我们引入了社会钱包，增添朋友列表，用户群和共享的多重签名账户。"
+
+#: ../../introduction/features.rst:590
+msgid "Evolution Previews"
+msgstr "进化版预览"
+
+#: ../../introduction/features.rst:592
+msgid ""
+"The following videos featuring Axe Founder Evan Duffield and Head of UI/UX "
+"Development Chuck Williams describe the development process and upcoming "
+"features of the Axe Evolution platform."
+msgstr ""
+"以下的视频是达世币创始人Evan Duffield和用户体验/用户界面设计开发部门负责人Chuck Williams对Axe "
+"Evolution平台开发流程和即将呈现的功能所做的描述。"
+
+#: ../../introduction/features.rst:596
+msgid "**Evolution Demo #1 - The First Axe DAP**, 16 March 2018"
+msgstr "**Evolution Demo #1 - The First Axe DAP** , 2018年3月16日"
+
+#: ../../introduction/features.rst:604
+msgid "**Evolution Demo #2 - Mobile Evolution**, 25 April 2018"
+msgstr "**Evolution Demo #2 - Mobile Evolution**, 2018年4月25日"
+
+#: ../../introduction/features.rst:612
+msgid "**Evolution Demo #3 - Axepay User Experience**, 15 May 2018"
+msgstr "**Evolution Demo #3 - Axepay User Experience**, 2018年5月15日"
+
+#: ../../introduction/features.rst:620
+msgid ""
+"**Chuck Williams on Evolution**, Axe Conference London, 14 September 2017"
+msgstr "**Chuck Williams on Evolution**, Axe Conference London, 2017年9月14日"
+
+#: ../../introduction/features.rst:628
+msgid ""
+"**Evan Duffield on the Evolution Roadmap**, Axe Force News, 28 June 2017"
+msgstr ""
+"**Evan Duffield on the Evolution Roadmap**, Axe Force News, 2017年6月28日"

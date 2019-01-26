@@ -1,0 +1,691 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daf Daf, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:18+0000\n"
+"Last-Translator: Daf Daf, 2018\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../wallets/axecore/advanced.rst:1
+msgid ""
+"Coin control, HD wallets, multisig, KeePass and multiple wallet files using "
+"the Axe Core wallet"
+msgstr ""
+"Contrôle des pièces, portefeuilles HD, multi-signature, KeePass et fichiers "
+"de portefeuille multiples avec le portefeuille logiciel Axe Core"
+
+#: ../../wallets/axecore/advanced.rst:1
+msgid ""
+"axe, core, wallet, backup, restore, wallet.dat, multisig, KeePass, hd, "
+"seed, passphrase, mnemonic, coin control, hierarchical deterministic"
+msgstr ""
+"axe, core, portefeuille logiciel, sauvegarde, restauration, wallet.dat, "
+"multi-signature, KeePass, HD, graine, phrase de passe, mnémonique, contrôle "
+"des pièces, déterministe hiérarchique"
+
+#: ../../wallets/axecore/advanced.rst:9
+msgid "Advanced topics"
+msgstr "Fonctions avancées"
+
+#: ../../wallets/axecore/advanced.rst:14
+msgid "Coin Control"
+msgstr "Contrôle des pièces"
+
+#: ../../wallets/axecore/advanced.rst:16
+msgid ""
+"Coin Control allows users of the Axe Core Wallet to specify which addresses"
+" and Unspent Transaction Outputs (UTXOs) should be used as inputs in "
+"transactions. This allows you to keep a specific balance on certain "
+"addresses in your wallet, while spending others freely. In Axe Core Wallet,"
+" click **Settings > Options > Wallet > Enable coin control features**. Now, "
+"when you go to the Send tab in your wallet, a new button labelled "
+"**Inputs…** will appear. Click this button to select which UTXOs can be used"
+" as input for any transactions you create. The following window appears:"
+msgstr ""
+"Le Contrôle des pièces permet aux utilisateurs du portefeuille logiciel Axe"
+" Core de choisir quelles adresses et quelles sorties de transaction non "
+"dépensées (UTXO) doivent être utilisées comme entrées de transaction. Cela "
+"vous permet de conserver un solde donné sur certaines adresses de votre "
+"portefeuille, tout en dépensant les autres librement. Dans le portefeuille "
+"logiciel Axe Core, cliquez sur **Réglages > Options > Portefeuille > "
+"Activer les fonctionnalités de contrôle des pièces**. Désormais, quand vous "
+"allez dans l'onglet Envoyer de votre portefeuille, un nouveau bouton nommé "
+"**Entrées…** est affiché. Cliquez sur ce bouton pour choisir les UTXO "
+"pouvant servir d'entrées pour les transactions que vous créez. La fenêtre "
+"suivante s'affiche :"
+
+#: ../../wallets/axecore/advanced.rst:29
+msgid ""
+"Coin Selection window in Axe Core wallet, showing two masternodes (testnet)"
+msgstr ""
+"Fenêtre de Contrôle des pièces dans le portefeuille logiciel Axe Core, "
+"affichant deux masternodes (du réseau de test)"
+
+#: ../../wallets/axecore/advanced.rst:32
+msgid ""
+"Right click on the transaction(s) you do not want to spend, then select "
+"**Lock unspent**. A small lock will appear next to the transaction. You can "
+"click the **Toggle lock state** button to invert the locked/unlocked state "
+"of all UTXOs. When you are ready to continue, click **OK**. You can now "
+"safely create transactions with your remaining funds without affecting the "
+"locked UTXOs."
+msgstr ""
+"Faites un clic-droit sur la ou les transaction(s) que vous ne souhaitez pas "
+"dépenser, puis choisissez **Verrouiller les transactions non dépensées**. "
+"Une petite icône en forme de cadenas sera affichée à côté de la transaction."
+" Vous pouvez cliquer sur **Inverser le verrouillage** pour inverser l'état "
+"verrouillé/déverrouillé de toutes les UTXO. Quand vous êtes prêt à "
+"continuer, cliquez sur **OK**. Vous pouvez désormais créer des transactions "
+"en toute sécurité avec les fonds restants, sans que cela n'affecte les UTXO "
+"verrouillées."
+
+#: ../../wallets/axecore/advanced.rst:45
+msgid "Locking UTXOs in Axe Core wallet"
+msgstr ""
+"Verrouillage de transactions de sortie (UTXO) dans le portefeuille logiciel "
+"Axe Core"
+
+#: ../../wallets/axecore/advanced.rst:51
+msgid "HD Wallets"
+msgstr "Portefeuilles HD"
+
+#: ../../wallets/axecore/advanced.rst:53
+msgid ""
+"Since version 0.12.2.0, Axe Core has included an implementation of "
+"BIP39/BIP44 compatible hierarchical deterministic (HD) key generation. This "
+"functionality is only available from the command line by specifying the "
+"``usehd`` option when starting Axe Core for the first time. Use this "
+"function with care, since the mnemonic seed and keys will be stored in plain"
+" text until you specify a wallet passphrase. Note that the wallet passphrase"
+" is different to the mnemonic passphrase, which is often also referred to as"
+" the \"25th word\" or \"extension word\". The wallet passphrase encrypts the"
+" wallet file itself, while the mnemonic passphrase is used to specify "
+"different derivation branches from the same mnemonic seed."
+msgstr ""
+"Depuis sa version 0.12.2.0, le portefeuille logiciel Axe Core comporte une "
+"implémentation compatible BIP39/BIP44 de la génération hiérarchique "
+"déterministe (HD) de clés. Cette fonctionnalité n'est disponible qu'en ligne"
+" de commande, en indiquant l'option ``usehd`` au premier démarrage de Axe "
+"Core. Veuillez utiliser cette fonction avec prudence, car la graine "
+"mnémonique et les clés seront stockées en clair si vous ne définissez pas de"
+" phrase de passe pour votre portefeuille. Veuillez noter que la phrase de "
+"passe du portefeuille est différente de la phrase de passe mnémonique, "
+"laquelle est souvent appelée \"25e mot\" ou \"mot d'extension\". La phrase "
+"de passe du portefeuille chiffre le fichier portefeuille lui-même, tandis "
+"que la phrase de passe mnémonique est utilisée pour indiquer des branches de"
+" dérivation différentes depuis la même graine mnémonique."
+
+#: ../../wallets/axecore/advanced.rst:65
+msgid ""
+"We will use the Windows GUI wallet in this example, but the commands are "
+"similar if using ``axe-qt`` or ``axed`` on other operating systems. Enter "
+"the following command to get started with a randomly generated HD wallet "
+"seed and no mnemonic passphrase::"
+msgstr ""
+"Nous nous servirons du portefeuille à interface graphique pour Windows dans "
+"cet exemple, mais les commandes sont similaires si vous utilisez ``axe-qt``"
+" ou ``axed`` sur d'autres systèmes d'exploitation. Commencez par taper la "
+"commande suivante pour générer une graine HD de portefeuille aléatoire, sans"
+" phrase de passe mnémonique ::"
+
+#: ../../wallets/axecore/advanced.rst:72
+msgid ""
+"A new HD wallet will be generated and Axe Core will display a warning "
+"informing you that you must encrypt your wallet after verifying it works "
+"correctly. Open the console from **Tools -> Debug console** or issue the "
+"following RPC command from ``axe-cli`` to view the mnemonic seed::"
+msgstr ""
+"Un nouveau portefeuille HD sera généré et Axe Core affichera un "
+"avertissement pour vous dire de chiffrer votre portefeuille une fois que "
+"vous aurez vérifié son bon fonctionnement. Ouvrez la console en allant dans "
+"le menu **Outil > Console de débogage** ou envoyez la commande RPC suivante "
+"dans ``axe-cli`` pour afficher la graine mnémonique ::"
+
+#: ../../wallets/axecore/advanced.rst:79
+msgid ""
+"Axe Core will display the HD seed in both hexadecimal and as a BIP39 "
+"mnemonic. To restore an existing HD wallet, or define your own separately "
+"generated mnemonic and/or passphrase, ensure no ``wallet.dat`` file exists "
+"in the ``datadir`` and enter the following command::"
+msgstr ""
+"Axe Core affichera la graine HD au format hexadécimal et en tant que "
+"mnémonique BIP39. Pour restaurer un portefeuille HD existant, ou définir vos"
+" propres mnémonique et/ou phrase de passe générés séparément, veuillez vous "
+"assurer qu'aucun fichier ``wallet.dat`` n'existe dans le répertoire "
+"``datadir`` et saisissez la commande suivante ::"
+
+#: ../../wallets/axecore/advanced.rst:87
+msgid ""
+"The HD wallet will be restored and your balance will appear once sync is "
+"complete."
+msgstr ""
+"Le portefeuille HD sera restauré et votre solde apparaîtra une fois que la "
+"synchronisation sera achevée."
+
+#: ../../wallets/axecore/advanced.rst:94
+msgid "Multisignature"
+msgstr "Multi-signature"
+
+#: ../../wallets/axecore/advanced.rst:96
+msgid ""
+"This section presents a worked example to demonstrate multisig functionality"
+" in Axe Core. While the transactions are no longer visible on the current "
+"testnet blockchain and some address formats or RPC responses may differ "
+"slightly from the version shown here, the principle and commands are the "
+"same. The example demonstrates how to set up a 2-of-3 multisig address and "
+"create a transaction. The example parties involved are a buyer, a seller and"
+" an arbiter. This example is based on:"
+msgstr ""
+"Cette section présente un exemple fonctionnel de multi-signature dans le "
+"portefeuille logiciel Axe Core. Les transactions ne sont plus visibles sur "
+"la blockchain de test actuelle, et quelques formats d'adresse ou réponses "
+"RPC peuvent différer légèrement de l'exemple ci-dessous, mais le principe et"
+" les commandes restent les mêmes. Cet exemple montre comment configurer une "
+"adresse multi-signature \"2 sur 3\" et créer une transaction. Les parties "
+"impliquées dans cet exemple sont un acheteur, un vendeur et un arbitre. Cet "
+"exemple se base sur :"
+
+#: ../../wallets/axecore/advanced.rst:104
+msgid "https://people.xiph.org/~greg/escrowexample.txt"
+msgstr "https://people.xiph.org/~greg/escrowexample.txt"
+
+#: ../../wallets/axecore/advanced.rst:105
+msgid "https://gist.github.com/gavinandresen/3966071"
+msgstr "https://gist.github.com/gavinandresen/3966071"
+
+#: ../../wallets/axecore/advanced.rst:106
+msgid "https://bitcoin.org/en/developer-examples#p2sh-multisig"
+msgstr "https://bitcoin.org/en/developer-examples#p2sh-multisig"
+
+#: ../../wallets/axecore/advanced.rst:109
+msgid "Step 1: Create three addresses"
+msgstr "Étape 1 : Création de trois adresses"
+
+#: ../../wallets/axecore/advanced.rst:111
+#: ../../wallets/axecore/advanced.rst:179
+#: ../../wallets/axecore/advanced.rst:256
+#: ../../wallets/axecore/advanced.rst:264
+#: ../../wallets/axecore/advanced.rst:297
+msgid "Seller::"
+msgstr "Vendeur ::"
+
+#: ../../wallets/axecore/advanced.rst:128
+#: ../../wallets/axecore/advanced.rst:187
+#: ../../wallets/axecore/advanced.rst:208
+#: ../../wallets/axecore/advanced.rst:216
+#: ../../wallets/axecore/advanced.rst:278
+#: ../../wallets/axecore/advanced.rst:289
+msgid "Buyer::"
+msgstr "Acheteur ::"
+
+#: ../../wallets/axecore/advanced.rst:145
+#: ../../wallets/axecore/advanced.rst:195
+msgid "Arbiter::"
+msgstr "Arbitre ::"
+
+#: ../../wallets/axecore/advanced.rst:162
+msgid "This results in three keypairs (public/private)::"
+msgstr "Cela donne trois couples de clés (publique et privée) ::"
+
+#: ../../wallets/axecore/advanced.rst:169
+msgid "Step 2: Create multisig address"
+msgstr "Étape 2 : Création d'une adresse multi-signature"
+
+#: ../../wallets/axecore/advanced.rst:171
+msgid ""
+"The ``createmultisig`` command takes as variables the number n signatures of"
+" m keys (supplied as json array) required. In this example, 2 of 3 keys are "
+"required to sign the transaction."
+msgstr ""
+"La commande ``createmultisig`` accepte comme variables le nombre n de "
+"signature sur m clés requises (fournies comme tableau JSON). Dans cet "
+"exemple, 2 clés sur 3 sont requises pour signer la transaction."
+
+#: ../../wallets/axecore/advanced.rst:175
+msgid ""
+"Note: The address can be created by anyone, as long as the public keys and "
+"their sequence are known (resulting address and redeemScript are identical, "
+"see below)."
+msgstr ""
+"À noter : l'adresse peut être créée par n'importe qui, du moment que les "
+"clés publiques et leur séquence sont connues (l'adresse résultante et "
+"redeemScript sont identiques, voir ci-dessous)."
+
+#: ../../wallets/axecore/advanced.rst:204
+msgid "Step 3: Buyer funds the multisig address"
+msgstr "Étape 3 : L'acheteur alimente l'adresse multi-signature"
+
+#: ../../wallets/axecore/advanced.rst:206
+msgid "This works the same as a usual transaction."
+msgstr "Cela se passe de la même façon que dans une transaction habituelle."
+
+#: ../../wallets/axecore/advanced.rst:213
+msgid ""
+"The seller/arbiter can trace the transaction by its txid in the block "
+"explorer. Or from the console as follows."
+msgstr ""
+"Le vendeur ou l'arbitre peuvent suivre la transaction par son identifiant "
+"dans l'explorateur de blocs, ou bien depuis la console comme suit."
+
+#: ../../wallets/axecore/advanced.rst:248
+msgid "Step 4: Spending the multisig"
+msgstr "Étape 4 : Dépense de l'adresse multi-signature"
+
+#: ../../wallets/axecore/advanced.rst:250
+msgid ""
+"Now we assume the deal is complete, the buyer got the goods and everyone is "
+"happy. Now the seller wants to get his Axe. As a 2-of-3 multisig was used, "
+"the transaction must be signed by 2 parties (seller + buyer or arbiter). The"
+" seller creates a transaction (we will reuse his public address from above)."
+msgstr ""
+"Nous supposons que l'affaire s'est conclue, l'acheteur a reçu ses biens et "
+"tout le monde est content. À présent, le vendeur veut obtenir ses axes. "
+"Comme une multi-signature \"2 sur 3\" a été utilisée, la transaction doit "
+"être signée par 2 parties (vendeur + acheteur ou arbitre). Le vendeur crée "
+"une transaction (nous réutiliserons son adresse publique déjà vue ci-"
+"dessus)."
+
+#: ../../wallets/axecore/advanced.rst:261
+msgid ""
+"And partially signs it, using the redeemScript, scriptPubKey and his private"
+" key"
+msgstr ""
+"Puis le vendeur la signe partiellement, en utilisant le redeemScript, la "
+"scriptPubKey et sa clé privée."
+
+#: ../../wallets/axecore/advanced.rst:272
+msgid ""
+"Note that the output hex is getting longer, but complete flag is \"false\" "
+"as the transaction needs another signature. So now either the buyer or the "
+"arbiter can complete the signature of the transaction, using the output from"
+" above and their private key. Let's assume the buyer is completing the "
+"signature."
+msgstr ""
+"Veuillez noter que la sortie hexadécimale augmente en taille, mais que le "
+"signal complet reste sur \"faux\" tant que la transaction est en attente "
+"d'une autre signature. Donc, à présent, soit l'acheteur soit l'arbitre peut "
+"achever la signature de la transaction, en utilisant la sortie ci-dessus et "
+"sa clé privée. Supposons que ce soit l'acheteur qui achève la signature."
+
+#: ../../wallets/axecore/advanced.rst:286
+msgid ""
+"The signature is complete now, and either of the parties can transmit the "
+"transaction to the network."
+msgstr ""
+"La signature est désormais terminée, et l'une ou l'autre des parties peut "
+"transmettre la transaction au réseau."
+
+#: ../../wallets/axecore/advanced.rst:294
+msgid ""
+"Again, this transaction can be traced in a block explorer. And the seller is"
+" happy to receive his coins at his public address as follows."
+msgstr ""
+"Une fois de plus, cette transaction peut être suivie sur un explorateur de "
+"blocs. Quant au vendeur, il est content de recevoir ses fonds à son adresse "
+"publique, comme suit."
+
+#: ../../wallets/axecore/advanced.rst:318
+msgid "Multiple wallets"
+msgstr "Portefeuilles multiples"
+
+#: ../../wallets/axecore/advanced.rst:320
+msgid ""
+"It is possible to select between different Axe wallets when starting Axe "
+"Core by specifying the ``wallet`` argument, or even run multiple instances "
+"of Axe Core simultaneously by specifying separate data directories using "
+"the ``datadir`` argument."
+msgstr ""
+"Il est possible de choisir entre différents portefeuilles Axe au démarrage "
+"du portefeuille logiciel Axe Core en indiquant l'argument \"wallet\", ou "
+"bien de lancer simultanément plusieurs instances du portefeuille logiciel "
+"Axe Core en indiquant des répertoires de données distincts au moyen de "
+"l'argument \"datadir\"."
+
+#: ../../wallets/axecore/advanced.rst:325
+msgid ""
+"To begin, install the Axe Core wallet for your system according to the "
+":ref:`installation instructions <axecore-installation>`. When you get to "
+"the step **Running Axe Core for the first time**, you can decide whether "
+"you want to maintain separate ``wallet.dat`` files in the default location "
+"(simpler if you do not need to run the wallets simultaneously), or specify "
+"entirely separate data directories such as e.g. ``C:\\Axe1`` (simpler if "
+"you do want to run the wallets simultaneously)."
+msgstr ""
+"Pour commencer, installez le portefeuille logiciel Axe Core pour votre "
+"ordinateur, en suivant les :ref:`instructions d'installation <axecore-"
+"installation>`. Quand vous atteignez l'étape **Premier lancement du "
+"portefeuille logiciel Axe Core**, vous pouvez décider si vous voulez avoir "
+"des fichiers ``wallet.dat`` séparés dans l'emplacement par défaut (ce qui "
+"est plus simple si vous n'avez pas besoin de lancer simultanément les "
+"portefeuilles), ou si vous indiquez des répertoires de données entièrement "
+"différents, tels que ``C:\\Axe1`` (ce qui est plus simple si vous souhaitez"
+" lancer simultanément plusieurs portefeuilles)."
+
+#: ../../wallets/axecore/advanced.rst:336
+msgid "Separate wallet.dat files"
+msgstr "Fichiers \"wallet.dat\" distincts"
+
+#: ../../wallets/axecore/advanced.rst:338
+msgid ""
+"For this scenario, we will create two shortcuts on the desktop, each using a"
+" different wallet file. Navigate to the binary file used to start Axe Core "
+"(typically locatd at ``C:\\Program Files\\AxeCore\\axe-qt.exe`` or "
+"similar) and create two shortcuts on the desktop. Then open the "
+"**Properties** window for each of these shortcuts."
+msgstr ""
+"Dans ce scénario, nous allons créer deux raccourcis sur le bureau, utilisant"
+" chacun un fichier de portefeuille différent. Allez jusqu'au fichier "
+"exécutable utilisé pour démarrer le portefeuille logiciel Axe Core (en "
+"général ``C:\\Program Files\\AxeCore\\axe-qt.exe`` ou similaire) puis "
+"créez deux raccourcis sur le bureau. Ensuite, ouvrez la fenêtre "
+"**Propriétés** pour chacun de ces raccourcis."
+
+#: ../../wallets/axecore/advanced.rst:347
+msgid "Creating desktop shortcuts using Windows 10"
+msgstr "Création de raccourcis sur le bureau Windows 10"
+
+#: ../../wallets/axecore/advanced.rst:349
+msgid ""
+"Modify the **Target** property of each shortcut to point to a different "
+"wallet file by specifying the ``wallet`` argument when starting the wallet. "
+"If you do not specify a ``wallet`` argument, ``wallet.dat`` will be used by "
+"default. The specified wallet file will be created if it does not exist. The"
+" following example demonstrates two wallets named ``workwallet.dat`` and "
+"``homewallet.dat``:"
+msgstr ""
+"Modifiez la propriété **Cible** de chaque raccourci pour le faire pointer "
+"vers un fichier de portefeuille différent, en indiquant l'argument "
+"``wallet`` au démarrage du portefeuille. Si vous n'indiquez pas d'argument "
+"``wallet``, le fichier ``wallet.dat`` sera utilisé par défaut. Le fichier de"
+" portefeuille indiqué sera créé s'il n'existe pas déjà. Les exemples "
+"suivants montrent deux portefeuilles nommés ``workwallet.dat`` et "
+"``homewallet.dat`` :"
+
+#: ../../wallets/axecore/advanced.rst:356
+msgid ""
+"Wallet Target 1: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=workwallet.dat``"
+msgstr ""
+"Portefeuille cible 1 : ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=workwallet.dat``"
+
+#: ../../wallets/axecore/advanced.rst:357
+msgid ""
+"Wallet Target 2: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=homewallet.dat``"
+msgstr ""
+"Portefeuille cible 2 : ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-wallet=homewallet.dat``"
+
+#: ../../wallets/axecore/advanced.rst:362
+msgid "Specifying separate wallet files"
+msgstr "Indication de fichiers portefeuille distincts"
+
+#: ../../wallets/axecore/advanced.rst:364
+msgid ""
+"You can now use the two icons to quickly and easily open different wallets "
+"from your desktop. Note that you cannot open both wallets simultaneously. To"
+" do this, you will need two separate data directories, as described below."
+msgstr ""
+"Vous pouvez à présent utiliser les deux icônes pour ouvrir facilement et "
+"rapidement différents portefeuilles depuis votre Bureau. À noter que vous ne"
+" pourrez pas ouvrir les deux portefeuilles simultanément. Pour faire cela, "
+"vous aurez besoin de deux répertoires de données distincts, comme décrit ci-"
+"dessous."
+
+#: ../../wallets/axecore/advanced.rst:371
+msgid "Separate data directories"
+msgstr "Répertoire de données distincts"
+
+#: ../../wallets/axecore/advanced.rst:373
+msgid ""
+"Start Axe Core and allow it to synchronize with the network, then close "
+"Axe Core again. You can now create two directories at e.g. ``C:\\Axe1`` "
+"and ``C:\\Axe2`` and copy the ``blocks`` and ``chainstate`` directories "
+"from the synchronized data directory into the new directories. Each of these"
+" will serve as a separate data directory, allowing you to run two instances "
+"of Axe Core simultaneously. Create two (or more) shortcuts on your desktop "
+"as described above, then specify arguments for ``datadir`` as shown below:"
+msgstr ""
+"Lancez le portefeuille logiciel Axe Core et laissez-le se synchroniser au "
+"réseau, puis quittez-le. Vous pouvez à présent créer deux répertoires, par "
+"exemple aux emplacements ``C:\\Axe1`` et ``C:\\Axe2``, puis copier les "
+"répertoires ``blocks`` and ``chainstate`` depuis le répertoire de données "
+"synchronisé vers les nouveaux répertoires. Chacun d'eux servira de "
+"répertoire de données distinct, vous permettant de lancer simultanément deux"
+" instances du portefeuille logiciel Axe Core. Créez deux raccourcis (ou "
+"plus) sur votre Bureau tel que décrit ci-dessus, puis indiquez des arguments"
+" pour \"datadir\" tel que ci-dessous :"
+
+#: ../../wallets/axecore/advanced.rst:382
+msgid ""
+"Datadir Target 1: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-datadir=C:\\Axe1 -listen=0``"
+msgstr ""
+"Répertoire de données cible 1 : ``\"C:\\Program Files\\AxeCore\\axe-"
+"qt.exe\" -datadir=C:\\Axe1 -listen=0``"
+
+#: ../../wallets/axecore/advanced.rst:383
+msgid ""
+"Datadir Target 2: ``\"C:\\Program Files\\AxeCore\\axe-qt.exe\" "
+"-datadir=C:\\Axe2 -listen=0``"
+msgstr ""
+"Répertoire de données cible 2 : ``\"C:\\Program Files\\AxeCore\\axe-"
+"qt.exe\" -datadir=C:\\Axe2 -listen=0``"
+
+#: ../../wallets/axecore/advanced.rst:388
+msgid "Specifying separate datadirs"
+msgstr "Configuration de répertoire de données distincts"
+
+#: ../../wallets/axecore/advanced.rst:390
+msgid ""
+"You can now use the two icons to quickly and easily open different wallets "
+"simultaneously from your desktop. Both wallets maintain separate and full "
+"copies of the blockchain, which may use a lot of drive space. For more "
+"efficient use of drive space, consider using an SPV or \"light\" wallet such"
+" as :ref:`Axe Electrum <axe-electrum-wallet>` to maintain multiple "
+"separate wallets without keeping a full copy of the blockchain."
+msgstr ""
+"Vous pouvez à présent utiliser les deux icônes pour ouvrir rapidement et "
+"facilement deux portefeuilles différents depuis votre Bureau. Chacun des "
+"deux portefeuilles a sa propre copie complète de la blockchain, ce qui peut "
+"utiliser beaucoup de votre espace disque. Pour mieux employer cet espace, "
+"vous pouvez envisager l'utilisation d'un portefeuille SPV ou \"léger\", tel "
+"que :ref:`Axe Electrum <axe-electrum-wallet>`, pour disposer de "
+"portefeuilles multiples sans devoir conserver une copie intégrale de la "
+"blockchain."
+
+#: ../../wallets/axecore/advanced.rst:400
+msgid "Two instances of Axe Core running simultaneously"
+msgstr ""
+"Deux instances du portefeuille logiciel Axe Core tournant simultanément"
+
+#: ../../wallets/axecore/advanced.rst:403
+msgid "KeePass"
+msgstr "KeePass"
+
+#: ../../wallets/axecore/advanced.rst:405
+msgid ""
+"Since version 0.11.0, Axe Core has supported integration with KeePass, the "
+"popular open source password manager. This guide describes how to configure "
+"the association between Axe Core and KeePass, and how to save a Axe Core "
+"wallet passphrase in KeePass using the integration. When this is done, "
+"KeePass can be used to unlock the wallet."
+msgstr ""
+"Depuis sa version 0.11.0, le portefeuille logiciel Axe Core est compatible "
+"avec KeePass, le gestionnaire de mots de passe open source très répandu. Ce "
+"guide décrit comment mettre en place le lien entre Axe Core et KeePass, et "
+"comment enregistrer la phrase de passe du portefeuille logiciel Axe Core "
+"dans KeePass en utilisant son intégration. Une fois terminé, KeePass peut "
+"servir à déverrouiller le portefeuille logiciel."
+
+#: ../../wallets/axecore/advanced.rst:412
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../wallets/axecore/advanced.rst:414
+msgid "You will need the following:"
+msgstr "Vous aurez besoin de ceci :"
+
+#: ../../wallets/axecore/advanced.rst:416
+msgid "KeePass 2: http://keepass.info"
+msgstr "KeePass 2 : http://keepass.info"
+
+#: ../../wallets/axecore/advanced.rst:417
+msgid "KeePassHttp plugin: https://github.com/pfn/keepasshttp"
+msgstr "Plug-in KeePassHttp : https://github.com/pfn/keepasshttp"
+
+#: ../../wallets/axecore/advanced.rst:418
+msgid "Axe Core: https://www.axerunners.com"
+msgstr "Portefeuille logiciel Axe Core : https://www.axerunners.com"
+
+#: ../../wallets/axecore/advanced.rst:420
+msgid ""
+"If not already installed, install these packages according to the "
+"instructions linked below:"
+msgstr ""
+"S'ils ne sont pas déjà installés, veuillez installer ces paquets en suivant "
+"les instructions ci-dessous :"
+
+#: ../../wallets/axecore/advanced.rst:423
+msgid "KeePass: https://keepass.info/help/v2/setup.html"
+msgstr "KeePass : https://keepass.info/help/v2/setup.html"
+
+#: ../../wallets/axecore/advanced.rst:424
+msgid "KeePassHttp: https://github.com/pfn/keepasshttp/blob/master/README.md"
+msgstr ""
+"KeePassHttp : https://github.com/pfn/keepasshttp/blob/master/README.md"
+
+#: ../../wallets/axecore/advanced.rst:425
+msgid ""
+"Axe Core: "
+"https://docs.axerunners.com/en/latest/wallets/axecore/installation.html"
+msgstr ""
+"Portefeuille logiciel Axe Core : "
+"https://docs.axerunners.com/en/latest/wallets/axecore/installation.html"
+
+#: ../../wallets/axecore/advanced.rst:428
+msgid "Commands"
+msgstr "Commandes"
+
+#: ../../wallets/axecore/advanced.rst:430
+msgid ""
+"The following KeePass RPC commands are available in the Axe Core client "
+"console or server:"
+msgstr ""
+"Les commandes KeePass RPC suivantes sont disponibles dans la console du "
+"client Axe Core ou du serveur :"
+
+#: ../../wallets/axecore/advanced.rst:436
+msgid "keepass genkey"
+msgstr "keepass genkey"
+
+#: ../../wallets/axecore/advanced.rst:434
+msgid ""
+"Generates a base64 encoded 256 bit AES key that can be used for "
+"communication with KeePassHttp. This is only necessary for manual "
+"configuration. Use init for automatic configuration."
+msgstr ""
+"Génère une clé AES de 256 bits encodée base64, qui peut être utilisée pour "
+"communiquer avec KeePassHttp. Elle n'est nécessaire que pour une "
+"configuration manuelle. Utilisez init pour une configuration automatique."
+
+#: ../../wallets/axecore/advanced.rst:442
+msgid "keepass init"
+msgstr "keepass init"
+
+#: ../../wallets/axecore/advanced.rst:439
+msgid ""
+"Sets up the association between Axe and KeePass by generating an AES key "
+"and sending an association message to KeePassHttp. This will trigger KeePass"
+" to ask for an ID for the association. Returns the association and the "
+"base64 encoded string for the AES key."
+msgstr ""
+"Configure le lien entre Axe Core et KeePass en générant une clé AES et en "
+"envoyant un message d'association à KeePassHttp. Cela amènera KeePass à "
+"demander un identifiant pour l'association. Renvoie l'association et la "
+"chaîne encodée base64 pour la clé AES."
+
+#: ../../wallets/axecore/advanced.rst:449
+msgid "keepass setpassphrase"
+msgstr "keepass setpassphrase"
+
+#: ../../wallets/axecore/advanced.rst:445
+msgid ""
+"Updates the passphrase in KeePassHttp to a new value. This should match the "
+"passphrase you intend to use for the wallet. Please note that the standard "
+"RPC commands walletpassphrasechange and the wallet encryption from the QT "
+"GUI already send the updates to KeePassHttp, so this is only necessary for "
+"manual manipulation of the password."
+msgstr ""
+"Met à jour la phrase de passe dans KeePassHttp avec une nouvelle valeur. "
+"Elle doit correspondre à la phrase de passe que vous voulez utiliser pour le"
+" portefeuille logiciel. Veuillez noter que les commandes RPC standard "
+"walletpassphrasechange et le chiffrage de portefeuille depuis l'interface "
+"utilisateur Axe Core envoient déjà les mises à jour à KeePassHttp, donc ce "
+"n'est nécessaire que dans le cadre d'une manipulation manuelle du mot de "
+"passe."
+
+#: ../../wallets/axecore/advanced.rst:451
+msgid "The following new arguments are available for axed and axe-qt:"
+msgstr ""
+"Les nouveaux arguments suivants sont disponibles pour axed et axe-qt :"
+
+#: ../../wallets/axecore/advanced.rst:454
+msgid "keepass"
+msgstr "keepass"
+
+#: ../../wallets/axecore/advanced.rst:454
+msgid "Use KeePass 2 integration using KeePassHttp plugin (default: 0)"
+msgstr ""
+"Utilise l'intégration KeePass 2 avec le plug-in KeePassHttp (par défaut : 0)"
+
+#: ../../wallets/axecore/advanced.rst:457
+msgid "keepassport=<port>"
+msgstr "keepassport=<port>"
+
+#: ../../wallets/axecore/advanced.rst:457
+msgid "Connect to KeePassHttp on port <port> (default: 19455)"
+msgstr "Connexion à KeePassHttp par le port <port> (par défaut : 19455)"
+
+#: ../../wallets/axecore/advanced.rst:460
+msgid "keepasskey=<key>"
+msgstr "keepasskey=<key>"
+
+#: ../../wallets/axecore/advanced.rst:460
+msgid "KeePassHttp key for AES encrypted communication with KeePass"
+msgstr "Clé KeePassHttp pour la communication chiffrée AES avec KeePass"
+
+#: ../../wallets/axecore/advanced.rst:463
+msgid "keepassid=<name>"
+msgstr "keepassid=<name>"
+
+#: ../../wallets/axecore/advanced.rst:463
+msgid "KeePassHttp id for the established association"
+msgstr "Identifiant KeePassHttp pour la connexion déjà établie"
+
+#: ../../wallets/axecore/advanced.rst:466
+msgid "keepassname=<name>"
+msgstr "keepassname=<name>"
+
+#: ../../wallets/axecore/advanced.rst:466
+msgid ""
+"Name to construct url for KeePass entry that stores the wallet passphrase"
+msgstr ""
+"Nom pour former l'URL pour l'entrée KeePass qui stocke la phrase de passe du"
+" portefeuille"

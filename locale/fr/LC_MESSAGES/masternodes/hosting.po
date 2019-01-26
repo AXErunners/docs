@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daf Daf, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-29 10:35+0000\n"
+"Last-Translator: Daf Daf, 2019\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../masternodes/hosting.rst:1
+msgid ""
+"Masternode hosting services can help you set up and maintain a Axe "
+"masternode"
+msgstr ""
+"Les services d'hébergement de masternode peuvent vous aider à configurer et "
+"à administrer un masternode Axe"
+
+#: ../../masternodes/hosting.rst:1
+msgid ""
+"axe, cryptocurrency, hosting, server, linux, masternode, contact, trezor, "
+"setup, operator, owner, dip3, reward"
+msgstr ""
+"axe, cryptomonnaie, hébergement, serveur, linux, masternode, contact, "
+"trezor, installation, opérateur, propriétaire, dip3, récompense"
+
+#: ../../masternodes/hosting.rst:9
+msgid "Hosting Services"
+msgstr "Services d'hébergement"
+
+#: ../../masternodes/hosting.rst:11
+msgid ""
+"Several Axe community members offer masternode hosting services. This "
+"service can be realized securely without the customer ever giving up control"
+" of the 1000 AXE required for collateral. For security reasons, it is "
+"highly recommended to keep the collateral on a hardware wallet when taking "
+"advantage of a hosting service. A list of currently available masternode "
+"hosting services is available below."
+msgstr ""
+"Plusieurs membres de la communauté Axe proposent des services d'hébergement"
+" de masternode. Ce service peut être accompli de manière sûre, sans que le "
+"client n'ait à abandonner le contrôle des 1000 axes représentant la "
+"caution. Pour des raisons de sécurité, il est chaudement recommandé de "
+"conserver la caution sur un portefeuille matériel lorsqu'on souhaite "
+"bénéficier d'un service d'hébergement. Une liste des services d'hébergement "
+"de masternode actuellement disponibles est consultable ci-dessous."
+
+#: ../../masternodes/hosting.rst:19
+msgid "List of hosting services"
+msgstr "Liste de services d'hébergement"
+
+#: ../../masternodes/hosting.rst:21
+msgid ""
+"**Disclaimer**: Axe Core may be affiliated with these community members, "
+"but is not involved in the provision of any of these services."
+msgstr ""
+"**Avertissement** : Axe Core peut éventuellement être affilié à certains "
+"des membres de la communauté ci-dessous, mais n'est impliqué dans la "
+"fourniture d'aucun des services suivants."
+
+#: ../../masternodes/hosting.rst:25
+msgid "CrowdNode"
+msgstr "CrowdNode"
+
+#: ../../masternodes/hosting.rst:32
+msgid "https://crowdnode.io"
+msgstr "https://crowdnode.io"
+
+#: ../../masternodes/hosting.rst:34
+msgid "Operated by: CrowdNode ApS"
+msgstr "Géré par : CrowdNode ApS"
+
+#: ../../masternodes/hosting.rst:35 ../../masternodes/hosting.rst:123
+msgid "Services: Hosting, Shares"
+msgstr "Services : Hébergement, Parts"
+
+#: ../../masternodes/hosting.rst:36
+msgid "Cost: 15% of masternode payments"
+msgstr "Coût : 15% des paiements de masternode"
+
+#: ../../masternodes/hosting.rst:37
+msgid "`Site <https://crowdnode.io>`__"
+msgstr "`Site <https://crowdnode.io>`__"
+
+#: ../../masternodes/hosting.rst:38
+msgid "`Email <hello@crowdnode.io>`__"
+msgstr "`Adresse e-mail <hello@crowdnode.io>`__"
+
+#: ../../masternodes/hosting.rst:41
+msgid "Splawik's Hosting Service"
+msgstr "Service d'hébergement de Splawik"
+
+#: ../../masternodes/hosting.rst:48
+msgid "http://axemasternode.io"
+msgstr "http://axemasternode.io"
+
+#: ../../masternodes/hosting.rst:50
+msgid "Operated by: splawik21 (Axe Core team member)"
+msgstr "Géré par : splawik21 (membre de l'équipe Axe Core)"
+
+#: ../../masternodes/hosting.rst:51 ../../masternodes/hosting.rst:68
+#: ../../masternodes/hosting.rst:105 ../../masternodes/hosting.rst:133
+msgid "Services: Hosting"
+msgstr "Services : Hébergement"
+
+#: ../../masternodes/hosting.rst:52
+msgid "Cost: €25/month, paid in Axe"
+msgstr ""
+
+#: ../../masternodes/hosting.rst:53
+msgid "`Site <http://axemasternode.io>`__"
+msgstr "`Site <http://axemasternode.io>`__"
+
+#: ../../masternodes/hosting.rst:54
+msgid "`Email <splawik21@protonmail.com>`__"
+msgstr "`Adresse e-mail <splawik21@protonmail.com>`__"
+
+#: ../../masternodes/hosting.rst:55
+msgid ""
+"`Forum <https://www.axerunners.com/forum/threads/splawik-s-supershares-hosting-"
+"service.3195/>`__"
+msgstr ""
+"`Forum <https://www.axerunners.com/forum/threads/splawik-s-supershares-hosting-"
+"service.3195/>`__"
+
+#: ../../masternodes/hosting.rst:58
+msgid "AllNodes"
+msgstr "AllNodes"
+
+#: ../../masternodes/hosting.rst:65
+msgid "https://www.allnodes.com"
+msgstr "https://www.allnodes.com"
+
+#: ../../masternodes/hosting.rst:67
+msgid "Operated by: Sephiroth"
+msgstr "Géré par : Sephiroth"
+
+#: ../../masternodes/hosting.rst:69
+msgid "Cost: $5/month (free during beta)"
+msgstr "Coût : 5 dollars/mois (gratuit pendant la période de bêta)"
+
+#: ../../masternodes/hosting.rst:70
+msgid "`Site <https://www.allnodes.com>`__"
+msgstr "`Site web <https://www.allnodes.com>`__"
+
+#: ../../masternodes/hosting.rst:71
+msgid "`Email <info@allnodes.com>`__"
+msgstr "`Adresse e-mail <info@allnodes.com>`__"
+
+#: ../../masternodes/hosting.rst:72
+msgid "`Twitter <https://twitter.com/allnodes>`__"
+msgstr "`Twitter <https://twitter.com/allnodes>`__"
+
+#: ../../masternodes/hosting.rst:73
+msgid "`Telegram <https://t.me/allnodes>`__"
+msgstr "`Telegram <https://t.me/allnodes>`__"
+
+#: ../../masternodes/hosting.rst:74
+msgid "`Discord <https://discord.allnodes.com>`__"
+msgstr "`Discord <https://discord.allnodes.com>`__"
+
+#: ../../masternodes/hosting.rst:77
+msgid "Node40"
+msgstr "Node40"
+
+#: ../../masternodes/hosting.rst:84
+msgid "https://node40.com"
+msgstr "https://node40.com"
+
+#: ../../masternodes/hosting.rst:86
+msgid "Operated by: Perry Woodin"
+msgstr "Géré par : Perry Woodin"
+
+#: ../../masternodes/hosting.rst:87
+msgid "Services: Hosting, Voting, Tax Compliance"
+msgstr "Services: Hébergement, Vote, Conseil fiscal"
+
+#: ../../masternodes/hosting.rst:88
+msgid "0.34 Axe/month (variable, discounts available)"
+msgstr "Coût : 0,34 axe/mois (variable, des réductions sont possibles)"
+
+#: ../../masternodes/hosting.rst:89
+msgid "`Site <https://node40.com>`__"
+msgstr "`Site <https://node40.com>`__"
+
+#: ../../masternodes/hosting.rst:90
+msgid "`Email <info@node40.com>`__"
+msgstr "`Adresse e-mail <info@node40.com>`__"
+
+#: ../../masternodes/hosting.rst:91
+msgid ""
+"`Forum <https://www.axerunners.com/forum/threads/node40-masternode-management-"
+"services.4447/>`__"
+msgstr ""
+"`Forum <https://www.axerunners.com/forum/threads/node40-masternode-management-"
+"services.4447/>`__"
+
+#: ../../masternodes/hosting.rst:92
+msgid ""
+"`Review <https://www.axeforcenews.com/interview-perry-woodin-node40-axe-"
+"compliance/>`__"
+msgstr ""
+"`Avis <https://www.axeforcenews.com/interview-perry-woodin-node40-axe-"
+"compliance/>`__"
+
+#: ../../masternodes/hosting.rst:95
+msgid "Masternode.me"
+msgstr "Masternode.me"
+
+#: ../../masternodes/hosting.rst:102
+msgid "https://masternode.me"
+msgstr "https://masternode.me"
+
+#: ../../masternodes/hosting.rst:104
+msgid "Operated by: moocowmoo (Axe Core team member)"
+msgstr "Géré par : moocowmoo (membre de l'équipe Axe Core)"
+
+#: ../../masternodes/hosting.rst:106
+msgid "Cost: 10% of masternode payments"
+msgstr "Coût : 10% des paiements de masternode"
+
+#: ../../masternodes/hosting.rst:107
+msgid "`Site <https://masternode.me>`__"
+msgstr "`Site <https://masternode.me>`__"
+
+#: ../../masternodes/hosting.rst:108
+msgid "`Email <moocowmoo@masternode.me>`__"
+msgstr "`Adresse e-mail <moocowmoo@masternode.me>`__"
+
+#: ../../masternodes/hosting.rst:109
+msgid ""
+"`Forum <https://www.axerunners.com/forum/threads/moocowmoos-magic-masternode-"
+"maker.3305/>`__"
+msgstr ""
+"`Forum <https://www.axerunners.com/forum/threads/moocowmoos-magic-masternode-"
+"maker.3305/>`__"
+
+#: ../../masternodes/hosting.rst:110
+msgid ""
+"`Review <https://www.axeforcenews.com/masternode-trusted-masternode-shares-"
+"review/>`__"
+msgstr ""
+"`Avis <https://www.axeforcenews.com/masternode-trusted-masternode-shares-"
+"review/>`__"
+
+#: ../../masternodes/hosting.rst:113
+msgid "币舫 (Bifun)"
+msgstr "币舫 (Bifun)"
+
+#: ../../masternodes/hosting.rst:120
+msgid "https://bifun.com"
+msgstr "https://bifun.com"
+
+#: ../../masternodes/hosting.rst:122
+msgid "Operated by: BiFun (Hainan) Network Technology Co, Ltd."
+msgstr "Géré par : BiFun (Hainan) Network Technology Co, Ltd."
+
+#: ../../masternodes/hosting.rst:124
+msgid "`Site <https://bifun.com>`__"
+msgstr "`Site <https://bifun.com>`__"
+
+#: ../../masternodes/hosting.rst:125
+msgid "`Email <business@bifun.com>`__"
+msgstr "`Adresse e-mail <business@bifun.com>`__"
+
+#: ../../masternodes/hosting.rst:128
+msgid "Masternodehosting"
+msgstr "Masternodehosting"
+
+#: ../../masternodes/hosting.rst:130
+msgid "https://masternodehosting.com"
+msgstr "https://masternodehosting.com"
+
+#: ../../masternodes/hosting.rst:132
+msgid "Operated by: flare (Axe Core team member)"
+msgstr "Géré par : flare (membre de l'équipe Axe Core)"
+
+#: ../../masternodes/hosting.rst:134
+msgid "Cost: €18/month"
+msgstr "Coût : 18 €/mois"
+
+#: ../../masternodes/hosting.rst:135
+msgid "`Site <https://masternodehosting.com>`__"
+msgstr "`Site <https://masternodehosting.com>`__"
+
+#: ../../masternodes/hosting.rst:136
+msgid "`Email <holger@masternodehosting.com>`__"
+msgstr "`Adresse e-mail <holger@masternodehosting.com>`__"
+
+#: ../../masternodes/hosting.rst:137
+msgid ""
+"`Forum <https://www.axerunners.com/forum/threads/service-masternode-hosting-"
+"service.2648/>`__"
+msgstr ""
+"`Forum <https://www.axerunners.com/forum/threads/service-masternode-hosting-"
+"service.2648/>`__"
+
+#: ../../masternodes/hosting.rst:143
+msgid "Registering a hosted masternode"
+msgstr "Enregistrer un masternode hébergé"
+
+#: ../../masternodes/hosting.rst:145
+msgid ""
+"Axe 0.13.0 implements DIP003, which introduces several changes to how a "
+"Axe masternode is set up and operated. A list of available documentation "
+"appears below:"
+msgstr ""
+"Axe 0.13.0 met en œuvre la DIP003, qui introduit certains changements dans "
+"la façon d'installer et de gérer un masternode. Veuillez trouver ci-dessous "
+"une liste de la documentation disponible :"
+
+#: ../../masternodes/hosting.rst:149
+msgid ""
+"`DIP003 Deterministic Masternode Lists "
+"<https://github.com/axerunners/dips/blob/master/dip-0003.md>`__"
+msgstr ""
+"`DIP003 Listes de masternodes déterministes "
+"<https://github.com/axerunners/dips/blob/master/dip-0003.md>`__"
+
+#: ../../masternodes/hosting.rst:150
+msgid ":ref:`dip3-changes`"
+msgstr ":ref:`dip3-changes`"
+
+#: ../../masternodes/hosting.rst:151
+msgid ":ref:`dip3-upgrade`"
+msgstr ":ref:`dip3-changes`"
+
+#: ../../masternodes/hosting.rst:152
+msgid ":ref:`Full masternode setup guide <masternode-setup>`"
+msgstr ""
+":ref:`Guide complet de mise en place d'un masternode <masternode-setup>`"
+
+#: ../../masternodes/hosting.rst:153
+msgid ""
+":ref:`Information for users of hosted masternodes <hosted-setup>` (you are "
+"here)"
+msgstr ""
+":ref:`Informations pour les utilisateurs de masternodes hébergés <hosted-"
+"setup>` (vous êtes ici)"
+
+#: ../../masternodes/hosting.rst:154
+msgid ""
+":ref:`Information for operators of hosted masternodes <operator-"
+"transactions>`"
+msgstr ""
+":ref:`Information pour les opérateurs de masternodes hébergés <operator-"
+"transactions>`"
+
+#: ../../masternodes/hosting.rst:156
+msgid ""
+"It is highly recommended to first read at least the list of changes before "
+"continuing in order to familiarize yourself with the new concepts in DIP003."
+msgstr ""
+"Il est hautement recommandé, avant de continuer, de lire d'abord la liste "
+"des changements, afin de se familiariser avec les nouveaux concepts de la "
+"DIP003."
+
+#: ../../masternodes/hosting.rst:160
+msgid "Registering a hosted masternode is done in several steps:"
+msgstr ""
+"L'enregistrement d'un masternode hébergé se fait en plusieurs étapes :"
+
+#: ../../masternodes/hosting.rst:162
+msgid ""
+"Send 1000 AXE to an address you control in a single transaction and wait "
+"for 15 confirmations"
+msgstr ""
+"Envoyez 1000 axes à une adresse que vous contrôlez, en une seule "
+"transaction, puis attendez 15 confirmations"
+
+#: ../../masternodes/hosting.rst:164
+msgid ""
+"Correspond with your hosting provider to determine who will generate the "
+"operator BLS keys, whether their fee will be paid by an operator reward "
+"percentage or according to a separate contract, and whether the masternode "
+"will be set up before or after the registration transaction"
+msgstr ""
+"Correspondez avec votre hébergeur pour déterminer qui générera les clés BLS "
+"d'opérateur, si les frais de l'hébergeur seront payés par un pourcentage de "
+"la récompense ou selon un contrat séparé, et si le masternode sera mis en "
+"place avant ou après la transaction d'enregistrement"
+
+#: ../../masternodes/hosting.rst:169
+msgid ""
+"Prepare, sign and broadcast the registration transaction using Axe Core or "
+"DMT"
+msgstr ""
+"Préparez, signez et émettez la transaction d'enregistrement en utilisant le "
+"portefeuille logiciel Axe Core ou l'utilitaire AxeMasternodeTool"
+
+#: ../../masternodes/hosting.rst:172
+msgid ""
+"It is **highly recommended** to store the keys to your masternode collateral"
+" on a :ref:`hardware wallet <axe-hardware-wallet>` for added security "
+"against hackers. Since the hardware wallet is only used to sign a "
+"transaction, there is no need to ever connect this wallet to the internet. "
+"However, a Axe Core wallet with balance (for the transaction fee) is "
+"required to submit the registration transaction. The masternode registration"
+" process closely follows the :ref:`setup guide <masternode-setup>`, "
+"beginning from the :ref:`registration step <register-masternode>`."
+msgstr ""
+"Il est **hautement recommandé** de stocker les clés de votre caution de "
+"masternode sur un :ref:`portefeuille matériel <axe-hardware-wallet>` pour "
+"une meilleure sécurité contre les pirates. Comme le portefeuille matériel "
+"n'est utilisé que pour signer une transaction, il n'y a aucun besoin de "
+"connecter ce portefeuille à Internet. Cependant, un portefeuille logiciel "
+"Axe Core comportant des fonds (pour les frais de transaction) est "
+"obligatoire pour soumettre la transaction d'enregistrement. Le processus "
+"d'enregistrement de masternode suit pas à pas le :ref:`guide d'installation "
+"<masternode-setup>` à partir de :ref:`l'étape d'enregistrement <register-"
+"masternode>`."
+
+#: ../../masternodes/hosting.rst:186
+msgid "Operator transactions"
+msgstr "Transactions d'opérateur"
+
+#: ../../masternodes/hosting.rst:188
+msgid ""
+"This documentation is intended for operators managing nodes on behalf of "
+"owners. If you provide an IP address and port of a synchronized full node "
+"with your ``masternodeblsprivkey`` entered in the ``axe.conf`` file as "
+"descibed :ref:`here <bls-generation>` to the masternode owner, it will "
+"appear in the DIP003 valid set immediately after they submit the ``protx "
+"register_submit`` command as described above. If the full node is not "
+"running, or if the owner submits ``0`` for the ``ipAndPort``, then the node "
+"will be registered in a PoSe-banned state. In this case, the operator will "
+"need to issue a :ref:`ProUpServTx transaction <update-dip3-config>` to "
+"update the service features and register the masternode."
+msgstr ""
+"La présente section s'adresse aux opérateurs gérant des nœuds pour le compte"
+" de propriétaires. Si vous fournissez au propriétaire du masternode "
+"l'adresse IP et le port d'un nœud complet synchronisé dont le fichier "
+"``axe.conf`` comprend votre ``masternodeblsprivkey`` tel que décrit "
+":ref:`ici <bls-generation>`, le masternode apparaîtra dans le groupe des "
+"masternodes DIP003 valides immédiatement après que le propriétaire a soumis "
+"la commande ``protx register_submit`` telle que décrite ci-dessus. Si le "
+"nœud complet ne tourne pas, ou si le propriétaire indique ``0`` pour "
+"``ipAndPort``, alors le nœud sera enregistré dans un état de bannissement "
+"PoSe. Dans ce cas, l'opérateur doit émettre une :ref:`transaction "
+"ProUpServTx <update-dip3-config>` pour mettre à jour les caractéristiques du"
+" service et enregistrer le masternode."
+
+#: ../../masternodes/hosting.rst:200
+msgid ""
+"The ProRegTx submitted by the owner also specifies the percentage reward for"
+" the operator. It does not specify the operator's reward address, so a "
+"ProUpServTx is also required to claim this reward by specifying a Axe "
+"address. If the reward is not claimed, it will be paid to the owner in full."
+msgstr ""
+"La transaction ProRegTx soumise par le propriétaire indique également le "
+"pourcentage de récompense alloué à l'opérateur. Elle n'indique pas l'adresse"
+" où doit être versé ce pourcentage, donc une transaction ProUpServTx est "
+"également obligatoire pour réclamer cette récompense en indiquant une "
+"adresse Axe. Si la récompense n'est pas réclamée, elle sera payée "
+"intégralement au propriétaire."

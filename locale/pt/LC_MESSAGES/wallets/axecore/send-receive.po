@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# oscar junior <geleira@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:18+0000\n"
+"Last-Translator: oscar junior <geleira@gmail.com>, 2018\n"
+"Language-Team: Portuguese (https://www.transifex.com/axe/teams/37570/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/axecore/send-receive.rst:1
+msgid "Guide to sending and receiving Axe using the Axe Core wallet"
+msgstr "Guia para enviar e receber o Axe usando a carteira do Axe Core"
+
+#: ../../wallets/axecore/send-receive.rst:1
+msgid "axe, core, wallet, send, receive, transaction"
+msgstr "axe, core, carteira, enviar, receber, transação"
+
+#: ../../wallets/axecore/send-receive.rst:9
+msgid "Sending and receiving"
+msgstr "Enviando e recebendo"
+
+#: ../../wallets/axecore/send-receive.rst:11
+msgid ""
+"Your Axe Core Wallet is associated with a number of unique addresses that "
+"can be used to send and receive Axe. Each address holds its own balance, "
+"and the sum of all your balances is what appears on the **Overview** tab. "
+"When you send Axe, your wallet will automatically transfer funds from as "
+"many of your addresses as necessary to the destination address, which is "
+"controlled by another Axe user and associated with their wallet. You can "
+"control which addresses you use using the Coin Control feature."
+msgstr ""
+"A sua carteira do Axe Core está associada a vários endereços exclusivos que"
+" podem ser usados para enviar e receber o Axe. Cada endereço possui seu "
+"próprio saldo e a soma de todos os seus saldos é o que aparece na guia "
+"**Visão geral**. Quando você envia o Axe, sua carteira transfere "
+"automaticamente fundos de quantos endereços forem necessários para o "
+"endereço de destino, que é controlado por outro usuário do Axe e associado "
+"à sua carteira. Você pode controlar quais endereços você usa usando o "
+"recurso Coin Control."
+
+#: ../../wallets/axecore/send-receive.rst:20
+msgid ""
+"When you confirm a transaction, Axe Core will enter the transaction in a "
+"block, which will then be added to the blockchain for other clients to "
+"confirm. A transaction is generally considered confirmed once six blocks "
+"have been added after the block containing your transaction, although "
+"masternode and mining payments are only released after 101 blocks. Note that"
+" a different process is used for InstantSend and PrivateSend transactions."
+msgstr ""
+"Quando você confirma uma transação, o Axe Core irá inserir a transação em "
+"um bloco, que será então adicionado ao blockchain para outros clientes "
+"confirmarem. Uma transação é geralmente considerada confirmada uma vez que "
+"seis blocos foram adicionados após o bloco contendo sua transação, embora os"
+" pagamentos de masternode e mineração sejam liberados somente após 101 "
+"blocos. Observe que um processo diferente é usado para transações "
+"InstantSend e PrivateSend."
+
+#: ../../wallets/axecore/send-receive.rst:28
+msgid "Axe addresses are 34 characters long and begin with an uppercase X."
+msgstr "Os endereços do Axe têm 34 caracteres e começam com um X maiúsculo."
+
+#: ../../wallets/axecore/send-receive.rst:31
+msgid "Sending Axe"
+msgstr "Enviando Axe"
+
+#: ../../wallets/axecore/send-receive.rst:33
+msgid ""
+"You can use Axe Core to send Axe from your balance to another user. The "
+"receiving user will provide you with a Axe address to which you should send"
+" the funds. Click the **Send** tab in the tab bar and enter the destination "
+"address in the **Pay To** field."
+msgstr ""
+"Você pode usar o Axe Core para enviar o Axe da sua conta para outro "
+"usuário. O usuário que recebe lhe fornecerá um endereço do Axe para o qual "
+"você deverá enviar os fundos. Clique na guia **Enviar** na barra de guias e "
+"insira o endereço de destino no campo **Pagar para**."
+
+#: ../../wallets/axecore/send-receive.rst:41
+msgid "The Axe Core Send tab"
+msgstr "A guia Envio do Axe Core"
+
+#: ../../wallets/axecore/send-receive.rst:43
+msgid ""
+"You can also use the three icons |sendicons| to the right of the **Pay To** "
+"field to select a previously used address, paste an address from the "
+"clipboard, or clear the current address. If this is a new address, you can "
+"enter a name for the address in the **Label** field to help identify it "
+"again later. Finally, enter the amount of Axe you want to transfer in the "
+"**Amount** field."
+msgstr ""
+"Você também pode usar os três ícones |sendicons| à direita do campo **Pagar "
+"para** para selecionar um endereço usado anteriormente, cole um endereço da "
+"área de transferência ou limpe o endereço atual. Se este for um novo "
+"endereço, você pode inserir um nome para o endereço no campo **Etiqueta** "
+"para ajudar a identificá-lo novamente mais tarde. Por fim, insira a quantia "
+"de Axe que você deseja transferir no campo **Quantidade**."
+
+#: ../../wallets/axecore/send-receive.rst:53
+msgid ""
+"The other options relate to fees and PrivateSend/InstantSend. You can choose"
+" if you want to pay the network fee in addition to the amount sent, or "
+"subtract it from the amount sent. You can also increase your fee to "
+"encourage nodes on the network to prioritize your transaction. Choosing "
+"**InstantSend** has a similar effect, but actually relies on a different "
+"mechanism in the second layer network to speed up the transaction time. "
+"Choosing **PrivateSend** will send Axe from an address that has previously "
+"been mixed. You can find out more about PrivateSend and InstantSend "
+":ref:`here <axecore-privatesend-instantsend>`."
+msgstr ""
+"As outras opções estão relacionadas a taxas e PrivateSend/InstantSend. Você "
+"pode escolher se deseja pagar a taxa de rede além do valor enviado ou "
+"subtrai-la do valor enviado. Você também pode aumentar sua taxa para "
+"incentivar os nós na rede a priorizar sua transação. A escolha do "
+"**InstantSend** tem um efeito semelhante, mas na verdade depende de um "
+"mecanismo diferente na rede da segunda camada para acelerar o tempo de "
+"transação. A escolha do **PrivateSend** enviará o Axe de um endereço que "
+"tenha sido previamente misturado. Você pode descobrir mais sobre o "
+"PrivateSend e o InstantSend :ref:`aqui <axecore-privatesend-instantsend>`."
+
+#: ../../wallets/axecore/send-receive.rst:64
+msgid ""
+"Let’s try an example. Say you have received an invoice which you now want to"
+" pay with Axe. The writer of the invoice has included a Axe address, which"
+" can be seen in the following window beginning with *Xpa*. The invoice is "
+"for 2.45 Axe, which you fill in the **Amount** field."
+msgstr ""
+"Vamos tentar um exemplo. Digamos que você tenha recebido uma fatura que "
+"agora deseja pagar com o Axe. O escritor da fatura incluiu um endereço de "
+"Axe, que pode ser visto na seguinte janela começando com *Xpa*. A fatura é "
+"para 2.45 Axe, que você preenche no campo **Valor**."
+
+#: ../../wallets/axecore/send-receive.rst:72
+msgid "The Send tab filled out for a transaction"
+msgstr "A guia Enviar preenchida para uma transação"
+
+#: ../../wallets/axecore/send-receive.rst:74
+msgid ""
+"Once you have entered the destination address and the amount, click the "
+"**Send** button. If you have encrypted your wallet, you will now be required"
+" to enter your password to unlock the wallet."
+msgstr ""
+"Depois de inserir o endereço de destino e o valor, clique no botão "
+"**Enviar**. Se você criptografou sua carteira, será necessário inserir sua "
+"senha para desbloquear a carteira."
+
+#: ../../wallets/axecore/send-receive.rst:81
+msgid "Entering the password to unlock the wallet"
+msgstr "Digitando a senha para desbloquear a carteira"
+
+#: ../../wallets/axecore/send-receive.rst:83
+msgid ""
+"Finally, you are given one final confirmation and chance to cancel your send"
+" transaction before Axe Core processes the transaction on the blockchain."
+msgstr ""
+"Finalmente, você recebe uma confirmação final e a chance de cancelar sua "
+"transação de envio antes que o Axe Core processe a transação no blockchain."
+
+#: ../../wallets/axecore/send-receive.rst:90
+msgid "Final confirmation window"
+msgstr "Janela de confirmação final"
+
+#: ../../wallets/axecore/send-receive.rst:92
+msgid ""
+"If you respond with **Yes**, your transaction will be processed. Your "
+"operating system may display a notification, and the transaction will appear"
+" on the Transactions tab, where you can monitor its progress."
+msgstr ""
+"Se você responder com **Sim**, sua transação será processada. Seu sistema "
+"operacional pode exibir uma notificação e a transação aparecerá na guia "
+"Transações, onde você poderá monitorar seu progresso."
+
+#: ../../wallets/axecore/send-receive.rst:99
+msgid "The Windows 10 sent transaction confirmation notification"
+msgstr "O Windows 10 enviou notificação de confirmação de transação"
+
+#: ../../wallets/axecore/send-receive.rst:101
+msgid ""
+"Note that the amount of the transaction increased by .000045 Axe. This is "
+"the transaction fee. In the next section, we will see what this procedure "
+"looks like from the receiving side."
+msgstr ""
+"Observe que o valor da transação aumentou em .000045 Axe. Esta é a taxa de "
+"transação. Na próxima seção, veremos como esse procedimento se parece no "
+"lado do recebimento."
+
+#: ../../wallets/axecore/send-receive.rst:106
+msgid "Receiving Axe"
+msgstr "Recebendo Axe"
+
+#: ../../wallets/axecore/send-receive.rst:108
+msgid ""
+"To receive Axe, you must first create a receiving address to give to the "
+"sending party. To do this, click **File > Receiving addresses**. The "
+"**Receiving addresses** window appears."
+msgstr ""
+"Para receber o Axe, primeiro você deve criar um endereço de recebimento "
+"para dar à parte de envio. Para fazer isso, clique em **Arquivo > Recebendo "
+"Endereços**. A janela **Recebendo endereços** é exibida."
+
+#: ../../wallets/axecore/send-receive.rst:115
+msgid "The Receiving addresses window"
+msgstr "A janela de endereços de recebimento"
+
+#: ../../wallets/axecore/send-receive.rst:117
+msgid ""
+"Either copy an existing address by clicking on the address and then the "
+"**Copy** button, or create a new address by clicking the **New** button. You"
+" can also edit an existing address by right clicking and selecting **Edit** "
+"address from the context menu. Give this address to the person who will send"
+" you Axe. Your wallet does not need to be open to receive funds, but if it "
+"is, you can watch the transaction arrive in real time. This is because your "
+"wallet constantly watches for new blocks on the blockchain when it is open, "
+"and will recognize a new transaction involving your receiving address when "
+"it occurs."
+msgstr ""
+"Copie um endereço existente clicando no endereço e, em seguida, no botão "
+"**Copiar** ou crie um novo endereço clicando no botão **Novo**. Você também "
+"pode editar um endereço existente clicando com o botão direito e "
+"selecionando **Editar** endereço no menu de contexto. Dê este endereço para "
+"a pessoa que lhe enviará o Axe. Sua carteira não precisa estar aberta para "
+"receber fundos, mas se estiver, você pode ver a transação chegar em tempo "
+"real. Isso ocorre porque sua carteira sempre procura novos blocos no "
+"blockchain quando ela está aberta e reconhece uma nova transação envolvendo "
+"seu endereço de recebimento quando ele ocorre."
+
+#: ../../wallets/axecore/send-receive.rst:130
+msgid "The Windows 10 received transaction confirmation notification"
+msgstr "O Windows 10 recebeu notificação de confirmação de transação"
+
+#: ../../wallets/axecore/send-receive.rst:132
+msgid ""
+"Once you have been paid, you can see the balance both on the **Overview** "
+"tab and on the **Transactions** tab."
+msgstr ""
+"Depois de receber o pagamento, você poderá ver o saldo na guia **Visão "
+"geral** e na guia **Transações**."
+
+#: ../../wallets/axecore/send-receive.rst:138
+msgid "The received transaction"
+msgstr "A transação recebida"
+
+#: ../../wallets/axecore/send-receive.rst:140
+msgid "**How to Create New Receiving Addresses in AxeQT**"
+msgstr "**Como criar novos endereços de recebimento no AxeQT**"

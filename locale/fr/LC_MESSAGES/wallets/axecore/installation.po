@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daf Daf, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Last-Translator: Daf Daf, 2018\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid ""
+"How to download and install the Axe Core wallet. Compilation guide also "
+"available"
+msgstr ""
+"Comment télécharger et installer le portefeuille logiciel Axe Core. Guide "
+"de compilation également disponible"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid "axe, core, wallet, linux, windows, macos, installation, compile"
+msgstr ""
+"axe, core, portefeuille, linux, windows, macos, installation, compilation"
+
+#: ../../wallets/axecore/installation.rst:9
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../wallets/axecore/installation.rst:11
+msgid ""
+"Installing Axe Core is as simple as going to https://www.axerunners.com/ and "
+"downloading the appropriate file for your system, then following the "
+"appropriate installation steps for your system. Detailed guides are "
+"available for Linux, macOS and Windows operating systems below."
+msgstr ""
+"Pour installer le portefeuille logiciel officiel Axe Core, il suffit "
+"simplement d'aller sur https://www.axerunners.com/ , de télécharger le fichier "
+"correspondant à votre ordinateur, puis de suivre les instructions "
+"d'installation. Des guides détaillés sont disponibles ci-dessous pour les "
+"systèmes d'exploitation Linux, macOS et Windows."
+
+#: ../../wallets/axecore/installation.rst:16
+msgid ""
+"It is also possible to :ref:`compile Axe Core from source code <compiling-"
+"axe>`."
+msgstr ""
+"Il est également possible de :ref:`compiler Axe Core depuis son code source"
+" <compiling-axe>`."
+
+#: ../../wallets/axecore/installation.rst:27
+msgid "Video installation guides"
+msgstr "Guides vidéo d'installation"
+
+#: ../../wallets/axecore/installation.rst:29
+msgid ""
+"These videos show how to download, verify the checksum and install the Axe "
+"Core Wallet on Linux, macOS and Windows systems. While they are somewhat out"
+" of date, the procedure is still largely the same. The main difference is "
+"that the official Axe website is now https://www.axerunners.com/ rather than "
+"https://www.axerunners.io/ as stated in the videos, although the old site will "
+"redirect you to the new one. Also, in later versions of Axe Core, "
+"application data such as the blockchain is now stored in the \"AxeCore\" "
+"rather than \"Axe\" folder."
+msgstr ""
+"Ces vidéos montrent comment télécharger, vérifier les sommes de contrôle et "
+"installer le portefeuille logiciel Axe Core sur les systèmes d'exploitation"
+" Linux, macOS et Windows. Bien qu'elles soient un peu anciennes, la "
+"procédure est encore largement similaire. La principale différence est que "
+"le site web officiel Axe est désormais https://www.axerunners.com/ plutôt que "
+"l'adresse https://www.axerunners.io/ indiquée dans les vidéos, et bien que "
+"cette ancienne adresse vous redirigera vers la nouvelle. De plus, dans les "
+"versions récentes de Axe Core, les données de l'application telles que la "
+"blockchain sont désormais stockées dans le dossier \"AxeCore\" plutôt que "
+"\"Axe\"."
+
+#: ../../wallets/axecore/installation.rst:38
+msgid "**How to Install AxeQT Wallet on Linux**"
+msgstr "**Comment installer le portefeuille Axe Core sur Linux**"
+
+#: ../../wallets/axecore/installation.rst:46
+msgid "**How to Verify the CheckSum of AxeQT Wallet for Linux**"
+msgstr ""
+"**Comment vérifier la somme de contrôle du portefeuille Axe Core sur "
+"Linux**"
+
+#: ../../wallets/axecore/installation.rst:54
+msgid "**How to Install AxeQT Wallet on macOS**"
+msgstr "**Comment installer le portefeuille Axe Core sur macOS**"
+
+#: ../../wallets/axecore/installation.rst:62
+msgid "**How to Verify the CheckSum of AxeQT Wallet for macOS**"
+msgstr ""
+"**Comment vérifier la somme de contrôle du portefeuille Axe Core sur "
+"macOS**"
+
+#: ../../wallets/axecore/installation.rst:70
+msgid "**How to Install AxeQT Wallet on Windows**"
+msgstr "**Comment installer le portefeuille Axe Core sur Windows**"
+
+#: ../../wallets/axecore/installation.rst:78
+msgid "**How to Verify CheckSum of AxeQT Wallet for Windows**"
+msgstr ""
+"**Comment vérifier la somme de contrôle du portefeuille Axe Core sur "
+"Windows**"
+
+#: ../../wallets/axecore/installation.rst:86
+msgid "**How to Encrypt/Decrypt Your AxeQT Wallet**"
+msgstr "**Comment chiffrer ou déchiffrer votre portefeuille Axe Core**"

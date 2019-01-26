@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Nils Hermann <vk.translation@protonmail.ch>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:19+0000\n"
+"Last-Translator: Nils Hermann <vk.translation@protonmail.ch>, 2018\n"
+"Language-Team: German (https://www.transifex.com/axe/teams/37570/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/ios/getting-started.rst:1
+msgid "Getting started with sending and receiving Axe on your iOS device"
+msgstr "Axe auf einem iOS-Gerät empfangen und versenden"
+
+#: ../../wallets/ios/getting-started.rst:1
+msgid "axe, mobile, wallet, ios, send, receive, addresses, getting started"
+msgstr "axe, mobile, wallet, ios, senden, empfangen, adressen, starten"
+
+#: ../../wallets/ios/getting-started.rst:8
+msgid "Getting started"
+msgstr "Implementierung beginnen"
+
+#: ../../wallets/ios/getting-started.rst:11
+msgid "Creating a new wallet"
+msgstr "Eine neue Wallet erstellen"
+
+#: ../../wallets/ios/getting-started.rst:13
+msgid ""
+"When you first start your Axe Wallet, you will be prompted to choose "
+"between creating a new wallet or recovering an existing wallet. Choose **New"
+" Wallet** to create a new wallet unless you have existing funds stored in "
+"another wallet using a recovery phrase. Your new wallet will be generated, "
+"and a recovery phrase will appear so you can recover the funds later if you "
+"lose or damage your phone or need to transfer the account to another device."
+" Write the phrase down and store it in a safe place - if you lose this, you "
+"will also lose access to your funds forever."
+msgstr ""
+"Beim ersten Starten der Axe Wallet kann entweder eine neue Wallet erstellt "
+"oder eine bereits existierende wiederhergestellt werden. Die Funktion **Neue"
+" Wallet** sollte verwendet werden, solange der Nutzer nicht über die "
+"Wiederherstellungsphrase einer bereits benutzten Wallet verfügt. Nach dem "
+"Erstellen der neuen Wallet muss die Wiederherstellungsphrase aufgeschrieben "
+"werden. Diese Phrase ist notwendig um den Zugang zum Guthaben "
+"wiederherzustellen, wenn das Gerät zerstört wird oder verloren geht. Sie "
+"kann zudem verwendet werden, wenn das gesamte Guthaben auf ein neues Gerät "
+"übertragen werden soll. Die Phrase muss niedergeschrieben und an einem "
+"sicheren Ort aufbewahrt werden - wer sie verliert, verliert eventuell den "
+"Zugang zu seinem gesamten Guthaben. "
+
+#: ../../wallets/ios/getting-started.rst:30
+msgid ""
+"*Creating a new wallet and generating the recovery phrase in iOS Axe "
+"Wallet*"
+msgstr ""
+"*Eine neue Wallet erstellen und die Wiederherstellungsphrase der iOS Axe "
+"Wallet generieren*"
+
+#: ../../wallets/ios/getting-started.rst:33
+msgid ""
+"You may also be asked to specify a PIN or link the app with your TouchID. "
+"You can tap the Axe logo at the top of the app to view your balance. You "
+"will need to unlock your wallet for this, as well as to view your "
+"transaction history or send Axe."
+msgstr ""
+"Es ist außerdem möglich eine PIN zu erstellen oder die App mit der TouchID "
+"zu verbinden. Das aktuelle Guthaben kann über das Axe Logo am oberen Rand "
+"der App abgerufen werden. Hierfür, zum Ansehen der Transaktionsgeschichte "
+"und zum Versenden von Axe muss die Wallet entsperrt werden."
+
+#: ../../wallets/ios/getting-started.rst:40
+msgid "Receiving"
+msgstr "Empfangen"
+
+#: ../../wallets/ios/getting-started.rst:42
+msgid ""
+"Once you have set up your wallet, you will have two screens available to "
+"send and receive Axe. You can swipe left and right between the screens. To "
+"receive Axe, the app will generate an address which appears at the bottom "
+"of the screen. You can tap this to copy and share, or scan the QR code "
+"directly. Once the transfer is complete, you can view your balance, "
+"transaction history and the status of any pending transactions by clicking "
+"the menu button at the top left."
+msgstr ""
+"Nach dem Einrichten der Wallet stehen zwei Bildschirme zum Senden und "
+"Empfangen von Axe zur Verfügung. Diese Bildschirme werden durch das Wischen"
+" nach rechts oder links aufgerufen. Zum Empfangen von Axe generiert die App"
+" eine Adresse, welche am unteren Rand des Bildschirms erscheint. Diese kann "
+"kopiert, geteilt oder als QR-Code eingescannt werden. Nach dem Abschluss der"
+" Transaktion ist es möglich das aktuelle Guthaben, die "
+"Transaktionsgeschichte und den Status der aktuellen Transaktionen durch "
+"Druck auf den Menüknopf oben links abzurufen."
+
+#: ../../wallets/ios/getting-started.rst:55
+msgid "*Receiving Axe and viewing your balance in iOS Axe Wallet*"
+msgstr ""
+"*Axe erhalten und das aktuelle Guthaben in der iOS Axe Wallet betrachten*"
+
+#: ../../wallets/ios/getting-started.rst:59
+msgid "Sending"
+msgstr "Senden"
+
+#: ../../wallets/ios/getting-started.rst:61
+msgid ""
+"The Send AXE screen gives you two options to enter the payment address: "
+"**Scan QR Code** or **Pay Address From Clipboard**. You can choose to use "
+"**InstandSend** for instant confirmation, or disable this to send a normal "
+"transaction which will require more time for confirmation. Depending on the "
+"code you are scanning, the amount of Axe requested may be included, or you "
+"can enter it yourself. A confirmation screen will appear to explain the fee "
+"structure and request your unlock code (PIN or TouchID). The transaction "
+"will then be sent."
+msgstr ""
+"Der Bildschirm zum Versenden von Axe bietet zwei Möglichkeiten eine Adresse"
+" einzugeben: **Scan QR Code** oder **Pay Address From Clipboard**. Für "
+"schnelle Transaktionen ist es möglich **InstantSend** zu aktivieren, wobei "
+"auch normale Transaktionen, die länger brauchen, möglich sind. Abhängig vom "
+"eingescannten Code ist das angefragte Guthaben enthalten oder muss manuell "
+"eingegeben werden. Auf dem Bestätigungsbildschirm wird die Gebührenstruktur "
+"erklärt und ein Code (PIN oder TouchID) abgefragt. Die Transaktion wird nun "
+"durchgeführt."
+
+#: ../../wallets/ios/getting-started.rst:79
+msgid "*Sending Axe from iOS Axe Wallet*"
+msgstr "*Axe mit der iOS Axe Wallet versenden*"
+
+#: ../../wallets/ios/getting-started.rst:83
+msgid "Sending to a Bitcoin address"
+msgstr "An eine Bitcoin-Adresse versenden"
+
+#: ../../wallets/ios/getting-started.rst:85
+msgid ""
+"You can also send from your Axe Wallet directly to a Bitcoin address using "
+"services provided by ShapeShift that are integrated directly in the wallet. "
+"If you scan or enter a Bitcoin address, you will be asked to enter the "
+"amount to be send in Bitcoin instead of Axe. Once you have entered the "
+"amount, click the **Shapeshift!** button shown an additional confirmation "
+"screen to confirm the ShapeShift fees before the transaction is processed. "
+"Make sure your destination Bitcoin address on this screen is correct. (If "
+"you see an error message about the value being too low, tap the greyed out "
+"Axe amount at the top to specify the amount to be transferred in Axe "
+"instead of Bitcoin.) Once your transaction is accepted, the Axe Wallet for "
+"iOS will display **Shapeshift in progress** until the transaction is "
+"complete."
+msgstr ""
+"Es ist möglich mit der Axe Wallet direkt an eine Bitcoin-Adresse zu "
+"überweisen, indem auf Shapeshift zurückgegriffen wird, das in die Wallet "
+"implementiert wurde. Nach dem Scannen oder Eingeben einer Bitcoin-Adresse, "
+"wird der Betrag abgefragt, der in Bitcoin, statt in Axe, versandt werden "
+"soll. Nach dem eingeben der gewünschten Menge muss der Knopf mit der "
+"Aufschrift **Shapeshift!** gedrückt werden, woraufhin ein Bildschirm "
+"geöffnet wird, der die Gebührenstruktur von Shapeshift erklärt und um "
+"Zustimmung bittet. Hierbei ist es sehr wichtig, dass die angezeigte Bitcoin-"
+"Adresse korrekt ist. (Wenn ein Fehler erscheint, der sagt, dass der Wert zu "
+"niedrig ist, kann die Menge an Axe über einen Klick auf die ausgegraute "
+"Axe-Menge geändert werden). Nachdem die Transaktion akzeptiert wurde, wird "
+"die iOS Axe Wallet **Shapeshift in progress** anzeigen bis die Transaktion "
+"durchgeführt wurde."
+
+#: ../../wallets/ios/getting-started.rst:107
+msgid ""
+"*Sending Axe to a Bitcoin address via ShapeShift from iOS Axe Wallet*"
+msgstr ""
+"*Axe mit der iOS Axe Wallet über ShapeShift an eine Bitcoin-Adresse "
+"versenden*"

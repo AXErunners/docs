@@ -1,0 +1,833 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daf Daf, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-05-07 04:43+0000\n"
+"Last-Translator: Daf Daf, 2018\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../governance/using.rst:1
+msgid "Practical guide to using the Axe governance system and treasury"
+msgstr ""
+"Guide pratique d'utilisation du système de gouvernance et du Trésor de Axe"
+
+#: ../../governance/using.rst:1
+msgid "axe, dgbb, governance, funding, voting, proposals, masternodes"
+msgstr ""
+"axe, dgbb, gouvernance, financement, vote, propositions budgétaires, "
+"masternodes"
+
+#: ../../governance/using.rst:9
+msgid "Using Axe Governance"
+msgstr "Utilisation de la gouvernance Axe"
+
+#: ../../governance/using.rst:11
+msgid ""
+"Axe's Decentralized Governance by Blockchain (DGBB) is a novel voting and "
+"funding platform. This documentation introduces and details the theory and "
+"practice to use the system."
+msgstr ""
+"La gouvernance décentralisée par blockchain de Axe (DGBB) est une "
+"plateforme novatrice de vote et de financement. Cette documentation présente"
+" et détaille la théorie et la pratique pour utiliser ce système."
+
+#: ../../governance/using.rst:16
+msgid "Understanding the process"
+msgstr "Comprendre le processus"
+
+#: ../../governance/using.rst:19
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../../governance/using.rst:21
+msgid "DGBB consists of three components: Proposals, Votes, and Budgets"
+msgstr ""
+"La DGBB consiste en trois éléments : les propositions budgétaires, les votes"
+" et les budgets."
+
+#: ../../governance/using.rst:22
+msgid "Anyone can submit a proposal for a small fee"
+msgstr ""
+"N'importe qui peut soumettre une proposition budgétaire en réglant des frais"
+" limités"
+
+#: ../../governance/using.rst:23
+msgid "Each valid masternode can vote for, against or abstain on proposals"
+msgstr ""
+
+#: ../../governance/using.rst:24
+msgid "Approved proposals become budgets"
+msgstr ""
+"Les propositions budgétaires approuvées deviennent des enveloppes "
+"budgétaires"
+
+#: ../../governance/using.rst:25
+msgid "Budgets are paid directly from the blockchain to the proposal owner"
+msgstr ""
+"Les enveloppes budgétaires sont payées directement depuis la blockchain aux "
+"propriétaires des propositions"
+
+#: ../../governance/using.rst:28
+msgid "Proposals"
+msgstr "Propositions budgétaires"
+
+#: ../../governance/using.rst:30
+msgid "Proposals are a request to receive funds"
+msgstr "Les propositions budgétaires sont une sollicitation de fonds"
+
+#: ../../governance/using.rst:31
+msgid ""
+"Proposals can be submitted by anyone for a fee of 5 Axe. The proposal fee "
+"is irreversibly destroyed on submission."
+msgstr ""
+"Les propositions budgétaires peuvent être soumises par n'importe qui, contre"
+" des frais de 5 axes. Les frais de proposition sont détruits "
+"irrémédiablement au moment de la soumission."
+
+#: ../../governance/using.rst:33
+msgid "Proposals cannot be altered once submitted"
+msgstr ""
+"Les propositions budgétaires ne peuvent pas être modifiées après soumission"
+
+#: ../../governance/using.rst:36
+msgid "Votes"
+msgstr "Votes"
+
+#: ../../governance/using.rst:38
+msgid "Votes are cast using the registered voting address"
+msgstr ""
+
+#: ../../governance/using.rst:39
+msgid "The voting address can be delegated to a third party"
+msgstr ""
+
+#: ../../governance/using.rst:40
+msgid "Votes can be changed at any time"
+msgstr "Les votes peuvent être modifiés à tout moment"
+
+#: ../../governance/using.rst:41
+msgid "Votes are counted every 16616 blocks (approx. 30.29 days)"
+msgstr ""
+"Les votes sont décomptés tous les 16616 blocs (tous les 30,29 jours environ)"
+
+#: ../../governance/using.rst:44
+msgid "Budgets"
+msgstr "Enveloppes budgétaires"
+
+#: ../../governance/using.rst:46
+msgid ""
+"Budgets are proposals which receive a net total of yes votes equal to or "
+"greater than 10% of the total possible votes (for example over 448 out of "
+"4480)"
+msgstr ""
+"Les enveloppes budgétaires sont des propositions qui ont réuni un total net "
+"de votes \"oui\" égal ou supérieur à 10% de tous les votes possibles (par "
+"exemple, 448 sur 4480)"
+
+#: ../../governance/using.rst:49
+msgid ""
+"Budgets can be nullified at any time if vote totals (cast or re-cast) fall "
+"below the approval threshold"
+msgstr ""
+"Les enveloppes budgétaires peuvent être annulées à tout moment si le total "
+"des votes (exprimés ou ré-exprimés) tombe sous le seuil minimal "
+"d'approbation"
+
+#: ../../governance/using.rst:51
+msgid ""
+"Budgets are processed (paid) in order of yes minus no votes. More popular "
+"budgets get payment priority."
+msgstr ""
+"Les enveloppes budgétaires sont traitées (payées) dans l'ordre du nombre de "
+"votes \"oui\" soustrait du nombre de votes \"non\". Les enveloppes les plus "
+"populaires sont prioritaires pour le paiement."
+
+#: ../../governance/using.rst:53
+msgid ""
+"Approximately 6176 axe (in 2018) are available for each budget cycle, "
+"decreasing by 7.14% every 210240 blocks (approx. 383.25 days)."
+msgstr ""
+"Environ 6176 axes (en 2018) sont disponibles pour chaque cycle budgétaire, "
+"avec une diminution de 7,14% tous les 210240 blocs (soit environ tous les "
+"383,25 jours)."
+
+#: ../../governance/using.rst:57
+msgid "Object structure"
+msgstr "Structure d'objet"
+
+#: ../../governance/using.rst:59
+msgid "The following information is required to create a proposal:"
+msgstr ""
+"Les informations suivantes sont nécessaires pour créer une proposition "
+"budgétaire :"
+
+#: ../../governance/using.rst:61
+msgid "proposal-name: a unique label, 20 characters or less"
+msgstr "proposal-name : nom de la proposition, unique, 20 caractères ou moins"
+
+#: ../../governance/using.rst:62
+msgid ""
+"url: a proposer-created webpage or forum post containing detailed proposal "
+"information"
+msgstr ""
+"url : adresse web d'une page créée par le proposeur ou d'un billet de forum "
+"contenant des informations détaillées sur la proposition budgétaire"
+
+#: ../../governance/using.rst:64
+msgid "payment-count: how many cycles the proposal is requesting payment"
+msgstr ""
+"payment-count : nombre de cycles pendant lequel la proposition budgétaire "
+"sollicite un paiement"
+
+#: ../../governance/using.rst:65
+msgid "block-start: the requested start of proposal payments"
+msgstr ""
+"block-start : début sollicité pour les paiements de la proposition "
+"budgétaire"
+
+#: ../../governance/using.rst:66
+msgid "axe-address: the address to receive proposal payments"
+msgstr ""
+"axe-address : l'adresse Axe où seront versés les paiements de la "
+"proposition budgétaire"
+
+#: ../../governance/using.rst:67
+msgid "monthly-payment-axe: the requested payment amount"
+msgstr "monthly-payment-axe : le montant mensuel du paiement sollicité"
+
+#: ../../governance/using.rst:70
+msgid "Persistence"
+msgstr "Durée de vie"
+
+#: ../../governance/using.rst:72
+msgid "Proposals become active one day after submission"
+msgstr ""
+"Les propositions budgétaires deviennent actives un jour après leur "
+"soumission"
+
+#: ../../governance/using.rst:73
+msgid ""
+"Proposals will remain visible on the network until they are either "
+"disapproved or the proposal's last payment-cycle is reached"
+msgstr ""
+"Les propositions budgétaires restent visibles sur le réseau jusqu'à ce "
+"qu'elles soient désapprouvées, ou bien à la fin du dernier cycle de la "
+"proposition"
+
+#: ../../governance/using.rst:75
+msgid ""
+"Approval occurs when yes votes minus no votes equals 10% or more of the "
+"total available votes."
+msgstr ""
+"L'approbation a lieu lorsque le nombre de votes \"oui\" moins celui de votes"
+" \"non\" est égal à 10% ou plus du nombre total de votes possibles."
+
+#: ../../governance/using.rst:77
+msgid ""
+"Disapproval occurs when no votes minus yes votes equals 10% or more of the "
+"total available votes."
+msgstr ""
+"La désapprobation a lieu lorsque le nombre de vites \"non\" moins celui de "
+"votes \"oui\" est égal à 10% ou plus du nombre total de votes possibles."
+
+#: ../../governance/using.rst:79
+msgid ""
+"The total available votes is the count of online and responding masternodes "
+"and can be seen by running the command ``masternode count`` in the Axe Core"
+" wallet debug window. A graph of the total masternode count can be found "
+"`here <http://178.254.23.111/~pub/masternode_count.png>`__"
+msgstr ""
+"Le nombre total de votes possibles est celui des masternodes en ligne et "
+"détectables. Il peut être connu par la commande ``masternode count`` dans la"
+" console de débogage du portefeuille logiciel Axe Core. Un graphique du "
+"nombre total de masternodes peut être consulté `ici "
+"<http://178.254.23.111/~pub/masternode_count.png>`__"
+
+#: ../../governance/using.rst:86
+msgid "Templates"
+msgstr "Modèles"
+
+#: ../../governance/using.rst:88
+msgid ""
+"The following two Microsoft Word templates are available from Axe Core "
+"Group to help facilitate standardized proposal submission and updates. Usage"
+" is recommended, but not required."
+msgstr ""
+"Les deux modèles Microsoft Word suivants sont mis à disposition par l'équipe"
+" Axe Core pour faciliter les soumissions et les mises à jour de "
+"propositions budgétaires standardisées. Son utilisation est recommandée mais"
+" n'est pas obligatoire."
+
+#: ../../governance/using.rst:92
+msgid ""
+"`Project Proposal Template "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Project%20Proposal%20Template%20v1.0.docx>`_"
+msgstr ""
+"`Modèle de projet de proposition budgétaire "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Project%20Proposal%20Template%20v1.0.docx>`_"
+
+#: ../../governance/using.rst:93
+msgid ""
+"`Project Status Update Template "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Project%20Status%20Update%20Template%20v1.0.docx>`_"
+msgstr ""
+"`Modèle de mise à jour de projet "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Project%20Status%20Update%20Template%20v1.0.docx>`_"
+
+#: ../../governance/using.rst:98
+msgid "Budget cycles"
+msgstr "Cycles budgétaires"
+
+#: ../../governance/using.rst:100
+msgid ""
+"When preparing a proposal, be aware of when the next cycle will occur and "
+"plan accordingly. It is recommended to choose your proposal payment start "
+"block at least one cycle in the future to allow time for discussion and "
+"gathering support and votes. Note that votes will no longer be tallied 1662 "
+"blocks (approximately 3 days) prior to the superblock."
+msgstr ""
+"Pendant la préparation d'une proposition budgétaire, soyez bien conscient de"
+" la date du début du prochain cycle, et organisez-vous selon elle. Il est "
+"recommandé de choisir un bloc de début de paiement de votre proposition qui "
+"soit éloigné d'au moins un cycle dans le futur, afin que le débat puisse "
+"avoir lieu ainsi que le rassemblement de vos soutiens et votes. Veuillez "
+"noter que les votes ne seront plus décomptés 1662 blocs (environ 3 jours) "
+"avant le \"superbloc\"."
+
+#: ../../governance/using.rst:108
+msgid "Block height"
+msgstr "Hauteur de bloc"
+
+#: ../../governance/using.rst:108
+msgid "Approximate date"
+msgstr "Date approximative"
+
+#: ../../governance/using.rst:110
+msgid "996960"
+msgstr "996960"
+
+#: ../../governance/using.rst:110
+msgid "Tue Jan 1 06:33:26 UTC 2019"
+msgstr "Mar Jan 1 06:33:26 UTC 2019"
+
+#: ../../governance/using.rst:112
+msgid "1013576"
+msgstr ""
+
+#: ../../governance/using.rst:112
+msgid "Thu Jan 31 13:38:28 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:114
+msgid "1030192"
+msgstr ""
+
+#: ../../governance/using.rst:114
+msgid "Sat Mar 2 20:43:30 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:116
+msgid "1046808"
+msgstr ""
+
+#: ../../governance/using.rst:116
+msgid "Tue Apr 2 03:48:32 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:118
+msgid "1063424"
+msgstr ""
+
+#: ../../governance/using.rst:118
+msgid "Thu May 2 10:53:34 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:120
+msgid "1080040"
+msgstr ""
+
+#: ../../governance/using.rst:120
+msgid "Sat Jun 1 17:58:36 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:122
+msgid "1096656"
+msgstr ""
+
+#: ../../governance/using.rst:122
+msgid "Tue Jul 2 01:03:38 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:124
+msgid "1113272"
+msgstr ""
+
+#: ../../governance/using.rst:124
+msgid "Thu Aug 1 08:08:40 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:126
+msgid "1129888"
+msgstr ""
+
+#: ../../governance/using.rst:126
+msgid "Sat Aug 31 15:13:42 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:128
+msgid "1146504"
+msgstr ""
+
+#: ../../governance/using.rst:128
+msgid "Mon Sep 30 22:18:44 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:130
+msgid "1163120"
+msgstr ""
+
+#: ../../governance/using.rst:130
+msgid "Thu Oct 31 05:23:46 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:132
+msgid "1179736"
+msgstr ""
+
+#: ../../governance/using.rst:132
+msgid "Sat Nov 30 12:28:48 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:134
+msgid "1196352"
+msgstr ""
+
+#: ../../governance/using.rst:134
+msgid "Mon Dec 30 19:33:50 UTC 2019"
+msgstr ""
+
+#: ../../governance/using.rst:137
+msgid ""
+"You can view the source code for this calculation at this `GitHub gist "
+"<https://gist.github.com/strophy/9eb743f7bc717c17a2e776e461f24c49>`_"
+msgstr ""
+"Le code source de ce calcul est disponible sur `GitHub "
+"<https://gist.github.com/strophy/9eb743f7bc717c17a2e776e461f24c49>`_"
+
+#: ../../governance/using.rst:143
+msgid "Creating proposals"
+msgstr "Création de propositions budgétaires"
+
+#: ../../governance/using.rst:145
+msgid ""
+"Once you have prepared the text of your proposal and set up a website or "
+"forum post, it is time to submit your proposal to the blockchain for voting."
+" While all tasks involved with creating a budget proposal can be executed "
+"from the Axe Core wallet console, several tools providing a user interface "
+"have been developed to simplify this procedure."
+msgstr ""
+"Une fois que vous avez préparé le texte de votre proposition budgétaire et "
+"mis en place un  site web ou un billet de forum, il sera temps de soumettre "
+"votre proposition budgétaire au vote, sur la blockchain. Toutes les tâches "
+"de création d'une proposition budgétaire peuvent être menées depuis la "
+"console du portefeuille logiciel Axe Core, mais plusieurs utilitaires avec "
+"une interface utilisateur ont été conçus pour simplifier cette procédure."
+
+#: ../../governance/using.rst:152
+msgid "Axe Budget Proposal Generator"
+msgstr "Générateur de proposition budgétaire Axe"
+
+#: ../../governance/using.rst:154
+msgid "https://proposal.docs.axerunners.com"
+msgstr "https://proposal.docs.axerunners.com"
+
+#: ../../governance/using.rst:156
+msgid ""
+"The `Axe Budget Proposal Generator <https://proposal.docs.axerunners.com>`__ supports "
+"creating budget proposals on both mainnet and testnet. In the first step, "
+"you must enter a short, clear and unique name for the proposal as it will "
+"appear on the blockchain. Proposal names are limited to 40 characters. You "
+"can then provide a link to the forum or AxeCentral where your proposal is "
+"described in more detail (use a `URL shortening service <https://goo.gl>`_ "
+"if necessary), as well as select the amount of payment you are requesting, "
+"how often the payment should occur, and the superblock date on which you are"
+" requesting payment. This allows you to control in which budget period your "
+"proposal will appear, and gives you enough time to build support for your "
+"proposal by familiarising voters with your project. Note that the payment "
+"amount is fixed and cannot be modified after it has been submitted to the "
+"blockchain."
+msgstr ""
+"Le `générateur de proposition budgétaire Axe <https://proposal.docs.axerunners.com>`__"
+" permet de créer des propositions budgétaires sur le réseau principal ou sur"
+" le réseau de test. À la première étape, vous devez saisir un nom bref, "
+"clair et unique pour la proposition, telle qu'elle apparaîtra sur la "
+"blockchain. Les noms de proposition budgétaire sont limités à 40 caractères."
+" Vous pouvez ensuite fournir un lien vers le forum Axe ou vers AxeCentral "
+"où votre proposition est décrite plus en détail (utilisez un `service de "
+"raccourcissement d'URL <https://goo.gl>`_ si nécessaire), et vous devez "
+"indiquer le montant du paiement sollicité, le nombre de fois qu'il doit être"
+" versé, et la date du \"superbloc\" pour laquelle vous sollicitez le "
+"paiement. Cela vous permet de contrôler dans quel cycle budgétaire "
+"apparaîtra votre proposition, et cela vous donne un temps suffisant pour "
+"promouvoir votre proposition et familiariser les électeurs avec votre "
+"projet. Veuillez noter que le montant du paiement est fixé une fois pour "
+"toutes, et qu'il ne peut plus être modifié après soumission à la blockchain."
+
+#: ../../governance/using.rst:177
+msgid "Steps 1 & 2: Creating your proposal and preparing the command"
+msgstr ""
+"Étapes 1 & 2 : Création de votre proposition budgétaire et préparation de la"
+" commande"
+
+#: ../../governance/using.rst:179
+msgid ""
+"Next, the proposal generator will provide you with a command to run from the"
+" console of your Axe Core wallet to prepare your budget proposal governance"
+" object. Running this command will cost you 5 AXE, which will be \"burnt\" "
+"or permanently removed from circulation. This one-time fee protects the "
+"governance system from becoming overwhelmed by spam, poorly thought out "
+"proposals or users not acting in good faith. A small transaction fee is "
+"charged as well, so make sure slightly more than 5 AXE is available in your"
+" wallet. Many budget proposals request reimbursement of the 5 AXE fee."
+msgstr ""
+"Ensuite, le générateur de proposition budgétaire vous communiquera une "
+"commande à lancer dans la console de votre portefeuille logiciel Axe Core, "
+"pour préparer votre objet de gouvernance de proposition budgétaire. Lancer "
+"cette commande vous coûtera 5 axes, lesquels seront \"brûlés\", "
+"c'est-à-dire retirés définitivement de la circulation. Ces frais perçus une "
+"seule fois protègent le système de gouvernance des attaques de spam, des "
+"propositions budgétaires manquant de sérieux, ou des utilisateurs "
+"malveillants. De petits frais de transaction sont également perçus, donc "
+"assurez-vous qu'un peu plus de 5 axes soient disponibles dans votre "
+"portefeuille logiciel. Beaucoup de propositions budgétaires sollicitent le "
+"remboursement des frais de 5 axes."
+
+#: ../../governance/using.rst:189
+msgid ""
+"First unlock your wallet by clicking **Settings > Unlock wallet**, then open"
+" the console by clicking **Tools > Debug console** and paste the generated "
+"command. The transaction ID will appear. Copy and paste this into the "
+"proposal generator response window. As soon as you do this, the system will "
+"show a progress bar as it waits for 6 confirmations as follows:"
+msgstr ""
+"Déverrouillez d'abord votre portefeuille logiciel en cliquant sur le menu "
+"**Réglages > Déverrouiller le portefeuille**, puis ouvrez la console en "
+"allant sur **Outils > Console de débogage** et collez-y la commande générée."
+" L'identifiant de transaction apparaîtra. Copiez-collez-le dans la fenêtre "
+"de réponse du générateur de proposition. Dès lors, le système affichera une "
+"barre de progression, dans l'attente de 6 confirmations, comme suit :"
+
+#: ../../governance/using.rst:202
+msgid ""
+"Step 3: Creating the proposal transaction and waiting for 6 confirmations of"
+" the transaction ID"
+msgstr ""
+"Étape 3 : Création de la transaction de proposition budgétaire et attente "
+"des 6 confirmations de l'identifiant de transaction"
+
+#: ../../governance/using.rst:205
+msgid ""
+"Once 6 block confirmations exist, another command will appear to submit the "
+"prepared governance object to the network for voting. Copy and paste this "
+"command, and your governance object ID will appear as follows:"
+msgstr ""
+"Une fois que les 6 confirmations de bloc ont eu lieu, une autre commande "
+"s'affichera pour soumettre l'objet de gouvernance préparé au réseau, en vue "
+"du vote. Copiez-collez cette commande, et votre identifiant d'objet de "
+"gouvernance apparaîtra comme suit :"
+
+#: ../../governance/using.rst:215
+msgid "Step 4: Submitting the governance object to the network"
+msgstr "Étape 4 : Soumission de l'objet de gouvernance au réseau"
+
+#: ../../governance/using.rst:217
+msgid ""
+"You can use this ID to track voting on the proposal until the budget closes "
+"and you receive your payout. You can also submit the ID to AxeCentral to "
+"claim your proposal and enable simplified voting for masternodes using "
+"AxeCentral voting services."
+msgstr ""
+"Vous pouvez utiliser cet identifiant pour suivre le vote sur la proposition "
+"budgétaire, jusqu'à ce que le cycle budgétaire se termine et que vous "
+"receviez votre paiement. Vous pouvez aussi soumettre l'identifiant à "
+"AxeCentral pour revendiquer votre proposition budgétaire et activer le vote"
+" simplifié pour les masternodes, au moyen des services de vote de "
+"AxeCentral."
+
+#: ../../governance/using.rst:223
+msgid "AxeCentral Proposal Generator"
+msgstr "Générateur de proposition budgétaire de AxeCentral"
+
+#: ../../governance/using.rst:225
+msgid "https://www.axecentral.org/budget/create"
+msgstr "https://www.axecentral.org/budget/create"
+
+#: ../../governance/using.rst:227
+msgid ""
+"AxeCentral also includes a tool to create budget proposals, or claim "
+"existing proposals so you can add a description on AxeCentral and begin "
+"discussion with the community. The steps to be taken are almost identical to"
+" the procedure described above, and documentation is available `here "
+"<https://www.axecentral.org/about/contact>`_."
+msgstr ""
+"AxeCentral propose aussi un outil de création de propositions budgétaires, "
+"ou de revendication de propositions existantes afin que vous puissiez "
+"ajouter une description sur AxeCentral et lancer le débat avec la "
+"communauté. Les étapes à suivre sont presque identiques à la procédure "
+"décrite ci-dessus, et la documentation est disponible `ici "
+"<https://www.axecentral.org/about/contact>`_."
+
+#: ../../governance/using.rst:235
+msgid "Voting on proposals"
+msgstr "Voter sur les propositions budgétaires"
+
+#: ../../governance/using.rst:237
+msgid ""
+"**You must vote at least three days before the superblock is created or your"
+" vote will not be counted. The exact deadline is 1662 blocks before the "
+"superblock.**"
+msgstr ""
+"**Vous devez voter au moins trois jours avant la création du \"superbloc\", "
+"sinon votre vote ne sera pas décompté. La limite précise est 1662 blocs "
+"avant le \"superbloc\".**"
+
+#: ../../governance/using.rst:241
+msgid ""
+"Note that if you do not operate a masternode, you may still be able to vote "
+"on AxeBoost proposals. See https://www.axeboost.org for more information."
+msgstr ""
+"À noter que, si vous n'opérez pas de masternode, vous pouvez quand même "
+"voter sur des propositions AxeBoost. Pour en savoir plus, voir "
+"https://www.axeboost.org ."
+
+#: ../../governance/using.rst:245
+msgid ""
+"Voting on DGBB proposals is an important part of operating a masternode. "
+"Since masternodes are heavily invested in Axe, they are expected to "
+"critically appraise proposals each month and vote in a manner they perceive "
+"to be consistent with the best interests of the network. Each masternode may"
+" vote once on each proposal, and the vote can be changed at any time before "
+"the voting deadline. The following sites and tools are available to view and"
+" manage proposals and voting:"
+msgstr ""
+"Voter sur les propositions budgétaires du système de gouvernance "
+"décentralisée est un rôle important des opérateurs de masternode. Puisque "
+"les masternodes sont lourdement investis dans Axe, il est attendu qu'ils "
+"évaluent chaque mois les propositions budgétaires d'un œil critique, et "
+"qu'ils votent d'une façon correspondant aux meilleurs intérêts du réseau. "
+"Chaque masternode peut voter une fois sur chaque proposition budgétaire, et "
+"le vote peut être modifié à tout moment avant la date limite. Les sites et "
+"outils suivants sont disponibles pour visualiser et gérer les propositions "
+"budgétaires et le vote :"
+
+#: ../../governance/using.rst:253
+msgid "`AxeCentral <https://www.axecentral.org/budget>`__"
+msgstr "`AxeCentral <https://www.axecentral.org/budget>`__"
+
+#: ../../governance/using.rst:254
+msgid "`Axe Nexus <https://axenexus.org>`__"
+msgstr "`Axe Nexus <https://axenexus.org>`__"
+
+#: ../../governance/using.rst:255
+msgid "`Axe Ninja - Governance <https://www.axeninja.pl/governance.html>`__"
+msgstr ""
+"`Axe Ninja - Gouvernance <https://www.axeninja.pl/governance.html>`__"
+
+#: ../../governance/using.rst:256
+msgid ""
+"`Axe Masternode Tool - Proposals <https://github.com/Bertrand256/axe-"
+"masternode-tool/releases>`__"
+msgstr ""
+"`Axe Masternode Tool - Propositions budgétaires "
+"<https://github.com/Bertrand256/axe-masternode-tool/releases>`__"
+
+#: ../../governance/using.rst:258
+msgid ""
+"For information on how to create a proposal, see :ref:`here <creating-"
+"proposals>`."
+msgstr ""
+"Pour savoir comment créer une proposition budgétaire, voir :ref:`ici "
+"<creating-proposals>`."
+
+#: ../../governance/using.rst:262
+msgid "AxeCentral"
+msgstr "AxeCentral"
+
+#: ../../governance/using.rst:264
+msgid ""
+"Many masternode operators store their password-protected masternode private "
+"key on `AxeCentral <https://www.axecentral.org>`__ to enable simple voting"
+" with a user-friendly interface. The popularity of this site has made it a "
+"common place for discussion of the proposals after they are submitted to the"
+" governance system. To vote from the AxeCentral web interface, first add "
+"your masternode private key to your account according to the instructions "
+"here. Note that the masternode private key is not the same as the private "
+"key controlling the 1000 AXE collateral, so there is no risk of losing your"
+" collateral. A separate password is required to unlock the masternode "
+"private key for voting, so the risk of the site operator voting in your name"
+" is minimal."
+msgstr ""
+"Beaucoup d'opérateurs de masternode stockent leur clé privée de masternode "
+"(protégée par mot de passe) sur `AxeCentral "
+"<https://www.axecentral.org>`__ pour activer le vote simplifié depuis une "
+"interface utilisateur conviviale. La popularité de ce site en a fait un "
+"endroit habituel pour le débat sur les propositions budgétaires, après leur "
+"soumission au système de gouvernance. Pour voter depuis l'interface web "
+"AxeCentral, ajoutez d'abord votre clé privée de masternode à votre compte, "
+"selon les instructions disponibles ici. Veuillez noter que la clé privée de "
+"masternode n'est pas la clé privée qui contrôle votre caution de 1000 axes,"
+" il n'y a donc aucun risque de perdre votre caution. Un mot de passe "
+"distinct est obligatoire pour déverrouiller votre clé privée de masternode "
+"en vue de voter, donc le risque que le webmestre du site vote à votre place "
+"est très faible."
+
+#: ../../governance/using.rst:276
+msgid ""
+"When you are ready to vote, go to the `budget proposals page "
+"<https://www.axecentral.org/budget>`_. Simply click to view the proposals, "
+"then click either **Vote YES**, **Vote ABSTAIN** or **Vote NO**."
+msgstr ""
+"Quand vous êtes prêt à voter, allez sur la `page des propositions "
+"budgétaires <https://www.axecentral.org/budget>`_. Cliquez simplement pour "
+"afficher les propositions, puis cliquez selon votre choix sur **Voter OUI**,"
+" **Voter ABSTENTION** ou **Voter NON**."
+
+#: ../../governance/using.rst:284
+msgid "Voting interface on AxeCentral"
+msgstr "Interface de vote sur AxeCentral"
+
+#: ../../governance/using.rst:287
+msgid "Axe Masternode Tool (DMT)"
+msgstr "AxeMasternodeTool (DMT)"
+
+#: ../../governance/using.rst:289
+msgid ""
+"If you started your masternode from a hardware wallet using `DMT "
+"<https://github.com/Bertrand256/axe-masternode-tool/releases>`_, you can "
+"also use the tool to cast votes. Click **Tools > Proposals** and wait for "
+"the list of proposals to load. You can easily see the voting status of each "
+"proposal, and selecting a proposal shows details on the **Details** tab in "
+"the lower half of the window. Switch to the **Vote** tab to **Vote Yes**, "
+"**Vote No** or **Vote Abstain** directly from DMT."
+msgstr ""
+"Si vous avez démarré votre masternode depuis un portefeuille matériel au "
+"moyen de `AxeMasternodeTool (DMT) <https://github.com/Bertrand256/axe-"
+"masternode-tool/releases>`_, vous pouvez aussi utiliser cet utilitaire pour "
+"voter. Cliquez sur **Outils > Propositions budgétaires** et attendez le "
+"chargement de la liste des propositions. Vous pouvez facilement consulter "
+"l'état du vote sur chaque proposition budgétaire, et en sélectionner une "
+"affiche des détails dans l'onglet **Détails** de la partie inférieure de la "
+"fenêtre. Allez sur l'onglet **Vote** pour **Voter Oui**, **Voter Non** ou "
+"**Voter Abstention** directement depuis DMT."
+
+#: ../../governance/using.rst:300
+msgid "Voting interface in DMT"
+msgstr "Interface de vote dans DMT"
+
+#: ../../governance/using.rst:305
+msgid "Axe Core wallet or masternode"
+msgstr "Portefeuille logiciel Axe Core ou masternode"
+
+#: ../../governance/using.rst:307
+msgid ""
+"If you started your masternode using the Axe Core Wallet (not recommended),"
+" you can vote manually from **Tools > Debug console**, or directly from your"
+" masternode via SSH using ``axe-cli``. First click on the proposal you want"
+" to vote on at either `AxeCentral <https://www.axecentral.org/budget>`__ "
+"or `Axe Ninja <https://www.axeninja.pl/governance.html>`__. You will see a"
+" command for manual voting below the proposal description. Copy and paste "
+"the command and modify it as necessary. As an example, take this proposal "
+"from `Axe Ninja "
+"<https://www.axeninja.pl/proposaldetails.html?proposalhash=6ed741 "
+"8455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d>`__ (or "
+"`AxeCentral "
+"<https://www.axecentral.org/p/ScalingUpPublicityWithAmandaPMBC>`__). The "
+"voting code for Axe Core Wallet is as follows::"
+msgstr ""
+"Si vous avez démarré votre masternode en utilisant le portefeuille logiciel "
+"Axe Core (ce qui n'est pas recommandé), vous pouvez voter manuellement "
+"depuis le menu **Outils > Console de débogage**, ou directement depuis le "
+"VPS de votre masternode, via SSH, en utilisant la commande ``axe-cli``. "
+"D'abord, cliquez sur la proposition budgétaire sur laquelle vous souhaitez "
+"voter, soit dans `AxeCentral <https://www.axecentral.org/budget>`__, soit "
+"dans `Axe Ninja <https://www.axeninja.pl/governance.html>`__. Vous verrez "
+"une commande de vote manuel sous la description de la proposition "
+"budgétaire. Copiez-collez la commande et modifiez-le selon vos besoins. En "
+"guise d'exemple, prenez cette proposition sur `Axe Ninja "
+"<https://www.axeninja.pl/proposaldetails.html?proposalhash=6ed741 "
+"8455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d>`__ (ou "
+"`AxeCentral "
+"<https://www.axecentral.org/p/ScalingUpPublicityWithAmandaPMBC>`__). Le "
+"code de vote pour le portefeuille logiciel Axe Core est comme suit ::"
+
+#: ../../governance/using.rst:326
+msgid ""
+"Note that to vote from your masternode directly, you need to prefix the "
+"command with ``axe-cli``, which is usually found in the ``.axecore`` "
+"folder. The command should be similar to the following::"
+msgstr ""
+"Veuillez noter que, pour voter directement depuis votre masternode, vous "
+"devrez préfixer la commande avec ``axe-cli``, utilitaire qui se trouve en "
+"général dans le répertoire ``.axecore``. La commande devrait ressembler à "
+"cela ::"
+
+#: ../../governance/using.rst:334
+msgid ""
+"Note this command will trigger a vote from all masternodes configured in "
+"``axe.conf``. If you have multiple masternodes each with its own .conf "
+"file, or if you want to vote with only some of your masternodes, you must "
+"change the command from ``vote-many`` to ``vote``. If your vote was "
+"successful, you should see a confirmation message reading **Voted "
+"successfully**."
+msgstr ""
+"Veuillez noter que cette commande enverra un vote pour tous les masternodes "
+"configurés dans ``axe.conf``. Si vous avez plusieurs masternodes disposant "
+"chacun de son propre fichier \".conf\", ou si vous souhaitez voter seulement"
+" avec certains de vos masternodes, vous devez changer la commande ``vote-"
+"many`` en ``vote``. Si votre vote s'est bien passé, vous devriez voir un "
+"message de confirmation disant **Vote réussi**."
+
+#: ../../governance/using.rst:344
+msgid "Voting from the debug console in Axe Core Wallet"
+msgstr "Vote depuis la console de débogage du portefeuille logiciel Axe Core"
+
+#: ../../governance/using.rst:346
+msgid ""
+"You can also view a list of proposals in JSON format from the console to "
+"copy and paste the proposal hash for voting as follows::"
+msgstr ""
+"Vous pouvez aussi afficher une liste des propositions budgétaires au format "
+"JSON depuis la console, afin de copier-coller l'empreinte de la proposition "
+"pour voter, comme suit ::"
+
+#: ../../governance/using.rst:354
+msgid "Delegating votes"
+msgstr ""
+
+#: ../../governance/using.rst:356
+msgid ""
+":ref:`DIP003 masternodes <dip3-changes>` feature a separate voting key, "
+"which makes it possible to delegate your vote to a representative. Simply "
+"enter a Axe address provided by the delegate when :ref:`registering your "
+"masternode <masternode-setup>`, or :ref:`update <dip3-update-registrar>` "
+"your masternode registration to delegate the vote of a running masternode. "
+"The wallet controlling the private key to this address will then cast votes "
+"on behalf of this masternode owner simply by following the :ref:`Axe Core "
+"voting procedure <axe-core-voting>` described above. No further "
+"configuration is required."
+msgstr ""

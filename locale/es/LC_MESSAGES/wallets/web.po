@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ivan SIerraalta <ivansierraalta@gmail.com>, 2018
+# Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-29 10:35+0000\n"
+"Last-Translator: Leon White <leon.white@docs.axerunners.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/axe/teams/37570/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/web.rst:1
+msgid ""
+"MyAxeWallet is a secure web wallet for Axe, supporting InstantSend and "
+"PrivateSend"
+msgstr ""
+"MyAxeWallet es una billetera segura para Axe, que soporta InstantSend y "
+"PrivateSend"
+
+#: ../../wallets/web.rst:1
+msgid ""
+"axe, myaxewallet, web, wallet, privatesend, instantsend, my axe wallet"
+msgstr ""
+"axe, myaxewallet, web, billetera, privatesend, instantsend, mi billetera "
+"axe, my axe wallet"
+
+#: ../../wallets/web.rst:8
+msgid "MyAxeWallet"
+msgstr "MyAxeWallet"
+
+#: ../../wallets/web.rst:14
+msgid ""
+"`MyAxeWallet <https://myaxewallet.org/>`_ is a web interface to the Axe "
+"blockchain, inspired by `MyEtherWallet <https://www.myetherwallet.com>`_ and"
+" created by `DeltaEngine.net <https://deltaengine.net/>`_. It is explicitly "
+"not an online wallet, meaning you maintain control over your private keys at"
+" all times. Unlike many other light wallets, MyAxeWallet also supports "
+"advanced Axe features such as InstantSend and PrivateSend. The project is "
+"non-profit, open source and free to use. You can load a wallet and transact "
+"in a variety of wallet formats:"
+msgstr ""
+"`MyAxeWallet <https://myaxewallet.org/>`_ es una interfaz web para la "
+"cadena de bloques de Axe, inspirada en `MyEtherWallet "
+"<https://www.myetherwallet.com>`_ y creada por `DeltaEngine.net "
+"<https://deltaengine.net/>`_. No es explícitamente una billetera en línea, "
+"lo que significa que tu mantienes el control sobre tus llaves privadas en "
+"todo momento. A diferencia de muchas otras billeteras livianas, MyAxeWallet"
+" también admite características avanzadas de Axe como InstantSend y "
+"PrivateSend. El proyecto es sin fines de lucro, de código abierto y de uso "
+"gratuito. Puedes cargar una billetera y realizar transacciones en una "
+"variedad de formatos de billetera:"
+
+#: ../../wallets/web.rst:24
+msgid "Keystore wallet (file-based)"
+msgstr "Billetera de almacenamiento de llaves (basada en archivos)"
+
+#: ../../wallets/web.rst:25
+msgid "Ledger hardware wallet"
+msgstr "Billetera de hardware Ledger"
+
+#: ../../wallets/web.rst:26
+msgid "Trezor hardware wallet"
+msgstr "Billetera de hardware Trezor"
+
+#: ../../wallets/web.rst:27
+msgid "Private key"
+msgstr "Llave privada"
+
+#: ../../wallets/web.rst:28
+msgid "BIP39/44 HD recovery phrase (coming soon)"
+msgstr "Frase de recuperación BIP39/44 HD (próximamente)"
+
+#: ../../wallets/web.rst:29
+msgid "BIP32 HD recovery phrase (coming soon)"
+msgstr "Frase de recuperación BIP32 HD (próximamente)"
+
+#: ../../wallets/web.rst:31
+msgid ""
+"MyAxeWallet offers complete and detailed documentation for all functions."
+msgstr ""
+"MyAxeWallet ofrece una documetación completa y detallada de todas sus "
+"funciones"
+
+#: ../../wallets/web.rst:33
+msgid "`Getting started <https://myaxewallet.org/About>`_"
+msgstr "`Empezando <https://myaxewallet.org/About>`_"
+
+#: ../../wallets/web.rst:34
+msgid ""
+"`How to Create a Wallet via Keystore file "
+"<https://myaxewallet.org/AboutCreateNewWallet>`_"
+msgstr ""
+"`Cómo crear una billetera con el archivo de almacenamiento de llaves "
+"<https://myaxewallet.org/AboutCreateNewWallet>`_"
+
+#: ../../wallets/web.rst:35
+msgid ""
+"`Using the Ledger Hardware Wallet on MyAxeWallet "
+"<https://myaxewallet.org/AboutLedgerHardwareWallet>`_"
+msgstr ""
+"`Usar la Billetera Ledger de hardware en MyAxeWallet "
+"<https://myaxewallet.org/AboutLedgerHardwareWallet>`_"
+
+#: ../../wallets/web.rst:36
+msgid ""
+"`Using the Trezor Hardware Wallet on MyAxeWallet "
+"<https://myaxewallet.org/AboutTrezorHardwareWallet>`_"
+msgstr ""
+"`Usar la Billetera Trezor de Hardware en MyAxeWallet "
+"<https://myaxewallet.org/AboutTrezorHardwareWallet>`_"
+
+#: ../../wallets/web.rst:37
+msgid ""
+"`How to does AXE InstantSend work on MyAxeWallet? "
+"<https://myaxewallet.org/AboutInstantSend>`_"
+msgstr ""
+"`Cómo funciona AXE InstantSend en MyAxeWallet? "
+"<https://myaxewallet.org/AboutInstantSend>`_"
+
+#: ../../wallets/web.rst:38
+msgid ""
+"`How to does AXE PrivateSend work on MyAxeWallet? "
+"<https://myaxewallet.org/AboutPrivateSend>`_"
+msgstr ""
+"`Cómo funciona AXE PrivateSend en MyAxeWallet? "
+"<https://myaxewallet.org/AboutPrivateSend>`_"

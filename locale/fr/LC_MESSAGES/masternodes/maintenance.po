@@ -1,0 +1,846 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daf Daf, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-29 10:35+0000\n"
+"Last-Translator: Daf Daf, 2019\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../masternodes/maintenance.rst:1
+msgid ""
+"Maintaining a Axe masternode involves staying up to date with the latest "
+"version, voting and handling payments"
+msgstr ""
+"Gérer un masternode Axe implique de le mettre à jour avec la version la "
+"plus récente, de voter et de gérer les paiements"
+
+#: ../../masternodes/maintenance.rst:1
+msgid ""
+"axe, cryptocurrency, masternode, maintenance, maintain, payments, "
+"withdrawal, voting, monitoring, dip3, upgrade, deterministic"
+msgstr ""
+"axe, cryptomonnaie, masternode, gestion, gérer, paiements, retrait, vote, "
+"surveillance, dip3, mise à jour, déterministe"
+
+#: ../../masternodes/maintenance.rst:9
+msgid "Maintenance"
+msgstr "Gestion"
+
+#: ../../masternodes/maintenance.rst:11
+msgid ""
+"Masternodes require regular maintenance to ensure you do not drop off the "
+"payment queue. This includes promptly installing updates to Axe, as well as"
+" maintaining the security and performance of the server. In addition, "
+"masternodes should vote on proposals and perform other tasks in the interest"
+" of the network and the value of the Axe they hold."
+msgstr ""
+"Les masternodes impliquent une gestion régulière, pour être certain qu'ils "
+"ne soient pas éjectés de la file d'attente des paiements. Cela comprend "
+"l'installation sans attendre des mises à jour de Axe, mais aussi certaines "
+"opérations de sécurité et de performance sur le serveur. De plus, les "
+"masternodes doivent voter sur les propositions et accomplir d'autres tâches "
+"dans l'intérêt du réseau et de la valeur en axes qu'ils représentent."
+
+#: ../../masternodes/maintenance.rst:21
+msgid "Masternode Software Update"
+msgstr "Mise à jour du logiciel du masternode"
+
+#: ../../masternodes/maintenance.rst:23
+msgid ""
+"The Axe Core software requires regular updates in order to remain "
+"consistent with the current network consensus. Depending on whether you "
+"installed Axe manually or using axeman, you must follow the procedure "
+"appropriate for your masternode, as described below."
+msgstr ""
+"Le logiciel Axe Core doit être mis à jour régulièrement, afin de rester "
+"cohérent avec l'état le plus récent du réseau. Selon la manière dont vous "
+"aviez installé ce logiciel, manuellement ou avec Axeman, vous devez suivre "
+"la procédure appropriée pour votre masternode, telle que décrite ci-dessous."
+
+#: ../../masternodes/maintenance.rst:30
+msgid "Option 1: Updating from axeman"
+msgstr "Option 1 : Mise à jour avec Axeman"
+
+#: ../../masternodes/maintenance.rst:32
+msgid ""
+"To update Axe using axeman, log in to your server and enter the following "
+"commands::"
+msgstr ""
+"Pour faire une mise à jour en utilisant Axeman, connectez-vous à votre "
+"serveur et saisissez les commandes suivantes :"
+
+#: ../../masternodes/maintenance.rst:38
+msgid "Check the status of your masternode::"
+msgstr "Vérifiez l'état de votre masternode :"
+
+#: ../../masternodes/maintenance.rst:42 ../../masternodes/maintenance.rst:95
+msgid "The Axe software on the masternode is now updated."
+msgstr "Le logiciel Axe sur votre masternode est maintenant à jour."
+
+#: ../../masternodes/maintenance.rst:46
+msgid "Option 2: Manual update"
+msgstr "Option 2 : Mise à jour manuelle"
+
+#: ../../masternodes/maintenance.rst:48
+msgid ""
+"To update Axe manually, log in to your server using ssh or PuTTY. If your "
+"crontab contains an entry to automatically restart axed, invoke ``crontab "
+"-e`` and comment out the appropriate line by adding the ``#`` character. It "
+"should look something like this::"
+msgstr ""
+"Pour mettre à jour manuellement le logiciel Axe sur votre masternode, "
+"veuillez vous connecter à votre server avec `ssh` ou PuTTY. Si votre fichier"
+" crontab comporte une entrée pour redémarrer automatiquement `axed`, "
+"saisissez la commande ``crontab -e`` et commentez la ligne appropriée en "
+"ajoutant le caractère ``#`` à son début. Cela doit ressembler à ceci :"
+
+#: ../../masternodes/maintenance.rst:55
+msgid "Then stop Axe running::"
+msgstr "Puis interrompez l'exécution de Axe :"
+
+#: ../../masternodes/maintenance.rst:59
+msgid ""
+"Visit the `GitHub releases page <https://github.com/axerunners/axe/releases>`_"
+" and copy the link to the latest x86_64-linux-gnu version. Go back to your "
+"terminal window and enter the following command, pasting in the address to "
+"the latest version of Axe Core by right clicking or pressing **Ctrl + V**::"
+msgstr ""
+"Allez sur la `page GitHub des publications "
+"<https://github.com/axerunners/axe/releases>`_ et copiez le lien vers la "
+"version x86_64-linux-gnu la plus récente. Revenez à votre fenêtre de "
+"terminal et saisissez la commande suivante, en y collant l'adresse de la "
+"plus récente version de Axe Core par un clic-droit, ou par la combinaison "
+"de touches **Ctrl-V** :"
+
+#: ../../masternodes/maintenance.rst:68
+msgid ""
+"Verify the integrity of your download by running the following command and "
+"comparing the output against the value for the file as shown in the "
+"``SHA256SUMS.asc`` file::"
+msgstr ""
+"Vérifiez l'intégrité de votre téléchargement en lançant la commande suivante"
+" et en comparant sa valeur de sortie à la valeur donnée par le fichier "
+"``SHA256SUMS.asc`` :"
+
+#: ../../masternodes/maintenance.rst:74
+msgid ""
+"Extract the compressed archive and copy the new files to the directory::"
+msgstr ""
+"Décompressez l'archive et copiez les nouveaux fichiers dans le répertoire :"
+
+#: ../../masternodes/maintenance.rst:80
+msgid "Restart Axe::"
+msgstr "Redémarrez Axe :"
+
+#: ../../masternodes/maintenance.rst:84
+msgid ""
+"You will see a message reading \"Axe Core server starting\". We will now "
+"update Sentinel::"
+msgstr ""
+"Vous verrez un message disant \"Démarrage du serveur Axe Core\". Nous "
+"allons maintenant mettre à jour Sentinel :"
+
+#: ../../masternodes/maintenance.rst:91
+msgid ""
+"Finally, uncomment the line to automatically restart Axe in your crontab by"
+" invoking ``crontab -e`` again and deleting the ``#`` character."
+msgstr ""
+"Enfin, dans votre fichier crontab, décommentez la ligne permettant de "
+"redémarrer automatiquement Axe. Faites à nouveau la commande ``crontab -e``"
+" et effacez le caractère ``#``."
+
+#: ../../masternodes/maintenance.rst:101
+msgid "Updating Masternode Information"
+msgstr "Mise à jour des informations du masternode"
+
+#: ../../masternodes/maintenance.rst:103
+msgid ""
+"Periodically, it may be necessary to update masternode information if any "
+"information relating to the owner or operator changes. Examples may include "
+"a change in IP address, change in owner/operator payout address, or change "
+"in percentage of the reward allocated to an operator. It is also possible to"
+" revoke a masternode's registered status (in the event of a security breach,"
+" for example) to force both owner and operator to update their details."
+msgstr ""
+"De temps en temps, il peut être nécessaire de mettre à jour les informations"
+" du masternode si toute information relative au propriétaire ou à "
+"l'opérateur vient à changer. Il peut s'agir par exemple d'un changement "
+"d'adresse IP, ou de l'adresse de paiement du propriétaire ou de l'opérateur,"
+" ou du pourcentage de la récompense à allouer à un opérateur. Il est "
+"également possible de révoquer l'état enregistré d'un masternode (dans le "
+"cas d'une faille de sécurité, par exemple) pour forcer à la fois le "
+"propriétaire et l'opérateur à mettre à jour leurs informations."
+
+#: ../../masternodes/maintenance.rst:114
+msgid "ProUpServTx"
+msgstr "ProUpServTx"
+
+#: ../../masternodes/maintenance.rst:116
+msgid ""
+"A Provider Update Service Transaction (ProUpServTx) is used to update "
+"information relating to the operator. An operator can update the IP address "
+"and port fields of a masternode entry. If a non-zero operatorReward was set "
+"in the initial ProRegTx, the operator may also set the scriptOperatorPayout "
+"field in the ProUpServTx. If scriptOperatorPayout is not set and "
+"operatorReward is non-zero, the owner gets the full masternode reward. The "
+"ProUpServTx takes the following syntax::"
+msgstr ""
+"Une transaction de service de mise à jour du fournisseur (Provider Update "
+"Service Transaction, ProUpServTx) est utilisée pour mettre à jour les "
+"informations relatives à l'opérateur. Un opérateur peut mettre à jour les "
+"champs d'adresse IP et de port d'un masternode. Si une récompense "
+"d'opérateur (operatorReward) différente de zéro a été définie dans la "
+"transaction ProRegTx initiale, l'opérateur peut aussi définir le champ "
+"scriptOperatorPayout dans la transaction ProUpServTx. Si la valeur "
+"scriptOperatorPayout n'est pas définie et que la valeur operatorReward n'est"
+" pas égale à zéro, le propriétaire perçoit l'intégralité de la récompense de"
+" masternode. La transaction ProUpServTx a la syntaxe suivante :"
+
+#: ../../masternodes/maintenance.rst:126 ../../masternodes/maintenance.rst:159
+#: ../../masternodes/maintenance.rst:190
+msgid "Where:"
+msgstr "Où :"
+
+#: ../../masternodes/maintenance.rst:128
+msgid "``proTxHash``: The hash of the initial ProRegTx"
+msgstr "``proTxHash`` : l'empreinte de la transaction ProRegTx initiale"
+
+#: ../../masternodes/maintenance.rst:129
+msgid "``ipAndPort``: IP and port in the form \"ip:port\""
+msgstr ""
+"``ipAndPort`` : l'adresse IP et le port du masternode, suivant le format "
+"``x.x.x.x:yyyy``"
+
+#: ../../masternodes/maintenance.rst:130 ../../masternodes/maintenance.rst:193
+msgid ""
+"``operatorKey``: The operator BLS private key associated with the registered"
+" operator public key"
+msgstr ""
+"``operatorKey`` : la clé privée BLS de l'opérateur associée à la clé "
+"publique enregistrée de l'opérateur"
+
+#: ../../masternodes/maintenance.rst:132
+msgid ""
+"``operatorPayoutAddress`` (optional): The address used for operator reward "
+"payments. Only allowed when the ProRegTx had a non-zero ``operatorReward`` "
+"value."
+msgstr ""
+"``operatorPayoutAddress`` (facultatif) : l'adresse utilisée pour recevoir "
+"les paiements de la récompense d'opérateur. Autorisée uniquement si la "
+"transaction ProRegTx a une valeur ``operatorReward`` différente de zéro."
+
+#: ../../masternodes/maintenance.rst:135 ../../masternodes/maintenance.rst:196
+msgid ""
+"``feeSourceAddress`` (optional): An address used to fund ProTx fee. "
+"``operatorPayoutAddress`` will be used if not specified."
+msgstr ""
+"``feeSourceAddress`` (facultatif) : une adresse où seront prélevés les frais"
+" de la transaction ProTx. À défaut, ``operatorPayoutAddress`` sera utilisée."
+
+#: ../../masternodes/maintenance.rst:138 ../../masternodes/maintenance.rst:199
+msgid "Example::"
+msgstr "Exemple :"
+
+#: ../../masternodes/maintenance.rst:144
+msgid ""
+"The masternode is now removed from the PoSe-banned list, and the IP:port and"
+" operator reward addresses are updated."
+msgstr ""
+"Le masternode est à présent retiré de la liste de bannissement PoSe, et "
+"l'adresse IP, le port et l'adresse de récompense de l'opérateur ont été mis "
+"à jour."
+
+#: ../../masternodes/maintenance.rst:150
+msgid "ProUpRegTx"
+msgstr "ProUpRegTx"
+
+#: ../../masternodes/maintenance.rst:152
+msgid ""
+"A Provider Update Registrar Transaction (ProUpRegTx) is used to update "
+"information relating to the owner. An owner can update the operator's BLS "
+"public key (e.g. to nominate a new operator), the voting address and their "
+"own payout address. The ProUpRegTx takes the following syntax::"
+msgstr ""
+"Une transaction d'enregistrement de mise à jour du fournisseur (Provider "
+"Update Registrar Transaction, ProUpRegTx) est utilisée pour mettre à jour "
+"les informations relatives au propriétaire. Un propriétaire peut mettre à "
+"jour la clé publique BLS d'un opérateur (par exemple pour désigner un nouvel"
+" opérateur), l'adresse de vote et sa propre adresse de paiement. La "
+"transaction ProUpRegTx a la syntaxe suivante :"
+
+#: ../../masternodes/maintenance.rst:161 ../../masternodes/maintenance.rst:192
+msgid "``proTxHash``: The transaction id of the initial ProRegTx"
+msgstr "``proTxHash`` : l'identifiant de la transaction ProRegTx initiale"
+
+#: ../../masternodes/maintenance.rst:162
+msgid ""
+"``operatorKeyAddr``: An updated BLS public key, or 0 to use the last on-"
+"chain operator key"
+msgstr ""
+"``operatorKeyAddr`` : une clé publique BLS mise à jour, ou bien 0 pour "
+"utiliser la dernière clé d'opérateur sur chaîne"
+
+#: ../../masternodes/maintenance.rst:164
+msgid ""
+"``votingKeyAddr``: An updated voting key address, or 0 to use the last on-"
+"chain operator key"
+msgstr ""
+"``votingKeyAddr`` : une adresse de clé de vote mise à jour, ou bien 0 pour "
+"utiliser la dernière clé d'opérateur sur chaîne"
+
+#: ../../masternodes/maintenance.rst:166
+msgid ""
+"``payoutAddress``: An updated Axe address for owner payments, or 0 to use "
+"the last on-chain operator key"
+msgstr ""
+"``payoutAddress`` : une adresse Axe pour les paiements du propriétaire mise"
+" à jour, ou bien 0 pour utiliser la dernière clé d'opérateur sur chaîne"
+
+#: ../../masternodes/maintenance.rst:168
+msgid ""
+"``feeSourceAddress`` (optional): An address used to fund ProTx fee. "
+"``PayoutAddress`` will be used if not specified."
+msgstr ""
+"``feeSourceAddress`` (facultatif) : une adresse où seront prélevés les frais"
+" de la transaction ProTx. À défaut, ``PayoutAddress`` sera utilisée."
+
+#: ../../masternodes/maintenance.rst:171
+msgid "Example to update payout address::"
+msgstr "Exemple de mise à jour de l'adresse de paiement :"
+
+#: ../../masternodes/maintenance.rst:177
+msgid "ProUpRevTx"
+msgstr "ProUpRevTx"
+
+#: ../../masternodes/maintenance.rst:179
+msgid ""
+"A Provider Update Revocation Transaction (ProUpRevTx) is used by the "
+"operator to terminate service or signal the owner that a new BLS key is "
+"required. It will immediately put the masternode in the PoSe-banned state. "
+"The owner must then issue a ProUpRegTx to set a new operator key. After the "
+"ProUpRegTx is mined to a block, the new operator must issue a ProUpServTx to"
+" update the service-related metadata and clear the PoSe- banned state "
+"(revive the masternode). The ProUpRevTx takes the following syntax::"
+msgstr ""
+"Une transaction de révocation de mise à jour de fournisseur (Provider Update"
+" Revocation Transaction, ProUpRevTx) est utilisée par l'opérateur pour "
+"interrompre le service ou pour signaler au propriétaire qu'une nouvelle clé "
+"BLS est requise. Cette transaction mettra immédiatement le masternode dans "
+"l'état de bannissement PoSe. Le propriétaire doit alors émettre une "
+"transaction ProUpRegTx pour définir une nouvelle clé d'opérateur. Après que "
+"la transaction ProUpRegTx est minée dans un bloc, le nouvel opérateur doit "
+"émettre une transaction ProUpServTx pour mettre à jour les métadonnées "
+"relatives au service et pour lever le bannissement PoSe (c'est-à-dire "
+"ressusciter le masternode). La transaction ProUpRevTx a la syntaxe suivante "
+":"
+
+#: ../../masternodes/maintenance.rst:195
+msgid ""
+"``reason`` (optional): Integer value indicating the revocation `reason "
+"<https://github.com/axerunners/dips/blob/master/dip-0003.md#appendix-a-reasons-"
+"for-self-revocation-of-operators>`__"
+msgstr ""
+"``reason`` (facultatif) : un nombre entier indiquant la `raison de la "
+"révocation "
+"<https://github.com/axerunners/dips/blob/master/dip-0003.md#appendix-a-reasons-"
+"for-self-revocation-of-operators>`__"
+
+#: ../../masternodes/maintenance.rst:205
+msgid "AxeCentral voting, verification and monitoring"
+msgstr "Vote, vérification et suivi avec AxeCentral"
+
+#: ../../masternodes/maintenance.rst:207
+msgid ""
+"AxeCentral is a community-supported website managed by community member "
+"Rango. It has become a *de facto* site for discussion of budget proposals "
+"and to facilitate voting from a graphical user interface, but also offers "
+"functions to monitor masternodes."
+msgstr ""
+"AxeCentral est un site web communautaire géré par Rango, membre de la "
+"communauté. Il est devenu le site *de facto* pour les débats sur les "
+"propositions budgétaires et pour accomplir le vote avec une interface "
+"graphique, mais il propose aussi diverses fonctions de suivi de masternodes."
+
+#: ../../masternodes/maintenance.rst:213
+msgid "Adding your masternode to AxeCentral"
+msgstr "Ajouter votre masternode à AxeCentral"
+
+#: ../../masternodes/maintenance.rst:215
+msgid ""
+"`Axecentral <https://www.axecentral.org/>`_ allows you to vote on "
+"proposals from the comfort of your browser. After completing `registration "
+"<https://www.axecentral.org/register>`_, go to the `masternodes "
+"<https://www.axecentral.org/masternodes>`_ page and click the **Add "
+"masternode now** button. Enter your collateral address on the following "
+"screen:"
+msgstr ""
+"`Axecentral <https://www.axecentral.org/>`_ vous permet de voter "
+"confortablement sur les propositions budgétaires, avec votre navigateur "
+"Internet. Après vous être `inscrit <https://www.axecentral.org/register>`_,"
+" allez à la page des `masternodes "
+"<https://www.axecentral.org/masternodes>`_ et cliquez sur le bouton "
+"**Ajouter maintenant un masternode**. Saisissez votre adresse de caution sur"
+" l'écran suivant :"
+
+#: ../../masternodes/maintenance.rst:225
+msgid "Adding a masternode to AxeCentral"
+msgstr "Ajout d'un masternode dans AxeCentral"
+
+#: ../../masternodes/maintenance.rst:227
+msgid ""
+"Click **Add masternode**. Your masternode has now been added to AxeCentral."
+msgstr ""
+"Cliquez sur **Ajouter un masternode**. Votre masternode est désormais ajouté"
+" à AxeCentral."
+
+#: ../../masternodes/maintenance.rst:231
+msgid "Enabling voting from AxeCentral"
+msgstr "Activer le vote depuis AxeCentral"
+
+#: ../../masternodes/maintenance.rst:233
+msgid ""
+"Click **Edit** under **Voting privkeys** to enter your masternode private "
+"key to enable voting through the AxeCentral web interface. Enter a voting "
+"passphrase (not the same as your login password, but equally important to "
+"remember!) and enter the private key (the same key you used in the axe.conf"
+" file on your masternode) on the following screen:"
+msgstr ""
+"Cliquez sur **Modifier**, sous **Clés privées de vote**, pour saisir la clé "
+"privée de votre masternode et rendre possible le vote par l'interface web "
+"AxeCentral. Saisissez une phrase de passe de vote (pas la même que votre "
+"mot de passe de connexion, mais dont il faut aussi bien se souvenir !) et "
+"saisissez la clé privée (celle que vous avez utilisée dans le fichier "
+"\"axe.conf\" de votre masternode) sur l'écran suivant :"
+
+#: ../../masternodes/maintenance.rst:243
+msgid "Adding voting privkeys to AxeCentral"
+msgstr "Ajout de clés privées de vote dans AxeCentral"
+
+#: ../../masternodes/maintenance.rst:245
+msgid ""
+"It is important to note that the private key to start your masternode is "
+"unrelated to the private keys to the collateral address storing your 1000 "
+"AXE. These keys can be used to issue commands on behalf of the masternode, "
+"such as voting, but cannot be used to access the collateral. The keys are "
+"encrypted on your device and never stored as plain text on AxeCentral "
+"servers. Once you have entered the key, click **Store encrypted voting "
+"privkeys on server**. You can now vote on proposals from the AxeCentral web"
+" interface."
+msgstr ""
+"Il est important de noter que la clé privée de démarrage de votre masternode"
+" est sans rapport avec les clés privées de l'adresse de caution détenant vos"
+" 1000 axes. Cette clé peut être utilisée pour émettre des commandes au nom "
+"du masternode, telles que le vote, mais ne peuvent pas servir à accéder à la"
+" caution. Les clés sont chiffrées sur votre ordinateur et ne sont jamais "
+"stockées en clair sur les serveurs de AxeCentral. Une fois que vous avez "
+"saisi la clé, cliquez sur **Stocker sur le serveur les clés privées de vote "
+"chiffrées**. Vous pouvez à présent voter sur les propositions budgétaires "
+"depuis l'interface web AxeCentral."
+
+#: ../../masternodes/maintenance.rst:255
+msgid "Verifying ownership"
+msgstr "Certification de propriété"
+
+#: ../../masternodes/maintenance.rst:257
+msgid ""
+"You can also issue a message from your address to verify ownership of your "
+"masternode to AxeCentral. Click **Unverified** under **Ownership** and the "
+"following screen will appear:"
+msgstr ""
+"Vous pouvez également émettre un message depuis votre adresse pour certifier"
+" à AxeCentral que vous êtes propriétaire de votre masternode. Cliquez sur "
+"**Non vérifié** sous **Propriété** et l'écran suivant s'affichera ::"
+
+#: ../../masternodes/maintenance.rst:264
+msgid "Verifying ownership of your masternode to AxeCentral"
+msgstr "Certification à AxeCentral de la propriété de votre masternode"
+
+#: ../../masternodes/maintenance.rst:266
+msgid ""
+"Instructions on how to sign your collateral address using a software wallet "
+"appear. If you are using a hardware wallet other than Trezor, you will need "
+"to use the DMT app to sign the address. If you are using the Trezor hardware"
+" wallet, go to your `Trezor wallet <https://wallet.trezor.io/>`_, copy the "
+"collateral address and click **Sign & Verify**. The following screen will "
+"appear, where you can enter the message provided by AxeCentral and the "
+"address you wish to sign:"
+msgstr ""
+"Des instructions sur la manière de signer votre adresse de caution avec un "
+"portefeuille logiciel sont affichées. Si vous utilisez un portefeuille "
+"matériel qui n'est pas un Trezor, vous devrez utiliser l'application "
+"AxeMasternodeTool (DMT) pour signer l'adresse. Si vous utilisez le "
+"portefeuille matériel Trezor, allez à l'adresse du `portefeuille Trezor "
+"<https://wallet.trezor.io/>`_, copiez l'adresse de caution et cliquez sur "
+"**Signer & vérifier**. L'écran suivant s'affiche, où vous pouvez saisir le "
+"message fourni par AxeCentral et l'adresse que vous souhaitez signer ::"
+
+#: ../../masternodes/maintenance.rst:277
+msgid "Signing a message from the Trezor Wallet"
+msgstr "Signature d'un message depuis le portefeuille Trezor"
+
+#: ../../masternodes/maintenance.rst:279
+msgid ""
+"Click **Sign**, confirm on your Trezor device and enter your PIN to sign the"
+" message. A message signature will appear in the **Signature** box. Copy "
+"this signature and paste it into the box on AxeCentral and click **Verify "
+"ownership**. Verification is now complete."
+msgstr ""
+"Cliquez sur **Signer**, confirmez sur votre appareil Trezor et saisissez "
+"votre code PIN pour signer le message. Une signature de message apparaîtra "
+"dans le champ **Signature**. Copiez cette signature et collez-la dans le "
+"champ sur AxeCentral, puis cliquez sur **Vérifier la propriété**. La "
+"certification est maintenant terminée."
+
+#: ../../masternodes/maintenance.rst:287
+msgid "Masternode ownership has been successfully verified"
+msgstr "Propriété du masternode certifiée avec succès"
+
+#: ../../masternodes/maintenance.rst:290
+msgid "Installing the AxeCentral monitoring script"
+msgstr "Installation du script de suivi AxeCentral"
+
+#: ../../masternodes/maintenance.rst:292
+msgid ""
+"AxeCentral offers a service to monitor your masternode, automatically "
+"restart axed in the event of a crash and send email in the event of an "
+"error. Go to the `Account settings "
+"<https://www.axecentral.org/account/edit>`_ page and generate a new API "
+"key, adding a PIN to your account if necessary. Scroll to the following "
+"screen:"
+msgstr ""
+"AxeCentral propose un service de suivi de masternode, qui redémarrera "
+"automatiquement axed dans le cas d'un crash, et enverra un message par "
+"e-mail dans le cas d'une erreur. Allez sur la page des `réglages de compte "
+"<https://www.axecentral.org/account/edit>`_ et générez une nouvelle clé "
+"d'API, en ajoutant si nécessaire un code PIN à votre compte. Défilez jusqu'à"
+" l'écran suivant :"
+
+#: ../../masternodes/maintenance.rst:302
+msgid "Setting up the AxeCentral monitoring script"
+msgstr "Configuration du script de suivi de AxeCentral"
+
+#: ../../masternodes/maintenance.rst:304
+msgid ""
+"Copy the link to the current version of the axecentral script by right- "
+"click and selecting **Copy link address**. Open PuTTY and connect to your "
+"masternode, then type::"
+msgstr ""
+"Copiez le lien de la version la plus récente du script AxeCentral en "
+"faisant un clic-droit dessus et en choisissant **Copier l'adresse du lien**."
+" Ouvrez votre terminal ou PuTTY et connectez-vous à votre masternode, puis "
+"tapez :"
+
+#: ../../masternodes/maintenance.rst:310
+msgid ""
+"Replace the link with the current version of axecentral-updater as "
+"necessary. Decompress the archive using the following command::"
+msgstr ""
+"Remplacez le lien avec celui de la version la plus récente de axecentral-"
+"updater, si nécessaire. Décompressez l'archive avec la commande suivante :"
+
+#: ../../masternodes/maintenance.rst:315
+msgid "View your masternode configuration details by typing::"
+msgstr ""
+"Consultez les détails de configuration de votre masternode en tapant :"
+
+#: ../../masternodes/maintenance.rst:319
+msgid ""
+"Copy the values for ``rpcuser`` and ``rpcpassword``. Then edit the "
+"axecentral configuration by typing::"
+msgstr ""
+"Copiez les valeurs de ``rpcuser`` et ``rpcpassword``. Puis modifiez la "
+"configuration AxeCentral en tapant :"
+
+#: ../../masternodes/maintenance.rst:324
+msgid ""
+"Replace the values for ``api_key``, your masternode collateral address, "
+"``rpc_user``, ``rpc_password``, ``daemon_binary`` and ``daemon_datadir`` "
+"according to your system. A common configuration, where ``lwhite`` is the "
+"name of the Linux user, may look like this:"
+msgstr ""
+"Remplacez les valeurs de ``api_key``, de l'adresse de caution de votre "
+"masternode, de ``rpc_user``, de ``rpc_password``, de ``daemon_binary`` et "
+"``daemon_datadir`` en fonction de votre système. Une configuration courante,"
+" où ``lwhite`` est le nom de l'utilisateur Linux, ressemble à ça :"
+
+#: ../../masternodes/maintenance.rst:332
+msgid "AxeCentral updater configuration file"
+msgstr "Fichier de configuration de axecentral-updater"
+
+#: ../../masternodes/maintenance.rst:357
+msgid ""
+"Press **Ctrl + X** to exit, confirm you want save with **Y** and press "
+"**Enter**. Test your configuration by running the axecentral script, then "
+"check the website. If it was successful, you will see that an update has "
+"been sent::"
+msgstr ""
+"Appuyez sur **Ctrl-X** pour sortir, confirmez l'enregistrement avec **Y** ou"
+" **O** et tapez sur **Entrée**. Testez votre configuration en lançant le "
+"script AxeCentral, puis allez voir le site web. Si tout s'est bien passé, "
+"vous constaterez qu'une mise à jour a été transmise :"
+
+#: ../../masternodes/maintenance.rst:367
+msgid "Manually testing the AxeCentral updater"
+msgstr "Test manuel de la mise à jour AxeCentral"
+
+#: ../../masternodes/maintenance.rst:372
+msgid "AxeCentral updater has successfully sent data to the AxeCentral site"
+msgstr "axecentral-updater a bien envoyé des données au site AxeCentral"
+
+#: ../../masternodes/maintenance.rst:375
+msgid ""
+"Once you have verified your configuration is working, we can edit the "
+"crontab on your system to schedule the dcupdater script to run every 2 "
+"minutes. This allows the system to give you early warning in the event of a "
+"fault and will even restart the axed daemon if it hangs or crashes. This is"
+" an effective way to make sure you do not drop off the payment queue. Type "
+"the following command::"
+msgstr ""
+"Une fois que vous avez vérifié que votre configuration fonctionne, vous "
+"pouvez modifier le fichier crontab sur votre système pour demander "
+"l'exécution du script dcupdater toutes les 2 minutes. Cela permet au système"
+" de vous envoyer rapidement une alerte en cas de problème, et ça redémarrera"
+" même le daemon axed s'il est gelé ou s'il plante. C'est un moyen efficace "
+"de vous assurer de ne pas être éjecté de la file d'attente des paiements. "
+"Tapez la commande suivante :"
+
+#: ../../masternodes/maintenance.rst:384
+msgid ""
+"Select an editor if necessary and add the following line to your crontab "
+"after the line for sentinel, replacing lwhite with your username on your "
+"system::"
+msgstr ""
+"Choisissez un éditeur de texte si nécessaire, puis ajoutez la ligne suivante"
+" à votre fichier crontab après la ligne concernant Sentinel, en remplaçant "
+"\"lwhite\" par votre nom d'utilisateur sur l'ordinateur :"
+
+#: ../../masternodes/maintenance.rst:393
+msgid "Editing crontab to run the AxeCentral updater automatically"
+msgstr ""
+"Modification du fichier crontab pour exécuter automatiquement axecentral-"
+"updater"
+
+#: ../../masternodes/maintenance.rst:395
+msgid ""
+"Press **Ctrl + X** to exit, confirm you want save with **Y** and press "
+"**Enter**. The dcupdater script will now run every two minutes, restart "
+"axed whenever necessary and email you in the event of an error."
+msgstr ""
+"Tapez **Ctrl-X** pour sortir, confirmez l'enregistrement avec **Y** ou **O**"
+" puis appuyez sur **Entrée**. Le script dcupdater se lancera désormais "
+"toutes les deux minutes, redémarrera axed si nécessaire et vous enverra des"
+" messages par e-mail en cas d'erreur."
+
+#: ../../masternodes/maintenance.rst:400
+msgid "Masternode monitoring tools"
+msgstr "Outils de suivi de masternode"
+
+#: ../../masternodes/maintenance.rst:402
+msgid ""
+"Several sites operated by community members are available to monitor key "
+"information and statistics relating to the masternode network."
+msgstr ""
+"Plusieurs sites gérés par des membres de la communauté sont disponibles pour"
+" surveiller les informations clés et suivre les statistiques du réseau des "
+"masternodes."
+
+#: ../../masternodes/maintenance.rst:406
+msgid "Block Explorers"
+msgstr "Explorateurs de blocs"
+
+#: ../../masternodes/maintenance.rst:408
+msgid ""
+"Since Axe is a public blockchain, it is possible to use block explorers to "
+"view the balances of any Axe public address, as well as examine the "
+"transactions entered in any given block. Each unique transaction is also "
+"searchable by its txid. A number of block explorers are available for the "
+"Axe network."
+msgstr ""
+"Puisque Axe est une blockchain publique, il est possible d'utiliser des "
+"explorateurs de blocs pour consulter les soldes de n'importe quelle adresse "
+"publique Axe, ou bien examiner les transactions insérées dans un bloc "
+"donné. Chaque transaction unique peut également être trouvée par son "
+"identifiant de transaction. Un certain nombre d'explorateurs de blocs sont "
+"disponibles pour le réseau Axe."
+
+#: ../../masternodes/maintenance.rst:414
+msgid ""
+"`CryptoID <https://chainz.cryptoid.info/>`__ offers a `Axe blockchain "
+"explorer <https://chainz.cryptoid.info/axe/>`__ and a `function "
+"<https://chainz.cryptoid.info/axe/masternodes.dws>`__ to view and map Axe "
+"masternodes."
+msgstr ""
+"`CryptoID <https://chainz.cryptoid.info/>`__ propose un `explorateur de la "
+"blockchain Axe <https://chainz.cryptoid.info/axe/>`__ et une `fonction "
+"<https://chainz.cryptoid.info/axe/masternodes.dws>`__ de visualisation et "
+"de cartographie des masternodes Axe."
+
+#: ../../masternodes/maintenance.rst:418
+msgid ""
+"`BitInfoCharts <https://bitinfocharts.com>`_ offers a `page "
+"<https://bitinfocharts.com/axe/>`_ of price statistics and information and "
+"a `blockchain explorer <https://bitinfocharts.com/axe/explorer/>`__."
+msgstr ""
+"`BitInfoCharts <https://bitinfocharts.com>`_ propose une `page "
+"<https://bitinfocharts.com/axe/>`_ d'information et de statistiques sur le "
+"cours, ainsi qu'un `explorateur de blocs "
+"<https://bitinfocharts.com/axe/explorer/>`__."
+
+#: ../../masternodes/maintenance.rst:422
+msgid ""
+"`CoinCheckup <https://coincheckup.com/coins/axe/charts>`__ offers a range "
+"of statistics and data on most blockchains, including Axe."
+msgstr ""
+"`CoinCheckup <https://coincheckup.com/coins/axe/charts>`__ propose toute "
+"une gamme de statistiques et de données sur la plupart des blockchains, dont"
+" Axe."
+
+#: ../../masternodes/maintenance.rst:424
+msgid ""
+"`CoinPayments <https://www.coinpayments.net/>`__ offers a simple `Axe "
+"blockchain explorer <http://explorer.coinpayments.net/index.php?chain=7>`__."
+msgstr ""
+"`CoinPayments <https://www.coinpayments.net/>`__ propose un `explorateur de "
+"blocs Axe <http://explorer.coinpayments.net/index.php?chain=7>`__ simple."
+
+#: ../../masternodes/maintenance.rst:427
+msgid ""
+"`axerunners.com <https://www.axerunners.com/>`__ includes two blockchain explorers at "
+"`explorer.docs.axerunners.com <http://explorer.docs.axerunners.com/>`__ and `insight.docs.axerunners.com "
+"<http://insight.docs.axerunners.com/>`__."
+msgstr ""
+"`axerunners.com <https://www.axerunners.com/>`__ propose deux explorateurs de blocs aux "
+"adresses `explorer.docs.axerunners.com <http://explorer.docs.axerunners.com/>`__ et "
+"`insight.docs.axerunners.com <http://insight.docs.axerunners.com/>`__."
+
+#: ../../masternodes/maintenance.rst:430
+msgid ""
+"`Trezor <https://trezor.io/>`__ operates a `blockchain explorer <https "
+"://axe-bitcore1.trezor.io/>`__ powered by a `Axe fork "
+"<https://github.com/axerunners/insight-ui-axe>`__ of `insight "
+"<https://insight.is/>`__, an advanced blockchain API tool"
+msgstr ""
+"`Trezor <https://trezor.io/>`__ gère un `explorateur de blocs <https "
+"://axe-bitcore1.trezor.io/>`__ fonctionnant grâce à un `fork Axe "
+"<https://github.com/axerunners/insight-ui-axe>`__ d' `Insight "
+"<https://insight.is/>`__, un outil sophistiqué d'API blockchain."
+
+#: ../../masternodes/maintenance.rst:436
+msgid "Axe Masternode Tool"
+msgstr "AxeMasternodeTool"
+
+#: ../../masternodes/maintenance.rst:438
+msgid "https://github.com/Bertrand256/axe-masternode-tool"
+msgstr "https://github.com/Bertrand256/axe-masternode-tool"
+
+#: ../../masternodes/maintenance.rst:440
+msgid ""
+"Written and maintained by community member Bertrand256, Axe Masternode Tool"
+" (DMT) allows you to start a masternode from all major hardware wallets such"
+" as Trezor, Ledger and KeepKey. It also supports functions to vote on "
+"proposals and withdraw masternode payments without affecting the collateral "
+"transaction."
+msgstr ""
+"Écrit et géré par Bertrand256, membre de la communauté, AxeMasternodeTool "
+"(DMT) vous permet de démarrer un masternode depuis tous les principaux "
+"portefeuilles matériels, tels que Trezor, Ledger et KeepKey. Il permet "
+"également de voter sur les propositions budgétaires et de retirer des "
+"paiements de masternode sans affecter la transaction de caution."
+
+#: ../../masternodes/maintenance.rst:447
+msgid "AXE Ninja"
+msgstr "AXE Ninja"
+
+#: ../../masternodes/maintenance.rst:449
+msgid "https://www.axeninja.pl"
+msgstr "https://www.axeninja.pl"
+
+#: ../../masternodes/maintenance.rst:451
+msgid ""
+"AXE Ninja, operated by forum member and Axe Core developer elbereth, "
+"offers key statistics on the adoption of different versions of Axe across "
+"the masternode network. Several features to monitor governance of the Axe, "
+"the masternode payment schedule and the geographic distribution of "
+"masternodes are also available, as well as a simple blockchain explorer."
+msgstr ""
+"Axe Ninja, géré par Elbereth, développeur Axe Core et membre du forum "
+"Axe, propose des statistiques clés sur l'adoption de différentes versions "
+"de Axe dans le réseau des masternodes. Plusieurs fonctions sont également "
+"disponibles pour suivre la gouvernance de Axe, le calendrier des paiements "
+"de masternode et leur distribution géographique, ainsi qu'un explorateur de "
+"blocs simple."
+
+#: ../../masternodes/maintenance.rst:459
+msgid "AxeCentral"
+msgstr "AxeCentral"
+
+#: ../../masternodes/maintenance.rst:461
+msgid "https://www.axecentral.org"
+msgstr "https://www.axecentral.org"
+
+#: ../../masternodes/maintenance.rst:463
+msgid ""
+"AxeCentral, operated by forum member rango, offers an advanced service to "
+"monitor masternodes and vote on budget proposals through an advanced web "
+"interface. An `Android app <https://play.google.com/store/apps/detai "
+"ls?id=net.paregov.android.axecentral>`_ is also available."
+msgstr ""
+"AxeCentral, géré par Rango, membre du forum, propose un service avancé de "
+"suivi des masternodes et de vote sur les propositions budgétaires au moyen "
+"d'une interface web. Une `application Android "
+"<https://play.google.com/store/apps/detai "
+"ls?id=net.paregov.android.axecentral>`_ est également disponible."
+
+#: ../../masternodes/maintenance.rst:469
+msgid "Masternode.me"
+msgstr "Masternode.me"
+
+#: ../../masternodes/maintenance.rst:471
+msgid "https://stats.masternode.me"
+msgstr "https://stats.masternode.me"
+
+#: ../../masternodes/maintenance.rst:473
+msgid ""
+"Masternode.me, operated by forum member and Axe Core developer moocowmoo, "
+"offers sequential reports on the price, generation rate, blockchain "
+"information and some information on masternodes."
+msgstr ""
+"Masternode.me, géré par Moocowmoo, développeur Axe Core et membre du forum,"
+" génère des rapports récurrents sur le cours, le taux de génération, des "
+"informations sur la blockchain et sur les masternodes."
+
+#: ../../masternodes/maintenance.rst:478
+msgid "Axe Masternode Information"
+msgstr "Axe Masternode Information"
+
+#: ../../masternodes/maintenance.rst:480
+msgid "http://178.254.23.111/~pub/Axe/Axe_Info.html"
+msgstr "http://178.254.23.111/~pub/Axe/Axe_Info.html"
+
+#: ../../masternodes/maintenance.rst:482
+msgid ""
+"This site, operated by forum member and Axe Core developer crowning, offers"
+" a visual representation of many key statistics of the Axe masternode "
+"network, including graphs of the total masternode count over time, price "
+"information and network distribution."
+msgstr ""
+"Ce site, géré par Crowning, développeur Axe Core et membre du forum, "
+"propose une représentation visuelle de beaucoup de statistiques clés du "
+"réseau des masternodes Axe, dont des graphiques du nombre total de "
+"masternodes à travers le temps, des informations sur le cours et sur la "
+"distribution du réseau."

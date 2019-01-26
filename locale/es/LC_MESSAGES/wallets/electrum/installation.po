@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Alejandro Echeverria <alejem93@gmail.com>, 2018
+# Tomas Alfaro <talfarod@gmail.com>, 2018
+# Ivan SIerraalta <ivansierraalta@gmail.com>, 2018
+# Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:19+0000\n"
+"Last-Translator: Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/axe/teams/37570/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/electrum/installation.rst:1
+msgid ""
+"How to install and create a new Axe Electrum wallet on Windows, Linux, "
+"macOS and Android"
+msgstr ""
+"Como descargar, instalar y encriptar una nueva billetera Axe Electrum en "
+"Windows, Linux, macOS y Android"
+
+#: ../../wallets/electrum/installation.rst:1
+msgid ""
+"axe, mobile, wallet, electrum, android, linux, windows, macos, "
+"installation, compile"
+msgstr ""
+"axe, móvil, billetera, electrum, android, linux, windows, macos, "
+"instalación, compilar"
+
+#: ../../wallets/electrum/installation.rst:9
+msgid "Installation"
+msgstr "Instalación"
+
+#: ../../wallets/electrum/installation.rst:12
+msgid "Download"
+msgstr "Descarga"
+
+#: ../../wallets/electrum/installation.rst:14
+msgid ""
+"You can download Axe Electrum from the official Axe website or the Axe "
+"Electrum minisite."
+msgstr ""
+"Puedes descargar Axe Electrum del sitio web oficial de Axe o del sitio web"
+" de Axe Electrum."
+
+#: ../../wallets/electrum/installation.rst:17
+msgid "https://www.axerunners.com/wallets"
+msgstr "https://www.axerunners.com/wallets"
+
+#: ../../wallets/electrum/installation.rst:18
+msgid "https://electrum.docs.axerunners.com"
+msgstr "https://electrum.docs.axerunners.com"
+
+#: ../../wallets/electrum/installation.rst:20
+msgid ""
+"Axe Electrum is developed by community member **akhavr** and is released "
+"through his GitHub account."
+msgstr ""
+
+#: ../../wallets/electrum/installation.rst:23
+msgid "https://github.com/akhavr/electrum-axe/releases"
+msgstr "https://github.com/akhavr/electrum-axe/releases"
+
+#: ../../wallets/electrum/installation.rst:25
+msgid ""
+"You can optionally verify the integrity of your download by running the "
+"following commands (example for Linux)::"
+msgstr ""
+
+#: ../../wallets/electrum/installation.rst:33
+msgid ""
+"You can also optionally verify the authenticity of your download as an "
+"official release by akhavr. All releases of Axe Electrum are signed by "
+"akhavr using GPG with the key ``64A3 BA82 2F44 9D50``, `verifiable here on "
+"Keybase <https://keybase.io/akhavr>`_. Import the key, download the ASC file"
+" for the current release of Axe Electrum and verify the signature as "
+"follows::"
+msgstr ""
+
+#: ../../wallets/electrum/installation.rst:45
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../wallets/electrum/installation.rst:47
+msgid ""
+"Axe Electrum for Linux is available from a PPA for Ubuntu and Linux Mint, "
+"and as a source tarball for other systems. As of version 3.0.6, it requires "
+"Python 3 to run. Enter the following commands to install from PPA::"
+msgstr ""
+"Axe Electrum para Linux está disponible desde un PPA para Ubuntu y Linux "
+"Mint, y como tarball de origen para otros sistemas. A partir de la versión "
+"3.0.6, requiere Python 3 para su ejecución. Ingresa los siguientes comandos "
+"para instalar desde PPA::"
+
+#: ../../wallets/electrum/installation.rst:56
+msgid ""
+"Enter the following commands (changing the version number to match the "
+"current version as necessary) in the terminal to install Axe Electrum from "
+"the source tarball::"
+msgstr ""
+"Ingresa los siguientes comandos (cambiando el número de versión para que "
+"coincida con la versión actual según sea necesario) en el terminal para "
+"instalar Axe Electrum desde el archivo tarball de origen::"
+
+#: ../../wallets/electrum/installation.rst:68
+msgid "macOS"
+msgstr "macOS"
+
+#: ../../wallets/electrum/installation.rst:70
+msgid ""
+"Simply download and run the DMG file. You may need to grant permission to "
+"install, depending on your security settings. Click through the installation"
+" wizard and run Axe Electrum from your Applications folder when complete."
+msgstr ""
+"Simplemente descargua y ejecuta el archivo DMG. Es posible que debas otorgar"
+" permiso para la instalación, dependiendo de tu configuración de seguridad. "
+"Haz click en el asistente de instalación y ejecuta Axe Electrum desde la "
+"carpeta Aplicaciones cuando se haya completado."
+
+#: ../../wallets/electrum/installation.rst:77
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../wallets/electrum/installation.rst:79
+msgid ""
+"Simply download and run the installer file to set up Axe Electrum. You may "
+"need to grant permission to install, depending on your security settings. "
+"Click through the installation wizard and run Axe Electrum from the Start "
+"menu when complete."
+msgstr ""
+"Simplemente descargua y ejecuta el archivo de instalación para configurar "
+"Axe Electrum. Es posible que debas otorgar permiso para la instalación, "
+"dependiendo de tu configuración de seguridad. Haz click en el asistente de "
+"instalación y ejecuta Axe Electrum desde el menú Inicio cuando se complete."
+
+#: ../../wallets/electrum/installation.rst:85
+msgid "Android"
+msgstr "Android"
+
+#: ../../wallets/electrum/installation.rst:87
+msgid ""
+"Download and run the APK file from https://electrum.docs.axerunners.com to set up Axe "
+"Electrum. You may need to grant permission to install from unknown sources, "
+"depending on your security settings. Click through the installation wizard "
+"and run Axe Electrum when complete."
+msgstr ""
+"Descarga y ejecuta el archivo APK desde https://electrum.docs.axerunners.com para "
+"configurar Axe Electrum. Es posible que debas otorgar permiso para instalar"
+" desde fuentes desconocidas, dependiendo de tu configuración de seguridad. "
+"Haz click en el asistente de instalación y ejecuta Axe Electrum cuando se "
+"complete."
+
+#: ../../wallets/electrum/installation.rst:94
+msgid "Creating a New Wallet"
+msgstr "Crear una Nueva Billetera"
+
+#: ../../wallets/electrum/installation.rst:96
+msgid ""
+"Axe Electrum gathers configuration data when run for the first time. For "
+"more on the concepts behind this process, skip to the later sections of this"
+" guide discussing backups, security, and addresses. When setting up Axe "
+"Electrum for the first time, a wizard will guide you through the process of "
+"creating your first wallet. The first screen asks how you would like to "
+"connect to the remote server. Select **Auto connect** and click **Next** to "
+"continue. You will see a notice that no wallet currently exists. Enter a "
+"name for your wallet (or accept the default name) and click **Next** to "
+"create your wallet."
+msgstr ""
+"Axe Electrum recopila datos de configuración cuando se ejecuta por primera "
+"vez. Para obtener más información sobre los conceptos detrás de este "
+"proceso, ve a las secciones posteriores de esta guía donde se explican los "
+"respaldos, la seguridad y las direcciones. Al configurar Axe Electrum por "
+"primera vez, un asistente te guiará a través del proceso de creación de tu "
+"primera billetera. La primera pantalla te pregunta cómo te gustaría "
+"conectarte al servidor remoto. Selecciona **Conexión automática** y haz clic"
+" en **Siguiente** para continuar. Verás un aviso de que actualmente no "
+"existe una billetera. Ingresa un nombre para tu billetera (o acepta el "
+"nombre predeterminado) y haz clic en **Siguiente** para crear tu billetera."
+
+#: ../../wallets/electrum/installation.rst:112
+msgid "Selecting the server and naming your first wallet"
+msgstr "Selecciona el servidor y nombra tu primera billetera"
+
+#: ../../wallets/electrum/installation.rst:114
+msgid ""
+"You will be asked what kind of wallet you want to create. Choose between "
+"**Standard wallet**, **Multi-signature wallet** and **Watch Axe "
+"addresses**. If you are unsure, select **Standard wallet** and click "
+"**Next** to continue. You will then be asked how you want to store/recover "
+"the seed. If stored safely, a seed can be used to restore a lost wallet on "
+"another computer. Choose between **Create a new seed**, **I already have a "
+"seed**, **Use public or private keys** or **Use a hardware device**. If you "
+"are using Electrum Axe for the first time and not restoring an existing "
+"wallet, choose **Create a new seed** and click **Next** to continue."
+msgstr ""
+"Se te preguntará qué tipo de monedero quieres crear. Elije entre **Billetera"
+" estándar**, **Billetera multifirmas** y **Ver direcciones Axe**. Si no "
+"estás seguro, selecciona **Billetera estándar ** y haz clic en **Siguiente**"
+" para continuar. Luego se te preguntará cómo deseas almacenar/recuperar la "
+"semilla. Si se almacena de manera segura, se puede usar una semilla para "
+"restaurar en otra computadora una billetera perdida. Elije entre **Crear una"
+" nueva semilla**, **Ya tengo una semilla**, **Usar llaves públicas o "
+"privadas** o **Usar un dispositivo de hardware**. Si estás utilizando "
+"Electrum Axe por primera vez y no restauras una billetera existente, elije "
+"**Crear una nueva semilla** y haz clic en **Siguiente** para continuar."
+
+#: ../../wallets/electrum/installation.rst:131
+msgid "Selecting the wallet type and keystore"
+msgstr "Seleccionar el tipo de billetera y el almacén de claves"
+
+#: ../../wallets/electrum/installation.rst:133
+msgid ""
+"Electrum Axe will generate your wallet and display the recovery seed. Write"
+" this seed down, ideally on paper and not in an electronic format, and store"
+" it somewhere safe. This seed is the only way you can recover your wallet if"
+" you lose access for any reason. To make sure you have properly saved your "
+"seed, Electrum Axe will ask you to type it in as a confirmation. Type the "
+"words in the correct order and click **Next** to continue."
+msgstr ""
+"Electrum Axe generará tu billetera y mostrará la semilla de recuperación. "
+"Escribe esta semilla, idealmente en papel y no en formato electrónico, y "
+"guárdala en un lugar seguro. Esta semilla es la única forma en que puedes "
+"recuperar tu billetera si pierdes el acceso por cualquier motivo. Para "
+"asegurarte de haber guardado correctamente tu semilla, Electrum Axe te "
+"pedirá que la escribas como confirmación. Escribe las palabras en el orden "
+"correcto y haz clic en **Siguiente** para continuar."
+
+#: ../../wallets/electrum/installation.rst:147
+msgid "Generating and confirming the recovery seed"
+msgstr "Generar y confirmar la semilla de recuperación"
+
+#: ../../wallets/electrum/installation.rst:149
+msgid ""
+"A password optionally secures your wallet against unauthorized access. "
+"Adding a memorable, strong password now improves the security of your wallet"
+" by encrypting your seed from the beginning. Skipping encryption at this "
+"point by not selecting a password risks potential theft of funds later, "
+"however unlikely the threat may be. Enter and confirm a password, ensure the"
+" **Encrypt wallet file** checkbox is ticked and click **Next** to continue."
+msgstr ""
+"Opcionalmente con una contraseña proteges tu monedero del acceso no "
+"autorizado. Agregar una contraseña segura mejora la seguridad de tu monedero"
+" encriptando tu semilla desde el principio. Omitir la encriptación en este "
+"punto al no seleccionar una contraseña puede ocasionar un posible robo de "
+"fondos más adelante, por improbable que sea la amenaza. Ingresa y confirma "
+"una contraseña, asegúrate de que la casilla de verificación **Encriptar "
+"archivo de billetera** esté marcada y haz clic en **Siguiente** para "
+"continuar."
+
+#: ../../wallets/electrum/installation.rst:160
+msgid "Entering and confirming a wallet encryption password"
+msgstr "Ingresar y confirmar una contraseña de encriptación de la billetera"
+
+#: ../../wallets/electrum/installation.rst:162
+msgid "Your Axe Electrum wallet is now set up and ready for use."
+msgstr "Tu billetera Axe Electrum ahora está configurada y listo para usar."
+
+#: ../../wallets/electrum/installation.rst:167
+msgid "Axe Electrum after setup is complete"
+msgstr "Axe Electrum una vez completada la configuración"

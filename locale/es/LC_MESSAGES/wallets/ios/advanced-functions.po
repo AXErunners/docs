@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# pedrosp <pedrosp.granada@gmail.com>, 2018
+# Ivan SIerraalta <ivansierraalta@gmail.com>, 2018
+# Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:19+0000\n"
+"Last-Translator: Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/axe/teams/37570/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/ios/advanced-functions.rst:1
+msgid ""
+"URL scheme, master public key and requesting payment in Axe on your iOS "
+"device"
+msgstr ""
+"Esquema URL, llave publica maestra y solicitar pago en Axe en su "
+"dispositivo iOS"
+
+#: ../../wallets/ios/advanced-functions.rst:1
+msgid "axe, mobile, wallet, ios, send, receive, payment, url, public key"
+msgstr ""
+"axe, móvil, billetera, ios, enviar, recibir, pago, url, llave publica"
+
+#: ../../wallets/ios/advanced-functions.rst:9
+msgid "Advanced functions"
+msgstr "Funciones Avanzadas"
+
+#: ../../wallets/ios/advanced-functions.rst:12
+msgid "URL Scheme"
+msgstr "Esquema URL"
+
+#: ../../wallets/ios/advanced-functions.rst:14
+msgid ""
+"iOS allows apps to communicate with one another through URL schemes. The "
+"Axe Wallet for iOS implements the axewallet:// scheme, allowing you to "
+"call the wallet to complete a transaction denominated in Axe. This page "
+"documents the methods available using the URL scheme."
+msgstr ""
+"iOS permite que las aplicaciones se comuniquen entre sí a través de esquemas"
+" URL. La billetera de Axe para iOS implementa el esquema axewallet://, lo "
+"que te permite llamar a la billetera para completar una transacción "
+"denominada en Axe. Esta página documenta los métodos disponibles utilizando"
+" el esquema URL."
+
+#: ../../wallets/ios/advanced-functions.rst:20
+msgid "Payment"
+msgstr "Pago"
+
+#: ../../wallets/ios/advanced-functions.rst:22
+msgid "Payment request URL format::"
+msgstr "Formato URL de solicitud de pago::"
+
+#: ../../wallets/ios/advanced-functions.rst:26
+msgid "Notes:"
+msgstr "Notas:"
+
+#: ../../wallets/ios/advanced-functions.rst:28
+msgid ""
+"``sender`` is both your callback URL and the name of the app that you show "
+"to the user. This is to prevent 3rd party apps from phishing."
+msgstr ""
+"``Remitente`` es tu URL de devolución de llamada y el nombre de la "
+"aplicación que muestras al usuario. Esto es para evitar que las aplicaciones"
+" de 3ros sean objeto de suplantación de identidad."
+
+#: ../../wallets/ios/advanced-functions.rst:30
+msgid ""
+"``req-`` can be added before IS to force use of InstantSend for the "
+"transaction. If the user doesn’t have InstantSend enabled and doesn’t want "
+"to enable it, he will not be offered the option to send as a normal "
+"transaction."
+msgstr ""
+"`` req-`` se puede agregar antes de IS para forzar el uso de InstantSend en "
+"la transacción. Si el usuario no tiene InstantSend habilitado y no desea "
+"habilitarlo, no se le ofrecerá la opción de enviar como una transacción "
+"normal."
+
+#: ../../wallets/ios/advanced-functions.rst:35
+msgid "The user will see something similar to this:"
+msgstr "El usuario verá algo similar a esto:"
+
+#: ../../wallets/ios/advanced-functions.rst:40
+msgid "Payment request in iOS"
+msgstr "Solicitud de pago en iOS"
+
+#: ../../wallets/ios/advanced-functions.rst:42
+msgid ""
+"If the user enters the correct passcode, then the transaction is sent and "
+"the user is returned to the sender app following the callback URL."
+msgstr ""
+"Si el usuario ingresa la contraseña correcta, se envía la transacción y el "
+"usuario regresa a la aplicación del remitente siguiendo la URL de devolución"
+" de llamada."
+
+#: ../../wallets/ios/advanced-functions.rst:45
+msgid "Callback URL format::"
+msgstr "Formato URL de devolución de llamada::"
+
+#: ../../wallets/ios/advanced-functions.rst:50
+msgid "Master public key"
+msgstr "Llave pública maestra"
+
+#: ../../wallets/ios/advanced-functions.rst:52
+msgid "Master public key request format::"
+msgstr "Formato de solicitud de llave pública maestra::"
+
+#: ../../wallets/ios/advanced-functions.rst:56
+msgid ""
+"Note: account is optional and corresponds to BIP32/BIP44 account, most of "
+"the time this should be 0. If account is not specified, we use account 0. "
+"This will send back both the extended public key at ``44’/5’/<account>’`` "
+"and ``<account>’``"
+msgstr ""
+"Nota: la cuenta es opcional y corresponde a la cuenta BIP32/BIP44, la "
+"mayoría de las veces debe ser 0. Si no se especifica la cuenta, usamos la "
+"cuenta 0. Esto enviará la llave pública extendida al ``44’/5’/<account>’`` y"
+" ``<account>’``"
+
+#: ../../wallets/ios/advanced-functions.rst:61
+#: ../../wallets/ios/advanced-functions.rst:70
+msgid "Callback::"
+msgstr "Llamada de devolución::"
+
+#: ../../wallets/ios/advanced-functions.rst:66
+msgid "Get address for payment"
+msgstr "Obtener dirección para pagos"
+
+#: ../../wallets/ios/advanced-functions.rst:68
+msgid "``axewallet://request=address&sender=<sender>``"
+msgstr "``axewallet://request=address&sender=<sender>``"

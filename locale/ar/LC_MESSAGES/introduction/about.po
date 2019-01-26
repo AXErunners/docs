@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Hasna Brania <hasna.brania19@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-02 06:45+0000\n"
+"Last-Translator: Leon White <leon.white@docs.axerunners.com>, 2018\n"
+"Language-Team: Arabic (https://www.transifex.com/axe/teams/37570/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../../introduction/about.rst:1
+msgid "Introduction to the Axe cryptocurrency and links to further reading"
+msgstr "مقدمة إلى العملات الرقمية داش وروابط لمزيد من القراءة"
+
+#: ../../introduction/about.rst:1
+msgid ""
+"axe, cryptocurrency, videos, documentation, roadmap, governance, funding, "
+"payments, whitepaper, roadmap"
+msgstr ""
+"داش ، العملات الرقمية ، أشرطة الفيديو ، وثائق ، خارطة الطريق ، والحكم ، "
+"والتمويل ، والمدفوعات ، دليل العملة ، خارطة الطريق"
+
+#: ../../introduction/about.rst:9
+msgid "What is Axe?"
+msgstr "ما هو الداش؟"
+
+#: ../../introduction/about.rst:11
+msgid ""
+"Axe aims to be the most user-friendly and scalable payments-focused "
+"cryptocurrency in the world. The Axe network features :ref:`instant "
+"transaction confirmation <instantsend>`, double spend protection, "
+":ref:`anonymity <privatesend>` equal to that of physical cash, a :ref:`self-"
+"governing, self-funding model <decentralized-governance>` driven by "
+":ref:`incentivized full nodes <masternode-network>` and a `clear roadmap "
+"<https://github.com/axerunners/axe-roadmap>`_ for on-chain scaling to up to "
+"400MB blocks using custom-developed open source hardware. While Axe is "
+"based on Bitcoin and compatible with many key components of the Bitcoin "
+"ecosystem, its two-tier network structure offers significant improvements in"
+" transaction speed, anonymity and governance. This section of the "
+"documentation describes these and many more key features that set Axe apart"
+" in the blockchain economy."
+msgstr ""
+"تهدف داش إلى أن تكون أكثر عملة بديهية سهلة الاستخدام وقابلة للتوسعة تركز على"
+" الدفعات في العالم. ميزات شبكة داش :ref:`تأكيد المعاملة الفورية "
+"<instantsend>` حماية مزدوجة الانفاق :ref:`عدم الكشف عن هويته <privatesend>` "
+"مساويا للنقد المادي الحكم الذاتي، :ref:`نموذج التمويل الذاتي <decentralized-"
+"governance>` يقودها :ref:`تحفيز العقد الكاملة <masternode-network>` و `خريطة"
+" طريق واضحة <https://github.com/axerunners/axe-roadmap>`_ لقياس السلسلة على ما"
+" يصل إلى 400 ميغابايت باستخدام أجهزة مفتوحة المصدر تم تطويرها حسب الطلب. "
+"بينما تستند داش على البيتكوين ومتوافقة مع العديد من المكونات الرئيسية للنظام"
+" الإيكولوجي البيتكوين، فإن هيكلها الشبكي من مستويين يقدم تحسينات كبيرة في "
+"سرعة المعاملة، وإخفاء الهوية والحكم. يصف هذا القسم من الوثائق هذه والعديد من"
+" الميزات الرئيسية الأخرى التي تحدد داش في اقتصاد البلوكشين."
+
+#: ../../introduction/about.rst:26
+msgid ""
+"The videos, links and documentation collected here can help you get started,"
+" or use the table of contents on the left to find a specific topic of "
+"interest. New users may be interested in getting started with an appropriate"
+" :ref:`wallet <wallets>`, learning about :ref:`how to buy Axe <how-to-buy>`"
+" and :ref:`where to spend Axe <earning-spending>`, learning about "
+":ref:`safety <safety>` or joining one of the many :ref:`Axe community sites"
+" <information>`."
+msgstr ""
+"يمكن أن تساعدك مقاطع الفيديو والروابط والوثائق التي تم جمعها هنا في البدء ، "
+"أو استخدام جدول المحتويات على اليسار للعثور على موضوع اهتمام محدد. قد يكون "
+"المستخدمون الجدد مهتمين ببدء الاستخدام المناسب :ref:`المحفظة<wallets>`, تعلم"
+" عن :ref:`كيف لشراء داش <how-to-buy>` و :ref:`أين تنفق داش<earning-"
+"spending>`, التعلم عن :ref:`السلامة <safety>`, أو الانضمام إلى واحد من "
+"العديد من :ref:`مواقع مجتمع داش <information>`."
+
+#: ../../introduction/about.rst:36
+msgid "Axe Videos"
+msgstr "فيديوهات داش "
+
+#: ../../introduction/about.rst:39
+msgid "Axe School"
+msgstr "مدرسة داش "
+
+#: ../../introduction/about.rst:41
+msgid ""
+"Axe School is a six-part video series produced by Amanda B. Johnson. It "
+"explains Axe from a beginner's level up to descriptions of the more "
+"advanced features."
+msgstr ""
+"مدرسة داش هي سلسلة فيديو من ستة أجزاء أنتجتها أماندا ب. جونسون. يشرح داش من "
+"مستوى المبتدئين إلى وصف للميزات الأكثر تقدما."
+
+#: ../../introduction/about.rst:53
+msgid "Axe 101"
+msgstr "داش 101 "
+
+#: ../../introduction/about.rst:55
+msgid ""
+"Axe 101 is an eight-part video series produced by Aaron Koenig. It covers "
+"unique features and functions only available on the Axe network, and is "
+"available in `English "
+"<https://www.youtube.com/watch?v=DzH7cMbZQHI&list=PLiFMZOlhgsYIDP2V2XsuTFZu1C1sV5ohr>`__,"
+" `French "
+"<https://www.youtube.com/watch?v=CMGXChAR9f4&list=PLiFMZOlhgsYJvvpWN9xGSxwIVejOWVXKZ>`__,"
+" `German "
+"<https://www.youtube.com/watch?v=0YyDGu17IE4&list=PLiFMZOlhgsYKrbanA3ng7oh2aNRh7D98V>`__,"
+" `Spanish "
+"<https://www.youtube.com/watch?v=AwqrG_K8nzw&list=PLiFMZOlhgsYK8P_NViNEJKCzADzdT8k0R>`__"
+" and `Russian "
+"<https://www.youtube.com/watch?v=cAPgPUMVwzo&list=PLiFMZOlhgsYKBYORZIReix5hejKj08nUk>`__."
+msgstr ""
+"داش 101 عبارة عن سلسلة فيديو من ثمانية أجزاء من إنتاج Aaron Koenig. يغطي "
+"الميزات والوظائف الفريدة المتاحة فقط على شبكة داش ، ومتاح `بالإنجليزية "
+"<https://www.youtube.com/watch?v=DzH7cMbZQHI&list=PLiFMZOlhgsYIDP2V2XsuTFZu1C1sV5ohr>`__,"
+" `الفرنسية "
+"<https://www.youtube.com/watch?v=CMGXChAR9f4&list=PLiFMZOlhgsYJvvpWN9xGSxwIVejOWVXKZ>`__,"
+" `الألمانية "
+"<https://www.youtube.com/watch?v=0YyDGu17IE4&list=PLiFMZOlhgsYKrbanA3ng7oh2aNRh7D98V>`__,"
+" `الإسبانية "
+"<https://www.youtube.com/watch?v=AwqrG_K8nzw&list=PLiFMZOlhgsYK8P_NViNEJKCzADzdT8k0R>`__"
+" و `ااروسية "
+"<https://www.youtube.com/watch?v=cAPgPUMVwzo&list=PLiFMZOlhgsYKBYORZIReix5hejKj08nUk>`__"
+
+#: ../../introduction/about.rst:74
+msgid "Whitepaper"
+msgstr "معلومات عن العملة "
+
+#: ../../introduction/about.rst:76
+msgid ""
+"The Axe Whitepaper describes the unique value proposition and key "
+"innovations in Axe from an academic and theoretical perspective. It is a "
+"living document maintained as a GitHub wiki, receiving ongoing updates and "
+"frequent community translations as new features are implemented. Various "
+"other whitepapers describing particular features in additional detail and "
+"(for historical reasons) the original whitepaper are available for download "
+"as PDF files."
+msgstr ""
+"تصف ورقة عمل داش القيمة الفريدة والابتكارات الرئيسية في داش من منظور أكاديمي"
+" ونظري. إنها وثيقة حية يتم الاحتفاظ بها كموقع GitHub ، وتتلقى تحديثات مستمرة"
+" وترجمات جماعية متكررة مع تنفيذ ميزات جديدة. توجد بيئات أخرى متنوعة تصف "
+"ميزات معينة بالتفصيل الإضافي (ولأسباب تاريخية) ، فإن الورقة الأصلية الأصلية "
+"متوفرة للتنزيل بملفات PDF."
+
+#: ../../introduction/about.rst:84
+msgid ""
+"`Latest whitepaper and official translations "
+"<https://github.com/axerunners/axe/wiki/Whitepaper>`_"
+msgstr ""
+"`أحدت دليل للعملة و الترجمات الرسمية "
+"<https://github.com/axerunners/axe/wiki/Whitepaper>`_"
+
+#: ../../introduction/about.rst:85
+msgid ""
+"`PDF whitepaper "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20V2.pdf>`_"
+msgstr ""
+"`مسار العملة  "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20V2.pdf>`_"
+
+#: ../../introduction/about.rst:86
+msgid ""
+"`Original Darkcoin whitepaper (PDF) "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Darkcoin.pdf>`_"
+msgstr ""
+"`دليل عملة دارك كوين الأصلي "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Darkcoin.pdf>`_"
+
+#: ../../introduction/about.rst:87
+msgid ""
+"`InstantSend whitepaper (PDF) "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_"
+msgstr ""
+"`دليل لإرسال الفوري "
+"<https://github.com/axerunners/docs/raw/master/binary/Axe%20Whitepaper%20-%20Transactionckingnd%20Masternode%20Consensus.pdf>`_"
+
+#: ../../introduction/about.rst:90
+msgid "Roadmap"
+msgstr "خريطة العملة"
+
+#: ../../introduction/about.rst:92
+msgid ""
+"The Axe Roadmap sets out delivery milestones for future releases of Axe "
+"and includes specific technical details describing how the development team "
+"plans to realise each challenge. Like the Whitepaper, it is versioned and "
+"maintained as a project on GitHub."
+msgstr ""
+"تحدد خارطة طريق داش معالم التسليم للإصدارات المستقبلية من داش وتتضمن تفاصيل "
+"تقنية محددة تصف كيفية تخطيط فريق التطوير لتحقيق كل تحدٍ. مثل الاوراق البيضاء"
+" ، يتم اصدارها وصيانتها كمشروع على جيثب."
+
+#: ../../introduction/about.rst:97
+msgid "`Axe Roadmap <https://github.com/axerunners/axe-roadmap>`_"
+msgstr "`خريطة الداش  <https://github.com/axerunners/axe-roadmap>`_"

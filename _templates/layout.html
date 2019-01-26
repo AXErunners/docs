@@ -1,0 +1,28 @@
+{% extends "!layout.html" %}
+{% block extrahead %}
+    <link href="{{ pathto("_static/style.css", True) }}" rel="stylesheet" type="text/css">
+    <meta name="google-site-verification" content="JVzTMPjsCY-U-SaJERGf-eviRxXUPfFkPFdiF_MINCU" />
+    <meta name="author" content="Axe Core Group, Inc." />
+    <meta name="copyright" content="© Copyright 2018 Axe Core Group, Inc." />
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"url": "https://www.axerunners.com",
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": "https://docs.axerunners.com"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "Axe Core Group, Inc.",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "https://docs.axerunners.com/en/latest/_images/axe_logo.png",
+					"width": 1446,
+					"height": 424
+				}
+			}
+		}
+	</script>
+{% endblock %}

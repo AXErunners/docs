@@ -1,0 +1,3322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Daf Daf, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-19 12:18+0000\n"
+"Last-Translator: Daf Daf, 2019\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../wallets/axecore/cmd-rpc.rst:1
+msgid "Axe Core wallet startup arguments and RPC command reference"
+msgstr ""
+"Guide de référence des arguments de démarrage et des commandes RPC du "
+"portefeuille logiciel Axe Core"
+
+#: ../../wallets/axecore/cmd-rpc.rst:1
+msgid "axe, core, wallet, arguments, commands, RPC"
+msgstr "axe, core, portefeuille logiciel, arguments, commandes, RPC"
+
+#: ../../wallets/axecore/cmd-rpc.rst:9
+msgid "Arguments and commands"
+msgstr "Arguments et commandes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:11
+msgid ""
+"All command-line options (except for ``-datadir`` and ``-conf``) may be "
+"specified in a configuration file, and all configuration file options may "
+"also be specified on the command line. Command-line options override values "
+"set in the configuration file. The configuration file is a list of "
+"``setting=value`` pairs, one per line, with optional comments starting with "
+"the ``#`` character."
+msgstr ""
+"Toutes les options de ligne de commande (sauf pour ``-datadir`` et "
+"``-conf``) peuvent être indiquées dans un fichier de configuration, et "
+"toutes les options de fichier de configuration peuvent aussi être indiquées "
+"en ligne de commande. Les options de ligne de commande outrepassent les "
+"valeurs indiquées dans le fichier de configuration. Le fichier de "
+"configuration est une liste de paires ``réglage=valeur``, une par ligne, "
+"avec des commentaires facultatifs qui commencent par le caractère ``#``."
+
+#: ../../wallets/axecore/cmd-rpc.rst:18
+msgid ""
+"The configuration file is not automatically created; you can create it using"
+" your favorite plain-text editor. By default, axe-qt (or axed) will look "
+"for a file named ``axe.conf`` in the axe data directory, but both the data"
+" directory and the configuration file path may be changed using the -datadir"
+" and -conf command-line arguments."
+msgstr ""
+"Ce fichier de configuration n'est pas créé automatiquement ; vous pouvez le "
+"créer avec votre éditeur de texte préféré. Par défaut, axe-qt (ou axed) "
+"cherchera un fichier nommé ``axe.conf`` dans le répertoire de données Axe,"
+" mais les chemins de ce répertoire ou du fichier peuvent être modifiés avec "
+"les arguments -datadir et -conf command-line."
+
+#: ../../wallets/axecore/cmd-rpc.rst:25
+msgid "Platform"
+msgstr "Plateforme"
+
+#: ../../wallets/axecore/cmd-rpc.rst:25
+msgid "Path to data folder"
+msgstr "Chemin du répertoire de données"
+
+#: ../../wallets/axecore/cmd-rpc.rst:25
+msgid "Typical path to configuration file"
+msgstr "Chemin typique du fichier de configuration"
+
+#: ../../wallets/axecore/cmd-rpc.rst:27
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../wallets/axecore/cmd-rpc.rst:27
+msgid "~/"
+msgstr "~/"
+
+#: ../../wallets/axecore/cmd-rpc.rst:27
+msgid "/home/username/.axecore/axe.conf"
+msgstr "/home/username/.axecore/axe.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:29
+msgid "macOS"
+msgstr "macOS"
+
+#: ../../wallets/axecore/cmd-rpc.rst:29
+msgid "~/Library/Application Support/"
+msgstr "~/Library/Application Support/"
+
+#: ../../wallets/axecore/cmd-rpc.rst:29
+msgid "/Users/username/Library/Application Support/AxeCore/axe.conf"
+msgstr "/Users/username/Library/Application Support/AxeCore/axe.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:31
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../wallets/axecore/cmd-rpc.rst:31
+msgid "%APPDATA%"
+msgstr "%APPDATA%"
+
+#: ../../wallets/axecore/cmd-rpc.rst:31
+msgid "(Vista-10) C:\\\\Users\\\\username\\\\AppData\\\\Roaming\\\\AxeCore\\\\axe.conf"
+msgstr "(Vista-10) C:\\\\Users\\\\username\\\\AppData\\\\Roaming\\\\AxeCore\\\\axe.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:33
+msgid ""
+"(2000-XP) C:\\\\Documents and Settings\\\\username\\\\Application "
+"Data\\\\AxeCore\\\\axe.conf"
+msgstr ""
+"(2000-XP) C:\\\\Documents and Settings\\\\username\\\\Application "
+"Data\\\\AxeCore\\\\axe.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:36
+msgid ""
+"Note: if running Axe in testnet mode, the sub-folder ``testnet3`` will be "
+"appended to the data directory automatically."
+msgstr ""
+"À noter : si Axe tourne en mode de réseau de test, le sous-répertoire "
+"``testnet3`` sera ajouté automatiquement au répertoire de données."
+
+#: ../../wallets/axecore/cmd-rpc.rst:40
+msgid "Command line arguments"
+msgstr "Arguments de ligne de commande"
+
+#: ../../wallets/axecore/cmd-rpc.rst:42
+msgid "These commands are accurate as of Axe Core version 0.13.0.0."
+msgstr "Ces commandes sont exactes pour la version 0.13.0.0 de Axe Core."
+
+#: ../../wallets/axecore/cmd-rpc.rst:44
+msgid "`axed`_"
+msgstr "`axed`_"
+
+#: ../../wallets/axecore/cmd-rpc.rst:45
+msgid "`axe-qt`_"
+msgstr "`axe-qt`_"
+
+#: ../../wallets/axecore/cmd-rpc.rst:46
+msgid "`axe-cli`_"
+msgstr "`axe-cli`_"
+
+#: ../../wallets/axecore/cmd-rpc.rst:47
+msgid "`axe-tx`_"
+msgstr "`axe-tx`_"
+
+#: ../../wallets/axecore/cmd-rpc.rst:51
+msgid "axed"
+msgstr "axed"
+
+#: ../../wallets/axecore/cmd-rpc.rst:53
+msgid "Axe Core Daemon"
+msgstr "Daemon Axe Core"
+
+#: ../../wallets/axecore/cmd-rpc.rst:57
+#: ../../wallets/axecore/cmd-rpc.rst:269
+#: ../../wallets/axecore/cmd-rpc.rst:305
+#: ../../wallets/axecore/cmd-rpc.rst:346
+msgid "Usage"
+msgstr "Utilisation"
+
+#: ../../wallets/axecore/cmd-rpc.rst:61
+msgid "axed [options]"
+msgstr "axed [options]"
+
+#: ../../wallets/axecore/cmd-rpc.rst:60
+msgid "Start Axe Core Daemon"
+msgstr "Démarrage du daemon Axe Core"
+
+#: ../../wallets/axecore/cmd-rpc.rst:64
+#: ../../wallets/axecore/cmd-rpc.rst:316
+#: ../../wallets/axecore/cmd-rpc.rst:355
+msgid "Options"
+msgstr "Options"
+
+#: ../../wallets/axecore/cmd-rpc.rst:66
+msgid "Print this help message and exit"
+msgstr "Imprimer ce message d'aide et quitter"
+
+#: ../../wallets/axecore/cmd-rpc.rst:67
+msgid "Print version and exit"
+msgstr "Afficher la version et quitter"
+
+#: ../../wallets/axecore/cmd-rpc.rst:68
+msgid "Receive and display P2P network alerts (default: 1)"
+msgstr ""
+"Recevoir et afficher les alertes pair à pair du réseau (par défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:69
+msgid ""
+"Execute command when a relevant alert is received or we see a really long "
+"fork (%s in cmd is replaced by message)"
+msgstr ""
+"Exécuter la commande quand une alerte correspondante est reçue, ou quand un "
+"très long fork est constaté (%s dans la commande est remplacé par le "
+"message)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:70
+msgid ""
+"Execute command when the best block changes (%s in cmd is replaced by block "
+"hash)"
+msgstr ""
+"Exécuter la commande quand le meilleur bloc est modifié (%s dans la commande"
+" est remplacé par l'empreinte de hachage du bloc)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:71
+msgid ""
+"If this block is in the chain assume that it and its ancestors are valid and"
+" potentially skip their script verification (0 to verify all, default: "
+"00000000000000b4181bbbdddbae464ce11fede5d0292fb63fdede1e7c8ab21c, testnet: "
+"00000ce22113f3eb8636e225d6a1691e132fdd587aed993e1bc9b07a0235eea4)"
+msgstr ""
+"Si ce bloc est dans la chaîne, considérer que lui et ses ancêtres sont "
+"valides et sauter potentiellement leur vérification de script (0 pour tout "
+"vérifier, par défaut : "
+"00000000000000b4181bbbdddbae464ce11fede5d0292fb63fdede1e7c8ab21c, réseau de "
+"test : 00000ce22113f3eb8636e225d6a1691e132fdd587aed993e1bc9b07a0235eea4)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:72
+#: ../../wallets/axecore/cmd-rpc.rst:319
+msgid "Specify configuration file (default: axe.conf)"
+msgstr "Indiquer le fichier de configuration (par défaut : axe.conf)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:73
+msgid "Run in the background as a daemon and accept commands"
+msgstr "Tourner en arrière-plan en tant que daemon et accepter les commandes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:74
+#: ../../wallets/axecore/cmd-rpc.rst:320
+msgid "Specify data directory"
+msgstr "Indiquer le répertoire de données"
+
+#: ../../wallets/axecore/cmd-rpc.rst:75
+msgid "Set database cache size in megabytes (4 to 16384, default: 100)"
+msgstr ""
+"Définir la taille du cache de la base de données, en Mo (4 à 16384, par "
+"défaut : 100)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:76
+msgid "Imports blocks from external blk000??.dat file on startup"
+msgstr ""
+"Importer les blocs depuis un fichier externe blk000??.dat au démarrage"
+
+#: ../../wallets/axecore/cmd-rpc.rst:77
+msgid "Keep at most <n> unconnectable transactions in memory (default: 100)"
+msgstr ""
+"Conserver au maximum <n> transactions non connectables en mémoire (par "
+"défaut : 100)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:78
+msgid "Keep the transaction memory pool below <n> megabytes (default: 300)"
+msgstr ""
+"Garder le tampon mémoire de transactions sous <n> Mo (par défaut : 300)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:79
+msgid ""
+"Do not keep transactions in the mempool longer than <n> hours (default: 72)"
+msgstr ""
+"Ne pas garder les transactions dans le tampon mémoire plus que <n> heures "
+"(défaut : 72)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:80
+msgid ""
+"Extra transactions to keep in memory for compact block reconstructions "
+"(default: 100)"
+msgstr ""
+"Transactions supplémentaires à conserver en mémoire pour les reconstructions"
+" en blocs compacts (défaut : 100)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:81
+msgid ""
+"Set the number of script verification threads (-1 to 16, 0 = auto, <0 = "
+"leave that many cores free, default: 0)"
+msgstr ""
+"Définir le nombre de files de vérification de script (-1 à 16, 0 = auto, <0 "
+"= garder libres ce nombre de cœurs, défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:82
+msgid "Specify pid file (default: axed.pid)"
+msgstr "Indiquer le fichier pid (défaut : axed.pid)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:83
+msgid ""
+"Reduce storage requirements by enabling pruning (deleting) of old blocks. "
+"This allows the pruneblockchain RPC to be called to delete specific blocks, "
+"and enables automatic pruning of old blocks if a target size in MiB is "
+"provided. This mode is incompatible with -txindex and -rescan. Warning: "
+"Reverting this setting requires re-downloading the entire blockchain. "
+"(default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, >945"
+" = automatically prune block files to stay under the specified target size "
+"in MiB)"
+msgstr ""
+"Réduire les exigences de stockage en élaguant (effaçant) les vieux blocs. "
+"Cela permet à la commande RPC pruneblockchain d'être appelée pour effacer "
+"des blocs spécifiques, et cela active l'élagage automatique des vieux blocs "
+"si une taille cible en Mo est indiquée. Ce mode est incompatible avec "
+"-txindex et -rescan. Attention : annuler ce réglage implique de "
+"retélécharger la blockchain entière. (par défaut : 0 = désactiver l'élagage "
+"de blocs, 1 = permettre l'élagage manuel par RPC, >945 = élaguer "
+"automatiquement les fichiers de blocs pour rester en-dessous de la taille "
+"cible spécifiée en Mo)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:84
+msgid "Rebuild chain state from the currently indexed blocks"
+msgstr ""
+"Reconstruire l'état de la chaîne depuis les blocs actuellement indexés"
+
+#: ../../wallets/axecore/cmd-rpc.rst:85
+msgid "Rebuild chain state and block index from the blk*.dat files on disk"
+msgstr ""
+"Reconstruire l'état de la chaîne et de l'index de blocs depuis les fichiers "
+"blk*.dat sur disque"
+
+#: ../../wallets/axecore/cmd-rpc.rst:86
+msgid ""
+"Create new files with system default permissions, instead of umask 077 (only"
+" effective with disabled wallet functionality)"
+msgstr ""
+"Créer de nouveau fichiers avec les autorisations système par défaut, au lieu"
+" de umask 077 (effectif seulement avec les fonctionnalités de portefeuille "
+"désactivées)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:87
+msgid ""
+"Maintain a full transaction index, used by the getrawtransaction rpc call "
+"(default: 1)"
+msgstr ""
+"Garder un index complet des transactions, utilisé par l'appel RPC "
+"getrawtransaction (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:88
+msgid ""
+"Maintain a full address index, used to query for the balance, txids and "
+"unspent outputs for addresses (default: 0)"
+msgstr ""
+"Garder un index complet des adresses, utilisé pour interroger le solde, les "
+"identifiants de transaction et les sorties non dépensées des adresses "
+"(défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:89
+msgid ""
+"Maintain a timestamp index for block hashes, used to query blocks hashes by "
+"a range of timestamps (default: 0)"
+msgstr ""
+"Garder un index des horodatages des signatures de hachage des blocs, utilisé"
+" pour interroger les signatures de hachage par dates (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:90
+msgid ""
+"Maintain a full spent index, used to query the spending txid and input index"
+" for an outpoint (default: 0)"
+msgstr ""
+"Garder un index complet des dépenses, utilisé pour interroger l'identifiant "
+"de transaction de dépense et l'index d'entrée pour une sortie (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:94
+msgid "Connection options"
+msgstr "Options de connexion"
+
+#: ../../wallets/axecore/cmd-rpc.rst:96
+msgid "Add a node to connect to and attempt to keep the connection open"
+msgstr ""
+"Ajouter un nœud auquel se connecter, et essayer de garder la connexion "
+"ouverte"
+
+#: ../../wallets/axecore/cmd-rpc.rst:97
+msgid "Allow RFC1918 addresses to be relayed and connected to (default: 0)"
+msgstr ""
+"Permettre aux adresses RFC1918 d'être retransmises et permettre de s'y "
+"connecter (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:98
+msgid "Threshold for disconnecting misbehaving peers (default: 100)"
+msgstr "Seuil de déconnexion des pairs qui se comportent mal (défaut : 100)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:99
+msgid ""
+"Number of seconds to keep misbehaving peers from reconnecting (default: "
+"86400)"
+msgstr ""
+"Nombre de secondes pendant lesquelles les pairs qui se comportent mal ne "
+"peuvent pas se reconnecter (défaut : 86400)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:100
+msgid ""
+"Bind to given address and always listen on it. Use [host]:port notation for "
+"IPv6"
+msgstr ""
+"Se lier à une adresse donnée et toujours l'écouter. Utiliser la notation "
+"[hôte]:port pour IPv6"
+
+#: ../../wallets/axecore/cmd-rpc.rst:101
+msgid ""
+"Connect only to the specified node(s); -noconnect or -connect=0 alone to "
+"disable automatic connections"
+msgstr ""
+"Se connecter seulement au(x) nœud(s) spécifié(s) ; -noconnect ou -connect=0 "
+"seul pour désactiver les connexions automatiques"
+
+#: ../../wallets/axecore/cmd-rpc.rst:102
+msgid ""
+"Discover own IP addresses (default: 1 when listening and no -externalip or "
+"-proxy)"
+msgstr ""
+"Découvrir ses propres adresses IP (défaut : 1 à l'écoute et sans -externalip"
+" ou -proxy)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:103
+msgid "Allow DNS lookups for -addnode, -seednode and -connect (default: 1)"
+msgstr ""
+"Autoriser les consultations DNS pour -addnode, -seednode et -connect (défaut"
+" : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:104
+msgid ""
+"Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
+"unless -connect/-noconnect)"
+msgstr ""
+"Requête d'obtention d'adresses de pairs par une consultation DNS, en cas de "
+"nombre faible d'adresses (défaut : 1, sauf -connect/-noconnect)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:105
+msgid "Specify your own public address"
+msgstr "Indiquer votre propre adresse publique"
+
+#: ../../wallets/axecore/cmd-rpc.rst:106
+msgid "Always query for peer addresses via DNS lookup (default: 0)"
+msgstr ""
+"Toujours demander les adresses de pairs par consultation DNS (défaut :  0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:107
+msgid "Accept connections from outside (default: 1 if no -proxy or -connect)"
+msgstr ""
+"Accepter les connexions de l'extérieur (défaut : 1, si pas de -proxy ou de "
+"-connect)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:108
+msgid "Automatically create Tor hidden service (default: 1)"
+msgstr "Créer automatiquement un service caché Tor (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:109
+msgid ""
+"Maintain at most <n> connections to peers (temporary service connections "
+"excluded) (default: 125)"
+msgstr ""
+"Conserver un maximum de <n> connexions aux pairs (connexions temporaires de "
+"service exclues) (défaut : 125)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:110
+msgid "Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)"
+msgstr ""
+"Tampon de réception par connexion maximal, <n>*1000 octets (défaut : 5000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:111
+msgid "Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)"
+msgstr "Tampon d'envoi par connexion maximal, <n>*1000 octets (défaut : 1000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:112
+msgid ""
+"Maximum allowed median peer time offset adjustment. Local perspective of "
+"time may be influenced by peers forward or backward by this amount. "
+"(default: 4200 seconds)"
+msgstr ""
+"Ajustement horaire maximum autorisé par rapport aux pairs. La valeur locale "
+"de l'heure peut être arrondie par les pairs dans cette limite inférieure ou "
+"supérieure. (défaut : 4200 secondes)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:113
+msgid ""
+"Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
+"-proxy)"
+msgstr ""
+"Utiliser un proxy SOCKS5 distinct pour atteindre les pairs par des services "
+"cachés Tor (défaut : -proxy)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:114
+msgid "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"
+msgstr "Ne se connecter qu'aux nœuds du réseau <net> (ipv4, ipv6 ou onion)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:115
+msgid "Relay non-P2SH multisig (default: 1)"
+msgstr "Retransmettre les multi-signatures non P2SH (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:116
+msgid ""
+"Support filtering of blocks and transaction with bloom filters (default: 1)"
+msgstr ""
+"Assurer le filtrage des blocs et transactions avec des filtres bloom (défaut"
+" : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:117
+msgid "Listen for connections on <port> (default: 9937 or testnet: 19937)"
+msgstr ""
+"Écouter les connexions sur <port> (défaut : 9937 or réseau de test : 19937)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:118
+msgid "Connect through SOCKS5 proxy"
+msgstr "Se connecter par proxy SOCKS5"
+
+#: ../../wallets/axecore/cmd-rpc.rst:119
+msgid ""
+"Randomize credentials for every proxy connection. This enables Tor stream "
+"isolation (default: 1)"
+msgstr ""
+"Identifiants aléatoires pour chaque connexion proxy. Cela active l'isolation"
+" de canal Tor (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:120
+msgid "Connect to a node to retrieve peer addresses, and disconnect"
+msgstr ""
+"Se connecter à un nœud pour obtenir les adresses de pairs, puis se "
+"déconnecter"
+
+#: ../../wallets/axecore/cmd-rpc.rst:121
+msgid "Specify connection timeout in milliseconds (minimum: 1, default: 5000)"
+msgstr ""
+"Indiquer l'expiration de la connexion en millisecondes (minimum : 1, défaut "
+": 5000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:122
+msgid ""
+"Tor control port to use if onion listening enabled (default: 127.0.0.1:9051)"
+msgstr ""
+"Port de contrôle Tor à utiliser si l'écoute Onion est activée (défaut : "
+"127.0.0.1:9051)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:123
+msgid "Tor control port password (default: empty)"
+msgstr "Mot de passe du port de contrôle Tor (défaut : vide)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:124
+msgid "Use UPnP to map the listening port (default: 0)"
+msgstr "Utiliser UpnP pour lier le port d'écoute (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:125
+msgid ""
+"Bind to given address and whitelist peers connecting to it. Use [host]:port "
+"notation for IPv6"
+msgstr ""
+"Se lier à l'adresse donnée et aux pairs en liste blanche qui s'y connectent."
+" Utiliser la notation [hôte]:port pour IPv6"
+
+#: ../../wallets/axecore/cmd-rpc.rst:126
+msgid ""
+"Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR "
+"notated network (e.g. 1.2.3.0/24). Can be specified multiple times."
+msgstr ""
+"Pairs en liste blanche se connectant depuis l'adresse IP spécifiée (par ex. "
+"1.2.3.4) ou le réseau CIDR noté (par ex. 1.2.3.0/24). Peut être spécifié "
+"plusieurs fois."
+
+#: ../../wallets/axecore/cmd-rpc.rst:127
+msgid ""
+"Accept relayed transactions received from whitelisted peers even when not "
+"relaying transactions (default: 1)"
+msgstr ""
+"Accepter les transactions retransmises reçues des pairs en liste blanche, "
+"même si on ne retransmet pas les transactions (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:128
+msgid ""
+"Force relay of transactions from whitelisted peers even if they violate "
+"local relay policy (default: 1)"
+msgstr ""
+"Obliger la retransmission des transactions depuis les pairs en liste "
+"blanche, même si elles violent les règles locales de retransmission (défaut "
+": 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:129
+msgid ""
+"Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
+"no limit (default: 0)"
+msgstr ""
+"Essayer de garder le trafic sortant sous la valeur cible donnée (en Mo par "
+"24 heures), 0 = pas de limite (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:133
+#: ../../wallets/axecore/cmd-rpc.rst:276
+msgid "Wallet options"
+msgstr "Options de portefeuille"
+
+#: ../../wallets/axecore/cmd-rpc.rst:135
+msgid "Do not load the wallet and disable wallet RPC calls"
+msgstr ""
+"Ne pas charger le portefeuille et désactiver les appels RPC de portefeuille"
+
+#: ../../wallets/axecore/cmd-rpc.rst:136
+msgid "Set key pool size to <n> (default: 1000)"
+msgstr "Fixer la taille de la réserve des clés à <n> (défaut : 1000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:137
+msgid ""
+"A fee rate (in AXE/kB) that will be used when fee estimation has "
+"insufficient data (default: 0.00001)"
+msgstr ""
+"Un taux de frais de transaction (en axes/Ko) qui sera utilisé quand "
+"l'estimation des frais ne dispose pas d'assez de données (défaut : 0,00001)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:138
+msgid ""
+"Fees (in AXE/kB) smaller than this are considered zero fee for transaction "
+"creation (default: 0.00001)"
+msgstr ""
+"Seuil de frais de transaction (en axes/Ko) en-deçà duquel les frais sont "
+"considérés nuls pour la création de transaction (défaut : 0,00001)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:139
+msgid "Fee (in AXE/kB) to add to transactions you send (default: 0.00)"
+msgstr ""
+"Frais de transaction (en axes/Ko) à ajouter aux transactions que vous "
+"envoyez (défaut : 0,00)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:140
+msgid "Rescan the block chain for missing wallet transactions on startup"
+msgstr ""
+"Balayer à nouveau la blockchain au démarrage pour repérer les transactions "
+"de portefeuille manquantes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:141
+msgid "Attempt to recover private keys from a corrupt wallet on startup"
+msgstr ""
+"Essayer au démarrage de récupérer les clés privées d'un portefeuille "
+"corrompu"
+
+#: ../../wallets/axecore/cmd-rpc.rst:142
+msgid "Spend unconfirmed change when sending transactions (default: 1)"
+msgstr ""
+"Dépenser le rendu de monnaie non confirmé à l'envoi de transactions (défaut "
+": 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:143
+msgid ""
+"If paytxfee is not set, include enough fee so transactions begin "
+"confirmation on average within n blocks (default: 6)"
+msgstr ""
+"Si paytxfee n'est pas défini, inclure suffisamment de frais pour que les "
+"transactions commencent à être confirmées en moyenne dans les n blocs "
+"(défaut : 6)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:144
+msgid ""
+"Use hierarchical deterministic key generation (HD) after BIP39/BIP44. Only "
+"has effect during wallet creation/first start (default: 0)"
+msgstr ""
+"Utiliser la génération hiérarchique déterministe (HD) de clés (BIP39/BIP44)."
+" N'a d'effet qu'à la création du portefeuille ou à son premier démarrage "
+"(défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:145
+msgid ""
+"User defined mnemonic for HD wallet (BIP39). Only has effect during wallet "
+"creation/first start (default: randomly generated)"
+msgstr ""
+"Graine mnémonique définie par l'utilisateur pour un portefeuille HD (BIP39)."
+" N'a d'effet qu'à la création du portefeuille ou à son premier démarrage "
+"(défaut : générée aléatoirement)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:146
+msgid ""
+"User defined mnemonic passphrase for HD wallet (BIP39). Only has effect "
+"during wallet creation/first start (default: empty string)"
+msgstr ""
+"Phrase de passe mnémonique définie par l'utilisateur pour un portefeuille HD"
+" (BIP39). N'a d'effet qu'à la création du portefeuille ou à son premier "
+"démarrage (défaut : chaîne vide)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:147
+msgid ""
+"User defined seed for HD wallet (should be in hex). Only has effect during "
+"wallet creation/first start (default: randomly generated)"
+msgstr ""
+"Graine définie par l'utilisateur pour un portefeuille HD (doit être en "
+"hexadécimal). N'a d'effet qu'à la création du portefeuille ou à son premier "
+"démarrage (défaut : générée aléatoirement)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:148
+msgid "Upgrade wallet to latest format on startup"
+msgstr ""
+"Mettre à jour le portefeuille au format le plus récent durant le démarrage"
+
+#: ../../wallets/axecore/cmd-rpc.rst:149
+msgid "Specify wallet file (within data directory) (default: wallet.dat)"
+msgstr ""
+"Indiquer le fichier de portefeuille (dans le répertoire de données) (défaut "
+": wallet.dat)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:150
+msgid "Make the wallet broadcast transactions (default: 1)"
+msgstr "Faire diffuser les transactions par le portefeuille (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:151
+msgid ""
+"Execute command when a wallet transaction changes (%s in cmd is replaced by "
+"TxID)"
+msgstr ""
+"Exécuter la commande quand une transaction de portefeuille est modifiée (%s "
+"dans la commande est remplacé par l'identifiant de transaction)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:152
+msgid ""
+"Delete all wallet transactions and only recover those parts of the "
+"blockchain through -rescan on startup (1 = keep tx meta data e.g. account "
+"owner and payment request information, 2 = drop tx meta data)"
+msgstr ""
+"Effacer toutes les transactions de portefeuille et ne récupérer que celles "
+"faisant partie de la blockchain avec -rescan au démarrage (1 = conserver les"
+" métadonnées de transactions, par ex. propriétaire du compte et information "
+"de requête de paiement, 2 = effacer les métadonnées de transaction)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:153
+msgid "Number of automatic wallet backups (default: 10)"
+msgstr "Nombre de sauvegardes automatiques du portefeuille (défaut : 10)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:154
+msgid ""
+"Specify full path to directory for automatic wallet backups (must exist)"
+msgstr ""
+"Indiquer le chemin complet du répertoire des sauvegardes automatiques du "
+"portefeuille (doit exister)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:155
+msgid "Use KeePass 2 integration using KeePassHttp plugin (default: 0)"
+msgstr ""
+"Utilise l'intégration KeePass 2 avec le plug-in KeePassHttp (par défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:156
+msgid "Connect to KeePassHttp on port <port> (default: 19455)"
+msgstr "Connexion à KeePassHttp par le port <port> (par défaut : 19455)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:157
+msgid "KeePassHttp key for AES encrypted communication with KeePass"
+msgstr "Clé KeePassHttp pour la communication chiffrée AES avec KeePass"
+
+#: ../../wallets/axecore/cmd-rpc.rst:158
+msgid "KeePassHttp id for the established association"
+msgstr "Identifiant KeePassHttp pour la connexion déjà établie"
+
+#: ../../wallets/axecore/cmd-rpc.rst:159
+msgid ""
+"Name to construct url for KeePass entry that stores the wallet passphrase"
+msgstr ""
+"Nom pour former l'URL pour l'entrée KeePass qui stocke la phrase de passe du"
+" portefeuille"
+
+#: ../../wallets/axecore/cmd-rpc.rst:163
+msgid "ZeroMQ notification options"
+msgstr "Options de notification ZeroMQ"
+
+#: ../../wallets/axecore/cmd-rpc.rst:165
+msgid "Enable publish hash block in <address>"
+msgstr "Activer la publication du hachage de bloc dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:166
+msgid "Enable publish hash transaction in <address>"
+msgstr "Activer la publication du hachage de transaction dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:167
+msgid "Enable publish hash transaction (locked via InstantSend) in <address>"
+msgstr ""
+"Activer la publication du hachage de transaction (verrouillée par "
+"InstantSend) dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:168
+msgid "Enable publish hash of governance votes in <address>"
+msgstr ""
+"Activer la publication du hachage des votes de gouvernance dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:169
+msgid ""
+"Enable publish hash of governance objects (like proposals) in <address>"
+msgstr ""
+"Activer la publication du hachage des objets de gouvernance (comme les "
+"propositions budgétaires) dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:170
+msgid ""
+"Enable publish transaction hashes of attempted InstantSend double spend in "
+"<address>"
+msgstr ""
+"Activer la publication des hachages de transaction pour les tentatives de "
+"double dépense InstantSend dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:171
+msgid "Enable publish raw block in <address>"
+msgstr "Activer la publication du bloc brut dans<address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:172
+msgid "Enable publish raw transaction in <address>"
+msgstr "Activer la publication de la transaction brute dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:173
+msgid "Enable publish raw transaction (locked via InstantSend) in <address>"
+msgstr ""
+"Activer la publication de la transaction brute (verrouillée par InstantSend)"
+" dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:174
+msgid ""
+"Enable publish raw transactions of attempted InstantSend double spend in "
+"<address>"
+msgstr ""
+"Activer la publication des transactions brutes pour les tentatives de double"
+" dépense InstantSend dans <address>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:178
+#: ../../wallets/axecore/cmd-rpc.rst:282
+msgid "Debugging/Testing options"
+msgstr "Options de débogage et de test"
+
+#: ../../wallets/axecore/cmd-rpc.rst:180
+msgid "Append comment to the user agent string"
+msgstr "Ajouter le commentaire à la chaîne d'agent utilisateur"
+
+#: ../../wallets/axecore/cmd-rpc.rst:181
+msgid ""
+"Output debugging information (default: 0, supplying <category> is optional)."
+" If <category> is not supplied or if <category> = 1, output all debugging "
+"information.<category> can be: addrman, alert, bench, cmpctblock, coindb, "
+"db, http, leveldb, libevent, lock, mempool, mempoolrej, net, proxy, prune, "
+"rand, reindex, rpc, selectcoins, tor, zmq, axe (or specifically: gobject, "
+"instantsend, keepass, masternode, mnpayments, mnsync, privatesend, spork)."
+msgstr ""
+"Afficher les informations de débogage (défaut : 0, indiquer <category> est "
+"facultatif). Si <category> n'est pas indiqué ou si <category> = 1, afficher "
+"toutes les informations de débogage.<category> peut être : addrman, alert, "
+"bench, cmpctblock, coindb, db, http, leveldb, libevent, lock, mempool, "
+"mempoolrej, net, proxy, prune, rand, reindex, rpc, selectcoins, tor, zmq, "
+"axe (ou plus spécifiquement : gobject, instantsend, keepass, masternode, "
+"mnpayments, mnsync, privatesend, spork)."
+
+#: ../../wallets/axecore/cmd-rpc.rst:182
+msgid "Show all debugging options (usage: --help -help-debug)"
+msgstr ""
+"Afficher toutes les options de débitage (utilisation : --help -help-debug)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:183
+msgid "Include IP addresses in debug output (default: 0)"
+msgstr "Inclure les adresses IP dans la sortie de débogage (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:184
+msgid "Prepend debug output with timestamp (default: 1)"
+msgstr "Ajouter l'horodatage au début de la sortie de débogage (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:185
+msgid ""
+"Fees (in AXE/kB) smaller than this are considered zero fee for relaying, "
+"mining and transaction creation (default: 0.00001)"
+msgstr ""
+"Seuil de frais de transaction (en axes/Ko) en-deçà duquel les frais sont "
+"considérés nuls pour la création de transaction, la retransmission ou le "
+"minage (défaut : 0,00001)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:186
+msgid ""
+"Maximum total fees (in AXE) to use in a single wallet transaction or raw "
+"transaction; setting this too low may abort large transactions (default: "
+"0.10)"
+msgstr ""
+"Maximum de frais de transaction totaux (en axes) à utiliser en une seule "
+"transaction de portefeuille ou transaction brute ; définir une valeur trop "
+"basse peut empêcher les transactions larges (défaut : 0,10)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:187
+msgid "Send trace/debug info to console instead of debug.log file"
+msgstr ""
+"Envoyer les informations de pistage/débogage à la console plutôt qu'au "
+"fichier debug.log"
+
+#: ../../wallets/axecore/cmd-rpc.rst:188
+msgid "Send trace/debug info to debug.log file (default: 1)"
+msgstr ""
+"Envoyer les informations de pistage/débogage au fichier debug.log (défaut : "
+"1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:189
+msgid "Shrink debug.log file on client startup (default: 1 when no -debug)"
+msgstr ""
+"Réduire le fichier debug.log au démarrage du client (défaut : 1 si pas de "
+"-debug)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:193
+#: ../../wallets/axecore/cmd-rpc.rst:324
+#: ../../wallets/axecore/cmd-rpc.rst:364
+msgid "Chain selection options"
+msgstr "Options de sélection de chaîne"
+
+#: ../../wallets/axecore/cmd-rpc.rst:195
+#: ../../wallets/axecore/cmd-rpc.rst:326
+#: ../../wallets/axecore/cmd-rpc.rst:366
+msgid "Use the test chain"
+msgstr "Utiliser la chaîne de test"
+
+#: ../../wallets/axecore/cmd-rpc.rst:196
+#: ../../wallets/axecore/cmd-rpc.rst:327
+#: ../../wallets/axecore/cmd-rpc.rst:367
+msgid "Use devnet chain with provided name"
+msgstr "Utiliser la chaîne du réseau de développement avec le nom fourni"
+
+#: ../../wallets/axecore/cmd-rpc.rst:197
+msgid ""
+"Disable all Axe specific functionality (Masternodes, PrivateSend, "
+"InstantSend, Governance) (0-1, default: 0)"
+msgstr ""
+"Désactiver toutes les fonctions spécifiques à Axe (masternodes, "
+"PrivateSend, InstantSend, gouvernance) (0-1, défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:198
+msgid ""
+"Override spork address. Only useful for regtest and devnet. Using this on "
+"mainnet or testnet will ban you."
+msgstr ""
+"Ignorer l'adresse spork. Utile seulement sur regtest et devnet. Utiliser "
+"ceci sur le réseau principal ou de test entraînera votre bannissement."
+
+#: ../../wallets/axecore/cmd-rpc.rst:199
+msgid ""
+"Overrides minimum spork signers to change spork value. Only useful for "
+"regtest and devnet. Using this on mainnet or testnet will ban you."
+msgstr ""
+"Ignorer le nombre minimal de signataires spork pouvant modifier la valeur de"
+" spork. Utile seulement sur regtest et devnet. Utiliser ceci sur le réseau "
+"principal ou de test entraînera votre bannissement."
+
+#: ../../wallets/axecore/cmd-rpc.rst:203
+msgid "Masternode options"
+msgstr "Options de masternode"
+
+#: ../../wallets/axecore/cmd-rpc.rst:205
+msgid "Enable the client to act as a masternode (0-1, default: 0)"
+msgstr ""
+"Activer le client pour qu'il agisse comme un masternode (0-1, défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:206
+msgid "Specify masternode configuration file (default: masternode.conf)"
+msgstr ""
+"Indiquer le fichier de configuration de masternode (défaut : "
+"masternode.conf)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:207
+msgid "Lock masternodes from masternode configuration file (default: 1)"
+msgstr ""
+"Verrouiller les masternodes du fichier de configuration de masternode "
+"(défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:208
+msgid "Set the masternode private key"
+msgstr "Définir la clé privée de masternode"
+
+#: ../../wallets/axecore/cmd-rpc.rst:209
+msgid "Set the masternode BLS private key"
+msgstr "Définir la clé privée BLS du masternode"
+
+#: ../../wallets/axecore/cmd-rpc.rst:213
+msgid "PrivateSend options"
+msgstr "Options PrivateSend"
+
+#: ../../wallets/axecore/cmd-rpc.rst:215
+msgid ""
+"Enable use of automated PrivateSend for funds stored in this wallet (0-1, "
+"default: 0)"
+msgstr ""
+"Activer l'utilisation automatique de PrivateSend pour les fonds stockés dans"
+" ce portefeuille (0-1, défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:216
+msgid ""
+"Enable multiple PrivateSend mixing sessions per block, experimental (0-1, "
+"default: 0)"
+msgstr ""
+"Activer les sessions multiples de mélange PrivateSend par bloc, expérimental"
+" (0-1, défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:217
+msgid "Use N separate masternodes in parallel to mix funds (1-10, default: 4)"
+msgstr ""
+"Utiliser N masternodes distincts en parallèle pour le mélange des fonds "
+"(1-10, défaut : 4)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:218
+msgid ""
+"Use N separate masternodes for each denominated input to mix funds (2-16, "
+"default: 4)"
+msgstr ""
+"Utiliser N masternodes distincts pour chaque entrée de coupure pour le "
+"mélange des fonds (2-16, défaut : 4)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:219
+msgid "Keep N AXE anonymized (2-21000000, default: 1000)"
+msgstr "Conserver N axes anonymisés (2-21000000, défaut : 1000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:220
+msgid ""
+"Provide liquidity to PrivateSend by infrequently mixing coins on a continual"
+" basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, "
+"low fees)"
+msgstr ""
+"Fournir de la liquidité à PrivateSend en mélangeant les fonds de temps à "
+"autre mais sans limite de temps (0-100, défaut : 0, 1=très fréquemment, "
+"frais élevés, 100=très peu fréquemment, frais bas)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:224
+msgid "InstantSend options"
+msgstr "Options InstantSend"
+
+#: ../../wallets/axecore/cmd-rpc.rst:226
+msgid ""
+"Enable InstantSend, show confirmations for locked transactions (0-1, "
+"default: 1)"
+msgstr ""
+"Activer InstantSend, afficher les confirmations pour les transactions "
+"verrouillées (0-1, défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:227
+msgid ""
+"Execute command when a wallet InstantSend transaction is successfully locked"
+" (%s in cmd is replaced by TxID)"
+msgstr ""
+"Exécuter la commande quand une transaction de portefeuille InstantSend est "
+"verrouillée avec succès (%s dans la commande est remplacé par l'identifiant "
+"de transaction)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:231
+msgid "Node relay options"
+msgstr "Options de relais de nœud"
+
+#: ../../wallets/axecore/cmd-rpc.rst:233
+msgid ""
+"Minimum bytes per sigop in transactions we relay and mine (default: 20)"
+msgstr ""
+"Nombre minimal d'octets par sigop dans les transactions que nous relayons et"
+" minons (défaut : 20)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:234
+msgid "Relay and mine data carrier transactions (default: 1)"
+msgstr ""
+"Retransmettre et miner les transactions porteuses de données (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:235
+msgid ""
+"Maximum size of data in data carrier transactions we relay and mine "
+"(default: 83)"
+msgstr ""
+"Taille maximale des données dans les transactions porteuses de données que "
+"nous relayons et minons (défaut : 83)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:239
+msgid "Block creation options"
+msgstr "Options de création de bloc"
+
+#: ../../wallets/axecore/cmd-rpc.rst:241
+msgid "Set maximum block size in bytes (default: 2000000)"
+msgstr "Définir la taille maximale de bloc en octets (défaut : 2000000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:242
+msgid ""
+"Set maximum size of high-priority/low-fee transactions in bytes (default: "
+"10000)"
+msgstr ""
+"Définir la taille maximale en octets des transactions de haute "
+"priorité/frais bas (défaut : 10000)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:243
+msgid ""
+"Set lowest fee rate (in AXE/kB) for transactions to be included in block "
+"creation. (default: 0.00001)"
+msgstr ""
+"Définir les frais de transaction minimaux (en axes/Ko) pour que les "
+"transactions soient incluses lors de la création de bloc (défaut : 0,00001)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:247
+msgid "RPC server options"
+msgstr "Options de serveur RPC"
+
+#: ../../wallets/axecore/cmd-rpc.rst:249
+msgid "Accept command line and JSON-RPC commands"
+msgstr "Accepter les commandes en ligne de commande et JSON-RPC"
+
+#: ../../wallets/axecore/cmd-rpc.rst:250
+msgid "Accept public REST requests (default: 0)"
+msgstr "Accepter les requêtes publiques REST (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:251
+msgid ""
+"Bind to given address to listen for JSON-RPC connections. Use [host]:port "
+"notation for IPv6. This option can be specified multiple times (default: "
+"bind to all interfaces)"
+msgstr ""
+"Se lier à l'adresse donnée pour écouter les connexions JSON-RPC. Utiliser la"
+" notation [hôte]:port pour IPv6. Cette option peut être choisie plusieurs "
+"fois (défaut : lien avec toutes les interfaces)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:252
+msgid "Location of the auth cookie (default: data dir)"
+msgstr ""
+"Emplacement du cookie d'authentification (défaut : répertoire de données)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:253
+#: ../../wallets/axecore/cmd-rpc.rst:333
+msgid "Username for JSON-RPC connections"
+msgstr "Nom d'utilisateur pour les connexions JSON-RPC"
+
+#: ../../wallets/axecore/cmd-rpc.rst:254
+#: ../../wallets/axecore/cmd-rpc.rst:334
+msgid "Password for JSON-RPC connections"
+msgstr "Mot de passe pour les connexions JSON-RPC"
+
+#: ../../wallets/axecore/cmd-rpc.rst:255
+msgid ""
+"Username and hashed password for JSON-RPC connections. The field <userpw> "
+"comes in the format: <USERNAME>:<SALT>$<HASH>. A canonical python script is "
+"included in share/rpcuser. The client then connects normally using the "
+"rpcuser=<USERNAME>/rpcpassword=<PASSWORD> pair of arguments. This option can"
+" be specified multiple times"
+msgstr ""
+"Nom d'utilisateur et mot de passe haché pour les connexions JSON-RPC. Le "
+"champ <userpw> a pour format : <USERNAME>:<SALT>$<HASH>. Un script canonique"
+" Python est inclus dans share/rpcuser. Le client se connecte alors "
+"normalement en utilisant les deux arguments "
+"rpcuser=<USERNAME>/rpcpassword=<PASSWORD>. Cette option peut être indiquée "
+"plusieurs fois."
+
+#: ../../wallets/axecore/cmd-rpc.rst:256
+msgid ""
+"Listen for JSON-RPC connections on <port> (default: 9337 or testnet: 19337)"
+msgstr ""
+"Écouter les connexions JSON-RPC sur <port> (défaut : 9337 ou réseau de test "
+": 19337)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:257
+msgid ""
+"Allow JSON-RPC connections from specified source. Valid for <ip> are a "
+"single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or "
+"a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple "
+"times"
+msgstr ""
+"Autoriser les connexions JSON-RPC depuis une source précisée. Valide quand "
+"<ip> sont une seule adresse IP (par ex. 1.2.3.4), un réseau ou masque de "
+"réseau (par ex. 1.2.3.4/255.255.255.0) ou un réseau/CIDR (par ex. "
+"1.2.3.4/24). Cette option peut être indiquée plusieurs fois"
+
+#: ../../wallets/axecore/cmd-rpc.rst:258
+msgid "Set the number of threads to service RPC calls (default: 4)"
+msgstr "Définir le nombre de files pour les appels RPC (défaut : 4)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:262
+msgid "axe-qt"
+msgstr "axe-qt"
+
+#: ../../wallets/axecore/cmd-rpc.rst:264
+msgid ""
+"Axe Core QT GUI, use same command line options as axed with additional "
+"options for UI as described below."
+msgstr ""
+"Interface graphique Axe Core QT, utiliser les mêmes options de ligne de "
+"commande que axed avec des options supplémentaires pour l'interface "
+"graphiques telles que décrites ci-dessous."
+
+#: ../../wallets/axecore/cmd-rpc.rst:273
+msgid "axe-qt [command-line options]"
+msgstr "axe-qt [options de ligne de commande]"
+
+#: ../../wallets/axecore/cmd-rpc.rst:272
+msgid "Start Axe Core QT GUI"
+msgstr "Démarrer l'interface graphique Axe Core QT"
+
+#: ../../wallets/axecore/cmd-rpc.rst:278
+msgid "Wallet window title"
+msgstr "Titre de la fenêtre de portefeuille"
+
+#: ../../wallets/axecore/cmd-rpc.rst:284
+msgid ""
+"Output debugging information (default: 0, supplying <category> is optional)."
+" If <category> is not supplied or if <category> = 1, output all debugging "
+"information.<category> can be: addrman, alert, bench, cmpctblock, coindb, "
+"db, http, leveldb, libevent, lock, mempool, mempoolrej, net, proxy, prune, "
+"rand, reindex, rpc, selectcoins, tor, zmq, axe (or specifically: gobject, "
+"instantsend, keepass, masternode, mnpayments, mnsync, privatesend, spork), "
+"qt."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:288
+msgid "UI options"
+msgstr "Options d'interface graphique"
+
+#: ../../wallets/axecore/cmd-rpc.rst:290
+msgid "Choose data directory on startup (default: 0)"
+msgstr "Choisir au démarrage le répertoire de données (défaut : 0)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:291
+msgid "Set language, for example \"de_DE\" (default: system locale)"
+msgstr "Choisir la langue, par exemple \"de_DE\" (défaut : langue du système)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:292
+msgid "Start minimized"
+msgstr "Démarrer en mode minimisé"
+
+#: ../../wallets/axecore/cmd-rpc.rst:293
+msgid "Set SSL root certificates for payment request (default: -system-)"
+msgstr ""
+"Définir les certificats racine SSL pour les requêtes de paiement (défaut : "
+"-system-)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:294
+msgid "Show splash screen on startup (default: 1)"
+msgstr "Afficher l'écran d'accueil au démarrage (défaut : 1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:295
+msgid "Reset all settings changed in the GUI"
+msgstr "Réinitialiser tous les réglages modifiés dans l'interface graphique"
+
+#: ../../wallets/axecore/cmd-rpc.rst:299
+msgid "axe-cli"
+msgstr "axe-cli"
+
+#: ../../wallets/axecore/cmd-rpc.rst:301
+msgid "Axe Core RPC client"
+msgstr "Client RPC Axe Core"
+
+#: ../../wallets/axecore/cmd-rpc.rst:307
+msgid "axe-cli [options] <command> [params]"
+msgstr "axe-cli [options] <command> [paramètres]"
+
+#: ../../wallets/axecore/cmd-rpc.rst:308
+msgid "Send command to Axe Core"
+msgstr "Envoyer une commande à Axe Core"
+
+#: ../../wallets/axecore/cmd-rpc.rst:309
+msgid "axe-cli [options] help"
+msgstr "axe-cli [options] help"
+
+#: ../../wallets/axecore/cmd-rpc.rst:310
+msgid "List commands"
+msgstr "Afficher la liste des commandes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:313
+msgid "axe-cli [options] help <command>"
+msgstr "axe-cli [options] help <command>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:312
+msgid "Get help for a command"
+msgstr "Obtenir de l'aide sur une commande"
+
+#: ../../wallets/axecore/cmd-rpc.rst:318
+#: ../../wallets/axecore/cmd-rpc.rst:357
+msgid "This help message"
+msgstr "Ce message d'aide"
+
+#: ../../wallets/axecore/cmd-rpc.rst:328
+#: ../../wallets/axecore/cmd-rpc.rst:368
+msgid ""
+"Enter regression test mode, which uses a special chain in which blocks can "
+"be solved instantly. This is intended for regression testing tools and app "
+"development."
+msgstr ""
+"Basculer en mode de test de régression, qui utilise une chaîne spéciale dans"
+" laquelle les blocs peuvent être résolus instantanément. Cela sert aux "
+"outils de test de régression et au développement d'applications."
+
+#: ../../wallets/axecore/cmd-rpc.rst:329
+msgid "Pass named instead of positional arguments (default: false)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:330
+msgid "Send commands to node running on <ip> (default: 127.0.0.1)"
+msgstr "Envoyer des commandes au nœud tournant sur <ip> (défaut : 127.0.0.1)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:331
+msgid "Connect to JSON-RPC on <port> (default: 9337 or testnet: 19337)"
+msgstr ""
+"Se connecter à JSON-RPC sur <port> (défaut : 9337 ou réseau de test : 19337)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:332
+msgid "Wait for RPC server to start"
+msgstr "Attendre que le serveur RPC ait démarré"
+
+#: ../../wallets/axecore/cmd-rpc.rst:335
+msgid "Timeout during HTTP requests (default: 900)"
+msgstr "Durée d'expiration des requêtes HTTP (défaut : 900)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:336
+msgid ""
+"Read extra arguments from standard input, one per line until EOF/Ctrl-D "
+"(recommended for sensitive information such as passphrases)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:340
+msgid "axe-tx"
+msgstr "axe-tx"
+
+#: ../../wallets/axecore/cmd-rpc.rst:342
+msgid "Axe Core axe-tx utility"
+msgstr "Utilitaire axe-tx de Axe Core"
+
+#: ../../wallets/axecore/cmd-rpc.rst:348
+msgid "axe-tx [options] <hex-tx> [commands]"
+msgstr "axe-tx [options] <hex-tx> [commandes]"
+
+#: ../../wallets/axecore/cmd-rpc.rst:349
+msgid "Update hex-encoded axe transaction"
+msgstr "Mettre à jour les transactions Axe codées en hexadécimal"
+
+#: ../../wallets/axecore/cmd-rpc.rst:352
+msgid "axe-tx [options] -create [commands]"
+msgstr "axe-tx [options] -create [commandes]"
+
+#: ../../wallets/axecore/cmd-rpc.rst:351
+msgid "Create hex-encoded axe transaction"
+msgstr "Créer une transaction Axe codée en hexadécimal"
+
+#: ../../wallets/axecore/cmd-rpc.rst:358
+msgid "Create new, empty TX."
+msgstr "Créer une transaction neuve, vide."
+
+#: ../../wallets/axecore/cmd-rpc.rst:359
+msgid "Select JSON output"
+msgstr "Choisir la sortie JSON"
+
+#: ../../wallets/axecore/cmd-rpc.rst:360
+msgid ""
+"Output only the hex-encoded transaction id of the resultant transaction."
+msgstr ""
+"Passer en sortie uniquement l'identifiant de transaction codé en hexadécimal"
+" de la transaction résultante."
+
+#: ../../wallets/axecore/cmd-rpc.rst:372
+msgid "Commands"
+msgstr "Commandes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:374
+msgid "delin=N"
+msgstr "delin=N"
+
+#: ../../wallets/axecore/cmd-rpc.rst:375
+msgid "Delete input N from TX"
+msgstr "Effacer l'entrée N de la transaction"
+
+#: ../../wallets/axecore/cmd-rpc.rst:376
+msgid "delout=N"
+msgstr "delout=N"
+
+#: ../../wallets/axecore/cmd-rpc.rst:377
+msgid "Delete output N from TX"
+msgstr "Effacer la sortie N de la transaction"
+
+#: ../../wallets/axecore/cmd-rpc.rst:378
+msgid "in=TXID:VOUT"
+msgstr "in=TXID:VOUT"
+
+#: ../../wallets/axecore/cmd-rpc.rst:379
+msgid "Add input to TX"
+msgstr "Ajouter l'entrée à la transaction"
+
+#: ../../wallets/axecore/cmd-rpc.rst:380
+msgid "locktime=N"
+msgstr "locktime=N"
+
+#: ../../wallets/axecore/cmd-rpc.rst:381
+msgid "Set TX lock time to N"
+msgstr "Définir le temps de verrouillage de la transaction sur N"
+
+#: ../../wallets/axecore/cmd-rpc.rst:382
+msgid "nversion=N"
+msgstr "nversion=N"
+
+#: ../../wallets/axecore/cmd-rpc.rst:383
+msgid "Set TX version to N"
+msgstr "Définir la version de transaction sur N"
+
+#: ../../wallets/axecore/cmd-rpc.rst:384
+msgid "outaddr=VALUE:ADDRESS"
+msgstr "outaddr=VALEUR:ADRESSE"
+
+#: ../../wallets/axecore/cmd-rpc.rst:385
+msgid "Add address-based output to TX"
+msgstr "Ajouter à la transaction une sortie basée sur l'adresse"
+
+#: ../../wallets/axecore/cmd-rpc.rst:386
+msgid "outpubkey=VALUE:PUBKEY[:FLAGS]"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:387
+msgid ""
+"Add pay-to-pubkey output to TX. Optionally add the \"S\" flag to wrap the "
+"output in a pay-to-script-hash."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:388
+msgid "outdata=[VALUE:]DATA"
+msgstr "outdata=[VALEUR:]DONNÉES"
+
+#: ../../wallets/axecore/cmd-rpc.rst:389
+msgid "Add data-based output to TX"
+msgstr "Ajouter à la transaction une sortie basée sur les données"
+
+#: ../../wallets/axecore/cmd-rpc.rst:390
+msgid "outscript=VALUE:SCRIPT[:FLAGS]"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:391
+msgid ""
+"Add raw script output to TX. Optionally add the \"S\" flag to wrap the "
+"output in a pay-to-script-hash."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:392
+msgid "outmultisig=VALUE:REQUIRED:PUBKEYS:PUBKEY1:PUBKEY2:....[:FLAGS]"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:393
+msgid ""
+"Add Pay To n-of-m Multi-sig output to TX. n = REQUIRED, m = PUBKEYS. "
+"Optionally add the \"S\" flag to wrap the output in a pay-to-script-hash."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:396
+msgid "sign=SIGHASH-FLAGS"
+msgstr "sign=SIGHASH-FLAGS"
+
+#: ../../wallets/axecore/cmd-rpc.rst:395
+msgid ""
+"Add zero or more signatures to transaction. This command requires JSON "
+"registers:prevtxs=JSON object, privatekeys=JSON object. See "
+"signrawtransaction docs for format of sighash flags, JSON objects."
+msgstr ""
+"Ajouter zéro signature ou plus à la transaction. Cette commande demande un "
+"objet JSON registers:prevtxs=JSON, et un objet privatekeys=JSON. Voir la "
+"documentation sur signrawtransaction pour le format des drapeaux sighash, "
+"des objets JSON."
+
+#: ../../wallets/axecore/cmd-rpc.rst:399
+msgid "Register Commands"
+msgstr "Enregistrer des commandes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:401
+msgid "load=NAME:FILENAME"
+msgstr "load=NOM:NOMDEFICHIER"
+
+#: ../../wallets/axecore/cmd-rpc.rst:402
+msgid "Load JSON file FILENAME into register NAME"
+msgstr "Charger le fichier JSON NOMDEFICHIER dans le registre NOM"
+
+#: ../../wallets/axecore/cmd-rpc.rst:405
+msgid "set=NAME:JSON-STRING"
+msgstr "set=NOM:CHAÎNE-JSON"
+
+#: ../../wallets/axecore/cmd-rpc.rst:404
+msgid "Set register NAME to given JSON-STRING"
+msgstr "Définir le NOM de registre sur la CHAÎNE-JSON fournie"
+
+#: ../../wallets/axecore/cmd-rpc.rst:408
+msgid "RPC commands"
+msgstr "Commandes RPC"
+
+#: ../../wallets/axecore/cmd-rpc.rst:410
+msgid ""
+"This documentation lists all available RPC commands as of Axe version "
+"0.13.0.0, and limited documentation on what each command does. For full "
+"documentation of arguments, results and examples, type help ( \"command\" ) "
+"to view full details at the console. You can enter commands either from "
+"**Tools > Debug** console in the QT wallet, or using *axe-cli* for headless"
+" wallets and *axed*."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:419
+msgid "Addressindex"
+msgstr "Addressindex"
+
+#: ../../wallets/axecore/cmd-rpc.rst:421
+msgid "getaddressbalance"
+msgstr "getaddressbalance"
+
+#: ../../wallets/axecore/cmd-rpc.rst:422
+msgid ""
+"Returns the balance for an address(es) (requires addressindex to be "
+"enabled)."
+msgstr ""
+"Renvoie le solde d'une ou plusieurs adresses (addressindex doit être "
+"activé)."
+
+#: ../../wallets/axecore/cmd-rpc.rst:423
+msgid "getaddressdeltas"
+msgstr "getaddressdeltas"
+
+#: ../../wallets/axecore/cmd-rpc.rst:424
+msgid ""
+"Returns all changes for an address (requires addressindex to be enabled)."
+msgstr ""
+"Renvoie tous les changements d'une adresse (addressindex doit être activé)."
+
+#: ../../wallets/axecore/cmd-rpc.rst:425
+msgid "getaddressmempool"
+msgstr "getaddressmempool"
+
+#: ../../wallets/axecore/cmd-rpc.rst:426
+msgid ""
+"Returns all mempool deltas for an address (requires addressindex to be "
+"enabled)."
+msgstr ""
+"Renvoie tous les deltas de tampon mémoire pour une adresse (addressindex "
+"doit être activé)."
+
+#: ../../wallets/axecore/cmd-rpc.rst:427
+msgid "getaddresstxids"
+msgstr "getaddresstxids"
+
+#: ../../wallets/axecore/cmd-rpc.rst:428
+msgid ""
+"Returns the txids for an address(es) (requires addressindex to be enabled)."
+msgstr ""
+"Renvoie les identifiants de transaction d'une ou plusieurs adresses "
+"(addressindex doit être activé)."
+
+#: ../../wallets/axecore/cmd-rpc.rst:431
+msgid "getaddressutxos"
+msgstr "getaddressutxos"
+
+#: ../../wallets/axecore/cmd-rpc.rst:430
+msgid ""
+"Returns all unspent outputs for an address (requires addressindex to be "
+"enabled)."
+msgstr ""
+"Renvoie toutes les sorties non dépensées d'une adresse (addressindex doit "
+"être activé)."
+
+#: ../../wallets/axecore/cmd-rpc.rst:434
+msgid "Blockchain"
+msgstr "Blockchain"
+
+#: ../../wallets/axecore/cmd-rpc.rst:436
+msgid "getbestblockhash"
+msgstr "getbestblockhash"
+
+#: ../../wallets/axecore/cmd-rpc.rst:437
+msgid "Returns the hash of the best (tip) block in the longest blockchain."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:438
+msgid "getblock \"blockhash\" ( verbosity )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:439
+msgid ""
+"If verbosity is 0, returns a string that is serialized, hex-encoded data for"
+" block 'hash'. If verbosity is 1, returns an Object with information about "
+"block <hash>. If verbosity is 2, returns an Object with information about "
+"block <hash> and information about each transaction."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:440
+msgid "getblockchaininfo"
+msgstr "getblockchaininfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:441
+msgid ""
+"Returns an object containing various state info regarding blockchain "
+"processing."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:442
+msgid "getblockcount"
+msgstr "getblockcount"
+
+#: ../../wallets/axecore/cmd-rpc.rst:443
+msgid "Returns the number of blocks in the longest blockchain."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:444
+msgid "getblockhash height"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:445
+msgid "Returns hash of block in best-block-chain at height provided."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:446
+msgid "getblockhashes timestamp"
+msgstr "getblockhashes timestamp"
+
+#: ../../wallets/axecore/cmd-rpc.rst:447
+msgid "Returns array of hashes of blocks within the timestamp range provided."
+msgstr ""
+"Renvoie un tableau de hachages de blocs inclus dans l'intervalle "
+"d'horodatages fourni."
+
+#: ../../wallets/axecore/cmd-rpc.rst:448
+msgid "getblockheader \"hash\" ( verbose )"
+msgstr "getblockheader \"hash\" ( bavard )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:449
+msgid ""
+"If verbose is false, returns a string that is serialized, hex-encoded data "
+"for blockheader 'hash'. If verbose is true, returns an Object with "
+"information about blockheader <hash>."
+msgstr ""
+"Si \"bavard\" est \"false\", renvoie une chaîne de données sérialisées et "
+"codées en hexadécimal sur l'en-tête de bloc \"hash\". Si \"bavard\" est "
+"\"true\", renvoie un objet avec des informations sur l'en-tête de bloc "
+"<hash>."
+
+#: ../../wallets/axecore/cmd-rpc.rst:450
+msgid "getblockheaders \"hash\" ( count verbose )"
+msgstr "getblockheaders \"hash\" ( count bavard )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:451
+msgid ""
+"Returns an array of items with information about <count> blockheaders "
+"starting from <hash>. If verbose is false, each item is a string that is "
+"serialized, hex-encoded data for a single blockheader. If verbose is true, "
+"each item is an Object with information about a single blockheader."
+msgstr ""
+"Renvoie un tableau d'éléments avec des informations sur les <count> en-têtes"
+" de bloc à partir de <hash>. Si \"bavard\" est \"false\", chaque élément est"
+" une chaîne de données sérialisées et codées en hexadécimal pour un seul en-"
+"tête de bloc \"hash\". Si \"bavard\" est \"true\", chaque élément est un "
+"objet avec des informations sur un seul en-tête de bloc."
+
+#: ../../wallets/axecore/cmd-rpc.rst:452
+msgid "getchaintips ( count branchlen )"
+msgstr "getchaintips ( count branchlen )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:453
+msgid ""
+"Return information about all known tips in the block tree, including the "
+"main chain as well as orphaned branches."
+msgstr ""
+"Renvoie des informations sur tous les bouts connus dans l'arbre des blocs, "
+"dont la chaîne principale aussi bien que les branches orphelines."
+
+#: ../../wallets/axecore/cmd-rpc.rst:454
+msgid "getdifficulty"
+msgstr "getdifficulty"
+
+#: ../../wallets/axecore/cmd-rpc.rst:455
+msgid ""
+"Returns the proof-of-work difficulty as a multiple of the minimum "
+"difficulty."
+msgstr ""
+"Renvoie la difficulté de la preuve de travail en tant que multiple de la "
+"difficulté minimale."
+
+#: ../../wallets/axecore/cmd-rpc.rst:456
+msgid "getmempoolancestors txid (verbose)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:457
+msgid "If txid is in the mempool, returns all in-mempool ancestors."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:458
+msgid "getmempooldescendants txid (verbose)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:459
+msgid "If txid is in the mempool, returns all in-mempool descendants."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:460
+msgid "getmempoolentry txid"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:461
+msgid "Returns mempool data for given transaction."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:462
+msgid "getmempoolinfo"
+msgstr "getmempoolinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:463
+msgid "Returns details on the active state of the TX memory pool."
+msgstr ""
+"Renvoie des détails sur l'état actif du tampon mémoire de transactions."
+
+#: ../../wallets/axecore/cmd-rpc.rst:464
+msgid "getrawmempool ( verbose )"
+msgstr "getrawmempool ( bavard )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:465
+msgid ""
+"Returns all transaction ids in memory pool as a json array of string "
+"transaction ids."
+msgstr ""
+"Renvoie tous les identifiants de transaction dans le tampon mémoire sous "
+"forme de tableau JSON des chaînes d'identifiants de transaction."
+
+#: ../../wallets/axecore/cmd-rpc.rst:466
+msgid "getspentinfo"
+msgstr "getspentinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:467
+msgid "Returns the txid and index where an output is spent."
+msgstr ""
+"Renvoie l'identifiant de transaction et l'index correspondant à une sortie "
+"dépensée."
+
+#: ../../wallets/axecore/cmd-rpc.rst:468
+msgid "gettxout \"txid\" n ( include_mempool )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:469
+msgid "Returns details about an unspent transaction output."
+msgstr "Renvoie des détails sur une sortie de transaction non dépensée."
+
+#: ../../wallets/axecore/cmd-rpc.rst:470
+msgid "gettxoutproof [\"txid\",...] ( blockhash )"
+msgstr "gettxoutproof [\"txid\",...] ( blockhash )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:471
+msgid "Returns a hex-encoded proof that \"txid\" was included in a block."
+msgstr ""
+"Renvoie une preuve codée en hexadécimal que la transaction \"txid\" a été "
+"incluse dans un bloc."
+
+#: ../../wallets/axecore/cmd-rpc.rst:472
+msgid "gettxoutsetinfo"
+msgstr "gettxoutsetinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:473
+msgid ""
+"Returns statistics about the unspent transaction output set. Note this call "
+"may take some time."
+msgstr ""
+"Renvoie des statistiques sur le jeu de sorties de transactions non "
+"dépensées. Veuillez noter que ça peut prendre un certain temps."
+
+#: ../../wallets/axecore/cmd-rpc.rst:474
+msgid "preciousblock \"blockhash\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:475
+msgid ""
+"Treats a block as if it were received before others with the same work. A "
+"later preciousblock call can override the effect of an earlier one. The "
+"effects of preciousblock are not retained across restarts."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:476
+msgid "pruneblockchain"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:477
+msgid "Prune blockchain up to specified height or unix timestamp."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:478
+msgid "verifychain ( checklevel nblocks )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:479
+msgid "Verifies blockchain database."
+msgstr "Vérifie la base de données de la blockchain."
+
+#: ../../wallets/axecore/cmd-rpc.rst:482
+msgid "verifytxoutproof \"proof\""
+msgstr "verifytxoutproof \"proof\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:481
+msgid ""
+"Verifies that a proof points to a transaction in a block, returning the "
+"transaction it commits to and throwing an RPC error if the block is not in "
+"our best chain."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:485
+msgid "Control"
+msgstr "Contrôle"
+
+#: ../../wallets/axecore/cmd-rpc.rst:487
+msgid ""
+"debug ( 0 | 1 | addrman | alert | bench | coindb | db | lock | rand | rpc | "
+"selectcoins | mempool | mempoolrej | net | proxy | prune | http | libevent |"
+" tor | zmq | axe | privatesend | instantsend | masternode | spork | keepass"
+" | mnpayments | gobject )"
+msgstr ""
+"debug ( 0 | 1 | addrman | alert | bench | coindb | db | lock | rand | rpc | "
+"selectcoins | mempool | mempoolrej | net | proxy | prune | http | libevent |"
+" tor | zmq | axe | privatesend | instantsend | masternode | spork | keepass"
+" | mnpayments | gobject )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:488
+msgid ""
+"Change debug category on the fly. Specify single category or use '+' to "
+"specify many."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:489
+msgid "getinfo"
+msgstr "getinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:490
+msgid "DEPRECATED. Returns an object containing various state info."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:491
+msgid "getmemoryinfo"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:492
+msgid "Returns an object containing information about memory usage"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:493
+msgid "help ( \"command\" ) (\"subCommand\")"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:494
+msgid "List all commands, or get help for a specified comm"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:497
+#: ../../wallets/axecore/cmd-rpc.rst:584
+msgid "stop"
+msgstr "stop"
+
+#: ../../wallets/axecore/cmd-rpc.rst:496
+msgid "Stop Axe Core server."
+msgstr "Arrêter le serveur Axe Core."
+
+#: ../../wallets/axecore/cmd-rpc.rst:500
+msgid "Axe"
+msgstr "Axe"
+
+#: ../../wallets/axecore/cmd-rpc.rst:502
+msgid "getgovernanceinfo"
+msgstr "getgovernanceinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:503
+msgid "Returns an object containing governance parameters."
+msgstr "Renvoie un objet contenant les paramètres de gouvernance."
+
+#: ../../wallets/axecore/cmd-rpc.rst:504
+msgid "getpoolinfo"
+msgstr "getpoolinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:505
+msgid "Returns an object containing mixing pool related information."
+msgstr ""
+"Renvoie un objet contenant des informations relatives au pool de mélange. "
+
+#: ../../wallets/axecore/cmd-rpc.rst:506
+msgid "getsuperblockbudget index"
+msgstr "getsuperblockbudget index"
+
+#: ../../wallets/axecore/cmd-rpc.rst:507
+msgid "Returns the absolute maximum sum of superblock payments allowed."
+msgstr ""
+"Renvoie la somme maximale absolument autorisée des paiements de superbloc."
+
+#: ../../wallets/axecore/cmd-rpc.rst:535
+msgid "gobject \"command\"..."
+msgstr "gobject \"commande\"..."
+
+#: ../../wallets/axecore/cmd-rpc.rst:509
+msgid "Manage governance objects. Available commands:"
+msgstr "Gérer les objets de gouvernance. Commandes disponibles :"
+
+#: ../../wallets/axecore/cmd-rpc.rst:511
+#: ../../wallets/axecore/cmd-rpc.rst:540
+msgid "check"
+msgstr "check"
+
+#: ../../wallets/axecore/cmd-rpc.rst:512
+msgid "Validate governance object data (proposal only)"
+msgstr ""
+"Valider les données d'objet de gouvernance (propositions budgétaires "
+"seulement)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:513
+msgid "prepare"
+msgstr "prepare"
+
+#: ../../wallets/axecore/cmd-rpc.rst:514
+msgid "Prepare governance object by signing and creating tx"
+msgstr ""
+"Préparer un objet de gouvernance en le signant et en créant la transaction"
+
+#: ../../wallets/axecore/cmd-rpc.rst:515
+msgid "submit"
+msgstr "submit"
+
+#: ../../wallets/axecore/cmd-rpc.rst:516
+msgid "Submit governance object to network"
+msgstr "Soumettre l'objet de gouvernance au réseau"
+
+#: ../../wallets/axecore/cmd-rpc.rst:517
+msgid "deserialize"
+msgstr "deserialize"
+
+#: ../../wallets/axecore/cmd-rpc.rst:518
+msgid "Deserialize governance object from hex string to JSON"
+msgstr ""
+"Désérialiser l'objet de gouvernance, d'une chaîne hexadécimale en JSON"
+
+#: ../../wallets/axecore/cmd-rpc.rst:519
+#: ../../wallets/axecore/cmd-rpc.rst:542
+msgid "count"
+msgstr "count"
+
+#: ../../wallets/axecore/cmd-rpc.rst:520
+msgid ""
+"Count governance objects and votes (additional param: 'json' or 'all', "
+"default: 'json')"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:521
+msgid "get"
+msgstr "get"
+
+#: ../../wallets/axecore/cmd-rpc.rst:522
+msgid "Get governance object by hash"
+msgstr "Récupérer un objet de gouvernance par sa signature de hachage"
+
+#: ../../wallets/axecore/cmd-rpc.rst:523
+msgid "getvotes"
+msgstr "getvotes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:524
+msgid "Get all votes for a governance object hash (including old votes)"
+msgstr ""
+"Récupérer tous les votes correspondant au hachage d'un objet de gouvernance "
+"(dont les vieux votes)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:525
+msgid "getcurrentvotes"
+msgstr "getcurrentvotes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:526
+msgid ""
+"Get only current (tallying) votes for a governance object hash (does not "
+"include old votes)"
+msgstr ""
+"Récupérer selon les votes actuels (décomptés) correspondant au hachage d'un "
+"objet de gouvernance (n'inclut pas les vieux votes)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:527
+#: ../../wallets/axecore/cmd-rpc.rst:556
+#: ../../wallets/axecore/cmd-rpc.rst:619
+msgid "list"
+msgstr "list"
+
+#: ../../wallets/axecore/cmd-rpc.rst:528
+msgid "List governance objects (can be filtered by signal and/or object type)"
+msgstr ""
+"Afficher la liste des objets de gouvernance (peut être filtrée par signal "
+"et/ou type d'objet)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:529
+#: ../../wallets/axecore/cmd-rpc.rst:631
+msgid "diff"
+msgstr "diff"
+
+#: ../../wallets/axecore/cmd-rpc.rst:530
+msgid "List differences since last diff"
+msgstr "Afficher la liste des différences depuis la dernière modification"
+
+#: ../../wallets/axecore/cmd-rpc.rst:531
+msgid "vote-alias"
+msgstr "vote-alias"
+
+#: ../../wallets/axecore/cmd-rpc.rst:532
+msgid ""
+"Vote on a governance object by masternode alias (using masternode.conf "
+"setup)"
+msgstr ""
+"Voter sur un objet de gouvernance par un alias de masternode (en utilisant "
+"la configuration du fichier masternode.conf)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:533
+msgid "vote-conf"
+msgstr "vote-conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:534
+msgid "Vote on a governance object by masternode configured in axe.conf"
+msgstr ""
+"Voter sur un objet de gouvernance pas masternode configuré dans le fichier "
+"axe.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:535
+msgid "vote-many"
+msgstr "vote-many"
+
+#: ../../wallets/axecore/cmd-rpc.rst:536
+msgid ""
+"Vote on a governance object by all masternodes (using masternode.conf setup)"
+msgstr ""
+"Voter sur un objet de gouvernance avec tous les masternodes (en utilisant la"
+" configuration du fichier masternode.conf)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:562
+msgid "masternode \"command\"..."
+msgstr "masternode \"commande\"..."
+
+#: ../../wallets/axecore/cmd-rpc.rst:538
+msgid ""
+"Set of commands to execute masternode related actions. Available commands:"
+msgstr ""
+"Jeu de commandes pour exécuter des actions relatives aux masternodes. "
+"Commandes disponibles :"
+
+#: ../../wallets/axecore/cmd-rpc.rst:541
+msgid "Force check all masternodes and remove invalid ones"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:543
+msgid ""
+"Get information about number of masternodes (DEPRECATED options: 'total', "
+"'ps', 'enabled', 'qualify', 'all')"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:544
+msgid "current"
+msgstr "current"
+
+#: ../../wallets/axecore/cmd-rpc.rst:545
+msgid ""
+"Print info on current masternode winner to be paid the next block "
+"(calculated locally)"
+msgstr ""
+"Afficher des informations sur le gagnant actuel des masternodes qui sera "
+"payé dans le prochain bloc (calculé localement)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:546
+msgid "genkey"
+msgstr "genkey"
+
+#: ../../wallets/axecore/cmd-rpc.rst:547
+msgid ""
+"Generate new masternodeprivkey, optional param: 'compressed' (boolean, "
+"optional, default=false) generate compressed privkey"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:548
+msgid "outputs"
+msgstr "outputs"
+
+#: ../../wallets/axecore/cmd-rpc.rst:549
+msgid "Print masternode compatible outputs"
+msgstr "Afficher les sorties compatibles de masternode"
+
+#: ../../wallets/axecore/cmd-rpc.rst:550
+msgid "start-alias"
+msgstr "start-alias"
+
+#: ../../wallets/axecore/cmd-rpc.rst:551
+msgid ""
+"Start single remote masternode by assigned alias configured in "
+"masternode.conf"
+msgstr ""
+"Démarrer un seul masternode distant par son alias tel que configuré dans le "
+"fichier masternode.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:552
+msgid "start-<mode>"
+msgstr "start-<mode>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:553
+msgid ""
+"Start remote masternodes configured in masternode.conf (<mode>: 'all', "
+"'missing', 'disabled')"
+msgstr ""
+"Démarrer les masternodes distants tels que configurés dans le fichier "
+"masternode.conf (<mode>: 'all', 'missing', 'disabled')"
+
+#: ../../wallets/axecore/cmd-rpc.rst:554
+msgid "status"
+msgstr "status"
+
+#: ../../wallets/axecore/cmd-rpc.rst:555
+msgid "Print masternode status information"
+msgstr "Afficher les informations sur l'état des masternodes"
+
+#: ../../wallets/axecore/cmd-rpc.rst:557
+msgid "Print list of all known masternodes (see masternodelist for more info)"
+msgstr ""
+"Afficher la liste de tous les masternodes connus (voir masternodelist pour "
+"en savoir plus)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:558
+msgid "list-conf"
+msgstr "list-conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:559
+msgid "Print masternode.conf in JSON format"
+msgstr "Afficher le fichier \"masternode.conf\" au format JSON"
+
+#: ../../wallets/axecore/cmd-rpc.rst:560
+msgid "winner"
+msgstr "winner"
+
+#: ../../wallets/axecore/cmd-rpc.rst:561
+msgid "Print info on next masternode winner to vote for"
+msgstr ""
+"Afficher les informations sur le prochain masternode gagnant pour lequel "
+"voter"
+
+#: ../../wallets/axecore/cmd-rpc.rst:562
+msgid "winners"
+msgstr "winners"
+
+#: ../../wallets/axecore/cmd-rpc.rst:563
+msgid "Print list of masternode winners"
+msgstr "Afficher la liste des masternodes gagnants"
+
+#: ../../wallets/axecore/cmd-rpc.rst:573
+msgid "masternodebroadcast \"command\"..."
+msgstr "masternodebroadcast \"commande\"..."
+
+#: ../../wallets/axecore/cmd-rpc.rst:565
+msgid ""
+"Set of commands to create and relay masternode broadcast messages. Available"
+" commands:"
+msgstr ""
+"Jeu de commandes pour créer et retransmettre des messages diffusés de "
+"masternodes. Commandes disponibles :"
+
+#: ../../wallets/axecore/cmd-rpc.rst:567
+msgid "create-alias"
+msgstr "create-alias"
+
+#: ../../wallets/axecore/cmd-rpc.rst:568
+msgid ""
+"Create single remote masternode broadcast message by assigned alias "
+"configured in masternode.conf"
+msgstr ""
+"Créer un seul message diffusé pour un masternode distant, en utilisant son "
+"alias tel que configuré dans le fichier masternode.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:569
+msgid "create-all"
+msgstr "create-all"
+
+#: ../../wallets/axecore/cmd-rpc.rst:570
+msgid ""
+"Create remote masternode broadcast messages for all masternodes configured "
+"in masternode.conf"
+msgstr ""
+"Créer des messages diffusés pour tous les masternodes distants tels que "
+"configurés dans le fichier masternode.conf"
+
+#: ../../wallets/axecore/cmd-rpc.rst:571
+msgid "decode"
+msgstr "decode"
+
+#: ../../wallets/axecore/cmd-rpc.rst:572
+msgid "Decode masternode broadcast message"
+msgstr "Décoder le message diffusé de masternode"
+
+#: ../../wallets/axecore/cmd-rpc.rst:573
+msgid "relay"
+msgstr "relay"
+
+#: ../../wallets/axecore/cmd-rpc.rst:574
+msgid "Relay masternode broadcast message to the network"
+msgstr "Retransmettre le message diffusé de masternode au réseau"
+
+#: ../../wallets/axecore/cmd-rpc.rst:575
+msgid "masternode list ( \"mode\" \"filter\" )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:576
+msgid ""
+"Get a list of masternodes in different modes. This call is identical to "
+"masternodelist call."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:577
+msgid "mnsync [status | next | reset]"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:578
+msgid ""
+"Returns the sync status, updates to the next step or resets it entirely."
+msgstr ""
+"Renvoie l'état de synchronisation, met à jour vers l'étape suivante, ou le "
+"réinitialise entièrement."
+
+#: ../../wallets/axecore/cmd-rpc.rst:586
+msgid "privatesend \"command\""
+msgstr "privatesend \"commande\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:580
+msgid "Available commands:"
+msgstr "Commandes disponibles :"
+
+#: ../../wallets/axecore/cmd-rpc.rst:582
+msgid "start"
+msgstr "start"
+
+#: ../../wallets/axecore/cmd-rpc.rst:583
+msgid "Start mixing"
+msgstr "Commencer le mélange"
+
+#: ../../wallets/axecore/cmd-rpc.rst:585
+msgid "Stop mixing"
+msgstr "Arrêter le mélange"
+
+#: ../../wallets/axecore/cmd-rpc.rst:586
+msgid "reset"
+msgstr "reset"
+
+#: ../../wallets/axecore/cmd-rpc.rst:587
+msgid "Reset mixing"
+msgstr "Réinitialise le mélange"
+
+#: ../../wallets/axecore/cmd-rpc.rst:588
+msgid "sentinelping version"
+msgstr "sentinelping version"
+
+#: ../../wallets/axecore/cmd-rpc.rst:589
+msgid "Sentinel ping."
+msgstr "Ping sur Sentinel."
+
+#: ../../wallets/axecore/cmd-rpc.rst:595
+msgid "spork \"command\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:591
+msgid "Shows information about current state of sporks. Available commands:"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:593
+msgid "show"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:594
+msgid "Show all current spork values"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:595
+msgid "active"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:596
+msgid "Show which sporks are active"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:598
+msgid ""
+"voteraw <masternode-tx-hash> <masternode-tx-index> <governance-hash> <vote-"
+"signal> [yes | no | abstain] <time> <vote-sig>"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:598
+msgid ""
+"Compile and relay a governance vote with provided external signature instead"
+" of signing vote internally"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:601
+msgid "Evo"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:606
+msgid "bls \"command\" ..."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:604
+msgid "Set of commands to execute BLS related actions. Available commands:"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:606
+msgid "generate"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:607
+msgid "Create a BLS secret/public key pair"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:631
+msgid "protx \"command\" ..."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:609
+msgid "Set of commands to execute ProTx related actions. Available commands:"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:611
+msgid "register"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:612
+msgid "Create and send ProTx to network"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:613
+msgid "register_fund"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:614
+msgid "Fund, create and send ProTx to network"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:615
+msgid "register_prepare"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:616
+msgid "Create an unsigned ProTx"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:617
+msgid "register_submit"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:618
+msgid "Sign and submit a ProTx"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:620
+msgid "List ProTxs"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:621
+msgid "info"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:622
+msgid "Return information about a ProTx"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:623
+msgid "update_service"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:624
+msgid "Create and send ProUpServTx to network"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:625
+msgid "update_registrar"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:626
+msgid "Create and send ProUpRegTx to network"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:627
+msgid "revoke"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:628
+msgid "Create and send ProUpRevTx to network"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:630
+msgid "Calculate a diff and a proof between two masternode lists"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:634
+msgid "Generating"
+msgstr "Génération"
+
+#: ../../wallets/axecore/cmd-rpc.rst:636
+msgid "generate nblocks ( maxtries )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:637
+msgid "Mine up to nblocks blocks immediately (before the RPC call returns)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:639
+msgid "generatetoaddress nblocks address (maxtries)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:639
+msgid ""
+"Mine blocks immediately to a specified address (before the RPC call returns)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:642
+msgid "Mining"
+msgstr "Minage"
+
+#: ../../wallets/axecore/cmd-rpc.rst:644
+msgid "getblocktemplate ( TemplateRequest )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:645
+msgid ""
+"If the request parameters include a 'mode' key, that is used to explicitly "
+"select between the default 'template' request or a 'proposal'. It returns "
+"data needed to construct a block to work on."
+msgstr ""
+"Si les paramètres de requête incluent une clé \"mode\", elle est utilisée "
+"pour choisir explicitement entre la requête \"modèle\" par défaut ou une "
+"\"proposition\". Renvoie les données nécessaires pour former un bloc sur "
+"lequel travailler."
+
+#: ../../wallets/axecore/cmd-rpc.rst:646
+msgid "getmininginfo"
+msgstr "getmininginfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:647
+msgid "Returns a json object containing mining-related information."
+msgstr "Renvoie un objet JSON contenant des informations relatives au minage."
+
+#: ../../wallets/axecore/cmd-rpc.rst:648
+msgid "getnetworkhashps ( nblocks height )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:649
+msgid ""
+"Returns the estimated network hashes per second based on the last n blocks. "
+"Pass in [blocks] to override # of blocks, -1 specifies since last difficulty"
+" change. Pass in [height] to estimate the network speed at the time when a "
+"certain block was found."
+msgstr ""
+"Renvoie le nombre estimé de hachages par seconde du réseau, en se basant sur"
+" les n derniers blocs. Indiquez [blocks] pour outrepasser le nombre de "
+"blocs, -1 indiquant la période depuis la dernière modification de la "
+"difficulté. Indiquez [height] pour estimer la vitesse du réseau au moment où"
+" un certain bloc a été découvert."
+
+#: ../../wallets/axecore/cmd-rpc.rst:650
+msgid "prioritisetransaction <txid> <priority delta> <fee delta>"
+msgstr "prioritisetransaction <txid> <priority delta> <fee delta>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:651
+msgid ""
+"Accepts the transaction into mined blocks at a higher (or lower) priority"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:654
+msgid "submitblock \"hexdata\" ( \"jsonparametersobject\" )"
+msgstr "submitblock \"hexdata\" ( \"jsonparametersobject\" )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:653
+msgid ""
+"Attempts to submit new block to network. The 'jsonparametersobject' "
+"parameter is currently ignored. See https://en.bitcoin.it/wiki/BIP_0022 for "
+"full specification."
+msgstr ""
+"Essaie de soumettre un nouveau bloc au réseau. Le paramètre "
+"'jsonparametersobject' est actuellement ignoré. Pour voir la spécification "
+"complète, voir https://en.bitcoin.it/wiki/BIP_0022 ."
+
+#: ../../wallets/axecore/cmd-rpc.rst:657
+msgid "Network"
+msgstr "Réseau"
+
+#: ../../wallets/axecore/cmd-rpc.rst:659
+msgid "addnode \"node\" \"add | remove | onetry\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:660
+msgid ""
+"Attempts add or remove a node from the addnode list. Or try a connection to "
+"a node once."
+msgstr ""
+"Essaie d'ajouter ou d'enlever un nœud depuis la liste d'ajout de nœuds. Ou "
+"essaie une connexion à un nœud une seule fois."
+
+#: ../../wallets/axecore/cmd-rpc.rst:661
+msgid "clearbanned"
+msgstr "clearbanned"
+
+#: ../../wallets/axecore/cmd-rpc.rst:662
+msgid "Clear all banned IPs."
+msgstr "Effacer toutes les adresses IP bannies."
+
+#: ../../wallets/axecore/cmd-rpc.rst:663
+msgid "disconnectnode \"address\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:664
+msgid "Immediately disconnects from the specified node."
+msgstr "Se déconnecte immédiatement du nœud indiqué."
+
+#: ../../wallets/axecore/cmd-rpc.rst:665
+msgid "getaddednodeinfo ( \"node\" )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:666
+msgid ""
+"Returns information about the given added node, or all added nodes (note "
+"that onetry addnodes are not listed here)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:667
+msgid "getconnectioncount"
+msgstr "getconnectioncount"
+
+#: ../../wallets/axecore/cmd-rpc.rst:668
+msgid "Returns the number of connections to other nodes."
+msgstr "Renvoie le nombre de connexions à d'autres nœuds."
+
+#: ../../wallets/axecore/cmd-rpc.rst:669
+msgid "getnettotals"
+msgstr "getnettotals"
+
+#: ../../wallets/axecore/cmd-rpc.rst:670
+msgid ""
+"Returns information about network traffic, including bytes in, bytes out, "
+"and current time."
+msgstr ""
+"Renvoie des informations sur le trafic réseau, dont les octets entrants, les"
+" octets sortants et l'heure actuelle."
+
+#: ../../wallets/axecore/cmd-rpc.rst:671
+msgid "getnetworkinfo"
+msgstr "getnetworkinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:672
+msgid ""
+"Returns an object containing various state info regarding P2P networking."
+msgstr ""
+"Renvoie un objet contenant diverses informations d'état relatives au réseau "
+"pair à pair."
+
+#: ../../wallets/axecore/cmd-rpc.rst:673
+msgid "getpeerinfo"
+msgstr "getpeerinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:674
+msgid ""
+"Returns data about each connected network node as a json array of objects."
+msgstr ""
+"Renvoie des données sur chaque nœud connecté du réseau, sous forme de "
+"tableau JSON d'objets."
+
+#: ../../wallets/axecore/cmd-rpc.rst:675
+msgid "listbanned"
+msgstr "listbanned"
+
+#: ../../wallets/axecore/cmd-rpc.rst:676
+msgid "List all banned IPs/Subnets."
+msgstr ""
+"Afficher la liste de toutes les adresses IP ou tous les sous-réseaux bannis."
+
+#: ../../wallets/axecore/cmd-rpc.rst:677
+msgid "ping"
+msgstr "ping"
+
+#: ../../wallets/axecore/cmd-rpc.rst:678
+msgid ""
+"Requests that a ping be sent to all other nodes, to measure ping time. "
+"Results provided in getpeerinfo, pingtime and pingwait fields are decimal "
+"seconds. Ping command is handled in queue with all other commands, so it "
+"measures processing backlog, not just network ping."
+msgstr ""
+"Demande l'envoi d'un ping à tous les autres nœuds, pour évaluer le temps de "
+"ping. Les résultats fournis par les champs getpeerinfo, pingtime et pingwait"
+" sont exprimés en secondes décimales. La commande ping est traitée en file "
+"d'attente avec les autres commandes, donc elle mesure l'arriéré de "
+"traitement, pas uniquement le ping de réseau."
+
+#: ../../wallets/axecore/cmd-rpc.rst:679
+msgid "setban \"subnet\" \"add | remove\" (bantime) (absolute)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:680
+msgid "Attempts add or remove a IP/Subnet from the banned list."
+msgstr ""
+"Essaie d'ajouter ou d'enlever une adresse IP ou un sous-réseau de la liste "
+"des bannis."
+
+#: ../../wallets/axecore/cmd-rpc.rst:683
+msgid "setnetworkactive true | false"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:682
+msgid "Disable/enable all p2p network activity."
+msgstr "Désactive/active toute l'activité réseau pair à pair."
+
+#: ../../wallets/axecore/cmd-rpc.rst:686
+msgid "Rawtransactions"
+msgstr "Rawtransactions"
+
+#: ../../wallets/axecore/cmd-rpc.rst:688
+msgid ""
+"createrawtransaction [{\"txid\":\"id\",\"vout\":n},...] "
+"{\"address\":amount,\"data\":\"hex\",...} ( locktime )"
+msgstr ""
+"createrawtransaction [{\"txid\":\"id\",\"vout\":n},...] "
+"{\"address\":amount,\"data\":\"hex\",...} ( locktime )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:689
+msgid ""
+"Create a transaction spending the given inputs and creating new outputs. "
+"Outputs can be addresses or data. Returns hex-encoded raw transaction. Note "
+"that the transaction's inputs are not signed, and it is not stored in the "
+"wallet or transmitted to the network."
+msgstr ""
+"Créer une transaction qui dépense toutes les entrées données et crée de "
+"nouvelles sorties. Les sorties peuvent être des adresses ou des données. "
+"Renvoie la transaction brute codée en hexadécimal. À noter que les entrées "
+"de transaction ne sont pas signées, et qu'elle n'est pas stockée dans le "
+"portefeuille ni transmise au réseau."
+
+#: ../../wallets/axecore/cmd-rpc.rst:690
+msgid "decoderawtransaction \"hexstring\""
+msgstr "decoderawtransaction \"hexstring\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:691
+msgid ""
+"Return a JSON object representing the serialized, hex-encoded transaction."
+msgstr ""
+"Renvoie un objet JSON représentant la transaction sérialisée, codée en "
+"hexadécimal."
+
+#: ../../wallets/axecore/cmd-rpc.rst:692
+msgid "decodescript \"hexstring\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:693
+msgid "Decode a hex-encoded script."
+msgstr "Décode un script codé en hexadécimal."
+
+#: ../../wallets/axecore/cmd-rpc.rst:694
+msgid "fundrawtransaction \"hexstring\" ( options )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:695
+msgid ""
+"Add inputs to a transaction until it has enough in value to meet its out "
+"value. This will not modify existing inputs, and will add at most one change"
+" output to the outputs."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:696
+msgid "getrawtransaction \"txid\" ( verbose )"
+msgstr "getrawtransaction \"txid\" ( bavard )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:697
+msgid ""
+"Return the raw transaction data. If verbose is 'true', returns an Object "
+"with information about 'txid'. If verbose is 'false' or omitted, returns a "
+"string that is serialized, hex-encoded data for 'txid'."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:698
+msgid "sendrawtransaction \"hexstring\" ( allowhighfees instantsend bypasslimits)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:699
+msgid ""
+"Submits raw transaction (serialized, hex-encoded) to local node and network."
+" Also see createrawtransaction and signrawtransaction calls."
+msgstr ""
+"Soumet une transaction brute (sérialisée, codée en hexadécimal) au nœud "
+"local et au réseau. Voir aussi les appels createrawtransaction et "
+"signrawtransaction."
+
+#: ../../wallets/axecore/cmd-rpc.rst:702
+msgid ""
+"signrawtransaction \"hexstring\" ( "
+"[{\"txid\":\"id\",\"vout\":n,\"scriptPubKey\":\"hex\",\"redeemScript\":\"hex\"},...]"
+" [\"privatekey1\",...] sighashtype )"
+msgstr ""
+"signrawtransaction \"hexstring\" ( "
+"[{\"txid\":\"id\",\"vout\":n,\"scriptPubKey\":\"hex\",\"redeemScript\":\"hex\"},...]"
+" [\"privatekey1\",...] sighashtype )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:701
+msgid ""
+"Sign inputs for raw transaction (serialized, hex-encoded). The second "
+"optional argument (may be null) is an array of previous transaction outputs "
+"that this transaction depends on but may not yet be in the block chain. The "
+"third optional argument (may be null) is an array of base58-encoded private "
+"keys that, if given, will be the only keys used to sign the transaction."
+msgstr ""
+"Signe les entrées pour une transaction brute (sérialisée, codée en "
+"hexadécimal). Le second argument facultatif (peut être nul) est un tableau "
+"des précédentes sorties de transaction dont dépend cette transaction mais "
+"qui peuvent ne pas être encore dans la blockchain. Le troisième argument "
+"facultatif (peut être nul) est un tableau de clés privées codées base58 qui,"
+" si fournies, seront les seules clés utilisées pour signer la transaction."
+
+#: ../../wallets/axecore/cmd-rpc.rst:705
+msgid "Util"
+msgstr "Outils"
+
+#: ../../wallets/axecore/cmd-rpc.rst:707
+msgid "createmultisig nrequired [\"key\",...]"
+msgstr "createmultisig nrequired [\"key\",...]"
+
+#: ../../wallets/axecore/cmd-rpc.rst:708
+msgid ""
+"Creates a multi-signature address with n signature of m keys required. It "
+"returns a json object with the address and redeemScript."
+msgstr ""
+"Crée une adresse multi-signature avec n signatures sur m clés requises. "
+"Renvoie un objet JSON avec l'adresse et redeemScript."
+
+#: ../../wallets/axecore/cmd-rpc.rst:709
+msgid "estimatefee nblocks"
+msgstr "estimatefee nblocks"
+
+#: ../../wallets/axecore/cmd-rpc.rst:710
+msgid ""
+"Estimates the approximate fee per kilobyte needed for a transaction to begin"
+" confirmation within nblocks blocks."
+msgstr ""
+"Estime les frais approximatifs par Ko nécessaires pour qu'une transaction "
+"commence à être confirmée dans les n blocs."
+
+#: ../../wallets/axecore/cmd-rpc.rst:711
+msgid "estimatepriority nblocks"
+msgstr "estimatepriority nblocks"
+
+#: ../../wallets/axecore/cmd-rpc.rst:712
+msgid ""
+"DEPRECATED. Estimates the approximate priority a zero-fee transaction needs "
+"to begin confirmation within nblocks blocks."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:713
+msgid "estimatesmartfee nblocks"
+msgstr "estimatesmartfee nblocks"
+
+#: ../../wallets/axecore/cmd-rpc.rst:714
+msgid ""
+"WARNING: This interface is unstable and may disappear or change! Estimates "
+"the approximate fee per kilobyte needed for a transaction to begin "
+"confirmation within nblocks blocks if possible and return the number of "
+"blocks for which the estimate is valid."
+msgstr ""
+"AVERTISSEMENT : cette interface est instable et peut disparaître ou être "
+"modifiée ! Estime les frais approximatifs par Ko nécessaires pour qu'une "
+"transaction commence à être confirmée dans les n blocs, si possible, et "
+"renvoie le nombre de blocs pour lequel l'estimation est valable."
+
+#: ../../wallets/axecore/cmd-rpc.rst:715
+msgid "estimatesmartpriority nblocks"
+msgstr "estimatesmartpriority nblocks"
+
+#: ../../wallets/axecore/cmd-rpc.rst:716
+msgid ""
+"DEPRECATED. WARNING: This interface is unstable and may disappear or change!"
+" Estimates the approximate priority a zero-fee transaction needs to begin "
+"confirmation within nblocks blocks if possible and return the number of "
+"blocks for which the estimate is valid."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:717
+msgid "signmessagewithprivkey \"privkey\" \"message\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:718
+msgid "Sign a message with the private key of an address"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:719
+msgid "validateaddress \"address\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:720
+msgid "Return information about the given axe address."
+msgstr "Renvoie des informations sur l'adresse Axe donnée."
+
+#: ../../wallets/axecore/cmd-rpc.rst:723
+msgid "verifymessage \"address\" \"signature\" \"message\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:722
+msgid "Verify a signed message"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:726
+msgid "Wallet"
+msgstr "Portefeuille"
+
+#: ../../wallets/axecore/cmd-rpc.rst:728
+msgid "abandontransaction \"txid\""
+msgstr "abandontransaction \"txid\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:729
+msgid ""
+"Mark in-wallet transaction <txid> as abandoned. This will mark this "
+"transaction and all its in-wallet descendants as abandoned which will allow "
+"for their inputs to be respent."
+msgstr ""
+"Marque la transaction de portefeuille <txid> comme abandonnée. Cela marquera"
+" la transaction et tous ses descendants dans le portefeuille comme "
+"abandonnés, ce qui permettra à leurs entrées d'être dépensées à nouveau."
+
+#: ../../wallets/axecore/cmd-rpc.rst:730
+msgid "addmultisigaddress nrequired [\"key\",...] ( \"account\" )"
+msgstr "addmultisigaddress nrequired [\"key\",...] ( \"account\" )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:731
+msgid ""
+"Add a nrequired-to-sign multisignature address to the wallet. Each key is a "
+"Axe address or hex-encoded public key. If 'account' is specified "
+"(DEPRECATED), assign address to that account."
+msgstr ""
+"Ajoute une adresse multi-signature de type \"n requis pour signer\" au "
+"portefeuille. Chaque clé est une adresse Axe ou une clé publique codée en "
+"hexadécimal. Si \"account\" est indiqué (OBSOLÈTE), assigner l'adresse à ce "
+"compte."
+
+#: ../../wallets/axecore/cmd-rpc.rst:732
+msgid "backupwallet \"destination\""
+msgstr "backupwallet \"destination\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:733
+msgid ""
+"Safely copies current wallet file to destination, which can be a directory "
+"or a path with filename."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:734
+msgid "dumphdinfo"
+msgstr "dumphdinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:735
+msgid ""
+"Returns an object containing sensitive private info about this HD wallet."
+msgstr ""
+"Renvoie un objet contenant des informations sensibles et confidentielles sur"
+" ce portefeuille HD."
+
+#: ../../wallets/axecore/cmd-rpc.rst:736
+msgid "dumpprivkey \"address\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:737
+msgid ""
+"Reveals the private key corresponding to 'address'. Then the importprivkey "
+"can be used with this output"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:738
+msgid "dumpwallet \"filename\""
+msgstr "dumpwallet \"nomdefichier\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:739
+msgid "Dumps all wallet keys in a human-readable format."
+msgstr ""
+"Enregistre toutes les clés du portefeuille dans un format lisible par un "
+"humain."
+
+#: ../../wallets/axecore/cmd-rpc.rst:740
+msgid "getaccount \"address\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:741
+msgid "DEPRECATED. Returns the account associated with the given address."
+msgstr "OBSOLÈTE. Renvoie le compte associé à l'adresse donnée."
+
+#: ../../wallets/axecore/cmd-rpc.rst:742
+msgid "getaccountaddress \"account\""
+msgstr "getaccountaddress \"compte\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:743
+msgid ""
+"DEPRECATED. Returns the current Axe address for receiving payments to this "
+"account."
+msgstr ""
+"OBSOLÈTE. Renvoie l'adresse Axe actuelle pour recevoir des paiements sur ce"
+" compte."
+
+#: ../../wallets/axecore/cmd-rpc.rst:744
+msgid "getaddressesbyaccount \"account\""
+msgstr "getaddressesbyaccount \"compte\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:745
+msgid "DEPRECATED. Returns the list of addresses for the given account."
+msgstr "OBSOLÈTE. Renvoie la liste d'adresses pour le compte donné."
+
+#: ../../wallets/axecore/cmd-rpc.rst:746
+msgid "getbalance ( \"account\" minconf addlocked include_watchonly )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:747
+msgid ""
+"If account is not specified, returns the server's total available balance. "
+"If account is specified (DEPRECATED), returns the balance in the account. "
+"Note that the account \"\" is not the same as leaving the parameter out. The"
+" server total may be different to the balance in the default \"\" account."
+msgstr ""
+"Si \"compte\" n'est pas indiqué, renvoie le solde total disponible sur le "
+"serveur. Si \"compte\" est indiqué (OBSOLÈTE), renvoie le solde du compte. À"
+" noter que le compte \"\" n'est pas identique à la non-mention du paramètre."
+" Le total du serveur peut être différent au solde du compte par défaut \"\"."
+
+#: ../../wallets/axecore/cmd-rpc.rst:748
+msgid "getnewaddress ( \"account\" )"
+msgstr "getnewaddress ( \"compte\" )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:749
+msgid ""
+"Returns a new Axe address for receiving payments. If 'account' is specified"
+" (DEPRECATED), it is added to the address book  so payments received with "
+"the address will be credited to 'account'."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:750
+msgid "getrawchangeaddress"
+msgstr "getrawchangeaddress"
+
+#: ../../wallets/axecore/cmd-rpc.rst:751
+msgid ""
+"Returns a new Axe address, for receiving change. This is for use with raw "
+"transactions, NOT normal use."
+msgstr ""
+"Renvoie une nouvelle adresse Axe, pour la monnaie rendue. Cela s'utilise "
+"avec les transactions brutes, PAS pour une utilisation normale."
+
+#: ../../wallets/axecore/cmd-rpc.rst:752
+msgid "getreceivedbyaccount \"account\" ( minconf addlocked )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:753
+msgid ""
+"DEPRECATED. Returns the total amount received by addresses with <account> in"
+" transactions with specified minimum number of confirmations."
+msgstr ""
+"OBSOLÈTE. Renvoie le montant total reçu par les adresses dans <account> dans"
+" des transactions ayant le nombre minimal indiqué de confirmations."
+
+#: ../../wallets/axecore/cmd-rpc.rst:754
+msgid "getreceivedbyaddress \"address\" ( minconf addlocked )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:755
+msgid ""
+"Returns the total amount received by the given address in transactions with "
+"at least minconf confirmations."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:756
+msgid "gettransaction \"txid\" ( include_watchonly )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:757
+msgid "Get detailed information about in-wallet transaction <txid>"
+msgstr ""
+"Obtient des informations détaillées sur la transaction de portefeuille "
+"<txid>"
+
+#: ../../wallets/axecore/cmd-rpc.rst:758
+msgid "getunconfirmedbalance"
+msgstr "getunconfirmedbalance"
+
+#: ../../wallets/axecore/cmd-rpc.rst:759
+msgid "Returns the server's total unconfirmed balance"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:760
+msgid "getwalletinfo"
+msgstr "getwalletinfo"
+
+#: ../../wallets/axecore/cmd-rpc.rst:761
+msgid "Returns an object containing various wallet state info."
+msgstr ""
+"Renvoie un objet contenant diverses informations sur l'état de portefeuille."
+
+#: ../../wallets/axecore/cmd-rpc.rst:762
+msgid "importaddress \"address\" ( \"label\" rescan p2sh )"
+msgstr "importaddress \"adresse\" ( \"étiquette\" rescan p2sh )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:763
+msgid ""
+"Adds a script (in hex) or address that can be watched as if it were in your "
+"wallet but cannot be used to spend."
+msgstr ""
+"Ajoute un script (en hexadécimal) ou une adresse qui peut être surveillée "
+"comme si elle était dans votre portefeuille, mais qui ne peut pas être "
+"utilisée en dépense."
+
+#: ../../wallets/axecore/cmd-rpc.rst:764
+msgid "importelectrumwallet \"filename\" index"
+msgstr "importelectrumwallet \"nomdefichier\" index"
+
+#: ../../wallets/axecore/cmd-rpc.rst:765
+msgid "Imports keys from an Electrum wallet export file (.csv or .json)"
+msgstr ""
+"Importe des clés depuis un fichier d'exportation du portefeuille logiciel "
+"Electrum (.csv ou .json)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:766
+msgid "importmulti \"requests\" \"options\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:767
+msgid ""
+"Import addresses/scripts (with private or public keys, redeem script "
+"(P2SH)), rescanning all addresses in one-shot-only (rescan can be disabled "
+"via options)."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:768
+msgid "importprivkey \"axeprivkey\" ( \"label\" ) ( rescan )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:769
+msgid "Adds a private key (as returned by dumpprivkey) to your wallet."
+msgstr ""
+"Ajoute une clé privée (telle que renvoyée par dumpprivkey) à votre "
+"portefeuille."
+
+#: ../../wallets/axecore/cmd-rpc.rst:770
+msgid "importprunedfunds"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:771
+msgid ""
+"Imports funds without rescan. Corresponding address or script must "
+"previously be included in wallet. Aimed towards pruned wallets. The end-user"
+" is responsible to import additional transactions that subsequently spend "
+"the imported outputs or rescan after the point in the blockchain the "
+"transaction is included."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:772
+msgid "importpubkey \"pubkey\" ( \"label\" rescan )"
+msgstr "importpubkey \"clépublique\" ( \"étiquette\" rescan )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:773
+msgid ""
+"Adds a public key (in hex) that can be watched as if it were in your wallet "
+"but cannot be used to spend."
+msgstr ""
+"Ajoute une clé publique (en hexadécimal) qui peut être surveillée comme si "
+"elle était dans votre portefeuille, mais qui ne peut pas être utilisée en "
+"dépense."
+
+#: ../../wallets/axecore/cmd-rpc.rst:774
+msgid "importwallet \"filename\""
+msgstr "importwallet \"nomdefichier\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:775
+msgid "Imports keys from a wallet dump file (see dumpwallet)."
+msgstr ""
+"Importe des clés depuis un fichier d'exportation de portefeuille (voir "
+"dumpwallet)"
+
+#: ../../wallets/axecore/cmd-rpc.rst:776
+msgid ""
+"instantsendtoaddress \"address\" amount ( \"comment\" \"comment-to\" "
+"subtractfeefromamount )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:777
+msgid ""
+"Send an amount to a given address. The amount is a real and is rounded to "
+"the nearest 0.00000001"
+msgstr ""
+"Envoie un montant à une adresse donnée. Le montant est un nombre réel et il "
+"est arrondi au 0,00000001 axe le plus proche."
+
+#: ../../wallets/axecore/cmd-rpc.rst:778
+msgid "keepass <genkey | init | setpassphrase>"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:779
+msgid "Keepass settings."
+msgstr "Réglages KeePass."
+
+#: ../../wallets/axecore/cmd-rpc.rst:780
+msgid "keypoolrefill ( newsize )"
+msgstr "keypoolrefill ( newsize )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:781
+msgid ""
+"Fills the keypool. Requires wallet passphrase to be set with "
+"walletpassphrase call."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:782
+msgid "listaccounts ( minconf addlocked include_watchonly)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:783
+msgid ""
+"DEPRECATED. Returns Object that has account names as keys, account balances "
+"as values."
+msgstr ""
+"OBSOLÈTE. Renvoie un objet avec les noms de compte comme clés, et les soldes"
+" de compte comme valeurs."
+
+#: ../../wallets/axecore/cmd-rpc.rst:784
+msgid "listaddressbalances ( minamount )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:785
+msgid "Lists addresses of this wallet and their balances"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:786
+msgid "listaddressgroupings"
+msgstr "listaddressgroupings"
+
+#: ../../wallets/axecore/cmd-rpc.rst:787
+msgid ""
+"Lists groups of addresses which have had their common ownership made public "
+"by common use as inputs or as the resulting change in past transactions"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:788
+msgid "listlockunspent"
+msgstr "listlockunspent"
+
+#: ../../wallets/axecore/cmd-rpc.rst:789
+msgid ""
+"Returns list of temporarily unspendable outputs. See the lockunspent call to"
+" lock and unlock transactions for spending."
+msgstr ""
+"Renvoie une liste de sorties temporairement non dépensables. Voir l'appel "
+"lockunspent pour verrouiller et déverrouiller des transactions pour la "
+"dépense."
+
+#: ../../wallets/axecore/cmd-rpc.rst:790
+msgid ""
+"listreceivedbyaccount ( minconf addlocked include_empty include_watchonly)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:791
+msgid "DEPRECATED. List incoming payments grouped by account."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:792
+msgid ""
+"listreceivedbyaddress ( minconf addlocked include_empty include_watchonly)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:793
+msgid "List incoming payments grouped by receiving address."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:794
+msgid "listsinceblock ( \"blockhash\" target_confirmations include_watchonly)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:795
+msgid ""
+"Get all transactions in blocks since block [blockhash], or all transactions "
+"if omitted"
+msgstr ""
+"Récupère toutes les transactions dans les blocs depuis le bloc [blockhash], "
+"ou, si omis, toutes les transactions"
+
+#: ../../wallets/axecore/cmd-rpc.rst:796
+msgid "listtransactions ( \"account\" count skip include_watchonly)"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:797
+msgid ""
+"Returns up to 'count' most recent transactions skipping the first 'from' "
+"transactions for account 'account'."
+msgstr ""
+"Renvoie les \"count\" transactions les plus récentes à partir des \"from\" "
+"premières transactions, pour le compte \"compte\"."
+
+#: ../../wallets/axecore/cmd-rpc.rst:798
+msgid "listunspent ( minconf maxconf  [\"addresses\",...] [include_unsafe] )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:799
+msgid ""
+"Returns array of unspent transaction outputs with between minconf and "
+"maxconf (inclusive) confirmations. Optionally filter to only include txouts "
+"paid to specified addresses."
+msgstr ""
+"Renvoie un tableau de sorties de transaction non dépensées comprenant entre "
+"\"minconf\" et \"maxconf\" confirmations (incluses). Filtre facultatif "
+"possible pour afficher seulement les sorties de transaction payées aux "
+"adresses indiquées."
+
+#: ../../wallets/axecore/cmd-rpc.rst:800
+msgid "lockunspent unlock ([{\"txid\":\"txid\",\"vout\":n},...])"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:801
+msgid ""
+"Updates list of temporarily unspendable outputs. Temporarily lock "
+"(unlock=false) or unlock (unlock=true) specified transaction outputs."
+msgstr ""
+"Met à jour la liste de sorties temporairement non dépensables. Verrouillez "
+"(unlock=false) ou déverrouillez (unlock=true) temporairement les sorties de "
+"transaction indiquées."
+
+#: ../../wallets/axecore/cmd-rpc.rst:802
+msgid "move \"fromaccount\" \"toaccount\" amount ( minconf \"comment\" )"
+msgstr "move \"fromaccount\" \"toaccount\" amount ( minconf \"comment\" )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:803
+msgid ""
+"DEPRECATED. Move a specified amount from one account in your wallet to "
+"another."
+msgstr ""
+"OBSOLÈTE. Déplace un montant indiqué d'un compte de votre portefeuille à un "
+"autre."
+
+#: ../../wallets/axecore/cmd-rpc.rst:804
+msgid "removeprunedfunds \"txid\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:805
+msgid ""
+"Deletes the specified transaction from the wallet. Meant for use with pruned"
+" wallets and as a companion to importprunedfunds. This will effect wallet "
+"balances."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:806
+msgid ""
+"sendfrom \"fromaccount\" \"toaddress\" amount ( minconf addlocked "
+"\"comment\" \"comment_to\" )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:807
+msgid ""
+"DEPRECATED (use sendtoaddress). Sent an amount from an account to a axe "
+"address. Requires wallet passphrase to be set with walletpassphrase call."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:808
+msgid ""
+"sendmany \"fromaccount\" {\"address\":amount,...} ( minconf addlocked "
+"\"comment\" [\"address\",...] subtractfeefromamount use_is use_ps )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:809
+msgid ""
+"Send multiple times. Amounts are double-precision floating point numbers. "
+"Requires wallet passphrase to be set with walletpassphrase call."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:810
+msgid ""
+"sendtoaddress \"address\" amount ( \"comment\" \"comment_to\" "
+"subtractfeefromamount use_is use_ps )"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:811
+msgid "Send an amount to a given address."
+msgstr "Envoi d'un montant à une adresse donnée."
+
+#: ../../wallets/axecore/cmd-rpc.rst:812
+msgid "setaccount \"address\" \"account\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:813
+msgid "DEPRECATED. Sets the account associated with the given address."
+msgstr "OBSOLÈTE. Définit le compte associé à l'adresse donnée."
+
+#: ../../wallets/axecore/cmd-rpc.rst:814
+msgid "setprivatesendamount amount"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:815
+msgid "Set the goal amount in AXE for PrivateSend mixing."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:816
+msgid "setprivatesendrounds rounds"
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:817
+msgid "Set the number of rounds for PrivateSend mixing."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:818
+msgid "settxfee amount"
+msgstr "settxfee amount"
+
+#: ../../wallets/axecore/cmd-rpc.rst:819
+msgid "Set the transaction fee per kB. Overwrites the paytxfee parameter."
+msgstr ""
+"Définit les frais de transaction par Ko. Annule le paramètre paytxfee."
+
+#: ../../wallets/axecore/cmd-rpc.rst:820
+msgid "signmessage \"address\" \"message\""
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:821
+msgid ""
+"Sign a message with the private key of an address Requires wallet passphrase"
+" to be set with walletpassphrase call."
+msgstr ""
+
+#: ../../wallets/axecore/cmd-rpc.rst:822
+msgid "walletlock"
+msgstr "walletlock"
+
+#: ../../wallets/axecore/cmd-rpc.rst:823
+msgid ""
+"Removes the wallet encryption key from memory, locking the wallet. After "
+"calling this method, you will need to call walletpassphrase again before "
+"being able to call any methods which require the wallet to be unlocked."
+msgstr ""
+"Efface de la mémoire la clé de chiffrage du portefeuille, ce qui verrouille "
+"le portefeuille. Après avoir appelé cette méthode, vous devrez appeler "
+"walletpassphrase une nouvelle fois pour pouvoir appeler n'importe quelle "
+"autre méthode nécessitant un déverrouillage du portefeuille."
+
+#: ../../wallets/axecore/cmd-rpc.rst:824
+msgid "walletpassphrase \"passphrase\" timeout ( mixingonly )"
+msgstr "walletpassphrase \"phrasedepasse\" timeout ( mixingonly )"
+
+#: ../../wallets/axecore/cmd-rpc.rst:825
+msgid ""
+"Stores the wallet decryption key in memory for 'timeout' seconds. This is "
+"needed prior to performing transactions related to private keys such as "
+"sending axes"
+msgstr ""
+"Stocke en mémoire la clé de déchiffrage du portefeuille, pour une durée de "
+"\"timeout\" secondes. Cela est nécessaire avant d'exécuter des transactions "
+"impliquant les clés privées, telles que l'envoi de axes."
+
+#: ../../wallets/axecore/cmd-rpc.rst:826
+msgid "walletpassphrasechange \"oldpassphrase\" \"newpassphrase\""
+msgstr "walletpassphrasechange \"vieillephrasedepasse\" \"nouvellephrasedepasse\""
+
+#: ../../wallets/axecore/cmd-rpc.rst:827
+msgid "Changes the wallet passphrase from 'oldpassphrase' to 'newpassphrase'."
+msgstr ""
+"Modifie la phrase de passe du portefeuille, de \"vieillephrasedepasse\" à "
+"\"nouvellephrasedepasse\"."

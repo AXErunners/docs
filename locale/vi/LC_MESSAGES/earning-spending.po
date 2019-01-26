@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kien Bui <kientemp2@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-04-09 11:00+0000\n"
+"Last-Translator: Leon White <leon.white@docs.axerunners.com>, 2018\n"
+"Language-Team: Vietnamese (https://www.transifex.com/axe/teams/37570/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../earning-spending.rst:1
+msgid "Guides on debit cards, wage conversion, merchants and physical stores."
+msgstr ""
+
+#: ../../earning-spending.rst:1
+msgid "axe, earning, spending, merchants, debit cards"
+msgstr ""
+
+#: ../../earning-spending.rst:9
+msgid "Earning and Spending"
+msgstr "Thu nhập và Chi tiêu"
+
+#: ../../earning-spending.rst:11
+msgid ""
+"Axe is designed from the ground up to function as digital cash. This "
+"documentation discusses how and where Axe users can manage all of their "
+"personal finances using Axe."
+msgstr ""
+"Axe được thiết kế từ đầu để thực hiện chức năng giống như tiền mặt. Tài "
+"liệu này sẽ chia sẻ về việc người dùng Axe bằng cách nào và ở đâu có thể "
+"quản lý tất cả những tài chính cá nhân của họ thông qua Axe."
+
+#: ../../earning-spending.rst:16
+msgid "Earning"
+msgstr "Thu nhập"
+
+#: ../../earning-spending.rst:18
+msgid ""
+"A range of services and businesses are available to convert your wage to and"
+" from Axe as you receive it. It is of course easiest to receive payment "
+"from your employer in Axe directly, however this may not always be an "
+"option. `Uphold <https://uphold.com>`_ allows you to instantly and "
+"automatically convert any received deposits to and from Axe. Building on "
+"this functionality, `Bitwage <https://www.bitwage.com>`_ allows you to "
+"invoice and receive payment from any employer, practically anywhere in the "
+"world, and have a percentage of your wage immediately converted to Axe. You"
+" can then withdraw your wage to any Axe wallet for spending or saving. For "
+"more information, see the following blog posts:"
+msgstr ""
+
+#: ../../earning-spending.rst:29
+msgid "**Bitwage:** https://blog.bitwage.com/2018/03/12/get-axe"
+msgstr "**Bitwage:** https://blog.bitwage.com/2018/03/12/get-axe"
+
+#: ../../earning-spending.rst:30
+msgid ""
+"**Uphold:** https://uphold.com/en/blog/posts/uphold/bitwage-launches-"
+"support-of-axe-powered-by-uphold"
+msgstr ""
+"**Uphold:** https://uphold.com/en/blog/posts/uphold/bitwage-launches-"
+"support-of-axe-powered-by-uphold"
+
+#: ../../earning-spending.rst:31
+msgid ""
+"**Axe Force News:** https://www.axeforcenews.com/can-get-salary-axe-"
+"right-now"
+msgstr ""
+"**Axe Force News:** https://www.axeforcenews.com/can-get-salary-axe-"
+"right-now"
+
+#: ../../earning-spending.rst:35
+msgid "Spending"
+msgstr "Chi tiêu"
+
+#: ../../earning-spending.rst:38
+msgid "Merchant Directory"
+msgstr "Danh bạ các thương nhân"
+
+#: ../../earning-spending.rst:40
+msgid ""
+"Axe can be spent in hundreds of stores and services both online and in "
+"physical locations."
+msgstr ""
+"Có thể tiêu Axe ở hàng trăm cửa hàng và dịch vụ cả trên mạng cũng như ở các"
+" địa điểm vật lý."
+
+#: ../../earning-spending.rst:47
+msgid ""
+"**Discover Axe** lists businesses around the world accepting Axe, sorted "
+"by category. It's easy to add your business to the list, and also features a"
+" short introduction for new Axe users. The site is maintained by Axe "
+"Force, and has been `featured on Axe Force News "
+"<https://www.axeforcenews.com/300-businesses-accept-axe-worldwide- come-"
+"blockcypher-grants>`_."
+msgstr ""
+"**Khám phá Axe** liệt kê các doanh nghiệp trên khắp thế giới chấp nhận "
+"Axe, nó được sắp xếp theo các phân loại. Bạn có thể thêm doanh nghiệp của "
+"mình vào danh sách này một cách rất dễ dàng, và hãy mô tả ngắn gọn phần giới"
+" thiệu để gây ấn tượng cho người dùng Axe. Trang web này được quản lý và "
+"duy trì bởi Axe Force và đã được nêu bật ở trang Axe Force News "
+"<https://www.axeforcenews.com/300-businesses-accept-axe-worldwide- come-"
+"blockcypher-grants>`_."
+
+#: ../../earning-spending.rst:54
+msgid "`Discover Axe <https://discoveraxe.com>`_"
+msgstr "`Khám phá Axe <https://discoveraxe.com>`_"
+
+#: ../../earning-spending.rst:55
+msgid "`Axe Merchants <https://www.axerunners.com/merchants>`_"
+msgstr "`Thương nhân chấp nhận Axe <https://www.axerunners.com/merchants>`_"
+
+#: ../../earning-spending.rst:58
+msgid "Debit Cards"
+msgstr "Thẻ ghi nợ"
+
+#: ../../earning-spending.rst:60
+msgid ""
+"Debit cards work by prepaying in Axe to load the account, then withdrawing "
+"cash from an ATM or spending online or anywhere debit/credit cards are "
+"supported. The Axe is either exchanged at the time of purchase or in "
+"advance. For an overview and review of all available and upcoming cards, "
+"including cards funded by the Axe budget system, see `this article on Axe "
+"Force News <https://www.axeforcenews.com/debit-card-proposal-reviews/>`_."
+msgstr ""
+"Thẻ ghi nợ hoạt động bằng việc trả trước bằng Axe để nạp tiền cho tài khoản"
+" sau đó có thể rút tiền mặt ở máy ATM hoặc chi tiêu only hoặc tại bất cứ nơi"
+" nào hỗ trợ thẻ ghi nợ/tín dụng. Axe có thể được trao đổi tại thời điểm mua"
+" hoặc trước đó. Để có được cái nhìn toàn cảnh hoặc bài đánh giá về tất cả "
+"các loại thẻ hiện hành và những loại sắp ra mắt bao gồm các thẻ được cấp vốn"
+" bởi hệ ngân sách của Axe, hãy xem `bài báo này trên Axe Force News "
+"<https://www.axeforcenews.com/debit-card-proposal-reviews/>`_."
+
+#: ../../earning-spending.rst:67
+msgid ""
+"The rapidly evolving approach to regulation of cryptocurrencies such as Axe"
+" and instant exchange solutions such as ShapeShift means that availability "
+"of debit cards cannot be guaranteed in any or all jurisdictions. Check with "
+"the following providers for updates on the availability of Axe debit cards."
+msgstr ""
+"Những diễn tiến nhanh chóng gần đây về việc áp dụng các quy định đối với các"
+" loại tiền số như Axe và các giải pháp sàn giao dịch tức thời như "
+"ShapeShift có nghĩa là việc có các thẻ ghi nợ là không có gì đảm bảo ở tất "
+"cả các khu vực pháp lý. Hãy kiểm tra với các nhà cung cấp sau đây để biết "
+"thông tin cập nhật về tính khả dụng của thẻ ghi nợ Axe."
+
+#: ../../earning-spending.rst:73
+msgid ""
+"Disclaimer: This list is provided for informational purposes only. Axe Core"
+" is not liable for any funds transmitted in error to these providers, or for"
+" the accuracy of information on this page."
+msgstr ""
+"TỪ CHỐI TRÁCH NHIỆM: Danh sách dưới đây chỉ có tính chất cung cấp thông tin."
+" Axe Core không chịu trách nhiệm về việc các giao dịch thực hiện bị lỗi đối"
+" với các nhà cung cấp, hoặc tính chính xác của thông tin trên trang web này."
+
+#: ../../earning-spending.rst:89
+msgid "PolisPay"
+msgstr ""
+
+#: ../../earning-spending.rst:83
+msgid "https://polispay.com"
+msgstr ""
+
+#: ../../earning-spending.rst:85
+msgid ""
+"The PolisPay Card is one of the fastest, easiest ways to turn your Axe into"
+" fiat currency. You can use your PolisPay Card for online shopping and at "
+"any brick and mortar retailer that accepts MasterCard® debit cards. You can "
+"also withdraw cash at any MasterCard®-compatible ATM."
+msgstr ""
+
+#: ../../earning-spending.rst:103
+msgid "FuzeX"
+msgstr ""
+
+#: ../../earning-spending.rst:97
+msgid "https://fuzex.co"
+msgstr ""
+
+#: ../../earning-spending.rst:99
+msgid ""
+"The FuzeX Card & FuzeX Wallet strive to offer an all in one payment solution"
+" that provides a smarter way to pay. The card offers real-time exchange of "
+"cryptocurrency at the time of purchase. The goal is to make paying with "
+"cryptocurrency secure, fast and a seamless process for everyday use."
+msgstr ""
+
+#: ../../earning-spending.rst:117
+msgid "Paycent"
+msgstr "Paycent"
+
+#: ../../earning-spending.rst:111
+msgid "https://paycent.com"
+msgstr ""
+
+#: ../../earning-spending.rst:113
+msgid ""
+"Paycent provides Android and iOS wallets that can be funded using both fiat "
+"and cryptocurrency. Users can transact with one another within the app, "
+"identified by their mobile numbers, or order physical debit cards to spend "
+"their balance. Axe is the preferred network partner of Paycent."
+msgstr ""
+"Paycent cung cấp phần mềm ví cho iOS và Android mà có thể nạp tiền bằng cả "
+"tiền thông thường và tiền điện tử. Người dùng có thể giao dịch với người "
+"khác ngay trong app, xác định bằng số điện thoại hoặc đặt mua thẻ ghi nợ vật"
+" lý để có thể chi tiêu. Axe là đối tác mạng ưu tiên của Paycent."
+
+#: ../../earning-spending.rst:129
+msgid "SpectroCoin"
+msgstr "SpectroCoin"
+
+#: ../../earning-spending.rst:125
+msgid "https://spectrocoin.com"
+msgstr "https://spectrocoin.com"
+
+#: ../../earning-spending.rst:127
+msgid ""
+"Spectrocoin offers an exchange, wallet and POS service, with a physical card"
+" potentially available again soon. Axe, Bitcoin and Ethereum are supported,"
+" as well as over 20 major fiat currencies."
+msgstr ""
+"Spectrocoin cung cấp dịch vụ dịch vụ sàn giao dịch, ví và dịch vụ POS, với "
+"một thẻ vật lý có thể sẽ sớm ra mắt. Axe, Bitcoin và Ethereum đã được hỗ "
+"trợ cũng như hơn 20 loại tiền fiat."
+
+#: ../../earning-spending.rst:141
+msgid "Bitwala"
+msgstr "Bitwala"
+
+#: ../../earning-spending.rst:137
+msgid "https://www.bitwala.com"
+msgstr "https://www.bitwala.com"
+
+#: ../../earning-spending.rst:139
+msgid ""
+"Bitwala is currently preparing legal documentation to re-launch it's card "
+"service in Europe, and has supported Axe in the past."
+msgstr ""
+"Bitwalla hiện đang chuẩn bị các tài liệu pháp lý cho việc tái phát hành dịch"
+" vụ card ở Châu Âu, nó cũng đã từng hỗ trợ Axe trước đây."
+
+#: ../../earning-spending.rst:144
+msgid "Tax"
+msgstr "Thuế"
+
+#: ../../earning-spending.rst:146
+msgid ""
+"Taxation law is different depending on where you qualify as a resident for "
+"tax purposes. The following services are available to help you calculate "
+"your tax obligations."
+msgstr ""
+"Những luật thuế là rất khác nhau tuỳ thuộc nơi bạn sống. Những dịch vụ sau "
+"đây sẽ giúp bạn tính thuế mà bạn sẽ có trách nhiệm phải nộp."
+
+#: ../../earning-spending.rst:150
+msgid "https://www.node40.com"
+msgstr "https://www.node40.com"
+
+#: ../../earning-spending.rst:151
+msgid "https://axe-taxes.herokuapp.com"
+msgstr "https://axe-taxes.herokuapp.com"
+
+#: ../../earning-spending.rst:152
+msgid "https://cointracking.info"
+msgstr "https://cointracking.info"
+
+#: ../../earning-spending.rst:153
+msgid "https://bitcoin.tax"
+msgstr "https://bitcoin.tax"

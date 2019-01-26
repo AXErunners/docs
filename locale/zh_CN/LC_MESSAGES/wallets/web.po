@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Alex.ys <silvershark.ys@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-29 10:35+0000\n"
+"Last-Translator: Leon White <leon.white@docs.axerunners.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/axe/teams/37570/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../wallets/web.rst:1
+msgid ""
+"MyAxeWallet is a secure web wallet for Axe, supporting InstantSend and "
+"PrivateSend"
+msgstr "MyAxeWallet是一个安全的达世币网页钱包，它支持即时发送功能和匿名发送功能"
+
+#: ../../wallets/web.rst:1
+msgid ""
+"axe, myaxewallet, web, wallet, privatesend, instantsend, my axe wallet"
+msgstr "达世币，MyAxeWallet，网页，钱包，匿名发送功能，即时发送功能，个人达世币钱包"
+
+#: ../../wallets/web.rst:8
+msgid "MyAxeWallet"
+msgstr "MyAxeWallet"
+
+#: ../../wallets/web.rst:14
+msgid ""
+"`MyAxeWallet <https://myaxewallet.org/>`_ is a web interface to the Axe "
+"blockchain, inspired by `MyEtherWallet <https://www.myetherwallet.com>`_ and"
+" created by `DeltaEngine.net <https://deltaengine.net/>`_. It is explicitly "
+"not an online wallet, meaning you maintain control over your private keys at"
+" all times. Unlike many other light wallets, MyAxeWallet also supports "
+"advanced Axe features such as InstantSend and PrivateSend. The project is "
+"non-profit, open source and free to use. You can load a wallet and transact "
+"in a variety of wallet formats:"
+msgstr ""
+"`MyAxeWallet <https://myaxewallet.org/>`_ 是一个适用于达世币区块链的网页界面，它的灵感源于\\ "
+"`MyEtherWallet <https://www.myetherwallet.com>`_ ，而研发团队则是\\ `DeltaEngine.net"
+" <https://deltaengine.net/>`_ "
+"。虽然它并不是在线钱包，但却能够保证用户始终全权掌控个人私钥。与其它轻钱包不同的是，它还支持高级的达世币功能，例如即时发送功能和匿名发送功能。同时，它具备非营利性、开源和免费的特点。用户可以加载钱包并以多种钱包格式完成交易："
+
+#: ../../wallets/web.rst:24
+msgid "Keystore wallet (file-based)"
+msgstr "Keystore钱包（基于文件）"
+
+#: ../../wallets/web.rst:25
+msgid "Ledger hardware wallet"
+msgstr "Ledger硬件钱包"
+
+#: ../../wallets/web.rst:26
+msgid "Trezor hardware wallet"
+msgstr "Trezor硬件钱包"
+
+#: ../../wallets/web.rst:27
+msgid "Private key"
+msgstr "私钥"
+
+#: ../../wallets/web.rst:28
+msgid "BIP39/44 HD recovery phrase (coming soon)"
+msgstr "BIP39/44 HD恢复密码（即将发行）"
+
+#: ../../wallets/web.rst:29
+msgid "BIP32 HD recovery phrase (coming soon)"
+msgstr "BIP32 HD恢复密码（即将发行）"
+
+#: ../../wallets/web.rst:31
+msgid ""
+"MyAxeWallet offers complete and detailed documentation for all functions."
+msgstr "MyAxeWallet提供相关功能的详尽说明文档。"
+
+#: ../../wallets/web.rst:33
+msgid "`Getting started <https://myaxewallet.org/About>`_"
+msgstr "`入门指南 <https://myaxewallet.org/About>`_"
+
+#: ../../wallets/web.rst:34
+msgid ""
+"`How to Create a Wallet via Keystore file "
+"<https://myaxewallet.org/AboutCreateNewWallet>`_"
+msgstr "`如何通过Keystore文件创建钱包 <https://myaxewallet.org/AboutCreateNewWallet>`_"
+
+#: ../../wallets/web.rst:35
+msgid ""
+"`Using the Ledger Hardware Wallet on MyAxeWallet "
+"<https://myaxewallet.org/AboutLedgerHardwareWallet>`_"
+msgstr ""
+"`在MyAxeWallet上使用Ledger硬件钱包 "
+"<https://myaxewallet.org/AboutLedgerHardwareWallet>`_"
+
+#: ../../wallets/web.rst:36
+msgid ""
+"`Using the Trezor Hardware Wallet on MyAxeWallet "
+"<https://myaxewallet.org/AboutTrezorHardwareWallet>`_"
+msgstr ""
+"`在MyAxeWallet上使用Trezor硬件钱包 "
+"<https://myaxewallet.org/AboutTrezorHardwareWallet>`_"
+
+#: ../../wallets/web.rst:37
+msgid ""
+"`How to does AXE InstantSend work on MyAxeWallet? "
+"<https://myaxewallet.org/AboutInstantSend>`_"
+msgstr ""
+"`如何在MyAxeWallet中使用达世币即时支付功能? <https://myaxewallet.org/AboutInstantSend>`_"
+
+#: ../../wallets/web.rst:38
+msgid ""
+"`How to does AXE PrivateSend work on MyAxeWallet? "
+"<https://myaxewallet.org/AboutPrivateSend>`_"
+msgstr ""
+"`如何在MyAxeWallet中使用达世币匿名支付功能? <https://myaxewallet.org/AboutPrivateSend>`_"

@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Hasna Brania <hasna.brania19@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Last-Translator: Hasna Brania <hasna.brania19@gmail.com>, 2018\n"
+"Language-Team: Arabic (https://www.transifex.com/axe/teams/37570/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid ""
+"How to download and install the Axe Core wallet. Compilation guide also "
+"available"
+msgstr "كيفية تنزيل وتثبيت محفظة داش كور. دليل التجميع متاح أيضا"
+
+#: ../../wallets/axecore/installation.rst:1
+msgid "axe, core, wallet, linux, windows, macos, installation, compile"
+msgstr "داش، كور، محفظة، لينكس، ويندوز، ماك، تتبيث، جمع"
+
+#: ../../wallets/axecore/installation.rst:9
+msgid "Installation"
+msgstr "التتبيث"
+
+#: ../../wallets/axecore/installation.rst:11
+msgid ""
+"Installing Axe Core is as simple as going to https://www.axerunners.com/ and "
+"downloading the appropriate file for your system, then following the "
+"appropriate installation steps for your system. Detailed guides are "
+"available for Linux, macOS and Windows operating systems below."
+msgstr ""
+"إن تثبيت داش كور بسيط بقدر الذهاب إلى https://www.axerunners.com  وتنزيل الملف "
+"المناسب لنظامك ، ثم اتباع خطوات التثبيت المناسبة لنظامك. تتوفر أدلة مفصلة "
+"لأنظمة التشغيل لينكس و ماك و ويندوز أدناه."
+
+#: ../../wallets/axecore/installation.rst:16
+msgid ""
+"It is also possible to :ref:`compile Axe Core from source code <compiling-"
+"axe>`."
+msgstr "ومن الممكن أيضا :ref:`ترجمة داش كور من شفرة المصدر <compiling-axe>`."
+
+#: ../../wallets/axecore/installation.rst:27
+msgid "Video installation guides"
+msgstr "أدلة تثبيت بالفيديو"
+
+#: ../../wallets/axecore/installation.rst:29
+msgid ""
+"These videos show how to download, verify the checksum and install the Axe "
+"Core Wallet on Linux, macOS and Windows systems. While they are somewhat out"
+" of date, the procedure is still largely the same. The main difference is "
+"that the official Axe website is now https://www.axerunners.com/ rather than "
+"https://www.axerunners.io/ as stated in the videos, although the old site will "
+"redirect you to the new one. Also, in later versions of Axe Core, "
+"application data such as the blockchain is now stored in the \"AxeCore\" "
+"rather than \"Axe\" folder."
+msgstr ""
+"تعرض مقاطع الفيديو هذه كيفية التنزيل والتحقق من المجموع الاختباري وتثبيت "
+"محفظة داش كور على أنظمة لينكس و ماك و ويندوز. في حين أنها قديمة بعض الشيء ، "
+"إلا أن الإجراء لا يزال إلى حد كبير. والفرق الرئيسي هو أن موقع داش الرسمي هو "
+"الآن https://www.axerunners.com/ بدلاً من https://www.axerunners.io/ كما هو مذكور في "
+"مقاطع الفيديو ، على الرغم من أن الموقع القديم سيعيد توجيهك إلى الموقع الجديد"
+" . أيضًا ، في الإصدارات الأحدث من داش كور ، يتم الآن تخزين بيانات التطبيق "
+"مثل بلوكشين في المجلد \"داش كور\" بدلاً من \"داش\""
+
+#: ../../wallets/axecore/installation.rst:38
+msgid "**How to Install AxeQT Wallet on Linux**"
+msgstr "**كيفية تثبيت محفظة AxeQT على لينكس**"
+
+#: ../../wallets/axecore/installation.rst:46
+msgid "**How to Verify the CheckSum of AxeQT Wallet for Linux**"
+msgstr ""
+"**كيفية التحقق من المجموع الاختباري لمحفظة AxeQT لنظام التشغيل لينكس**"
+
+#: ../../wallets/axecore/installation.rst:54
+msgid "**How to Install AxeQT Wallet on macOS**"
+msgstr "**كيفية تثبيت محفظة AxeQT على ماك**"
+
+#: ../../wallets/axecore/installation.rst:62
+msgid "**How to Verify the CheckSum of AxeQT Wallet for macOS**"
+msgstr "**كيفية التحقق من المجموع الاختباري من AxeQT المحفظة ل ماك**"
+
+#: ../../wallets/axecore/installation.rst:70
+msgid "**How to Install AxeQT Wallet on Windows**"
+msgstr "**كيفية تثبيت محفظة AxeQT على الويندوز**"
+
+#: ../../wallets/axecore/installation.rst:78
+msgid "**How to Verify CheckSum of AxeQT Wallet for Windows**"
+msgstr "**كيفية التحقق من تدقيق محفظة AxeQT لنظام التشغيل ويندوز**"
+
+#: ../../wallets/axecore/installation.rst:86
+msgid "**How to Encrypt/Decrypt Your AxeQT Wallet**"
+msgstr "**كيفية تشفير / فك تشفير محفظة AxeQT الخاصة بك**"

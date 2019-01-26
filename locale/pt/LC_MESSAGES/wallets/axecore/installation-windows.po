@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oscar junior <geleira@gmail.com>, 2018
+# Leon White <leon.white@docs.axerunners.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-02-08 10:31+0000\n"
+"Last-Translator: Leon White <leon.white@docs.axerunners.com>, 2019\n"
+"Language-Team: Portuguese (https://www.transifex.com/axe/teams/37570/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../wallets/axecore/installation-windows.rst:1
+msgid "How to download, install and encrypt the Axe Core wallet in Windows"
+msgstr ""
+"Como baixar, instalar e criptografar a carteira do Axe Core no Windows"
+
+#: ../../wallets/axecore/installation-windows.rst:1
+msgid "axe, core, wallet, windows, installation"
+msgstr "axe, core, carteira, windows, Instalação"
+
+#: ../../wallets/axecore/installation-windows.rst:8
+msgid "Windows Installation Guide"
+msgstr "Guia de Instalação no Windows"
+
+#: ../../wallets/axecore/installation-windows.rst:10
+msgid ""
+"This guide describes how to download, install and encrypt the Axe Core "
+"wallet for Windows. The guide is written for Windows 10, but the steps "
+"should be similar for Windows XP, Vista, 7 and 8."
+msgstr ""
+"Este guia descreve como baixar, instalar e criptografar a carteira do Axe "
+"Core para Windows. O guia foi escrito para o Windows 10, mas as etapas devem"
+" ser semelhantes para o Windows XP, Vista, 7 e 8."
+
+#: ../../wallets/axecore/installation-windows.rst:15
+msgid "Downloading the Axe Core wallet"
+msgstr "Downloading da Carteira Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:17
+msgid ""
+"Visit https://www.axerunners.com/get-axe to download the latest Axe Core wallet."
+" In most cases, the website will properly detect which version you need. "
+"Click the blue **Axe Core** button to download the installer directly."
+msgstr ""
+"Visite https://www.axerunners.com/get-axe para baixar a carteira mais recente do "
+"Axe Core. Na maioria dos casos, o site detectará corretamente qual versão "
+"você precisa. Clique no botão azul **Axe Core** para baixar o instalador "
+"diretamente."
+
+#: ../../wallets/axecore/installation-windows.rst:25
+msgid "The website properly detects the wallet appropriate for your system"
+msgstr "O site detecta corretamente a carteira apropriada para o seu sistema"
+
+#: ../../wallets/axecore/installation-windows.rst:27
+msgid ""
+"If detection does not work, you will need to manually choose your operating "
+"system and whether you need a 32 or 64 bit version. If you are unsure "
+"whether your version of Windows is 32 or 64 bit, you can check in Windows 10"
+" under **Start > Settings > System > About**. For details on how to check "
+"this in other versions of Windows, see `here "
+"<https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-"
+"windows-2624475>`__."
+msgstr ""
+"Se a detecção não funcionar, você precisará escolher manualmente o sistema "
+"operacional e se precisa de uma versão de 32 ou 64 bits. Se não tiver "
+"certeza se sua versão do Windows é de 32 ou 64 bits, você pode fazer check-"
+"in no Windows 10, em **Iniciar > Configurações > Sistema > Sobre**. Para "
+"obter detalhes sobre como verificar isso em outras versões do Windows, "
+"consulte `aqui <https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-"
+"version-of-windows -2624475>`__."
+
+#: ../../wallets/axecore/installation-windows.rst:37
+msgid "In Windows Settings, click System"
+msgstr "Em Configurações do Windows, clique em Sistema."
+
+#: ../../wallets/axecore/installation-windows.rst:42
+msgid ""
+"Under the System section, click About to view the System type. This is a 64 "
+"bit system."
+msgstr ""
+"Na seção Sistema, clique em Sobre para visualizar o tipo de sistema. Este é "
+"um sistema de 64 bits."
+
+#: ../../wallets/axecore/installation-windows.rst:45
+msgid ""
+"Once you know which version you need, download the Axe Core Installer to "
+"your computer from https://www.axerunners.com/wallets"
+msgstr ""
+"Depois de saber qual versão você precisa, baixe o Instalador do Core para o "
+"seu computador https://www.axerunners.com/wallets"
+
+#: ../../wallets/axecore/installation-windows.rst:51
+msgid "Manually selecting and downloading an installer"
+msgstr "Selecionando e baixando manualmente um instalador"
+
+#: ../../wallets/axecore/installation-windows.rst:53
+msgid "Save the file you downloaded to your Downloads folder."
+msgstr "Salve o arquivo que você baixou na sua pasta Downloads."
+
+#: ../../wallets/axecore/installation-windows.rst:56
+msgid "Verifying Axe Core"
+msgstr "Verificando Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:58
+msgid ""
+"This step is optional, but recommended to verify the integrity of the file "
+"you downloaded. This is done by checking its SHA256 hash against the hash "
+"published by the Axe Core development team. To view the published hash, "
+"click the **Hash file** button on the wallet download page."
+msgstr ""
+"Essa etapa é opcional, mas é recomendável verificar a integridade do arquivo"
+" que você baixou. Isso é feito verificando o hash SHA256 com o hash "
+"publicado pela equipe de desenvolvimento do Core do Axe. Para visualizar o "
+"hash publicado, clique no botão **Arquivo Hash** na página de download da "
+"carteira."
+
+#: ../../wallets/axecore/installation-windows.rst:67
+msgid "Downloading the Axe Core hash file"
+msgstr "Download do hash do Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:69
+msgid ""
+"Once both the Axe Core file and the hash file have downloaded, open the "
+"hash file in a text editor or your browser and find the hash value for the "
+"Axe Core file you downloaded."
+msgstr ""
+"Baixando o arquivo hash do Axe Core assim que o arquivo do Core do Axe e o"
+" arquivo de hash forem baixados, abra o arquivo de hash em um editor de "
+"texto ou no navegador e localize o valor de hash do arquivo do Core que você"
+" baixou...."
+
+#: ../../wallets/axecore/installation-windows.rst:76
+msgid "Viewing the Axe Core hash file"
+msgstr "Visualizando o arquivo hash do Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:78
+msgid ""
+"This hash value should correspond with the hash value of the file you have "
+"downloaded to ensure it is authentic and was not corrupted during transit. "
+"To do this, open **Command Prompt**, browse to the location where you saved "
+"the file, and run the following command, replacing the version with the "
+"specific version of the file you downloaded."
+msgstr ""
+"Esse valor de hash deve corresponder ao valor de hash do arquivo que você "
+"baixou para garantir que seja autêntico e não foi corrompido durante o "
+"trânsito. Para fazer isso, abra o **Prompt de Comando**, navegue até o local"
+" onde você salvou o arquivo e execute o seguinte comando, substituindo a "
+"versão pela versão específica do arquivo que você baixou."
+
+#: ../../wallets/axecore/installation-windows.rst:91
+msgid "Generating an SHA256 hash for the downloaded file"
+msgstr "Gerando um hash SHA256 para o arquivo baixado"
+
+#: ../../wallets/axecore/installation-windows.rst:93
+msgid ""
+"If the hashes match, then you have an authentic copy of Axe Core for "
+"Windows."
+msgstr ""
+"Se os hashes coincidirem, você terá uma cópia autêntica do Axe Core para "
+"Windows."
+
+#: ../../wallets/axecore/installation-windows.rst:97
+msgid "Running the Axe Core installer"
+msgstr "Executando o instalador do Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:99
+msgid "Double-click the file to start installing Axe Core."
+msgstr "Clique duas vezes no arquivo para iniciar a instalação do Axe Core."
+
+#: ../../wallets/axecore/installation-windows.rst:104
+msgid "The Axe Core installer in the Downloads folder"
+msgstr "O instalador do Axe Core na pasta Downloads"
+
+#: ../../wallets/axecore/installation-windows.rst:106
+msgid ""
+"At this point, you may see a warning from Windows SmartScreen that the app "
+"is unrecognized. You can safely skip past this warning by clicking **More "
+"info**, then **Run anyway**."
+msgstr ""
+"Neste momento, você pode ver um aviso do Windows SmartScreen que o "
+"aplicativo não é reconhecido. Você pode ignorar este aviso com segurança "
+"clicando em **Mais informações** e em **Executar mesmo assim**."
+
+#: ../../wallets/axecore/installation-windows.rst:116
+msgid ""
+"Bypassing Windows SmartScreen to run the app. This warning is known as a "
+"“false positive”."
+msgstr ""
+"Ignorando o Windows SmartScreen para executar o aplicativo. Esse aviso é "
+"conhecido como \"falso positivo\"."
+
+#: ../../wallets/axecore/installation-windows.rst:119
+msgid "The installer will then guide you through the installation process."
+msgstr "O instalador irá guiá-lo através do processo de instalação."
+
+#: ../../wallets/axecore/installation-windows.rst:124
+msgid "The Axe Core installer welcome screen"
+msgstr "A tela de boas-vindas do instalador do Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:126
+msgid ""
+"Click through the following screens. All settings can be left at their "
+"default values unless you have a specific reason to change something."
+msgstr ""
+"Clique nas telas a seguir. Todas as configurações podem ser deixadas com "
+"seus valores padrão, a menos que você tenha um motivo específico para "
+"alterar alguma coisa."
+
+#: ../../wallets/axecore/installation-windows.rst:132
+msgid "Select the installation location"
+msgstr "Selecione o local de instalação"
+
+#: ../../wallets/axecore/installation-windows.rst:137
+msgid "Select the Start menu folder"
+msgstr "Selecione a pasta do menu Iniciar"
+
+#: ../../wallets/axecore/installation-windows.rst:142
+msgid "Axe Core is being installed"
+msgstr "Axe Core está sendo instalado"
+
+#: ../../wallets/axecore/installation-windows.rst:147
+msgid "Installation is complete"
+msgstr "A instalação está completa"
+
+#: ../../wallets/axecore/installation-windows.rst:150
+msgid "Running Axe Core for the first time"
+msgstr "Executando o Axe Core pela primeira vez"
+
+#: ../../wallets/axecore/installation-windows.rst:152
+msgid ""
+"Once installation is complete, Axe Core will start up immediately. If it "
+"does not, click **Start > Axe Core > Axe Core** to start the application. "
+"The first time the program is launched, you will be offered a choice of "
+"where you want to store your blockchain and wallet data. Choose a location "
+"with enough free space, as the blockchain can reach 10GB+ in size. It is "
+"recommended to use the default data folder if possible."
+msgstr ""
+"Quando a instalação estiver concluída, o Axe Core será iniciado "
+"imediatamente. Se isso não acontecer, clique em **Iniciar > Core do Axe > "
+"Core do Axe** para iniciar o aplicativo. Na primeira vez que o programa for"
+" lançado, você terá a opção de escolher onde deseja armazenar seus dados de "
+"blockchain e carteira. Escolha um local com espaço livre suficiente, pois o "
+"blockchain pode atingir cerca de 10GB+. Recomenda-se usar a pasta de dados "
+"padrão, se possível."
+
+#: ../../wallets/axecore/installation-windows.rst:163
+msgid "Choosing the Axe Core data folder"
+msgstr "Escolhendo a pasta de dados do Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:165
+msgid ""
+"Axe Core will then start up. This will take a little longer than usual the "
+"first time you run it, since Axe Core needs to generate cryptographic data "
+"to secure your wallet."
+msgstr ""
+"O Axe Core será iniciado. Isso levará um pouco mais do que o normal na "
+"primeira vez que você executá-lo, já que o Axe Core precisa gerar dados "
+"criptográficos para proteger sua carteira."
+
+#: ../../wallets/axecore/installation-windows.rst:172
+msgid "Starting Axe Core"
+msgstr "Iniciando Axe Core"
+
+#: ../../wallets/axecore/installation-windows.rst:175
+msgid "Synchronizing Axe Core to the Axe network"
+msgstr "Sincronizando o Axe Core na rede do Axe"
+
+#: ../../wallets/axecore/installation-windows.rst:177
+msgid ""
+"Once Axe Core is successfully installed and started, you will see the "
+"wallet overview screen. You will notice that the wallet is “out of sync”, "
+"and the status bar at the bottom of the window will show the synchronization"
+" progress."
+msgstr ""
+"Depois que o Axe Core for instalado e iniciado com sucesso, você verá a "
+"tela de visão geral da carteira. Você notará que a carteira está \"fora de "
+"sincronia\" e a barra de status na parte inferior da janela mostrará o "
+"andamento da sincronização."
+
+#: ../../wallets/axecore/installation-windows.rst:185
+msgid "Axe Core begins synchronizing with the Axe network"
+msgstr "Axe Core começa a sincronizar com a rede do Axe"
+
+#: ../../wallets/axecore/installation-windows.rst:187
+msgid ""
+"During this process, Axe Core will download a full copy of the Axe "
+"blockchain from other nodes to your device. Depending on your internet "
+"connection, this may take a long time. If you see the message “No block "
+"source available”, check your internet connection. When synchronization is "
+"complete, you will see a small blue tick in the lower right corner."
+msgstr ""
+"Durante esse processo, o Axe Core baixará uma cópia completa do blockchain "
+"de outros nós para o seu dispositivo. Dependendo da sua conexão com a "
+"internet, isso pode levar muito tempo. Se você vir a mensagem \"Nenhuma "
+"fonte de bloqueio disponível\", verifique sua conexão com a Internet. Quando"
+" a sincronização estiver concluída, você verá um pequeno sinal azul no canto"
+" inferior direito."
+
+#: ../../wallets/axecore/installation-windows.rst:197
+msgid "Axe Core synchronization is complete"
+msgstr "A sincronização do Axe Core está concluída"
+
+#: ../../wallets/axecore/installation-windows.rst:199
+msgid "You can now begin to use your wallet to send and receive funds."
+msgstr ""
+"Agora você pode começar a usar sua carteira para enviar e receber fundos."
+
+#: ../../wallets/axecore/installation-windows.rst:202
+msgid "Encrypting your Axe wallet"
+msgstr "Criptografando sua carteira do Axe"
+
+#: ../../wallets/axecore/installation-windows.rst:204
+msgid ""
+"After your wallet has synchronized with the Axe network, it is strongly "
+"advised to encrypt the wallet with a password or passphrase to prevent "
+"unauthorized access. You should use a strong, new password that you have "
+"never used somewhere else. Take note of your password and store it somewhere"
+" safe or you will be locked out of your wallet and lose access to your "
+"funds."
+msgstr ""
+"Depois que sua carteira for sincronizada com a rede do Axe, é altamente "
+"recomendável criptografar a carteira com uma senha para impedir o acesso não"
+" autorizado. Você deve usar uma senha nova e forte que nunca usou em outro "
+"lugar. Anote sua senha e armazene-a em algum lugar seguro ou você será "
+"bloqueado fora de sua carteira e perderá acesso a seus fundos."
+
+#: ../../wallets/axecore/installation-windows.rst:211
+msgid "To encrypt your wallet, click **Settings > Encrypt Wallet**."
+msgstr ""
+"Para criptografar sua carteira, clique em **Definições >Criptografar "
+"Carteira**."
+
+#: ../../wallets/axecore/installation-windows.rst:216
+msgid "Encrypting the Axe wallet with a password"
+msgstr "Criptografar a carteira do Axe com uma senha"
+
+#: ../../wallets/axecore/installation-windows.rst:218
+msgid "You will be asked to enter and verify a password."
+msgstr "Você será solicitado a inserir e verificar uma senha."
+
+#: ../../wallets/axecore/installation-windows.rst:223
+msgid "Enter a password"
+msgstr "insira uma senha"
+
+#: ../../wallets/axecore/installation-windows.rst:228
+msgid "Confirm you want to encrypt your wallet"
+msgstr "Confirme que você deseja criptografar sua carteira"
+
+#: ../../wallets/axecore/installation-windows.rst:230
+msgid ""
+"When the encryption process is complete, you will see a warning that past "
+"backups of your wallet will no longer be usable, and be asked to shut down "
+"Axe Core. When you restart Axe Core, you will see a small blue lock in the"
+" lower right corner."
+msgstr ""
+"Quando o processo de criptografia estiver concluído, você verá um aviso de "
+"que os backups anteriores da sua carteira não serão mais utilizáveis e será "
+"solicitado a encerrar o Axe Core. Quando você reiniciar Axe Core, você "
+"verá uma pequena trava azul no canto inferior direito."
+
+#: ../../wallets/axecore/installation-windows.rst:238
+msgid "Fully encrypted and synchronized Axe Core wallet"
+msgstr "Carteira Axe Core totalmente criptografada e sincronizada"
+
+#: ../../wallets/axecore/installation-windows.rst:240
+msgid "You can now begin to use your wallet to safely send and receive funds."
+msgstr ""
+"Agora você pode começar a usar sua carteira para enviar e receber fundos com"
+" segurança."

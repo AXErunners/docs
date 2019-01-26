@@ -1,0 +1,2686 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Leon White <leon.white@docs.axerunners.com>, 2018
+# Daf Daf, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-03-02 06:45+0000\n"
+"Last-Translator: Daf Daf, 2019\n"
+"Language-Team: French (https://www.transifex.com/axe/teams/37570/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../introduction/how-to-buy.rst:1
+msgid ""
+"Axe can be purchased on cryptocurrency exchanges, over the counter and from"
+" ATMs"
+msgstr ""
+"Axe peut être acheté sur les plateformes de change cryptomonétaires, de gré"
+" à gré ou sur des distributeurs automatiques (ATM)"
+
+#: ../../introduction/how-to-buy.rst:1
+msgid ""
+"axe, cryptocurrency, purchase, buy, exchange, atm, shapeshift, over the "
+"counter"
+msgstr ""
+"axe, cryptomonnaie, acheter, vendre, plateforme de change, distributeur "
+"automatique, shapeshift, gré à gré"
+
+#: ../../introduction/how-to-buy.rst:9
+msgid "How To Buy"
+msgstr "Comment acheter"
+
+#: ../../introduction/how-to-buy.rst:11
+msgid ""
+"Axe can be purchased and sold in several ways, each with different "
+"advantages and disadvantages. The following options are available:"
+msgstr ""
+"Axe peut être acheté et vendu de différentes manières, chacune avec ses "
+"avantages et limitations. Les options suivantes sont disponibles :"
+
+#: ../../introduction/how-to-buy.rst:14
+msgid ""
+":ref:`Exchanges <exchanges>` are one of the most popular ways to trade "
+"cryptocurrency. A wide range of exchanges exist, each offering slightly "
+"different features. Some serve different markets, some are in direct "
+"competition, some have cheaper fees, and some are subject to more or less "
+"strict regulatory requirements. Most exchanges are centralized, meaning they"
+" are operated by a single company, which may be obliged by the laws of the "
+"jurisdiction in which it operates to collect data on its customers. Others "
+"are decentralized, but as a result have higher escrow requirements since you"
+" are dealing peer-to-peer instead of with a trusted entity. Exchanges can be"
+" broadly broken down into two categories: exchanges which accept national "
+"currency (fiat money) and exchanges which deal in cryptocurrencies only. For"
+" safety, exchanges should not be used as wallets. Exchanges are for trading,"
+" not for savings."
+msgstr ""
+":ref:`Les plateformes de change <exchanges>` sont une des façons les plus "
+"courantes de changer des cryptomonnaies. Une large gamme de plateformes "
+"existe, chacune offrant des fonctionnalités légèrement différentes. "
+"Certaines se destinent à des marchés spécifiques, d'autres sont en "
+"concurrence directe, d'autres ont des frais moins élevés, et d'autres encore"
+" sont soumises à des obligations réglementaires plus ou moins strictes. La "
+"plupart des plateformes de change sont centralisées, ce qui signifie "
+"qu'elles sont gérées par une seule entreprise, qui peut être contrainte par "
+"les lois de sa juridiction à recueillir des données sur ses clients. "
+"D'autres plateformes sont décentralisées, mais ont en conséquence des "
+"contraintes de séquestre plus élevées, puisque vous traitez de pair à pair "
+"et non avec une entité de confiance. Les plateformes de change peuvent être "
+"divisées en deux catégories principales : celles qui acceptent les monnaies "
+"nationales (dites fiduciaires) et celles qui n'acceptent que les "
+"cryptomonnaies. Par mesure de sécurité, les plateformes de change ne "
+"devraient pas être utilisées comme des portefeuilles. Les plateformes sont "
+"pour faire du trading, pas de l'épargne."
+
+#: ../../introduction/how-to-buy.rst:29
+msgid ""
+":ref:`Instant exchanges <instant_exchanges>` perform a similar function to "
+"normal exchanges, but without the requirement to log in. They effectively "
+"convert one currency to another, with some limits on the amount to be "
+"exchanged and usually at a less advantageous rate. Others may even offer to "
+"sell cryptocurrency as a credit card purchase."
+msgstr ""
+":ref:`Les plateformes de change instantanées <instant_exchanges>` offrent "
+"des fonctions similaires aux plateformes normales, mais sans obligation de "
+"s'identifier. Elles changent une monnaie contre une autre, avec des limites "
+"sur les montants et, en général, des frais moins avantageux. D'autres "
+"plateformes proposent même d'acheter des cryptomonnaies avec une carte de "
+"paiement."
+
+#: ../../introduction/how-to-buy.rst:36
+msgid ""
+":ref:`Over the counter <over-the-counter>` exchanges have recently appeared "
+"to facilitate sale of Axe directly from a company to the individual at a "
+"specified price, or peer-to-peer between individuals at a negotiated price. "
+"Volume may be limited compared to exchanges, but these services are usually "
+"much easier to use. More advanced peer-to-peer sites offer escrow services "
+"for a fee to prevent cheating during the sale between two parties who have "
+"never met."
+msgstr ""
+":ref:`Les plateformes de change de gré à gré <over-the-counter>` (Over The "
+"Counter, OTC) sont apparues récemment dans le but de faciliter la vente de "
+"axes, directement par une entreprise à un particulier à un prix convenu à "
+"l'avance, ou bien entre particuliers à un prix négocié. Le volume de change "
+"peut être limité par rapport aux plateformes de change, mais ces services "
+"sont en général bien plus faciles à utiliser. Les plus avancés des services "
+"pair à pair offre des services payants de séquestre pour éviter toute "
+"escroquerie durant la vente entre deux particuliers qui ne se sont jamais "
+"rencontrés."
+
+#: ../../introduction/how-to-buy.rst:44
+msgid ""
+":ref:`ATMs <atms>` accepting card and cash payments in return for crypto are"
+" widely available. Mapping services can show the specific location of these "
+"machines, or you can even set one up at your own business and earn a "
+"percentage of sales."
+msgstr ""
+":ref:`Les distributeurs automatiques <atms>` (ATM) qui acceptent les "
+"paiements par carte ou en liquide pour acheter des cryptomonnaies sont "
+"courants. Des sites peuvent indiquer la localisation géographique de ces "
+"machines. Vous pouvez aussi en installer une dans votre magasin et percevoir"
+" une commission sur les ventes."
+
+#: ../../introduction/how-to-buy.rst:49
+msgid ""
+"DISCLAIMER: This list is provided for informational purposes only. Services "
+"listed here have not been evaluated or endorsed by Axe Core and no "
+"guarantees are made as to the accuracy of this information. Please exercise "
+"discretion when using third-party services."
+msgstr ""
+"AVERTISSEMENT : cette liste n'est fournie qu'à titre informatif. Les "
+"services qu'elle répertorie n'ont pas été testés ni approuvés par les "
+"développeurs Axe, aucune garantie n'est fournie quant à l'exactitude de ces"
+" informations. Veuillez exercer votre jugement lorsque vous utilisez des "
+"services de tierce partie."
+
+#: ../../introduction/how-to-buy.rst:58
+msgid "Exchanges"
+msgstr "Plateformes de change"
+
+#: ../../introduction/how-to-buy.rst:60
+msgid ""
+"Cryptocurrency exchanges exist to convert national currency, also known as "
+"fiat money, into cryptocurrency. Many exchanges do not accept fiat money, "
+"and exchange between various cryptocurrencies only. Trades are handled on "
+"markets, and trades are created between pairs of currencies, identified by "
+"their ticker codes. Axe is widely accepted on exchanges and many pairs "
+"exist against both fiat money and cryptocurrency. This means it is possible "
+"to exchange EUR for AXE, or AXE for BTC, for example. The volume traded on"
+" an exchange provides a good indication of how quickly a buy or sell order "
+"you place will be filled. This section introduces some of the most popular "
+"exchanges for trading Axe."
+msgstr ""
+"Les plateformes de change cryptomonétaires servent à convertir les monnaies "
+"nationales, dites fiduciaires, en cryptomonnaies. Beaucoup de ces "
+"plateformes n'acceptent pas la monnaie fiduciaire, et ne servent qu'à "
+"changer les cryptomonnaies entre elles. Les opérations se font sur des "
+"marchés, entre paires de monnaies identifiées par leur code abrégé. Axe est"
+" largement accepté sur les plateformes de change, et beaucoup de paires "
+"existent entre Axe et des monnaies fiduciaires ou des cryptomonnaies. Cela "
+"signifie qu'il est possible de convertir des axes en euros, ou des bitcoins"
+" en axes, par exemple. Le volume de change sur une plateforme est un bon "
+"indicateur de la rapidité d'exécution probable d'un ordre de vente ou "
+"d'achat. Cette section présente quelques-unes des plateformes les plus "
+"connues pour changer Axe."
+
+#: ../../introduction/how-to-buy.rst:73
+msgid "Marketplace comparison websites"
+msgstr "Sites web de comparaison de places de marché"
+
+#: ../../introduction/how-to-buy.rst:85
+msgid "Cryptoradar"
+msgstr "Cryptoradar"
+
+#: ../../introduction/how-to-buy.rst:81
+msgid "https://cryptoradar.co/buy-axe"
+msgstr "https://cryptoradar.co/buy-axe"
+
+#: ../../introduction/how-to-buy.rst:83
+msgid ""
+"Cryptoradar is a real-time cryptocurrency marketplace price comparison and "
+"review platform. The website compares dozens of Axe markets based on "
+"prices, fees, payment methods, reviews and more."
+msgstr ""
+"Cryptoradar est un comparateur en temps réel des frais des places de marché "
+"cryptomonétaires, et une plateforme d'avis. Ce site compare des dizaines de "
+"marchés Axe en se basant sur les prix, les frais, les méthodes de "
+"paiements, les avis, et bien plus encore."
+
+#: ../../introduction/how-to-buy.rst:99
+msgid "CoinMarketCap"
+msgstr "CoinMarketCap"
+
+#: ../../introduction/how-to-buy.rst:93
+msgid "https://coinmarketcap.com/currencies/axe/#markets"
+msgstr "https://coinmarketcap.com/currencies/axe/#markets"
+
+#: ../../introduction/how-to-buy.rst:95
+msgid ""
+"CoinMarketCap lists all cryptocurrencies by their market capitalization. "
+"Clicking one of these currencies allows you to view price charts, and "
+"clicking Markets allows you to view the markets available and the trading "
+"pairs they offer."
+msgstr ""
+"CoinMarketCap répertorie toutes les cryptomonnaies et les classe par "
+"capitalisation. Un clic sur une cryptomonnaie permet d'afficher ses "
+"graphiques de cours, et un clic sur les marchés permet de voir les marchés "
+"existants et les paires de change qu'ils proposent."
+
+#: ../../introduction/how-to-buy.rst:102
+msgid "axerunners.com markets"
+msgstr "Les marchés sur docs.axerunners.com"
+
+#: ../../introduction/how-to-buy.rst:109
+msgid "https://www.axerunners.com/exchanges"
+msgstr "https://www.axerunners.com/exchanges"
+
+#: ../../introduction/how-to-buy.rst:111
+msgid ""
+"The official Axe website also provides a list of major exchanges offering "
+"Axe."
+msgstr ""
+"Le site Axe officiel fournit également une liste des principales "
+"plateformes de change qui proposent Axe."
+
+#: ../../introduction/how-to-buy.rst:116
+msgid "List of exchanges"
+msgstr "Liste de plateformes de change"
+
+#: ../../introduction/how-to-buy.rst:118
+msgid ""
+"The exchanges listed here are for informational purposes only and do not "
+"indicate endorsement or affiliation with any particular platform."
+msgstr ""
+"Les plateformes de change répertoriées ci-dessous le sont seulement à titre "
+"informatif, sans que cela constitue un conseil ou une affiliation avec l'une"
+" d'entre elles."
+
+#: ../../introduction/how-to-buy.rst:131
+msgid "Poloniex"
+msgstr "Poloniex"
+
+#: ../../introduction/how-to-buy.rst:127
+msgid "https://poloniex.com"
+msgstr "https://poloniex.com"
+
+#: ../../introduction/how-to-buy.rst:129
+msgid ""
+"Poloniex is a US-based pure-crypto exchange offering high volume AXE pairs "
+"for BTC, XMR and USDT. Leveraged margin trading and lending is also "
+"available for AXE."
+msgstr ""
+"Poloniex est une plateforme de change américaine 100% cryptomonétaire, avec "
+"un fort volume pour des paires Axe (Bitcoin, Monero ou Tether). Les "
+"opérations à levier et les prêts sont également possibles avec Axe."
+
+#: ../../introduction/how-to-buy.rst:143
+msgid "Bittrex"
+msgstr "Bittrex"
+
+#: ../../introduction/how-to-buy.rst:139
+msgid "https://bittrex.com"
+msgstr "https://bittrex.com"
+
+#: ../../introduction/how-to-buy.rst:141
+msgid ""
+"Bittrex is a US exchange working with cryptocurrencies only, although USD "
+"wire transfers have been intermittently supported in the past. AXE trading "
+"pairs are available for BTC, ETH and USDT."
+msgstr ""
+"Bittrex est une plateforme de change américaine 100% cryptomonétaire, même "
+"si la gestion des dollars a parfois été proposée dans le passé. Axe est "
+"présent dans des paires de change avec Bitcoin, Ethereum et Tether."
+
+#: ../../introduction/how-to-buy.rst:155
+msgid "Bitfinex"
+msgstr "Bitfinex"
+
+#: ../../introduction/how-to-buy.rst:151
+msgid "https://www.bitfinex.com"
+msgstr "https://www.bitfinex.com"
+
+#: ../../introduction/how-to-buy.rst:153
+msgid ""
+"Bitfinex is a cryptocurrency exchange based in Hong Kong offering high "
+"volume BTC and USD trading pairs for AXE, as well as leveraged trading."
+msgstr ""
+"Bitfinex est une plateforme de change basée à Hong Kong, qui propose un haut"
+" volume de change pour des paires Axe avec Bitcoin et le dollar américain. "
+"Elle propose aussi des opérations avec effet de levier."
+
+#: ../../introduction/how-to-buy.rst:167
+#: ../../introduction/how-to-buy.rst:1362
+msgid "Kraken"
+msgstr "Kraken"
+
+#: ../../introduction/how-to-buy.rst:163
+#: ../../introduction/how-to-buy.rst:1357
+msgid "https://www.kraken.com"
+msgstr "https://www.kraken.com"
+
+#: ../../introduction/how-to-buy.rst:165
+msgid ""
+"Kraken is a high-volume US-based exchange offering fiat currency deposits in"
+" EUR, USD, JPY and GBP. AXE can be traded against EUR, USD and BTC."
+msgstr ""
+"Kraken est une plateforme de change américaine à très haut volume, où l'on "
+"peut déposer de la monnaie fiduciaire (euros, dollars, yens, livres "
+"sterling). Axe peut être changé contre des euros, des dollars ou des "
+"bitcoins."
+
+#: ../../introduction/how-to-buy.rst:178
+msgid "Binance"
+msgstr "Binance"
+
+#: ../../introduction/how-to-buy.rst:175
+msgid "https://www.binance.com"
+msgstr "https://www.binance.com"
+
+#: ../../introduction/how-to-buy.rst:177
+msgid ""
+"Binance is a pure-crypto with a focus on ICOs and the Chinese market. AXE "
+"is available for funding and can be traded against BTC."
+msgstr ""
+"Binance est une plateforme de change 100% cryptomonétaire, se spécialisant "
+"sur les ICO et le marché chinois. Axe est disponible et peut être changé "
+"contre Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:190
+msgid "HitBTC"
+msgstr "HitBTC"
+
+#: ../../introduction/how-to-buy.rst:186
+msgid "https://hitbtc.com"
+msgstr "https://hitbtc.com"
+
+#: ../../introduction/how-to-buy.rst:188
+msgid ""
+"HitBTC offers facilities to major investors to credit USD, EUR and GBP, as "
+"well as BTC, ETH and USDT trading pairs against AXE for normal users."
+msgstr ""
+"HitBTC propose ses services aux investisseurs importants (dollars, euros, "
+"livres sterling) mais offre aussi aux utilisateurs normaux des paires de "
+"change pour Axe avec Bitcoin, Ethereum et Tether."
+
+#: ../../introduction/how-to-buy.rst:202
+msgid "Bithumb"
+msgstr "Bithumb"
+
+#: ../../introduction/how-to-buy.rst:198
+msgid "https://www.bithumb.com"
+msgstr "https://www.bithumb.com"
+
+#: ../../introduction/how-to-buy.rst:200
+msgid ""
+"Bithumb is the largest cryptocurrency exchange in South Korea. It accepts "
+"fiat deposits in South Korean Won only, and offers high volumes of AXE "
+"trading."
+msgstr ""
+"Bithumb est la plus grande plateforme de change en Corée du Sud. Elle "
+"accepte les dépôts fiduciaires en wons sud-coréens seulement, et propose un "
+"haut volume de change pour Axe."
+
+#: ../../introduction/how-to-buy.rst:213
+msgid "Huobi"
+msgstr "Huobi"
+
+#: ../../introduction/how-to-buy.rst:210
+msgid "https://www.huobi.pro"
+msgstr "https://www.huobi.pro"
+
+#: ../../introduction/how-to-buy.rst:212
+msgid ""
+"Huobi is a major Chinese exchange offering high volume AXE trading against "
+"BTC. A native app is available for both iOS and Android."
+msgstr ""
+"Huobi est une importante plateforme de change chinoise, avec un haut volume "
+"de change de Axe contre Bitcoin. Une application est disponible pour iOS et"
+" Android."
+
+#: ../../introduction/how-to-buy.rst:224
+msgid "CEX.IO"
+msgstr "CEX.IO"
+
+#: ../../introduction/how-to-buy.rst:221
+msgid "https://cex.io"
+msgstr "https://cex.io"
+
+#: ../../introduction/how-to-buy.rst:223
+msgid ""
+"CEX.IO is a UK-based exchange with over one million users and offers AXE "
+"exchange pairs for fiat currencies including GBP, EUR and USD."
+msgstr ""
+"CEX.IO est une plateforme de change britannique avec plus d'un million "
+"d'utilisateurs. Elle propose des paires de change pour Axe contre des "
+"monnaies fiduciaires, dont la livre sterling, l'euro et le dollar."
+
+#: ../../introduction/how-to-buy.rst:236 ../../introduction/how-to-buy.rst:779
+msgid "DigiFinex"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:232 ../../introduction/how-to-buy.rst:776
+msgid "https://www.digifinex.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:234
+msgid ""
+"Based in Singapore, DigiFinex offers Axe trading against USDT, BTC and ETH."
+" DigiFinex supports InstantSend, with clear benefits for arbitrage traders "
+"and consumers."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:247
+msgid "YoBit"
+msgstr "YoBit"
+
+#: ../../introduction/how-to-buy.rst:244
+msgid "https://yobit.net"
+msgstr "https://yobit.net"
+
+#: ../../introduction/how-to-buy.rst:246
+msgid ""
+"YoBit is an exchange focusing on Ethereum tokens, but also supports BTC, USD"
+" and RUB trading pairs for AXE."
+msgstr ""
+"YoBit est une plateforme de change spécialisée dans les jetons Ethereum, "
+"mais qui offre aussi des paires de change Axe contre Bitcoin, le dollar et "
+"le rouble."
+
+#: ../../introduction/how-to-buy.rst:259
+msgid "Chaoex"
+msgstr "Chaoex"
+
+#: ../../introduction/how-to-buy.rst:255
+msgid "https://www.chaoex.com"
+msgstr "https://www.chaoex.com"
+
+#: ../../introduction/how-to-buy.rst:257
+msgid ""
+"Based in Hong Kong and available in English and Traditional Chinese, Chaoex "
+"is a pure crypto exchange offering trading with a focus on new assets and "
+"supports mobile apps for both Android and iOS."
+msgstr ""
+"Basée à Hong Kong et disponible en anglais et en mandarin, Chaoex est une "
+"plateforme de change 100% cryptomonétaire spécialisée dans les nouveaux "
+"actifs. Des applications mobiles pour Android et iOS sont disponibles."
+
+#: ../../introduction/how-to-buy.rst:271
+msgid "Bit-Z"
+msgstr "Bit-Z"
+
+#: ../../introduction/how-to-buy.rst:267
+msgid "https://www.bit-z.com"
+msgstr "https://www.bit-z.com"
+
+#: ../../introduction/how-to-buy.rst:269
+msgid ""
+"Bit-Z is a cryptocurrency exchange with a focus on offering OTC funding "
+"options to Chinese traders. AXE is available for trade against BTC."
+msgstr ""
+"Bit-Z est une plateforme de change spécialisée dans le gré à gré (OTC) pour "
+"les traders chinois. Axe est disponible pour le change contre Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:282
+msgid "Koineks"
+msgstr "Koineks"
+
+#: ../../introduction/how-to-buy.rst:279
+msgid "https://koineks.com"
+msgstr "https://koineks.com"
+
+#: ../../introduction/how-to-buy.rst:281
+msgid ""
+"Koineks serves the Turkish market and offers trading pairs for AXE against "
+"the Turkish Lira and Bitcoin."
+msgstr ""
+"Koineks se destine au marché turc et propose des paires de change Axe-livre"
+" turque et Axe-Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:293
+msgid "Sistemkoin"
+msgstr "Sistemkoin"
+
+#: ../../introduction/how-to-buy.rst:290
+msgid "https://sistemkoin.com"
+msgstr "https://sistemkoin.com"
+
+#: ../../introduction/how-to-buy.rst:292
+msgid ""
+"Sistemkoin serves the Turkish market and offers trading pairs for AXE "
+"against the Turkish Lira and Bitcoin."
+msgstr ""
+"Sistemkoin se destine au marché turc et propose des paires de change Axe-"
+"livre turque et Axe-Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:304
+#: ../../introduction/how-to-buy.rst:1021
+msgid "Ovis"
+msgstr "Ovis"
+
+#: ../../introduction/how-to-buy.rst:301
+#: ../../introduction/how-to-buy.rst:1018
+msgid "https://www.ovis.com.tr"
+msgstr "https://www.ovis.com.tr"
+
+#: ../../introduction/how-to-buy.rst:303
+#: ../../introduction/how-to-buy.rst:1020
+msgid ""
+"Ovis serves the Turkish market and offers trading pairs for AXE against the"
+" Turkish Lira and Bitcoin."
+msgstr ""
+"Ovis se destine au marché turc et propose des paires de change Axe-livre "
+"turque et Axe-Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:316
+msgid "Exmo"
+msgstr "Exmo"
+
+#: ../../introduction/how-to-buy.rst:312
+msgid "https://exmo.com"
+msgstr "https://exmo.com"
+
+#: ../../introduction/how-to-buy.rst:314
+msgid ""
+"Exmo is a UK-registered exchange offering fiat deposits in USD, EUR, USD and"
+" UAH (Ukrainian Hryvnia). AXE trading pairs exist for BTC, USD and RUB."
+msgstr ""
+"Exmo est une plateforme de change britannique proposant des dépôts "
+"fiduciaires en euro, dollar, livre sterling et le hryvnia ukrainien. Des "
+"paires de change Axe existent contre Bitcoin, le dollar et le rouble."
+
+#: ../../introduction/how-to-buy.rst:327
+msgid "BitBay"
+msgstr "BitBay"
+
+#: ../../introduction/how-to-buy.rst:324
+msgid "https://bitbay.net"
+msgstr "https://bitbay.net"
+
+#: ../../introduction/how-to-buy.rst:326
+msgid ""
+"BitBay is based in Poland and accepts fiat deposits in EUR, USD and PLN. "
+"AXE can be traded against all three fiat currencies and BTC."
+msgstr ""
+"Bitbay est basée en Pologne et accepte les dépôts fiduciaires en euro, "
+"dollar et zloty. Axe peut être changé contre ces trois monnaies et Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:338
+msgid "Livecoin"
+msgstr "Livecoin"
+
+#: ../../introduction/how-to-buy.rst:335
+msgid "https://www.livecoin.net"
+msgstr "https://www.livecoin.net"
+
+#: ../../introduction/how-to-buy.rst:337
+msgid ""
+"Livecoin offers fiat deposits in EUR, USD and RUB, and AXE trading pairs "
+"for BTC, USD and some other low volume cryptocurrencies."
+msgstr ""
+"Livecoin permet les dépôts fiduciaires en euro, dollar et rouble, et propose"
+" des paires de change Axe contre Bitcoin, le dollar et quelques autres "
+"cryptomonnaies de faible volume."
+
+#: ../../introduction/how-to-buy.rst:351
+msgid "xBTCe"
+msgstr "xBTCe"
+
+#: ../../introduction/how-to-buy.rst:346
+msgid "https://www.xbtce.com"
+msgstr "https://www.xbtce.com"
+
+#: ../../introduction/how-to-buy.rst:348
+msgid ""
+"xBTCe is an exchange based in St. Kitts and Nevis with a focus on providing "
+"fiat currency trading pairs. Various deposit methods are available for "
+"currencies including CNH (Chinese Offshore Yuan), EUR, GBP, JPY, IDR and "
+"RUB. AXE trading pairs include BTC, USD and CNH."
+msgstr ""
+"xBTCe est une plateforme de change basée à Saint-Christophe-et-Niévès, qui "
+"propose des paires de change avec des monnaies fiduciaires. Plusieurs moyens"
+" de dépôt sont disponibles pour des monnaies telles que le yuan chinois, "
+"l'euro, la livre sterling, le yen japonais, la roupie indonésienne et le "
+"rouble. Les paires de change Axe sont contre le Bitcoin, le dollar et le "
+"yuan."
+
+#: ../../introduction/how-to-buy.rst:363
+msgid "IDAX"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:359
+msgid "https://www.idax.pro"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:361
+msgid ""
+"Based in Mongolia, IDAX is a high volume exchange with a focus on the "
+"Chinese and Korean markets. Axe transactions support InstantSend, and "
+"trading is available for against BTC."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:374
+msgid "Upbit"
+msgstr "Upbit"
+
+#: ../../introduction/how-to-buy.rst:371
+msgid "https://upbit.com"
+msgstr "https://upbit.com"
+
+#: ../../introduction/how-to-buy.rst:373
+msgid ""
+"UPbit is a Korean exchange allowing deposits in KRW and offering AXE "
+"trading pairs for KRW, ETH, BTC and USDT."
+msgstr ""
+"Upbit est une plateforme de change sud-coréenne qui accepte les dépôts en "
+"won, et qui offre des paires de change Axe contre le won, Ethereum, Bitcoin"
+" et Tether."
+
+#: ../../introduction/how-to-buy.rst:385
+msgid "CoinEx"
+msgstr "CoinEx"
+
+#: ../../introduction/how-to-buy.rst:382
+msgid "https://www.coinex.com"
+msgstr "https://www.coinex.com"
+
+#: ../../introduction/how-to-buy.rst:384
+msgid ""
+"CoinEx is a Hong Kong based exchange with a focus on Bitcoin Cash trading. "
+"AXE is available for trading against both BCH and BTC."
+msgstr ""
+"CoinEx est une plateforme de change basée à Hong Kong, spécialisée dans "
+"Bitcoin Cash. Axe est disponible en change contre Bitcoin Cash et Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:397
+msgid "Trade by Trade"
+msgstr "Trade by Trade"
+
+#: ../../introduction/how-to-buy.rst:393
+msgid "https://tradebytrade.com"
+msgstr "https://tradebytrade.com"
+
+#: ../../introduction/how-to-buy.rst:395
+msgid ""
+"Trade By Trade is registered in Vanuatu and provides a trading platform for "
+"over 60 cryptocurrencies with a range of tools to manage your trades."
+msgstr ""
+"Trade By Trade opère au Vanuatu et offre une plateforme de change pour plus "
+"de 60 cryptomonnaies, avec une gamme d'outil pour gérer vos opérations."
+
+#: ../../introduction/how-to-buy.rst:409
+msgid "Bitinka"
+msgstr "Bitinka"
+
+#: ../../introduction/how-to-buy.rst:405
+msgid "https://www.bitinka.com"
+msgstr "https://www.bitinka.com"
+
+#: ../../introduction/how-to-buy.rst:407
+msgid ""
+"Bitinka is the premiere exchange in Latin America, and offers BTC, LTC, ETH,"
+" XRP and AXE in exchange for over 10 national currencies from America and "
+"Europe."
+msgstr ""
+"Bitinka est une importante plateforme de change latino-américaine, qui "
+"propose des paires de change entre Bitcoin, Litecoin, Ethereum, Ripple, Axe"
+" et plus de dix monnaies fiduciaires d'Amérique et d'Europe."
+
+#: ../../introduction/how-to-buy.rst:422
+msgid "eToro"
+msgstr "eToro"
+
+#: ../../introduction/how-to-buy.rst:417
+msgid "https://www.etoro.com"
+msgstr "https://www.etoro.com"
+
+#: ../../introduction/how-to-buy.rst:419
+msgid ""
+"With legal entities in the UK, Israel and Cyprus, eToro offers a social "
+"trading platform where you can copy top performing accounts. AXE and a "
+"number of other cryptocurrencies, forex and stocks are available."
+msgstr ""
+"Avec sa présence au Royaume-Uni, en Israël et à Chypre, eToro propose une "
+"plateforme sociale de change, où vous pouvez trader comme les comptes les "
+"plus performants. Axe et un certain nombre d'autres cryptomonnaies sont "
+"disponibles, tout comme le Forex et les actions."
+
+#: ../../introduction/how-to-buy.rst:433
+msgid "Liqui"
+msgstr "Liqui"
+
+#: ../../introduction/how-to-buy.rst:430
+msgid "https://liqui.io"
+msgstr "https://liqui.io"
+
+#: ../../introduction/how-to-buy.rst:432
+msgid ""
+"Liqui is headquartered in Ukraine and offers a modern interfaced for "
+"leveraged trading of many cryptocurrencies, including a AXE/BTC pair."
+msgstr ""
+"Liqui est basée en Ukraine et propose une interface moderne pour le change "
+"avec levier de beaucoup de cryptomonnaies, dont une paire Axe/Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:444
+msgid "Bitbns"
+msgstr "Bitbns"
+
+#: ../../introduction/how-to-buy.rst:441
+msgid "https://bitbns.com"
+msgstr "https://bitbns.com"
+
+#: ../../introduction/how-to-buy.rst:443
+msgid ""
+"Bitbns offers AXE trading against the Indian Rupee (INR) for Indian "
+"citizens with bank deposits supported from many major Indian banks."
+msgstr ""
+"Bitbns propose le change de Axe contre la roupie indienne (INR) pour les "
+"citoyens indiens. Les dépôts bancaires sont possibles depuis un grande "
+"nombre de banques indiennes importantes."
+
+#: ../../introduction/how-to-buy.rst:455
+msgid "Coinome"
+msgstr "Coinome"
+
+#: ../../introduction/how-to-buy.rst:452
+msgid "https://www.coinome.com"
+msgstr "https://www.coinome.com"
+
+#: ../../introduction/how-to-buy.rst:454
+msgid ""
+"Coinome is an Indian exchange offering AXE trading against the Indian Rupee"
+" (INR)."
+msgstr ""
+"Coinome est une plateforme de change indienne qui propose une paire de "
+"change Axe contre roupie indienne."
+
+#: ../../introduction/how-to-buy.rst:466
+msgid "WazirX"
+msgstr "WazirX"
+
+#: ../../introduction/how-to-buy.rst:463
+msgid "https://wazirx.com"
+msgstr "https://wazirx.com"
+
+#: ../../introduction/how-to-buy.rst:465
+msgid ""
+"WazirX is an Indian exchange offering AXE trading against BTC and USDT, and"
+" funding in the Indian Rupee (INR)."
+msgstr ""
+"WazirX est une plateforme de change indienne proposant le change de Axe "
+"contre Bitcoin et USDT, et le dépôt en roupies indiennes (INR)."
+
+#: ../../introduction/how-to-buy.rst:477
+msgid "Coinsquare"
+msgstr "Coinsquare"
+
+#: ../../introduction/how-to-buy.rst:474
+msgid "https://coinsquare.io"
+msgstr "https://coinsquare.io"
+
+#: ../../introduction/how-to-buy.rst:476
+msgid ""
+"Coinsquare is a Canadian exchange offering AXE trading against BTC and CAD."
+msgstr ""
+"Coinsquare est une plateforme de change canadienne qui propose de changer "
+"Axe contre des bitcoins ou des dollars canadiens."
+
+#: ../../introduction/how-to-buy.rst:489
+msgid "Lykke"
+msgstr "Lykke"
+
+#: ../../introduction/how-to-buy.rst:485
+msgid "https://www.lykke.com"
+msgstr "https://www.lykke.com"
+
+#: ../../introduction/how-to-buy.rst:487
+msgid ""
+"Incorporated in Switzerland, Lykke is an open source exchange, online/mobile"
+" wallet service, idea accelerator and ICO platform. AXE is available for "
+"both trading and investment."
+msgstr ""
+"Basée en Suisse, Lykke est une plateforme de change open source, un service "
+"de portefeuille mobile ou en ligne, une plateforme ICO et un accélérateur "
+"d'idées. Axe est disponible pour le trading ou l'investissement."
+
+#: ../../introduction/how-to-buy.rst:500
+msgid "Liquid"
+msgstr "Liquid"
+
+#: ../../introduction/how-to-buy.rst:497
+msgid "https://www.liquid.com"
+msgstr "https://www.liquid.com"
+
+#: ../../introduction/how-to-buy.rst:499
+msgid ""
+"Liquid serves the Asian market with funding support for HKD, AUD, CNY, INR, "
+"JPY, PHP, IDR, UDS, SGD and EUR, and trading against ETH, BTC, BCH and AXE."
+msgstr ""
+"Liquid se destine au marché asiatique, avec dépôts possibles en HKD, AUD, "
+"CNY, INR, JPY, PHP, IDR, UDS, SGD et EUR, et change contre ETH, BTC, BCH et "
+"AXE."
+
+#: ../../introduction/how-to-buy.rst:511
+msgid "BitcoinVN"
+msgstr "BitcoinVN"
+
+#: ../../introduction/how-to-buy.rst:508
+msgid "https://bitcoinvn.io"
+msgstr "https://bitcoinvn.io"
+
+#: ../../introduction/how-to-buy.rst:510
+msgid ""
+"BitcoinVN is a Vietnamese exchange offering BTC, BCH, LTC and AXE for "
+"trading against Vietnamese đồng."
+msgstr ""
+"BitcoinVN est une plateforme de change vietnamienne qui propose Bitcoin, "
+"Bitcoin Cash, Litecoin et Axe au change contre le đồng vietnamien."
+
+#: ../../introduction/how-to-buy.rst:523
+msgid "Ginero"
+msgstr "Ginero"
+
+#: ../../introduction/how-to-buy.rst:519
+msgid "https://ginero.io"
+msgstr "https://ginero.io"
+
+#: ../../introduction/how-to-buy.rst:521
+msgid ""
+"Ginero is a peer-to-peer exchange operating in Vietnam and offeringexchange "
+"offering BTC, BCH, LTC, ETH, GIN and AXE for trading against Vietnamese "
+"đồng."
+msgstr ""
+"Ginero est une plateforme de change pair à pair opérant au Vietnam, et "
+"proposant le change de BTC, BCH, LTC, ETH, GIN et AXE contre le đồng "
+"vietnamien."
+
+#: ../../introduction/how-to-buy.rst:535
+msgid "ZB.com"
+msgstr "ZB.com"
+
+#: ../../introduction/how-to-buy.rst:531
+msgid "https://www.zb.com"
+msgstr "https://www.zb.com"
+
+#: ../../introduction/how-to-buy.rst:533
+msgid ""
+"With a focus on the Chinese market, ZB.com offers trading from specialized "
+"applications for macOS, Windows, Android and iOS. Crypto deposits and AXE "
+"trading against QC, USDT and BTC."
+msgstr ""
+"Spécialisée sur le marché chinois, ZB.com propose le trading avec des "
+"applications dédiées pour macOS, Windows, Android et iOS. Dépôts en crypto, "
+"et change de Axe contre QC, USDT et Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:546
+msgid "Coinfield"
+msgstr "Coinfield"
+
+#: ../../introduction/how-to-buy.rst:543
+msgid "https://www.coinfield.com"
+msgstr "https://www.coinfield.com"
+
+#: ../../introduction/how-to-buy.rst:545
+msgid ""
+"Coinfield is a Canadian exchange offering funding in CAD and quick market "
+"purchases or advanced trading against AXE."
+msgstr ""
+"Coinfield est une plateforme de change canadienne où les dépôts se font en "
+"dollars canadiens, avec des possibilités d'achat rapide ou de trading contre"
+" Axe."
+
+#: ../../introduction/how-to-buy.rst:558
+msgid "Bitshares"
+msgstr "Bitshares"
+
+#: ../../introduction/how-to-buy.rst:554
+msgid "https://bitshares.org"
+msgstr "https://bitshares.org"
+
+#: ../../introduction/how-to-buy.rst:556
+msgid ""
+"BitShares is a decentralized exchange (DEX) offering AXE trading pairs for "
+"BTC and BTS, as well as the bit assets bitUSD, bitCNY and bitBTC."
+msgstr ""
+"Bitshares est une plateforme de change décentralisée (DEX) avec des paires "
+"de change Axe contre Bitcoin et BTS, en plus des actifs Bitshares comme "
+"bitUSD, bitCNY et bitBTC."
+
+#: ../../introduction/how-to-buy.rst:570
+msgid "Cryptopia"
+msgstr "Cryptopia"
+
+#: ../../introduction/how-to-buy.rst:566
+msgid "https://www.cryptopia.co.nz"
+msgstr "https://www.cryptopia.co.nz"
+
+#: ../../introduction/how-to-buy.rst:568
+msgid ""
+"Cryptopia is a New Zealand cryptocurrency exchange with a reputation for "
+"supporting a large number of low-volume altcoins. It offers AXE trading "
+"pairs for BTC, LTC, DOGE and USDT."
+msgstr ""
+"Cryptopia est une plateforme de change néo-zélandaise qui opère avec de "
+"nombreuses cryptomonnaies à faible volume. Elle propose des paires de change"
+" Axe contre Bitcoin, Litecoin, Doge et Tether."
+
+#: ../../introduction/how-to-buy.rst:581
+msgid "ACX"
+msgstr "ACX"
+
+#: ../../introduction/how-to-buy.rst:578
+msgid "https://acx.io"
+msgstr "https://acx.io"
+
+#: ../../introduction/how-to-buy.rst:580
+msgid ""
+"ACX is an Australian exchange accepting fiat deposits from Australian bank "
+"accounts. AXE is available to trade against BTC."
+msgstr ""
+"ACX est une plateforme de change australienne qui accepte les dépôts "
+"fiduciaires depuis les comptes bancaires australiens. Axe peut être changé "
+"contre Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:593
+msgid "OKEX"
+msgstr "OKEX"
+
+#: ../../introduction/how-to-buy.rst:589
+msgid "https://www.okex.com"
+msgstr "https://www.okex.com"
+
+#: ../../introduction/how-to-buy.rst:591
+msgid ""
+"OKEX, previously known as OKCoin, is an exchange focused on the Chinese "
+"market offering AXE trading pairs against BTC. Funding with CNY and futures"
+" trading is also available."
+msgstr ""
+"OKEX, précédemment connue sous le nom d'OKCoin, est une plateforme de change"
+" dédiée au marché chinois avec une paire de change Axe/Bitcoin. Le dépôt de"
+" yuans et le trading de futures sont aussi disponibles."
+
+#: ../../introduction/how-to-buy.rst:605
+msgid "Bitexbook"
+msgstr "Bitexbook"
+
+#: ../../introduction/how-to-buy.rst:601
+msgid "https://bitexbook.com"
+msgstr "https://bitexbook.com"
+
+#: ../../introduction/how-to-buy.rst:603
+msgid ""
+"Bitexbook promises the fastest possible deposit and withdrawal times and "
+"responsive customer support. Deposits are available in USD and RUB, and "
+"credit cards are supported."
+msgstr ""
+"Bitexbook promet des dépôts et retraits parmi les plus rapides et un support"
+" client réactif. Les dépôts se font en dollar ou rouble, et les cartes "
+"bancaires sont acceptées."
+
+#: ../../introduction/how-to-buy.rst:619
+msgid "MoneyPolo"
+msgstr "MoneyPolo"
+
+#: ../../introduction/how-to-buy.rst:613
+msgid "https://moneypolo.com"
+msgstr "https://moneypolo.com"
+
+#: ../../introduction/how-to-buy.rst:615
+msgid ""
+"MoneyPolo offers currency exchange and transfer, prepaid cards and the "
+"ability to hold accounts in a range of currencies. Deposits and withdrawals "
+"are available in AXE, BTC, ETH, LTC, BCH and BTG, and it is possible to "
+"transfer value to a prepaid card or any worldwide bank account."
+msgstr ""
+"MoneyPolo propose un change monétaire et des transferts, ainsi que des "
+"cartes prépayées et la possibilité d'ouvrir des comptes libellés dans un "
+"grand nombre de monnaies. Dépôts et retraits sont possibles en Axe, "
+"Bitcoin, Ethereum, Litecoin, Bitcoin Cash et Bitcoin Gold. Il est possible "
+"de transférer des fonds sur une carte prépayée ou vers n'importe quel compte"
+" bancaire dans le monde."
+
+#: ../../introduction/how-to-buy.rst:631
+msgid "Coinapult"
+msgstr "Coinapult"
+
+#: ../../introduction/how-to-buy.rst:627
+msgid "https://coinapult.com"
+msgstr "https://coinapult.com"
+
+#: ../../introduction/how-to-buy.rst:629
+msgid ""
+"Coinapult is an asset exchange headquartered in Panama City and providing "
+"exchange services between BTC, AXE, USD, GBP and EUR, as well as gold and "
+"silver."
+msgstr ""
+"Coinapult est une plateforme de change d'actifs basée au Panama, qui fournit"
+" des services de change entre Bitcoin, Axe, le dollar, la livre sterling et"
+" l'euro, mais aussi l'or et l'argent."
+
+#: ../../introduction/how-to-buy.rst:643
+msgid "Panda.exchange"
+msgstr "Panda.exchange"
+
+#: ../../introduction/how-to-buy.rst:639
+msgid "https://panda.exchange"
+msgstr "https://panda.exchange"
+
+#: ../../introduction/how-to-buy.rst:641
+msgid ""
+"Based in Latin America, Panda.exchange specializes in making digital assets "
+"such as Axe available in Latin America and, through a branch in Portugal, "
+"the EU market."
+msgstr ""
+"Basée en Amérique latine, Panda.exchange a pour spécialité de rendre "
+"disponibles en Amérique latine des actifs numériques tels que Axe, et même,"
+" à travers une filiale au Portugal, jusqu'au marché européen."
+
+#: ../../introduction/how-to-buy.rst:655
+msgid "Whaleclub"
+msgstr "Whaleclub"
+
+#: ../../introduction/how-to-buy.rst:651
+msgid "https://whaleclub.co"
+msgstr "https://whaleclub.co"
+
+#: ../../introduction/how-to-buy.rst:653
+msgid ""
+"Based in Hong Kong, Whaleclub offers an advanced platform that allows highly"
+" leveraged trading of cryptocurrency including AXE against other "
+"cryptocurrencies, forex, metals, stocks and bonds."
+msgstr ""
+"Basée à Hong Kong, Whaleclub propose une plateforme avancée qui permet le "
+"trading à fort levier de cryptomonnaies, dont Axe, le Forex, les métaux "
+"précieux, les actions et obligations."
+
+#: ../../introduction/how-to-buy.rst:667
+msgid "Golix"
+msgstr "Golix"
+
+#: ../../introduction/how-to-buy.rst:663
+msgid "https://golix.com"
+msgstr "https://golix.com"
+
+#: ../../introduction/how-to-buy.rst:665
+msgid ""
+"Based in Zimbabwe, Golix is a digital currency exchange that helps people in"
+" Sub-Saharan Africa buy and sell AXE and other cryptocurrencies."
+msgstr ""
+"Basée au Zimbabwe, Golix est une plateforme de change de monnaie numérique "
+"qui aide les Africains subsahariens à acheter et vendre Axe et d'autres "
+"cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:679
+msgid "Bisq"
+msgstr "Bisq"
+
+#: ../../introduction/how-to-buy.rst:675
+msgid "https://bisq.network"
+msgstr "https://bisq.network"
+
+#: ../../introduction/how-to-buy.rst:677
+msgid ""
+"Bisq is a decentralized exchange running on the Tor network and offers "
+"complete privacy, but trades are manual, require escrow and must be settled "
+"between users."
+msgstr ""
+"Bisq est une plateforme de change décentralisée qui tourne sur le réseau Tor"
+" et propose une confidentialité complète. Cependant les trades sont manuels,"
+" demandent une caution et doivent être terminés entre utilisateurs "
+"particuliers."
+
+#: ../../introduction/how-to-buy.rst:690
+msgid "Coincheck"
+msgstr "Coincheck"
+
+#: ../../introduction/how-to-buy.rst:687
+msgid "https://coincheck.com"
+msgstr "https://coincheck.com"
+
+#: ../../introduction/how-to-buy.rst:689
+msgid ""
+"Coincheck is a Japanese exchange allowing deposits in JPY and USD for "
+"trading against AXE and other cryptocurrencies."
+msgstr ""
+"Coincheck est une plateforme de change japonaise acceptant les dépôts en yen"
+" ou dollar, pour change contre Axe et d'autres cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:702
+msgid "Coindeal"
+msgstr "Coindeal"
+
+#: ../../introduction/how-to-buy.rst:698
+msgid "https://coindeal.com"
+msgstr "https://coindeal.com"
+
+#: ../../introduction/how-to-buy.rst:700
+msgid ""
+"Coindeal allows deposits in EUR and offers a range of trading pairs, "
+"including AXE. The exchange is focused on obtaining a FINMA license in "
+"Switzerland to be able to accept a broader range of fiat deposits."
+msgstr ""
+"Coindeal permet les dépôts en euro et propose une gamme de paires de change,"
+" dont Axe. La plateforme tâche d'obtenir une licence FINMA en Suisse pour "
+"accepter des dépôts en d'autres monnaies fiduciaires."
+
+#: ../../introduction/how-to-buy.rst:713
+msgid "BuyUcoin"
+msgstr "BuyUcoin"
+
+#: ../../introduction/how-to-buy.rst:710
+msgid "https://www.buyucoin.com"
+msgstr "https://www.buyucoin.com"
+
+#: ../../introduction/how-to-buy.rst:712
+msgid ""
+"BuyUcoin is a large Indian exchange offering AXE and many other "
+"cryptocurrencies in exchange for Indian Rupees (INR)."
+msgstr ""
+"BuyUcoin est une importante plateforme de change indienne proposant Axe et "
+"beaucoup d'autres cryptomonnaies contre des roupies indiennes (INR)."
+
+#: ../../introduction/how-to-buy.rst:724
+msgid "BitMEX"
+msgstr "BitMEX"
+
+#: ../../introduction/how-to-buy.rst:721
+msgid "https://www.bitmex.com"
+msgstr "https://www.bitmex.com"
+
+#: ../../introduction/how-to-buy.rst:723
+msgid ""
+"BitMEX is a pure-crypto derivates exchange offering trading with up to 100x "
+"leverage. AXE is available to trade against BTC."
+msgstr ""
+"BitMEX est une plateforme de change de dérivés crypto, avec un levier "
+"jusqu'à 100 fois. Axe est disponible dans une paire avec Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:735
+msgid "MBAex"
+msgstr "MBAex"
+
+#: ../../introduction/how-to-buy.rst:732
+msgid "https://mbaex.com"
+msgstr "https://mbaex.com"
+
+#: ../../introduction/how-to-buy.rst:734
+msgid ""
+"MBAex is a pure crypto exchange with a focus on the Chinese market. AXE can"
+" be traded against BTC, USDT and MDP."
+msgstr ""
+"MBAex est une plateforme de change 100% crypto, spécialement dédiée au "
+"marché chinois. Axe peut être changé contre BTC, USDT et MDP."
+
+#: ../../introduction/how-to-buy.rst:746
+msgid "KuCoin"
+msgstr "KuCoin"
+
+#: ../../introduction/how-to-buy.rst:743
+msgid "https://www.kucoin.com"
+msgstr "https://www.kucoin.com"
+
+#: ../../introduction/how-to-buy.rst:745
+msgid ""
+"KuCoin is a pure crypto exchange with a focus on the Chinese market. AXE "
+"can be traded against BTC, USDT, ETH and KCS."
+msgstr ""
+"KuCoin est une plateforme de change 100% crypto dédiée au marché chinois. "
+"Axe peut être changé contre Bitcoin, Ethereum, USDT et KCS."
+
+#: ../../introduction/how-to-buy.rst:757
+msgid "BTCC"
+msgstr "BTCC"
+
+#: ../../introduction/how-to-buy.rst:754
+msgid "https://www.btcc.com"
+msgstr "https://www.btcc.com"
+
+#: ../../introduction/how-to-buy.rst:756
+msgid ""
+"Based in the UK Hong Kong and available in English and Chinese, BTCC offers "
+"AXE trading against BTC and USD."
+msgstr ""
+"Basé au Royaume-Uni et à Hong Kong, et disponible en anglais et chinois, "
+"BTCC propose le change de Axe contre Bitcoin et le dollar américain."
+
+#: ../../introduction/how-to-buy.rst:768
+msgid "Bibox"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:765
+msgid "https://www.bibox.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:767
+msgid ""
+"With a focus on the Asian market, Bibox offers AXE trading against BTC, ETH"
+" and USDT."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:778
+msgid ""
+"DigiFinex is a Chinese exchange allowing trading of AXE against USDT and "
+"BTC."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:790
+msgid "OOOBTC"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:787
+msgid "https://www.ooobtc.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:789
+msgid ""
+"OOOBTC offers AXE trading against BTC and ETH, with a user interface "
+"available in Russian, Arabic and many East Asian languages."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:800
+msgid "ABCC"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:798
+msgid "https://abcc.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:800
+msgid ""
+"ABCC offers web and app-based trading of Axe against BTC, ETH and USDT."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:810
+msgid "Indodax"
+msgstr "Indodax"
+
+#: ../../introduction/how-to-buy.rst:808
+msgid "https://indodax.com"
+msgstr "https://indodax.com"
+
+#: ../../introduction/how-to-buy.rst:810
+msgid "Indodax allows funding in IDR and offers a AXE/BTC trading pair."
+msgstr ""
+"Indodax permet les dépôts en roupies indiennes et propose une paire de "
+"change Axe/Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:822
+msgid "ALFAcashier"
+msgstr "ALFAcashier"
+
+#: ../../introduction/how-to-buy.rst:818
+msgid "https://www.alfacashier.com"
+msgstr "https://www.alfacashier.com"
+
+#: ../../introduction/how-to-buy.rst:820
+msgid ""
+"ALFAcashier, incorporated in Belize, provides electronic exchange and fiat "
+"services. AXE trading pairs are available for BTC, XRP, XMR, XEM, ETH, LTC,"
+" BCH, USD, EUR, CNY, CAD and RUB."
+msgstr ""
+"ALFAcashier, basée au Belize, propose une plateforme de change électronique "
+"et des services fiduciaires. Des paires de change Axe sont proposées contre"
+" BTC, XRP, XMR, XEM, ETH, LTC, BCH, USD, EUR, CNY, CAD et RUB."
+
+#: ../../introduction/how-to-buy.rst:834
+msgid "CoinSuper"
+msgstr "CoinSuper"
+
+#: ../../introduction/how-to-buy.rst:830
+msgid "https://www.coinsuper.com"
+msgstr "https://www.coinsuper.com"
+
+#: ../../introduction/how-to-buy.rst:832
+msgid ""
+"Registered in Hong Kong and with a focus on the Chinese market, CoinSuper "
+"allows fiat deposits in USD and offers AXE trading against BTC, ETH and "
+"USD."
+msgstr ""
+"Opérant depuis Hong Kong et spécialisée dans le marché chinois, CoinSuper "
+"accepte les dépôts en dollars et propose le change Axe contre Bitcoin, "
+"Ethereum et le dollar."
+
+#: ../../introduction/how-to-buy.rst:845
+msgid "Exrates"
+msgstr "Exrates"
+
+#: ../../introduction/how-to-buy.rst:842
+msgid "https://exrates.me"
+msgstr "https://exrates.me"
+
+#: ../../introduction/how-to-buy.rst:844
+msgid ""
+"Exrates allows crypto and USD deposits, and offers AXE trading against BTC "
+"and USD."
+msgstr ""
+"Exrates accepte les dépôts en crypto ou en dollars, et propose le change "
+"Axe contre Bitcoin et le dollar."
+
+#: ../../introduction/how-to-buy.rst:856
+msgid "Bleutrade"
+msgstr "Bleutrade"
+
+#: ../../introduction/how-to-buy.rst:853
+msgid "https://bleutrade.com"
+msgstr "https://bleutrade.com"
+
+#: ../../introduction/how-to-buy.rst:855
+msgid ""
+"Registered in Brazil, Bleutrade offers DOGE and BTC trading pairs for AXE."
+msgstr ""
+"Basée au Brésil, Bleutrade propose des paires de change Axe contre Doge et "
+"Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:867
+msgid "LBank"
+msgstr "LBank"
+
+#: ../../introduction/how-to-buy.rst:864
+msgid "https://www.lbank.info"
+msgstr "https://www.lbank.info"
+
+#: ../../introduction/how-to-buy.rst:866
+msgid ""
+"Available in English and Chinese, LBank has a focus on token trading. AXE "
+"is available to trade against BTC."
+msgstr ""
+"Disponible en anglais et chinois, LBank est spécialisée dans le change de "
+"jetons. Axe est disponible au change contre Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:880
+msgid "Coinroom"
+msgstr "Coinroom"
+
+#: ../../introduction/how-to-buy.rst:875
+msgid "https://coinroom.com"
+msgstr "https://coinroom.com"
+
+#: ../../introduction/how-to-buy.rst:877
+msgid ""
+"Registered in Poland, Coinroom has a strong focus on trading against fiat "
+"currencies. Deposits are available in CHF, CZK, DKK, EUR, GBP, NOK, PLN and "
+"USD. AXE can be traded against USD, BTC, EUR, PLN and GBP."
+msgstr ""
+"Basée en Pologne, CoinRoom est spécialisée dans le change contre les "
+"monnaies fiduciaires. Les dépôts peuvent se faire en CHF, CZK, DKK, EUR, "
+"GBP, NOK, PLN et USD. Axe peut être changé contre USD, BTC, EUR, PLN et "
+"GBP."
+
+#: ../../introduction/how-to-buy.rst:891
+msgid "CoinSpot"
+msgstr "CoinSpot"
+
+#: ../../introduction/how-to-buy.rst:888
+msgid "https://www.coinspot.com.au"
+msgstr "https://www.coinspot.com.au"
+
+#: ../../introduction/how-to-buy.rst:890
+msgid ""
+"CoinSpot is an Australian exchange offering AXE, BTC, LTC and ETH in "
+"exchange for AUD."
+msgstr ""
+"CoinSpot est une plateforme de change permettant de changer Axe, Bitcoin, "
+"Litecoin et Ethereum contre des dollars australiens."
+
+#: ../../introduction/how-to-buy.rst:902
+msgid "Holy Transaction"
+msgstr "Holy Transaction"
+
+#: ../../introduction/how-to-buy.rst:899
+msgid "https://holytransaction.com"
+msgstr "https://holytransaction.com"
+
+#: ../../introduction/how-to-buy.rst:901
+msgid ""
+"Holy Transaction offers AXE trading pairs for BTC, USD and EUR, as well as "
+"over ten other altcoins."
+msgstr ""
+"Holy Transaction propose des paires de change Axe contre Bitcoin, le dollar"
+" et l'euro, mais aussi contre plus de dix autres cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:914
+msgid "RealExchange"
+msgstr "RealExchange"
+
+#: ../../introduction/how-to-buy.rst:910
+msgid "https://realexchange.com.br"
+msgstr "https://realexchange.com.br"
+
+#: ../../introduction/how-to-buy.rst:912
+msgid ""
+"RealExchange is a Brazil-based exchange offering support for a handful of "
+"currencies including Axe, Bitcoin, Litecoin, and SmartCash. The exchange "
+"also supports fiat trading pairs with the Brazilian real."
+msgstr ""
+"RealExchange est une plateforme de change basée au Brésil, qui propose le "
+"change de plusieurs monnaies dont Axe, Bitcoin, Litecoin et SmartCash. La "
+"plateforme propose aussi des paires de change fiduciaires avec le réal "
+"brésilien."
+
+#: ../../introduction/how-to-buy.rst:926
+msgid "NegocieCoins"
+msgstr "NegocieCoins"
+
+#: ../../introduction/how-to-buy.rst:922
+msgid "https://www.negociecoins.com.br"
+msgstr "https://www.negociecoins.com.br"
+
+#: ../../introduction/how-to-buy.rst:924
+msgid ""
+"Based in Brazil, NegocieCoins offers deposits in Brazilian real and Axe "
+"trading pairs. A premium service with higher withdrawal limits is available."
+msgstr ""
+"Basée au Brésil, NegocieCoins permet les dépôts en réaux brésiliens et "
+"propose des paires de change Axe. Un service premium avec des limites de "
+"retrait supérieures est proposé."
+
+#: ../../introduction/how-to-buy.rst:939
+msgid "XDEX"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:934
+msgid "https://www.xdex.com.br"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:936
+msgid ""
+"Based in Brazil, XDEX offers both simple purchase and sale of "
+"cryptocurrencies and an advanced trading platform with various order types. "
+"Axe and several other cryptocurrencies are available for trading against "
+"the Brazilian real."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:951
+msgid "Bitcointoyou"
+msgstr "Bitcointoyou"
+
+#: ../../introduction/how-to-buy.rst:947
+msgid "https://bitcointoyou.com"
+msgstr "https://bitcointoyou.com"
+
+#: ../../introduction/how-to-buy.rst:949
+msgid ""
+"Based in Brazil, Bitcointoyou has been in operation since 2010 and offers "
+"trading of a number of cryptocurrencies, including Axe, against the "
+"Brazilian real."
+msgstr ""
+"Basée au Brésil, Bitcointoyou offre ses services depuis 2010 pour un certain"
+" nombre de cryptomonnaies, dont Axe, à changer contre le réal brésilien."
+
+#: ../../introduction/how-to-buy.rst:964
+msgid "Miami Crypto Exchange"
+msgstr "Miami Crypto Exchange"
+
+#: ../../introduction/how-to-buy.rst:959
+msgid "https://www.miami.exchange"
+msgstr "https://www.miami.exchange"
+
+#: ../../introduction/how-to-buy.rst:961
+msgid ""
+"Miami Crypto Exchange (MCEX), operated by Axe partner `Mercury Cash "
+"<https://www.mercury.cash>`_, is a legal and fully compliant crypto gateway "
+"between the U.S. and the world, with a specific focus on Latin America and "
+"the Caribbean. AXE can be traded against USD and BTC."
+msgstr ""
+"Miami Crypto Exchange (MCEX), gérée par le partenaire Axe `Mercury Cash "
+"<https://www.mercury.cash>`_, est une passerelle cryptomonétaire légale et "
+"conforme aux réglementations entre les Etats-Unis et le monde, avec une "
+"spécialisation sur l'Amérique latine et les Caraïbes. Axe peut être changé "
+"contre le dollar et Bitcoin."
+
+#: ../../introduction/how-to-buy.rst:976
+msgid "SatoWallet"
+msgstr "SatoWallet"
+
+#: ../../introduction/how-to-buy.rst:972
+msgid "https://satowallet.com"
+msgstr "https://satowallet.com"
+
+#: ../../introduction/how-to-buy.rst:974
+msgid ""
+"SatoWallet is a multi-coin crypto wallet with built-in exchange "
+"functionality. Axe is available for trade against Nigerian Naira (NGN), "
+"USD, BTC and ETH."
+msgstr ""
+"SatoWallet est un portefeuille crypto multi-monnaies, avec des "
+"fonctionnalités de change intégrées. Axe est disponible au change contre le"
+" naira nigérian (NGN), le dollar américain, Bitcoin et Ethereum."
+
+#: ../../introduction/how-to-buy.rst:987
+msgid "OmniTrade"
+msgstr "OmniTrade"
+
+#: ../../introduction/how-to-buy.rst:984
+msgid "https://omnitrade.io"
+msgstr "https://omnitrade.io"
+
+#: ../../introduction/how-to-buy.rst:986
+msgid ""
+"Based in Brazil, OmniTrade accepts deposits in Brazilian real through a "
+"partnership with Neon Bank, which can then be traded against Axe."
+msgstr ""
+"Basée au Brésil, OmniTrade accepte les dépôts en réaux brésiliens à travers "
+"un partenariat avec Neon Bank, rendant possible un change contre Axe."
+
+#: ../../introduction/how-to-buy.rst:998
+msgid "Braziliex"
+msgstr "Braziliex"
+
+#: ../../introduction/how-to-buy.rst:995
+msgid "https://braziliex.com"
+msgstr "https://braziliex.com"
+
+#: ../../introduction/how-to-buy.rst:997
+msgid ""
+"Based in Brazil, Brazilies accepts deposits in Brazilian real, and offers "
+"trading of real, Bitcoin and USDT against Axe."
+msgstr ""
+"Basée au Brésil, Brazilies accepte les dépôts en réaux brésiliens et propose"
+" de changer ses réaux, ses bitcoins ou ses dollars contre des axes."
+
+#: ../../introduction/how-to-buy.rst:1010
+msgid "WEX"
+msgstr "WEX"
+
+#: ../../introduction/how-to-buy.rst:1006
+msgid "https://wex.nz"
+msgstr "https://wex.nz"
+
+#: ../../introduction/how-to-buy.rst:1008
+msgid ""
+"WEX, previously known as BTC-e until it was shut down by authorities, has "
+"resumed business under a new name. AXE trading pairs exist for BTC, USD, "
+"RUB, EUR, LTC and ETH."
+msgstr ""
+"WEX, précédemment connue sous le nom de BTC-e avant sa fermeture légale, a "
+"repris son activité sous un nouveau nom. Des paires de change Axe sont "
+"disponibles contre Bitcoin, le dollar, le rouble, l'euro, Litecoin et "
+"Ethereum."
+
+#: ../../introduction/how-to-buy.rst:1035
+msgid "Lescovex"
+msgstr "Lescovex"
+
+#: ../../introduction/how-to-buy.rst:1029
+msgid "https://lescovex.com"
+msgstr "https://lescovex.com"
+
+#: ../../introduction/how-to-buy.rst:1031
+msgid ""
+"Registered in Switzerland, Lescovex offers deposits and withdrawals in a "
+"wide range of fiat currencies (EUR, USD, CAD, GBP, CHF, SEK, RON) for "
+"trading against AXE and other cryptocurrencies. The platform is designed to"
+" assist in the creation of tokens and cryptographic contracts."
+msgstr ""
+"Basée en Suisse, Lescovex permet les dépôts et retraits dans une large gamme"
+" de monnaies fiduciaires (EUR, USD, CAD, GBP, CHF, SEK, RON) pour change "
+"contre Axe et d'autres cryptomonnaies. La plateforme est conçue pour "
+"accompagner la création de jetons et de contrats cryptographiques."
+
+#: ../../introduction/how-to-buy.rst:1049
+msgid "AvaTrade"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1043
+msgid "https://www.avatrade.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1045
+msgid ""
+"Headquartered in Ireland, with offices around the world and boasting over "
+"200,000 registered customers globally, AvaTrade is committed to empowering "
+"people to invest and trade, with confidence, in an innovative and reliable "
+"environment. AvaTrade offers Axe trading as well as traditional Forex, CFD "
+"and options trading."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1059
+msgid "SouthXchange"
+msgstr "SouthXchange"
+
+#: ../../introduction/how-to-buy.rst:1057
+msgid "https://www.southxchange.com"
+msgstr "https://www.southxchange.com"
+
+#: ../../introduction/how-to-buy.rst:1059
+msgid "Based in Argentina, SouthXchange offers AXE for USD and BTC."
+msgstr ""
+"Basée en Argentine, SouthXchange propose des axes contre des dollars ou des"
+" bitcoins."
+
+#: ../../introduction/how-to-buy.rst:1069
+msgid "Coinrail"
+msgstr "Coinrail"
+
+#: ../../introduction/how-to-buy.rst:1067
+msgid "https://coinrail.co.kr"
+msgstr "https://coinrail.co.kr"
+
+#: ../../introduction/how-to-buy.rst:1069
+msgid "Coinrail is a Korean exchange offering AXE trading against KRW."
+msgstr ""
+"Coinrail est une plateforme de change coréenne qui permet de changer des "
+"axes contre des wons."
+
+#: ../../introduction/how-to-buy.rst:1080
+msgid "Cashierest"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1077
+msgid "https://www.cashierest.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1079
+msgid ""
+"Cashierest is a Korean exchange offering AXE trading against KRW, BTC and "
+"ETH."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1092
+msgid "Tidex"
+msgstr "Tidex"
+
+#: ../../introduction/how-to-buy.rst:1088
+msgid "https://tidex.com"
+msgstr "https://tidex.com"
+
+#: ../../introduction/how-to-buy.rst:1090
+msgid ""
+"Tidex is an exchange focusing on tokens on the WAVES and Ethereum "
+"blockchains, but also offers trading against fiat currencies. AXE can be "
+"traded against ETH, BTC, WAVES and Waves pegged currencies."
+msgstr ""
+"Tidex est une plateforme de change spécialisée dans les jetons des "
+"blockchains WAVES et Ethereum, mais qui propose également le change contre "
+"des monnaies fiduciaires. Axe peut être changé contre Ethereum, Bitcoin, "
+"WAVES et les monnaies indexées sur Waves."
+
+#: ../../introduction/how-to-buy.rst:1103
+msgid "LiteBit"
+msgstr "LiteBit"
+
+#: ../../introduction/how-to-buy.rst:1100
+msgid "https://www.litebit.eu"
+msgstr "https://www.litebit.eu"
+
+#: ../../introduction/how-to-buy.rst:1102
+msgid ""
+"LiteBit is a service based in The Netherlands selling cryptocurrency "
+"including Axe for EUR."
+msgstr ""
+"LiteBit est un service basée aux Pays-Bas qui permet d'acheter de la "
+"cryptomonnaie (dont Axe) avec des euros."
+
+#: ../../introduction/how-to-buy.rst:1113
+msgid "Laissez Faire"
+msgstr "Laissez Faire"
+
+#: ../../introduction/how-to-buy.rst:1111
+msgid "https://lzf.com"
+msgstr "https://lzf.com"
+
+#: ../../introduction/how-to-buy.rst:1113
+msgid "Laissez Faire offers incentivized trading which includes AXE."
+msgstr "Laissez Faire propose des changes rétribués, qui incluent Axe."
+
+#: ../../introduction/how-to-buy.rst:1126
+msgid "Bitsane"
+msgstr "Bitsane"
+
+#: ../../introduction/how-to-buy.rst:1121
+msgid "https://bitsane.com"
+msgstr "https://bitsane.com"
+
+#: ../../introduction/how-to-buy.rst:1123
+msgid ""
+"Bitsane (and its altcoin sister site `Anybits <https://anybits.com>`_) offer"
+" trading pairs for Axe and allows deposits in EUR and USD."
+msgstr ""
+"Bitsane (et son site frère `Anybits <https://anybits.com>`_ pour les "
+"altcoins) propose des paires de change Axe et permet les dépôts en euros et"
+" dollars."
+
+#: ../../introduction/how-to-buy.rst:1131
+msgid "Instant exchanges"
+msgstr "Plateformes de change instantané"
+
+#: ../../introduction/how-to-buy.rst:1144
+#: ../../introduction/how-to-buy.rst:1547
+msgid "Changelly"
+msgstr "Changelly"
+
+#: ../../introduction/how-to-buy.rst:1139
+#: ../../introduction/how-to-buy.rst:1543
+msgid "https://changelly.com"
+msgstr "https://changelly.com"
+
+#: ../../introduction/how-to-buy.rst:1141
+msgid ""
+"Changelly is a broker service offering a range of cryptocurrency, including "
+"Axe, for instant exchange against other cryptocurrencies without needing to"
+" create an account. Be sure to check the fees and rates before purchasing."
+msgstr ""
+"Changelly est un service de courtage qui propose une gamme de "
+"cryptomonnaies, dont Axe, pour un change instantané entre elles, sans "
+"besoin de créer un compte. Assurez-vous de vérifier les frais et les taux "
+"avant toute conversion."
+
+#: ../../introduction/how-to-buy.rst:1157
+msgid "ShapeShift"
+msgstr "ShapeShift"
+
+#: ../../introduction/how-to-buy.rst:1152
+msgid "https://shapeshift.io"
+msgstr "https://shapeshift.io"
+
+#: ../../introduction/how-to-buy.rst:1154
+msgid ""
+"ShapeShift allows users to directly exchange one crypto asset for another "
+"without creating any account, albeit with a higher markup than most "
+"exchanges. ShapeShift supports Axe and over 70 other cryptocurrencies."
+msgstr ""
+"ShapeShift permet à ses utilisateurs de changer directement une "
+"cryptomonnaie contre une autre sans avoir besoin de créer un compte, mais "
+"avec des frais plus élevés que sur la plupart des plateformes. ShapeShift "
+"propose Axe et plus de 70 cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:1169
+msgid "SimpleSwap"
+msgstr "SimpleSwap"
+
+#: ../../introduction/how-to-buy.rst:1165
+msgid "https://www.simpleswap.io"
+msgstr "https://www.simpleswap.io"
+
+#: ../../introduction/how-to-buy.rst:1167
+msgid ""
+"SimpleSwap is a simple and easy-to-use platform for cryptocurrency exchanges"
+" that works without registration and limits. It is possible to exchange Axe"
+" with over 60 other cryptocurrencies."
+msgstr ""
+"SimpleSwap et une plateforme de change de cryptomonnaies simple d'emploi, "
+"accessible sans enregistrement ni limites. Il est possible de changer Axe "
+"contre plus de 60 autres cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:1181
+msgid "AirTM"
+msgstr "AirTM"
+
+#: ../../introduction/how-to-buy.rst:1177
+msgid "https://www.airtm.io"
+msgstr "https://www.airtm.io"
+
+#: ../../introduction/how-to-buy.rst:1179
+msgid ""
+"AirTM allows rapid exchanges between a range of cryptocurrencies, "
+"traditional banks and proprietary regional payment schemes such as Alipay, "
+"Western Union or Skrill."
+msgstr ""
+"AirTM permet des conversions rapides entre une gamme de cryptomonnaies, les "
+"banques classiques et les systèmes de paiement nationaux et propriétaires "
+"tels qu'Alipay, Western Union ou Skrill."
+
+#: ../../introduction/how-to-buy.rst:1193
+msgid "Godex"
+msgstr "Godex"
+
+#: ../../introduction/how-to-buy.rst:1189
+msgid "https://godex.io"
+msgstr "https://godex.io"
+
+#: ../../introduction/how-to-buy.rst:1191
+msgid ""
+"Godex allows users to directly exchange one crypto asset for another without"
+" creating any account, albeit with a higher markup than most exchanges. "
+"Godex supports Axe and over 120 other cryptocurrencies."
+msgstr ""
+"Godex permet aux utilisateurs de changer directement un crypto-actif contre "
+"un autre sans créer de compte, mais cependant avec des frais plus élevés que"
+" dans la plupart des plateformes. Godex supporte Axe et plus de 120 autres "
+"cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:1205
+msgid "Flyp.me"
+msgstr "Flyp.me"
+
+#: ../../introduction/how-to-buy.rst:1201
+msgid "https://flyp.me"
+msgstr "https://flyp.me"
+
+#: ../../introduction/how-to-buy.rst:1203
+msgid ""
+"Flyp.me is developed by the team at HolyTransaction, the first multicurrency"
+" web wallet. It offers instant exchange services between 18 different "
+"cryptocurrencies without creating an account."
+msgstr ""
+"Flyp.me est conçu par l'équipe d'Holy Transaction, le premier portefeuille "
+"web multi-monnaies. Il offre des services de conversion instantanée entre 18"
+" cryptomonnaies différentes, sans création de compte."
+
+#: ../../introduction/how-to-buy.rst:1217
+msgid "CoinSwitch"
+msgstr "CoinSwitch"
+
+#: ../../introduction/how-to-buy.rst:1213
+msgid "https://coinswitch.co"
+msgstr "https://coinswitch.co"
+
+#: ../../introduction/how-to-buy.rst:1215
+msgid ""
+"CoinSwitch is a crypto to crypto exchange aggregate with more than 300 "
+"different coins and tokens listed. Also offers purchases through "
+"credit/debit cards."
+msgstr ""
+"CoinSwitch est un agrégateur de plateformes de change crypto à crypto, qui "
+"répertorie plus de 300 monnaies et jetons différents. Il propose aussi "
+"l'achat de cryptomonnaie avec carte de crédit ou de débit."
+
+#: ../../introduction/how-to-buy.rst:1230
+msgid "MorphToken"
+msgstr "MorphToken"
+
+#: ../../introduction/how-to-buy.rst:1225
+msgid "https://www.morphtoken.com"
+msgstr "https://www.morphtoken.com"
+
+#: ../../introduction/how-to-buy.rst:1227
+msgid ""
+"MorphToken is an instant exchange allowing users to instantly convert "
+"between Axe, Bitcoin, Bitcoin Cash, Ethereum, Litecoin and Monero. It is "
+"even possible to convert into more than one cryptocurrency in a single "
+"exchange."
+msgstr ""
+"MorphToken est une plateforme de change instantanée, permettant aux "
+"utilisateurs de convertir instantanément Axe, Bitcoin, Bitcoin Cash, "
+"Ethereum, Litecoin et Monero. Il est même possible de faire conversion en "
+"plusieurs cryptomonnaies, dans une seule opération."
+
+#: ../../introduction/how-to-buy.rst:1242
+msgid "changeNOW"
+msgstr "changeNOW"
+
+#: ../../introduction/how-to-buy.rst:1238
+msgid "https://changenow.io"
+msgstr "https://changenow.io"
+
+#: ../../introduction/how-to-buy.rst:1240
+msgid ""
+"changeNOW is a non-custodian exchange service based in the Netherlands, with"
+" low commissions and quick service. Offers crypto to crypto exchanges, as "
+"well as purchases through credit/debit cards."
+msgstr ""
+"changeNOW est un service de change sans dépôt basé aux Pays-Bas, avec des "
+"commissions faibles et un service rapide. Il offre des changes crypto à "
+"crypto, mais aussi des achats de cryptomonnaie avec carte de débit ou de "
+"crédit."
+
+#: ../../introduction/how-to-buy.rst:1255
+msgid "Guarda"
+msgstr "Guarda"
+
+#: ../../introduction/how-to-buy.rst:1250
+msgid "https://guarda.co"
+msgstr "https://guarda.co"
+
+#: ../../introduction/how-to-buy.rst:1252
+msgid ""
+"Guarda offers an entire blockchain ecosystem consisting of desktop, web and "
+"mobile wallets, OTC crypto sales and instant crypto exchange. Axe is "
+"supported throughout the ecosystem, making it an easy and convenient way for"
+" new users to get started."
+msgstr ""
+"Guarda propose un écosystème blockchain entier, composé de portefeuilles "
+"web, mobiles ou pour ordinateurs de bureau, de ventes crypto de gré à gré "
+"(OTC) et d'un service instantané de change crypto. Axe est compatible avec "
+"tout cet écosystème, permettant aux nouveaux utilisateurs de démarrer "
+"rapidement et simplement."
+
+#: ../../introduction/how-to-buy.rst:1269
+msgid "BlockTrades"
+msgstr "BlockTrades"
+
+#: ../../introduction/how-to-buy.rst:1263
+msgid "https://blocktrades.us"
+msgstr "https://blocktrades.us"
+
+#: ../../introduction/how-to-buy.rst:1265
+msgid ""
+"BlockTrades is a decentralized exchange designed to facilitate free movement"
+" between the Steemit, BitShares, Bitcoin and Axe blockchains. The system is"
+" designed to find the best possible instant conversion rate between any two "
+"given cryptocurrencies."
+msgstr ""
+"BlockTrades est une plateforme de change décentralisée, conçue pour "
+"faciliter les mouvements entre les blockchains Steemit, BitShares, Bitcoin "
+"et Axe. Le système fait en sorte de trouver le meilleur taux de change "
+"instantanée entre deux cryptomonnaies données."
+
+#: ../../introduction/how-to-buy.rst:1274
+msgid "Over the Counter"
+msgstr "Gré à gré (Over the counter, OTC)"
+
+#: ../../introduction/how-to-buy.rst:1286
+msgid "Uphold"
+msgstr "Uphold"
+
+#: ../../introduction/how-to-buy.rst:1282
+msgid "https://uphold.com"
+msgstr "https://uphold.com"
+
+#: ../../introduction/how-to-buy.rst:1284
+msgid ""
+"Uphold accounts may be funded with over 30 national currencies by bank "
+"account or credit card to purchase and spend multiple cryptocurrencies "
+"including Axe."
+msgstr ""
+"Les comptes Uphold peuvent être alimentés par plus de 30 monnaies "
+"nationales, par virement bancaire ou carte bancaire, afin d'acheter ou de "
+"dépenser de nombreuses cryptomonnaies, dont Axe."
+
+#: ../../introduction/how-to-buy.rst:1298
+msgid "Kriptomat"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1294
+msgid "https://kriptomat.io"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1296
+msgid ""
+"Kriptomat enables you to buy, sell and store cryptocurrencies in your local "
+"language - safe, simple and secure. Axe is available for exchange to and "
+"from EUR with bank accounts and credit cards."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1312
+msgid "Bitpanda"
+msgstr "Bitpanda"
+
+#: ../../introduction/how-to-buy.rst:1306
+msgid "https://www.bitpanda.com https://www.bitpanda.com/togo"
+msgstr "https://www.bitpanda.com https://www.bitpanda.com/togo"
+
+#: ../../introduction/how-to-buy.rst:1309
+msgid ""
+"Bitpanda is a broker service offering Bitcoin, Ethereum, Litecoin and Axe "
+"both online and at over 400 Post branches and about 1300 Post partners "
+"throughout Austria. Pay with cash, credit card or bank transfer."
+msgstr ""
+"Bitpanda est un service de courtage qui propose Bitcoin, Ethereum, Litecoin "
+"et Axe, à la fois en ligne et dans plus de 400 bureaux de poste et environ "
+"1300 partenaires de la poste, dans toute l'Autriche. Payez en liquide, avec "
+"une carte bancaire ou avec un virement bancaire."
+
+#: ../../introduction/how-to-buy.rst:1325
+msgid "Bitnovo"
+msgstr "Bitnovo"
+
+#: ../../introduction/how-to-buy.rst:1320
+msgid "https://www.bitnovo.com"
+msgstr "https://www.bitnovo.com"
+
+#: ../../introduction/how-to-buy.rst:1322
+msgid ""
+"Bitnovo is a broker service offering Bitcoin and Axe both on their website "
+"and at tens of thousands of physical locations throughout Europe. They also "
+"offer reloadable cards, vouchers and cryptocurrency wallets."
+msgstr ""
+"Bitnovo est un service de courtage qui propose Bitcoin et Axe à la fois sur"
+" leur site web et dans des dizaines de milliers de lieux physiques à travers"
+" l'Europe. Ils proposent également des cartes rechargeables, des bons de "
+"réduction et des portefeuilles de cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:1337
+msgid "Bitit"
+msgstr "Bitit"
+
+#: ../../introduction/how-to-buy.rst:1333
+msgid "https://bitit.io"
+msgstr "https://bitit.io"
+
+#: ../../introduction/how-to-buy.rst:1335
+msgid ""
+"Bitit is a broker service offering Bitcoin, Axe and several other "
+"cryptocurrencies for sale online. Payment in a range of currencies is "
+"support using both direct banking, credit cards and vouchers."
+msgstr ""
+"BitIt est un service de courtage proposant Bitcoin, Axe et plusieurs autres"
+" cryptomonnaies à la vente en ligne. Le règlement en un certain nombre de "
+"monnaies est possible par virement bancaire, cartes bancaires et bons."
+
+#: ../../introduction/how-to-buy.rst:1349
+msgid "buycrypto"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1345
+msgid "https://buycrypto.gr"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1347
+msgid ""
+"Buycrypto is a peer-to-peer cryptocurrency-fiat exchange geared towards "
+"giving Greeks easier access to economically sound money. Axe is available "
+"for purchase and sale against the Euro."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1359
+msgid ""
+"Kraken offers private, personalized OTC service with deep liquidity to "
+"institutions and high net-worth individuals needing to fill orders in excess"
+" of $100,000. Simply send an email to otc@kraken.com to get started."
+msgstr ""
+"Kraken propose un service de gré à gré (OTC, over the counter) privé et "
+"personnalisé, avec une forte liquidité, à l'intention des institutions et "
+"des individus fortunés devant exécuter des ordres dépassant les 100 000 "
+"dollars. Envoyez simplement un message par e-mail à otc@kraken.com pour "
+"commencer."
+
+#: ../../introduction/how-to-buy.rst:1377
+msgid "Koi Trading"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1370
+msgid "https://koi.trade"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1372
+msgid ""
+"Based in San Francisco with satellite offices in Hong Kong and Europe, Koi "
+"Trading offers a reliable, efficient, and compliant OTC pathway for "
+"institutions and high net-worth individuals to engage with cryptocurrency. "
+"Brokerages, exchanges, miners and funds worldwide trust Koi Trading for its "
+"professional, high-touch services and robust cryptocurrency liquidity."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1389
+msgid "Coinfinity"
+msgstr "Coinfinity"
+
+#: ../../introduction/how-to-buy.rst:1385
+msgid "https://coinfinity.co"
+msgstr "https://coinfinity.co"
+
+#: ../../introduction/how-to-buy.rst:1387
+msgid ""
+"Coinfinity offers Axe and Bitcoin broker services in Austria and Germany, "
+"as well as through their coupon-based `Bitcoinbon "
+"<https://www.bitcoinbon.at/>`_ service."
+msgstr ""
+"Coinfinity propose des services de courtage Axe et Bitcoin en Autriche et "
+"Allemagne, mais aussi leur service `Bitcoinbon "
+"<https://www.bitcoinbon.at/>`_."
+
+#: ../../introduction/how-to-buy.rst:1400
+msgid "Coinsave"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1397
+msgid "https://coinsave.io"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1399
+msgid ""
+"Coinsave is a Canadian OTC retailer offering AXE and other cryptocurrencies"
+" for CAD."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1413
+msgid "Bitcoin Meester"
+msgstr "Bitcoin Meester"
+
+#: ../../introduction/how-to-buy.rst:1408
+msgid "https://www.bitcoinmeester.nl https://www.bitladon.com"
+msgstr "https://www.bitcoinmeester.nl https://www.bitladon.com"
+
+#: ../../introduction/how-to-buy.rst:1411
+msgid ""
+"Bitcoin Meester, and it's international sister site Bitladon, allows you to "
+"buy and sell Axe (and other cryptocurrencies) OTC in exchange for Euro."
+msgstr ""
+"Bitcoin Meester, avec sa version internationale Bitladon, vous permet "
+"d'acheter et de vendre des axes (et d'autres cryptomonnaies) en gré à gré "
+"(OTC) contre des euros."
+
+#: ../../introduction/how-to-buy.rst:1424
+msgid "Coinvertit"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1421
+msgid "https://www.coinvertit.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1423
+msgid ""
+"Based in Romania, Coinvertit is an easy way to buy and sell Axe in exchange"
+" for BTC, LTC, BCH and Romanian Leu (RON)."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1436
+msgid "eBitpoint"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1432
+msgid "https://www.ebitpoint.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1434
+msgid ""
+"eBitpoint is a secure online peer to peer platform with escrow service for "
+"buying, selling, storing Axe and other digital currencies at competitive "
+"exchange rates in Ghana."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1448
+msgid "eBitcoinics"
+msgstr "eBitcoinics"
+
+#: ../../introduction/how-to-buy.rst:1444
+msgid "http://www.ebitcoinics.com"
+msgstr "http://www.ebitcoinics.com"
+
+#: ../../introduction/how-to-buy.rst:1446
+msgid ""
+"eBitcoinics is a cryptocurrency exchange and education platform for the "
+"African market. Axe is available for exchange against Nigerian Naira (NGN) "
+"and Ghanaian Cedi (GHS)."
+msgstr ""
+"eBitcoinics est une plateforme de change cryptomonétaire et d'éducation pour"
+" le marché africain. Axe est disponible au change contre le naira nigérian "
+"(NGN) et le cedi ghanéen (GHS)."
+
+#: ../../introduction/how-to-buy.rst:1461
+msgid "Kurecoinhub"
+msgstr "Kurecoinhub"
+
+#: ../../introduction/how-to-buy.rst:1456
+msgid "https://kurecoinhub.com"
+msgstr "https://kurecoinhub.com"
+
+#: ../../introduction/how-to-buy.rst:1458
+msgid ""
+"Kurecoinhub offers AXE and other cryptocurrencies for sale OTC for the "
+"Nigerian Naira. Dividend bearing bank deposits, loans against Axe "
+"collateral and merchant services are also available from this innovative "
+"platform."
+msgstr ""
+"Kurecoinhub propose Axe et d'autres cryptomonnaies pour une vente de gré à "
+"gré (OTC) contre le naira nigérian. Des dépôts bancaires rémunérés, des "
+"prêts contre caution Axe et des services pour vendeurs sont également "
+"disponibles sur cette plateforme innovante."
+
+#: ../../introduction/how-to-buy.rst:1472
+msgid "Gredo E-currency"
+msgstr "Gredo E-currency"
+
+#: ../../introduction/how-to-buy.rst:1469
+msgid "https://www.gredoe-currency.com"
+msgstr "https://www.gredoe-currency.com"
+
+#: ../../introduction/how-to-buy.rst:1471
+msgid ""
+"Gredo E-currency offers OTC sale of Axe and other cryptocurrencies for "
+"Nigerian Naira (NGN)."
+msgstr ""
+"Gredo E-currency propose la vente de gré à gré (OTC) de Axe et d'autres "
+"cryptomonnaies contre des nairas nigérians (NGN)."
+
+#: ../../introduction/how-to-buy.rst:1482
+msgid "TruexGOLD"
+msgstr "TruexGOLD"
+
+#: ../../introduction/how-to-buy.rst:1480
+msgid "https://truexgold.com"
+msgstr "https://truexgold.com"
+
+#: ../../introduction/how-to-buy.rst:1482
+msgid "TruexGOLD offers OTC sale of Axe in Nigeria for Nigeria Naira (NGN)."
+msgstr ""
+"TruexGOLD propose la vente de gré à gré (OTC) de Axe au Nigéria, contre des"
+" nairas nigérians (NGN)."
+
+#: ../../introduction/how-to-buy.rst:1496
+msgid "Cryptomate"
+msgstr "Cryptomate"
+
+#: ../../introduction/how-to-buy.rst:1490
+msgid "https://cryptomate.co.uk"
+msgstr "https://cryptomate.co.uk"
+
+#: ../../introduction/how-to-buy.rst:1492
+msgid ""
+"Cryptomate sells a range of cryptocurrencies, including Axe, for GBP. "
+"Cryptomate's goal is to make buying and selling cryptocurrency as simple as "
+"possible for people who want a pain-free experience and the fastest "
+"transactions - coins can be in your wallet as soon as 5 minutes after "
+"ordering."
+msgstr ""
+"Cryptomate vend contre des livres sterling un certain nombre de "
+"cryptomonnaies, dont Axe. Le but de Cryptomate est de rendre l'achat et la "
+"vente de cryptomonnaie aussi simples que possible, à l'attention des gens "
+"souhaitant un processus facile et des transactions rapides (les fonds "
+"peuvent être dans votre portefeuille 5 minutes après la commande)."
+
+#: ../../introduction/how-to-buy.rst:1508
+msgid "BitPrime"
+msgstr "BitPrime"
+
+#: ../../introduction/how-to-buy.rst:1504
+msgid "https://www.bitprime.co.nz"
+msgstr "https://www.bitprime.co.nz"
+
+#: ../../introduction/how-to-buy.rst:1506
+msgid ""
+"BitPrime operates a secure and compliant platform for easy retail trading in"
+" New Zealand. Axe is available OTC for both purchase and sale together with"
+" many other cryptocurrencies."
+msgstr ""
+"BitPrime est une plateforme sûre et légale pour des opérations de change "
+"faciles en Nouvelle-Zélande. Axe est disponible de gré à gré (OTC) à la "
+"fois à l'achat et à la vente, ainsi que beaucoup d'autres cryptomonnaies."
+
+#: ../../introduction/how-to-buy.rst:1521
+msgid "Mercury Cash"
+msgstr "Mercury Cash"
+
+#: ../../introduction/how-to-buy.rst:1516
+msgid "https://www.mercury.cash"
+msgstr "https://www.mercury.cash"
+
+#: ../../introduction/how-to-buy.rst:1518
+msgid ""
+"Mercury Cash is an online/mobile wallet and licensed money transmitter with "
+"integration for merchant services. Balances can be held in both Ethereum and"
+" Axe, and deposited or withdrawn in local currencies through a number of "
+"methods, including credit cards."
+msgstr ""
+"Mercury Cash est un portefeuille en ligne et mobile, mais aussi un "
+"intermédiaire monétaire licencié avec intégration de services marchants. Les"
+" comptes peuvent être tenus en Ethereum et Axe, et les dépôts et retraits "
+"peuvent se faire en monnaies locales par un certain nombre de moyens, dont "
+"les cartes bancaires."
+
+#: ../../introduction/how-to-buy.rst:1535
+msgid "cryptomonster"
+msgstr "Cryptomonster"
+
+#: ../../introduction/how-to-buy.rst:1529
+msgid "https://www.cryptomonster.co.uk"
+msgstr "https://www.cryptomonster.co.uk"
+
+#: ../../introduction/how-to-buy.rst:1531
+msgid ""
+"cryptomonster have created an easy to use platform where you can buy AXE "
+"and other digital assets within minutes. All you need is a UK bank account "
+"and a wallet address. cryptomonster pride themselves on a next-level service"
+" and regard themseleves as the leading digital assets platform in the UK."
+msgstr ""
+"Cryptomonster a créé une plateforme simple d'emploi où l'on peut acheter "
+"Axe et d'autres actifs numériques en quelques minutes. Un compte bancaire "
+"britannique est nécessaire, ainsi qu'une adresse de portefeuille "
+"cryptomonétaire. Cryptomonster se présente comme un service de prochaine "
+"génération et comme la plateforme leader en crypto-actifs pour le Royaume-"
+"Uni."
+
+#: ../../introduction/how-to-buy.rst:1545
+msgid ""
+"Changelly is a popular instantaneous crypto to crypto exchange platform with"
+" more than 100 different coins and tokens listed. Also offers purchases via "
+"credit/debit cards."
+msgstr ""
+"Changelly est une plateforme de change instantané crypto à crypto, proposant"
+" plus de 100 différentes monnaies et jetons. Elle permet aussi l'achat par "
+"carte de crédit ou de débit."
+
+#: ../../introduction/how-to-buy.rst:1560
+msgid "Cryptobuyer"
+msgstr "Cryptobuyer"
+
+#: ../../introduction/how-to-buy.rst:1555
+msgid "https://cryptobuyer.io"
+msgstr "https://cryptobuyer.io"
+
+#: ../../introduction/how-to-buy.rst:1557
+msgid ""
+"Cryptobuyer is a direct purchasing service with a focus on the Latin "
+"American market and Venezuela in particular. It can be linked with a bank "
+"account to purchase Axe, Litecoin and Bitcoin directly. The company also "
+"operates a network of ATMs and merchant integrations."
+msgstr ""
+"Cryptobuyer est un service d'achat direct de cryptomonnaie, dédié "
+"spécialement au marché latino-américain et surtout au Vénézuela. Il peut "
+"être lié à un compte bancaire pour l'achat direct de Axe, Litecoin et "
+"Bitcoin. L'entreprise gère également un réseau de distributeurs crypto (ATM)"
+" et des intégrations pour marchands."
+
+#: ../../introduction/how-to-buy.rst:1571
+msgid "BasiChange"
+msgstr "BasiChange"
+
+#: ../../introduction/how-to-buy.rst:1568
+msgid "https://basichange.com"
+msgstr "https://basichange.com"
+
+#: ../../introduction/how-to-buy.rst:1570
+msgid ""
+"BasiChange offers exchange, trading and OTC crypto sales with a focus on "
+"Venezuela and Colombia."
+msgstr ""
+"BasiChange propose un service de change, de trading et de ventes "
+"cryptomonétaires de gré à gré (OTC) et se dédie particulièrement aux marchés"
+" vénézuéliens et colombiens."
+
+#: ../../introduction/how-to-buy.rst:1585
+msgid "CryptoWay"
+msgstr "CryptoWay"
+
+#: ../../introduction/how-to-buy.rst:1579
+msgid "https://cryptoway.io"
+msgstr "https://cryptoway.io"
+
+#: ../../introduction/how-to-buy.rst:1581
+msgid ""
+"On CryptoWay, you can buy and sell Axe, Bitcoin, Ethereum, Litecoin and "
+"Doge peer-to-peer (P2P) with Venezuelan bolivars on a secure, fast and "
+"simple platform. You can also link your bank account for efficient "
+"processing of deposits and withdrawals."
+msgstr ""
+"Sur CryptoWay, vous pouvez acheter et vendre Axe, Bitcoin, Ethereum, "
+"Litecoin et Doge en pair à pair (P2P) avec des bolivars vénézuéliens, en "
+"utilisant une plateforme simple et performante. Vous pouvez aussi y associer"
+" votre compte bancaire pour un traitement rapide des dépôts et retraits."
+
+#: ../../introduction/how-to-buy.rst:1598
+msgid "Stratum CoinBR"
+msgstr "Stratum CoinBR"
+
+#: ../../introduction/how-to-buy.rst:1593
+msgid "https://coinbr.io"
+msgstr "https://coinbr.io"
+
+#: ../../introduction/how-to-buy.rst:1595
+msgid ""
+"CoinBR is a Brazil-based cryptocurrency company offering a variety of "
+"services including an exchange, mining, bill payment, point-of-sale, and "
+"more. Axe is available for purchase at over 13,000 locations around Brazil."
+msgstr ""
+"CoinBR est une entreprise cryptomonétaire basée au Brésil, proposant une "
+"gamme de services dont une plateforme de change, un service de minage, un "
+"service de paiement de factures, etc. Axe est disponible à l'achat dans "
+"plus de 13 000 lieux physiques au Brésil."
+
+#: ../../introduction/how-to-buy.rst:1611
+msgid "Wall of Coins"
+msgstr "Wall of Coins"
+
+#: ../../introduction/how-to-buy.rst:1606
+msgid "https://wallofcoins.com"
+msgstr "https://wallofcoins.com"
+
+#: ../../introduction/how-to-buy.rst:1608
+msgid ""
+"Wall of Coins allows user to post offers to buy or sell Axe and Bitcoin "
+"within their region or country. The service, which is available in over 20 "
+"countries, then holds the coins in escrow while the buyer completes payment."
+msgstr ""
+"Wall of Coins permet à ses utilisateurs de publier des annonces d'achat ou "
+"de vente de Axe ou Bitcoin dans leur région ou leur pays. Le service, "
+"disponible dans plus de 20 pays, agit en tant qu'intermédiaire de confiance,"
+" le temps que l'acheteur achève son paiement."
+
+#: ../../introduction/how-to-buy.rst:1622
+msgid "Liberalcoins"
+msgstr "Liberalcoins"
+
+#: ../../introduction/how-to-buy.rst:1619
+msgid "https://liberalcoins.com"
+msgstr "https://liberalcoins.com"
+
+#: ../../introduction/how-to-buy.rst:1621
+msgid ""
+"Liberalcoins allows users to arrange trades to buy or sell Axe, Monero, "
+"Bitcoin and Litecoin directly with one another."
+msgstr ""
+"Liberalcoins permet aux utilisateurs de convenir d'achats ou de ventes de "
+"Axe, Monero, Bitcoin et Litecoin, directement entre particuliers."
+
+#: ../../introduction/how-to-buy.rst:1634
+msgid "QCashPay"
+msgstr "QCashPay"
+
+#: ../../introduction/how-to-buy.rst:1630
+msgid "https://qcashpay.com"
+msgstr "https://qcashpay.com"
+
+#: ../../introduction/how-to-buy.rst:1632
+msgid ""
+"QCashPay is a Hong Kong company specialising in direct sale of "
+"cryptocurrency, including Axe, for USD and CNY using various bank and third"
+" party payment schemes."
+msgstr ""
+"QCashPay est une entreprise de Hong Kong spécialisée en vente directe de "
+"cryptomonnaie, dont Axe, contre des dollars ou des yens, au moyen de "
+"virements bancaires ou autres moyens de paiement."
+
+#: ../../introduction/how-to-buy.rst:1646
+msgid "MegaChange"
+msgstr "MegaChange"
+
+#: ../../introduction/how-to-buy.rst:1642
+msgid "https://www.megachange.is"
+msgstr "https://www.megachange.is"
+
+#: ../../introduction/how-to-buy.rst:1644
+msgid ""
+"MegaChange offers direct sale and exchange of various digital forms of "
+"currency in a simple market system. It supports Axe and multiple methods of"
+" adding fiat currency, including USD, RMB and RUB."
+msgstr ""
+"MegaChange propose une vente directe et une plateforme de change de "
+"différentes monnaies numériques, dans un marché simple d'emploi. Il propose "
+"Axe et de nombreux moyens de dépôt de monnaie fiduciaire, dont le dollar, "
+"le yuan et le rouble."
+
+#: ../../introduction/how-to-buy.rst:1658
+msgid "Axeous"
+msgstr "Axeous"
+
+#: ../../introduction/how-to-buy.rst:1654
+msgid "https://www.axeous.com"
+msgstr "https://www.axeous.com"
+
+#: ../../introduction/how-to-buy.rst:1656
+msgid ""
+"Axeous allows user to post offers to buy or sell Axe and Bitcoin within "
+"their region or country. The users then arrange the deal between themselves."
+msgstr ""
+"Axeous permet aux utilisateurs de publier des annonces de vente ou d'achat "
+"de Axe ou Bitcoin dans leur région ou leur pays. Les utilisateurs mènent à "
+"bien la transaction directement entre eux."
+
+#: ../../introduction/how-to-buy.rst:1669
+msgid "Magnetic Exchange"
+msgstr "Magnetic Exchange"
+
+#: ../../introduction/how-to-buy.rst:1666
+msgid "https://magneticexchange.com"
+msgstr "https://magneticexchange.com"
+
+#: ../../introduction/how-to-buy.rst:1668
+msgid ""
+"Magnetic Exchange offers Bitcoin, Ethereum, Litecoin and Axe in exchange "
+"for USD or EUR through various payment services."
+msgstr ""
+"Magnetic Exchange propose Bitcoin, Ethereum, Litecoin et Axe contre des "
+"dollars et des euros, à travers différents modes de paiement."
+
+#: ../../introduction/how-to-buy.rst:1681
+msgid "AnycoinDirect"
+msgstr "AnycoinDirect"
+
+#: ../../introduction/how-to-buy.rst:1677
+msgid "https://anycoindirect.eu"
+msgstr "https://anycoindirect.eu"
+
+#: ../../introduction/how-to-buy.rst:1679
+msgid ""
+"AnycoinDirect.eu is a broker service offering 14 cryptocurrencies, including"
+" Axe, for sale online. Pay by bank transfer or various national instant "
+"payment schemes."
+msgstr ""
+"AnycoinDirect.eu est un service de courtage proposant 14 cryptomonnaies, "
+"dont Axe, à la vente en ligne. Le paiement se fait par virement bancaire ou"
+" par divers modes nationaux de paiement."
+
+#: ../../introduction/how-to-buy.rst:1692
+msgid "Axe Nearby"
+msgstr "Axe Nearby"
+
+#: ../../introduction/how-to-buy.rst:1689
+msgid "https://axenearby.com"
+msgstr "https://axenearby.com"
+
+#: ../../introduction/how-to-buy.rst:1691
+msgid ""
+"Axe Nearby allows users to arrange direct trades of cryptocurrency or local"
+" currency between one another."
+msgstr ""
+"Axe Nearby permet aux utilisateurs de convenir directement entre eux de "
+"transactions de cryptomonnaie contre de la monnaie fiduciaire."
+
+#: ../../introduction/how-to-buy.rst:1705
+msgid "Coindirect"
+msgstr "Coindirect"
+
+#: ../../introduction/how-to-buy.rst:1700
+msgid "https://www.coindirect.com"
+msgstr "https://www.coindirect.com"
+
+#: ../../introduction/how-to-buy.rst:1702
+msgid ""
+"Coindirect offers OTC and P2P services to buy and sell many "
+"cryptocurrencies, including Axe. Verified users can create offers in their "
+"local currency to buy and sell with other users. Online wallets and exchange"
+" services are available for most currencies as well."
+msgstr ""
+"Coindirect propose des services de gré à gré (Over The Counter, OTC) et de "
+"pair à pair pour acheter et vendre de nombreuses cryptomonnaies, dont Axe. "
+"Les utilisateurs vérifiés peuvent créer des offres dans leur monnaie locale "
+"pour acheter et vendre à d'autres utilisateurs. Des portefeuilles en ligne "
+"et services de change sont disponibles aussi pour la plupart des monnaies."
+
+#: ../../introduction/how-to-buy.rst:1717
+msgid "Graviex"
+msgstr "Graviex"
+
+#: ../../introduction/how-to-buy.rst:1713
+msgid "https://graviex.net"
+msgstr "https://graviex.net"
+
+#: ../../introduction/how-to-buy.rst:1715
+msgid ""
+"Graviex is a part of the Gravio ecosystem, a blockchain-based communication "
+"platform. It offers extremely low rates and fees for trading. AXE can be "
+"traded against BTC, ETH, LTC and DOGE."
+msgstr ""
+"Graviex fait partie de l'écosystème Gravio, une plateforme de communication "
+"sur blockchain. Il offre des taux et commissions extrêmement bas pour le "
+"trading. Axe peut être changé contre Bitcoin, Ethereum, Litecoin et Doge."
+
+#: ../../introduction/how-to-buy.rst:1730
+msgid "Bitqist"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1725
+msgid "https://bitqist.com"
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1727
+msgid ""
+"Bitqist is a service based in The Netherlands offering over 140 for purchase"
+" and sale. While not strictly an exchange in the sense of offering order "
+"books, it is possible to buy and sell each currency at near the market "
+"price."
+msgstr ""
+
+#: ../../introduction/how-to-buy.rst:1743
+msgid "SlithEx"
+msgstr "SlithEx"
+
+#: ../../introduction/how-to-buy.rst:1738
+msgid "https://slithex.com"
+msgstr "https://slithex.com"
+
+#: ../../introduction/how-to-buy.rst:1740
+msgid ""
+"Based in Malaysia and funded by the Axe Treasury, SlithEx (and its payment "
+"processor, `RocketPay <https://rocketpay.net>`_) offer exchange, wallet and "
+"sale/trading of Axe against the Malaysian ringgit."
+msgstr ""
+"Basée en Malaisie et financé par le Trésor Axe, SlithEx (et son processeur "
+"de paiement `RocketPay <https://rocketpay.net>`_) proposent une plateforme "
+"de change, un portefeuille et la vente-achat de Axe contre le ringgit "
+"malaisien."
+
+#: ../../introduction/how-to-buy.rst:1748
+msgid "ATMs"
+msgstr "Distributeurs (ATM)"
+
+#: ../../introduction/how-to-buy.rst:1750
+msgid ""
+"ATMs are a popular method of buying cryptocurrency at businesses to "
+"encourage adoption and spending in these currencies. A number of ATMs "
+"support Axe, and the mapping services listed on this page can help you find"
+" one near you. It is also possible to operate your own ATM to sell Axe on-"
+"site at your business - simply contact the companies listed on this page."
+msgstr ""
+"Les distributeurs (ATM) sont un moyen répandu d'acheter de la cryptomonnaie."
+" Implantés dans des magasins, ils encouragent l'adoption et la dépense des "
+"cryptomonnaies. Un certain nombre de distributeurs proposent Axe, et les "
+"services de localisation répertoriés ci-dessous peuvent vous aider à en "
+"trouver un. Il est également possible d'opérer votre propre distributeur "
+"pour vendre Axe dans vos locaux professionnels : il vous suffit de "
+"contacter une des entreprises ci-dessous."
+
+#: ../../introduction/how-to-buy.rst:1766
+msgid "General Bytes"
+msgstr "General Bytes"
+
+#: ../../introduction/how-to-buy.rst:1763
+msgid "https://www.generalbytes.com"
+msgstr "https://www.generalbytes.com"
+
+#: ../../introduction/how-to-buy.rst:1765
+msgid ""
+"General Bytes offers a range of two-way cash ATM and Point of Sale solutions"
+" integrating Axe."
+msgstr ""
+"General Bytes propose une gamme de distributeurs bidirectionnels et des "
+"solutions de point de vente intégrant Axe."
+
+#: ../../introduction/how-to-buy.rst:1777
+msgid "Coin ATM Radar"
+msgstr "Coin ATM Radar"
+
+#: ../../introduction/how-to-buy.rst:1774
+msgid "https://coinatmradar.com"
+msgstr "https://coinatmradar.com"
+
+#: ../../introduction/how-to-buy.rst:1776
+msgid ""
+"Various coin ATMs are available around world. Coin ATM Radar helps you find "
+"one close to you."
+msgstr ""
+"De nombreux distributeurs de cryptomonnaies sont disponibles dans le monde. "
+"Coin ATM Radar vous aide à en localiser un près de vous."
+
+#: ../../introduction/how-to-buy.rst:1787
+msgid "Lamassu"
+msgstr "Lamassu"
+
+#: ../../introduction/how-to-buy.rst:1785
+msgid "https://lamassu.is"
+msgstr "https://lamassu.is"
+
+#: ../../introduction/how-to-buy.rst:1787
+msgid "Lamassu offers modular one-way and two-way cash ATMs integrating Axe."
+msgstr ""
+"Lamassu propose des distributeurs modulaires unidirectionnels ou "
+"bidirectionnels, intégrant Axe."
+
+#: ../../introduction/how-to-buy.rst:1798
+msgid "CoinFlip"
+msgstr "CoinFlip"
+
+#: ../../introduction/how-to-buy.rst:1795
+msgid "https://coinflip.tech"
+msgstr "https://coinflip.tech"
+
+#: ../../introduction/how-to-buy.rst:1797
+msgid ""
+"CoinFlip operates a network of ATMs across the USA and offers hosted ATMs "
+"for businesses."
+msgstr ""
+"CoinFlip gère un réseau de distributeurs automatiques (ATM) à travers les "
+"États-Unis et propose aux entreprises des distributeurs hébergés."
+
+#: ../../introduction/how-to-buy.rst:1809
+msgid "Trovemat"
+msgstr "Trovemat"
+
+#: ../../introduction/how-to-buy.rst:1806
+msgid "https://trovemat.com"
+msgstr "https://trovemat.com"
+
+#: ../../introduction/how-to-buy.rst:1808
+msgid ""
+"Focusing on the European market, Trovemat provides a risk-free solution to "
+"sell cryptocurrency from a physical device."
+msgstr ""
+"Dédié au marché européen, Trovemat propose une solution sans risque pour "
+"vendre de la cryptomonnaie à travers un appareil physique."
+
+#: ../../introduction/how-to-buy.rst:1819
+msgid "TigoCTM"
+msgstr "TigoCTM"
+
+#: ../../introduction/how-to-buy.rst:1817
+msgid "https://tigoctm.com"
+msgstr "https://tigoctm.com"
+
+#: ../../introduction/how-to-buy.rst:1819
+msgid ""
+"TigoCTM offers simple ATM solutions integrated with a management blockchain."
+msgstr ""
+"TigoCTM propose des solutions simples de distributeurs intégrant une gestion"
+" blockchain."

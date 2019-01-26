@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Axe Core Group, Inc
+# This file is distributed under the same license as the Axe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Max Aronych <taofgoar@protonmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 13:58+0000\n"
+"PO-Revision-Date: 2018-10-05 10:39+0000\n"
+"Last-Translator: Max Aronych <taofgoar@protonmail.com>, 2018\n"
+"Language-Team: Russian (https://www.transifex.com/axe/teams/37570/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../wallets/text.rst:1
+msgid "Guides to text message wallets for Axe cryptocurrency"
+msgstr "Руководство по текстовым кошелькам для криптовалюты Axe"
+
+#: ../../wallets/text.rst:1
+msgid ""
+"axe, wallet, text, sms, feature, phone, mobile, cointext, axetext, short "
+"message, short code, simple"
+msgstr ""
+"axe, wallet, кошелёк, text, текст, sms, смс, feature, функции, phone, "
+"телефон, mobile, мобильный, cointext, axetext, short message, сообщение, "
+"short code, код, simple"
+
+#: ../../wallets/text.rst:8
+msgid "Introduction"
+msgstr "Введение"
+
+#: ../../wallets/text.rst:10
+msgid ""
+"Text message (SMS) wallets allow you to easily transact in Axe using a "
+"simple feature phone. An internet connection is not required. Because text "
+"wallets require access to text messages, they generally only support "
+"specific regions. See below for details."
+msgstr ""
+"Текстовый кошелёк (SMS) позволяет легко выполнять транзакции в Axe, "
+"используя самый простой телефон. Соединение с интернетом не нужно. Из-за "
+"того, что текстовым кошелькам необходим доступ к текстовым сообщениям, то "
+"поддерживаются только некоторые регионы. Для подробной информации смотрите "
+"ниже."
+
+#: ../../wallets/text.rst:16
+msgid "CoinText"
+msgstr "CoinText"
+
+#: ../../wallets/text.rst:18
+msgid "https://axe.cointext.io"
+msgstr "https://axe.cointext.io"
+
+#: ../../wallets/text.rst:25
+msgid ""
+"CoinText is a for-purpose project to make cryptocurrency easy to use to "
+"expand economic freedom around the world. It makes it possible to transact "
+"in Axe without internet, apps, accounts or complicated addresses. CoinText "
+"currently supports Axe transactions in the USA and Canada and aims to "
+"expand to over 50 countries in coming months. It is possible to denominate "
+"the amount to be sent in both Axe and the local currency, and send Axe to "
+"both phone numbers and Axe addresses."
+msgstr ""
+"CoinText это целевой проект, направленный на облегчение пользованием "
+"криптовалютами для увеличение степени экономической свободы по всему миру. "
+"Благодаря ему стало возможным проводить транзакции в Axe без интернета, "
+"приложений, счетов или сложных адресов. На данный момент CoinText "
+"поддерживает Axe в США и Канаде, но планирует расширение в ближайшие месяцы"
+" более чем 50 стран. Есть функция деноминации количества отправленного как в"
+" Axe, так и в местной валюте, а также возможность отправлять Axe как на "
+"адреса Axe, так и на телефонные номера."
+
+#: ../../wallets/text.rst:34 ../../wallets/text.rst:60
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: ../../wallets/text.rst:36
+msgid ""
+"Simply text START to the CoinText phone number for your region. For more the"
+" list of supported regions and more detailed instructions on how to send and"
+" receive payments, see the links below:"
+msgstr ""
+"Просто напечатайте START на ваш региональный номер CoinText. Для полного "
+"списка поддерживаемых регионов и более детальных инструкции по получению и "
+"отправке платежей, обратитесь к нижепредставленным ссылкам:"
+
+#: ../../wallets/text.rst:40
+msgid "`Regions <https://axe.cointext.io/regions>`__"
+msgstr "`Регионы <https://axe.cointext.io/regions>`__"
+
+#: ../../wallets/text.rst:41
+msgid "`Instructions <https://axe.cointext.io/howto>`__"
+msgstr "`Инструкции <https://axe.cointext.io/howto>`__"
+
+#: ../../wallets/text.rst:42
+msgid "`FAQs <https://axe.cointext.io/faqs>`__"
+msgstr "`Часто задаваемые вопросы <https://axe.cointext.io/faqs>`__"
+
+#: ../../wallets/text.rst:45
+msgid "AxeText"
+msgstr "AxeText"
+
+#: ../../wallets/text.rst:47
+msgid "http://axetext.com"
+msgstr "http://axetext.com"
+
+#: ../../wallets/text.rst:54
+msgid ""
+"AxeText is a service available in Venezuela to allow users to transact in "
+"Axe using text messages. The only fees are the cost of a standard SMS, "
+"incurred by the network operator. Users can send Axe to innovative "
+"shortcodes to securely confirm transactions."
+msgstr ""
+"Сервис AxeText доступен в Венесуэле, с помощью него пользователи могут "
+"совершать транзакции в Axe через текстовые сообщения. Единственные расходы "
+"это стоимость стандартного смс, которая взымается оператором. Пользователи "
+"могут отправлять Axe на инновационные короткие коды для безопасного "
+"подтверждения транзакций."
+
+#: ../../wallets/text.rst:62
+msgid ""
+"Simply text CREATE to the AxeText phone number to get started. Further "
+"instructions and links will appear here once the project is ready for mass "
+"market."
+msgstr ""
+"Для начала работы напишите CREATE на номер AxeText. Дальнейшие инструкции и"
+" ссылки появятся тут как только проект будет готов к использованию на "
+"широком рынке."
