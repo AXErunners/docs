@@ -59,8 +59,8 @@ Masternode owners must have possession of 1000 AXE, which they prove by
 signing a message and broadcasting to the network. Those coins can be
 moved at any time, but moving them will cause the masternode to fall out
 of queue and stop earning rewards. Masternode users are also given 
-**voting rights** on proposals. Each masternode has one vote and this 
-vote can be used on budget proposals or important decisions that affect 
+**voting rights** on proposals. Each masternode has one vote and this
+vote can be used on budget proposals or important decisions that affect
 Axe.
 
 Masternodes cost money and effort to host so they are paid a percentage
@@ -88,7 +88,7 @@ PrivateSend uses an innovative process to mix your inputs with the inputs
 of two other people, without having your coins ever leave your wallet.
 You retain control of your money at all times.
 
-You can view a practical guide to use PrivateSend 
+You can view a practical guide to use PrivateSend
 :ref:`here <axecore-privatesend-instantsend>`.
 
 The PrivateSend process works like this:
@@ -134,35 +134,35 @@ PrivateSend disabled.
 InstantSend
 ===========
 
-Traditional decentralized cryptocurrencies must wait for certain period 
-of time for enough blocks to pass to ensure that a transaction is both 
-irreversible and not an attempt to double-spend money which has already 
-been spent elsewhere. This process is time-consuming, and may take 
-anywhere from 15 minutes to one hour for the widely accepted number of 
-six blocks to accumulate. Other cryptocurrencies achieve faster 
-transaction confirmation time by centralizing authority on the network 
+Traditional decentralized cryptocurrencies must wait for certain period
+of time for enough blocks to pass to ensure that a transaction is both
+irreversible and not an attempt to double-spend money which has already
+been spent elsewhere. This process is time-consuming, and may take
+anywhere from 15 minutes to one hour for the widely accepted number of
+six blocks to accumulate. Other cryptocurrencies achieve faster
+transaction confirmation time by centralizing authority on the network
 to various degrees.
 
-Axe suffers from neither of these limitations thanks to its 
-second-layer network of masternodes. Masternodes can be called upon to 
-form voting quorums to check whether or not a submitted transaction is 
-valid. If it is valid, the masternodes "lock" the inputs for the 
-transaction and broadcast this information to the network, effectively 
-promising that the transaction will be included in subsequently mined 
-blocks and not allowing any other spending of these inputs during the 
+Axe suffers from neither of these limitations thanks to its
+second-layer network of masternodes. Masternodes can be called upon to
+form voting quorums to check whether or not a submitted transaction is
+valid. If it is valid, the masternodes "lock" the inputs for the
+transaction and broadcast this information to the network, effectively
+promising that the transaction will be included in subsequently mined
+blocks and not allowing any other spending of these inputs during the
 confirmation time period.
 
-InstantSend technology will allow for cryptocurrencies such as Axe to 
-compete with nearly instantaneous transaction systems such as credit 
-cards for point-of-sale situations while not relying on a centralized 
+InstantSend technology will allow for cryptocurrencies such as Axe to
+compete with nearly instantaneous transaction systems such as credit
+cards for point-of-sale situations while not relying on a centralized
 authority. Widespread vendor acceptance of Axe and InstantSend could
 revolutionize cryptocurrency by shortening the delay in confirmation of
-transactions from as long as an hour (with Bitcoin) to as little as a 
+transactions from as long as an hour (with Bitcoin) to as little as a
 few seconds.
 
-You can view a practical guide to use InstantSend 
-:ref:`here <axecore-privatesend-instantsend>`. InstantSend was 
-introduced in a whitepaper called `Transaction Locking and Masternode 
+You can view a practical guide to use InstantSend
+:ref:`here <axecore-privatesend-instantsend>`. InstantSend was
+introduced in a whitepaper called `Transaction Locking and Masternode
 Consensus: A Mechanism for Mitigating Double Spending Attacks <https://github.com/axerunners/docs/blob/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_.
 
 
@@ -229,7 +229,7 @@ Information on mining with X11 can be found in the :ref:`Mining
 <mining>` section of this documentation.
 
 X11 is the name of the chained proof-of-work (**PoW**) algorithm that
-was introduced in Axe (launched January 2014 as "Xcoin"). It was 
+was introduced in Axe (launched January 2014 as "Xcoin"). It was
 partially inspired by the chained-hashing approach of Quark, adding
 further "depth" and complexity by increasing the number of hashes, yet
 it differs from Quark in that the rounds of hashes are determined *a
@@ -239,7 +239,7 @@ The X11 algorithm uses multiple rounds of 11 different hashes (blake,
 bmw, groestl, jh, keccak, skein, luffa, cubehash, shavite, simd, echo),
 thus making it one of the safest and more sophisticated cryptographic
 hashes in use by modern cryptocurrencies. The name X11 is not related to
-the open source X11 windowing system common on UNIX-like operating 
+the open source X11 windowing system common on UNIX-like operating
 systems.
 
 Advantages of X11
@@ -282,22 +282,22 @@ Dark Gravity Wave
 
 **DGW** or *Dark Gravity Wave* is an open source difficulty-adjusting
 algorithm for Bitcoin-based cryptocurrencies that was first used in Axe
-and has since appeared in other digital currencies. DGW was authored by 
-Evan Duffield, the developer and creator of Axe, as a response to a 
-time-warp exploit found in *Kimoto's Gravity Well*. In concept, DGW is 
-similar to the Kimoto Gravity Well, adjusting the difficulty levels 
-every block (instead of every 2016 blocks like Bitcoin) based on 
-statistical data from recently found blocks. This makes it possible to 
+and has since appeared in other digital currencies. DGW was authored by
+Evan Duffield, the developer and creator of Axe, as a response to a
+time-warp exploit found in *Kimoto's Gravity Well*. In concept, DGW is
+similar to the Kimoto Gravity Well, adjusting the difficulty levels
+every block (instead of every 2016 blocks like Bitcoin) based on
+statistical data from recently found blocks. This makes it possible to
 issue blocks with relatively consistent times, even if the hashing power
-experiences high fluctuations, without suffering from the time-warp 
+experiences high fluctuations, without suffering from the time-warp
 exploit.
 
-- Version 2.0 of DGW was implemented in Axe from block 45,000 onwards 
+- Version 2.0 of DGW was implemented in Axe from block 45,000 onwards
   in order to completely alleviate the time-warp exploit.
 
-- Version 3.0 was implemented on May 14 of 2014 to further improve 
-  difficulty re-targeting with smoother transitions. It also fixes 
-  issues with various architectures that had different levels of 
+- Version 3.0 was implemented on May 14 of 2014 to further improve
+  difficulty re-targeting with smoother transitions. It also fixes
+  issues with various architectures that had different levels of
   floating-point accuracy through the use of integers.
 
 
@@ -309,14 +309,14 @@ Emission Rate
 Cryptocurrencies such as Axe and Bitcoin are created through a
 cryptographically difficult process known as mining. Mining involves
 repeatedly solving :ref:`hash algorithms <x11-hash-algorithm>` until a
-valid solution for the current :ref:`mining difficulty 
-<dark-gravity-wave>` is discovered. Once discovered, the miner is 
-permitted to create new units of the currency. This is known as the 
-block reward. To ensure that the currency is not subject to endless 
-inflation, the block reward is reduced at regular intervals, as `shown 
+valid solution for the current :ref:`mining difficulty
+<dark-gravity-wave>` is discovered. Once discovered, the miner is
+permitted to create new units of the currency. This is known as the
+block reward. To ensure that the currency is not subject to endless
+inflation, the block reward is reduced at regular intervals, as `shown
 in this calculation
 <https://docs.google.com/spreadsheets/d/1HqgEkyfZDAA6pIZ3df2PwFE8Z430SVIzQ-mCQ6wGCh4/edit#gid=523620673>`_.
-Graphing this data results in a curve showing total coins in 
+Graphing this data results in a curve showing total coins in
 circulation, known as the coin emission rate.
 
 While Axe is based on Bitcoin, it significantly modifies the coin
@@ -413,10 +413,10 @@ hours, consensus had been reached to approve this change. Compare this
 to Bitcoin, where debate on the blocksize has been raging for nearly
 three years.
 
-DGBB also provides a means for Axe to fund its own development. While 
-other projects have to depend on donations or premined endowments, Axe 
-uses 10% of the block reward to fund its own development. Every time a 
-block is mined, 45% of the reward goes to the miner, 45% goes to a 
+DGBB also provides a means for Axe to fund its own development. While
+other projects have to depend on donations or premined endowments, Axe
+uses 10% of the block reward to fund its own development. Every time a
+block is mined, 45% of the reward goes to the miner, 45% goes to a
 masternode, and the remaining 10% is not created until the end of the
 month. During the month, anybody can make a budget proposal to the
 network. If that proposal receives net approval of at least 10% of the
@@ -443,8 +443,8 @@ axed instance on each Axe 12.1 masternode.
 
 A Governance Object (or "govObject") is a generic structure introduced
 in Axe Core 12.1 to allow for the creation of Budget Proposals,
-Triggers, and Watchdogs. Class inheritance has been utilized to extend 
-this generic object into a "Proposal" object to supplant the current 
+Triggers, and Watchdogs. Class inheritance has been utilized to extend
+this generic object into a "Proposal" object to supplant the current
 Axe budget system.
 
 .. figure:: img/sentinel.png
@@ -455,18 +455,18 @@ Axe budget system.
 .. epigraph::
 
    *"The differences with Sentinel are really architectural and not easy/
-   interesting to explain to users as they are a bridge from 12.0 
-   towards Evo features (but not fully implementing them), and Sentinel 
-   was only a part of 12.1 improvements anyway. Pre-Sentinel, governance 
-   functions were 'hard wired' into core code. Sentinel abstracts this 
-   process because in Evolution there are many Object types from Users 
+   interesting to explain to users as they are a bridge from 12.0
+   towards Evo features (but not fully implementing them), and Sentinel
+   was only a part of 12.1 improvements anyway. Pre-Sentinel, governance
+   functions were 'hard wired' into core code. Sentinel abstracts this
+   process because in Evolution there are many Object types from Users
    to Accounts to Contacts etc, and if we didn't make this change first,
-   future changes / improvements in Evolution (e.g. adding a new type of 
-   Object) would require changing core code. Now Core is agnostic to 
+   future changes / improvements in Evolution (e.g. adding a new type of
+   Object) would require changing core code. Now Core is agnostic to
    types of objects and we can take this forward for user experience and
-   not just governance. In terms of documentation, there is no 
+   not just governance. In terms of documentation, there is no
    whitepaper specific to Sentinel, but we have various docs for Evo in
-   an on-going RFC process which are used as the basis for Evo 
+   an on-going RFC process which are used as the basis for Evo
    development."*
 
    -- Andy Freer, Evolution Developer
@@ -494,7 +494,7 @@ included as an incentive to the miner to process the transaction. Most
 wallets include a small fee by default, although some miners will
 process transactions even if no fee is included.
 
-The release of Axe 0.12.2.0 and activation of DIP0001 saw a
+The release of Dash 0.12.2.0 and activation of DIP0001 saw a
 simultaneous reduction of fees by a factor of 10, while the block size
 was increased from 1MB to 2MB to promote continued growth of low-cost
 transactions even as the cost of Axe rises. Axe also supports
@@ -503,7 +503,7 @@ a different and mandatory fee schedule. Axe 1.2.0.0 introduced
 InstantSend autolocks, which causes masternodes to automatically attempt
 to lock any transaction with 4 or fewer inputs — which are referred to
 as “simple” transactions — and removes the additional fee for
-InstantSend. The fee schedule for Axe 0.13.x as of December 2018 is as
+InstantSend. The fee schedule for Axe 1.2.x as of December 2018 is as
 follows:
 
 +----------------------+-----------------+-----------------------------------+
@@ -557,13 +557,13 @@ technology. Axe introduces a tiered network design, which allows users
 to do various jobs for the network, along with decentralized API access
 and a decentralized file system.
 
-Axe Evolution will be released in stages. Axe Core releases 12.1 
-through to 12.4 will lay the groundwork for the decentralized features 
-behind the scenes. An alpha version of Evolution is expected in the 
-first half of 2018, including a basic implementation of AxeDrive, 
-Primitives, DAPI and a simple T3 wallet. This will be released together 
-with a series of Axe Improvement Proposals (DIPs), followed by a 
-testnet phase with most basic functionality, and a first stable release 
+Axe Evolution will be released in stages. Axe Core releases 12.1
+through to 12.4 will lay the groundwork for the decentralized features
+behind the scenes. An alpha version of Evolution is expected in the
+first half of 2018, including a basic implementation of AxeDrive,
+Primitives, DAPI and a simple T3 wallet. This will be released together
+with a series of Axe Improvement Proposals (DIPs), followed by a
+testnet phase with most basic functionality, and a first stable release
 in summer 2018.
 
 Included below is our current work on Evolution, that adds many
@@ -577,7 +577,7 @@ components such as:
   connected to the network via DAPI and run on various platforms
 - **Second Tier:** The masternode network, which provides compensated
   infrastructure for the project
-- **Budgets:** The second tier is given voting power to allocate funds 
+- **Budgets:** The second tier is given voting power to allocate funds
   for specific projects on the network via the budget system
 - **Governance:** The second tier is given voting power to govern the
   currency and chart the course the currency takes
@@ -625,7 +625,7 @@ upcoming features of the Axe Evolution platform.
         <iframe src="//www.youtube.com/embed/b-XL_ddWCwQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**Evan Duffield on the Evolution Roadmap**, Axe Force News, 28 June 
+**Evan Duffield on the Evolution Roadmap**, Axe Force News, 28 June
 2017
 
 .. raw:: html
