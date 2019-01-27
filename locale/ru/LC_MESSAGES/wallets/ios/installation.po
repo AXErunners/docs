@@ -55,11 +55,11 @@ msgstr "Компиляция из исходного кода"
 #: ../../wallets/ios/installation.rst:24
 msgid ""
 "The source code for the wallet is available `here "
-"<https://github.com/QuantumExplorer/axewallet>`_. The following steps "
+"<https://github.com/axerunners/axewallet>`_. The following steps "
 "describe how to download and compile the wallet from source."
 msgstr ""
 "Исходный код кошелька доступен `здесь "
-"<https://github.com/QuantumExplorer/axewallet>`_. Далее представлены шаги, "
+"<https://github.com/axerunners/axewallet>`_. Далее представлены шаги, "
 "которые необходимо произвести для скачивания и компиляции кошелька из "
 "исходного кода."
 

@@ -52,10 +52,10 @@ msgstr "在源代码的基础上编译"
 #: ../../wallets/ios/installation.rst:24
 msgid ""
 "The source code for the wallet is available `here "
-"<https://github.com/QuantumExplorer/axewallet>`_. The following steps "
+"<https://github.com/axerunners/axewallet>`_. The following steps "
 "describe how to download and compile the wallet from source."
 msgstr ""
-"\\ `这里 <https://github.com/QuantumExplorer/axewallet>`_\\ "
+"\\ `这里 <https://github.com/axerunners/axewallet>`_\\ "
 "提供了钱包的源代码。在源代码的基础上，用户需要采取如下步骤下载并编译钱包文件。"
 
 #: ../../wallets/ios/installation.rst:28

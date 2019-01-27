@@ -54,11 +54,11 @@ msgstr "تجميع من المصدر"
 #: ../../wallets/ios/installation.rst:24
 msgid ""
 "The source code for the wallet is available `here "
-"<https://github.com/QuantumExplorer/axewallet>`_. The following steps "
+"<https://github.com/axerunners/axewallet>`_. The following steps "
 "describe how to download and compile the wallet from source."
 msgstr ""
 "الشفرة المصدرية للمحفظة متاحة `هنا "
-"<https://github.com/QuantumExplorer/axewallet>`_. تصف الخطوات التالية كيفية"
+"<https://github.com/axerunners/axewallet>`_. تصف الخطوات التالية كيفية"
 " تنزيل وتجميع المحفظة من المصدر"
 
 #: ../../wallets/ios/installation.rst:28

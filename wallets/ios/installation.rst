@@ -22,7 +22,7 @@ Compiling from source
 ---------------------
 
 The source code for the wallet is available `here
-<https://github.com/QuantumExplorer/axewallet>`_. The following steps
+<https://github.com/axerunners/axewallet>`_. The following steps
 describe how to download and compile the wallet from source.
 
 1. Install `Xcode <https://itunes.apple.com/us/app/xcode/id497799835?mt=12>`_ 
@@ -37,7 +37,7 @@ describe how to download and compile the wallet from source.
      cd ~/Documents
      mkdir src
      cd src
-     git clone https://github.com/QuantumExplorer/axewallet.git
+     git clone https://github.com/axerunners/axewallet.git
 
 4. Open **Xcode** again and click **File -> Open**
 
