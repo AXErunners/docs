@@ -615,7 +615,7 @@ msgid "iOS"
 msgstr ""
 
 #: ../../introduction/information.rst:233
-msgid "**Axe Wallet:** https://itunes.apple.com/app/id1206647026"
+msgid "**Axe Wallet:** https://itunes.apple.com/app/id1430269763"
 msgstr ""
 
 #: ../../introduction/information.rst:234

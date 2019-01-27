@@ -230,7 +230,7 @@ Mobile Apps
 iOS
 ---
 
-- **Axe Wallet:** https://itunes.apple.com/app/id1206647026
+- **Axe Wallet:** https://itunes.apple.com/app/id1430269763
 - **Edge Wallet:** https://itunes.apple.com/app/id1344400091
 - **Jaxx Wallet:** https://itunes.apple.com/app/id1084514516
 - **Coinomi Wallet:** https://itunes.apple.com/app/id1333588809

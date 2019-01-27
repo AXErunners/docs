@@ -16,7 +16,7 @@ using iOS 10.0 or newer to use the latest version.
 
 .. image:: img/app-store.png
     :width: 250 px
-    :target: https://itunes.apple.com/app/id1206647026
+    :target: https://itunes.apple.com/app/id1430269763
 
 Compiling from source
 ---------------------
