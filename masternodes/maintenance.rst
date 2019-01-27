@@ -63,17 +63,17 @@ enter the following command, pasting in the address to the latest
 version of Axe Core by right clicking or pressing **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  sha256sum axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  sha256sum axecore-1.2.0-x86_64-linux-gnu.tar.gz
 
 Extract the compressed archive and copy the new files to the directory::
 
-  tar xfv axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  tar xfv axecore-1.2.0-x86_64-linux-gnu.tar.gz
   cp -f axecore-1.2.0/bin/axed ~/.axecore/
   cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
 
@@ -129,10 +129,10 @@ Where:
 - ``ipAndPort``: IP and port in the form "ip:port"
 - ``operatorKey``: The operator BLS private key associated with the
   registered operator public key
-- ``operatorPayoutAddress`` (optional): The address used for operator 
-  reward payments. Only allowed when the ProRegTx had a non-zero 
+- ``operatorPayoutAddress`` (optional): The address used for operator
+  reward payments. Only allowed when the ProRegTx had a non-zero
   ``operatorReward`` value.
-- ``feeSourceAddress`` (optional): An address used to fund ProTx fee. 
+- ``feeSourceAddress`` (optional): An address used to fund ProTx fee.
   ``operatorPayoutAddress`` will be used if not specified.
 
 Example::
@@ -159,13 +159,13 @@ their own payout address. The ProUpRegTx takes the following syntax::
 Where:
 
 - ``proTxHash``: The transaction id of the initial ProRegTx
-- ``operatorKeyAddr``: An updated BLS public key, or 0 to use the last 
+- ``operatorKeyAddr``: An updated BLS public key, or 0 to use the last
   on-chain operator key
-- ``votingKeyAddr``: An updated voting key address, or 0 to use the last 
+- ``votingKeyAddr``: An updated voting key address, or 0 to use the last
   on-chain operator key
-- ``payoutAddress``: An updated Axe address for owner payments, or 0 to 
+- ``payoutAddress``: An updated Axe address for owner payments, or 0 to
   use the last on-chain operator key
-- ``feeSourceAddress`` (optional): An address used to fund ProTx fee. 
+- ``feeSourceAddress`` (optional): An address used to fund ProTx fee.
   ``PayoutAddress`` will be used if not specified.
 
 Example to update payout address::
@@ -193,7 +193,7 @@ Where:
 - ``operatorKey``: The operator BLS private key associated with the
   registered operator public key
 - ``reason`` (optional): Integer value indicating the revocation `reason <https://github.com/axerunners/dips/blob/master/dip-0003.md#appendix-a-reasons-for-self-revocation-of-operators>`__
-- ``feeSourceAddress`` (optional): An address used to fund ProTx fee. 
+- ``feeSourceAddress`` (optional): An address used to fund ProTx fee.
   ``operatorPayoutAddress`` will be used if not specified.
 
 Example::

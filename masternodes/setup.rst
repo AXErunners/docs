@@ -491,14 +491,14 @@ address to the latest version of Axe Core by right clicking or pressing
 **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
   wget https://github.com/axerunners/axe/releases/download/v1.2.0/SHA256SUMS.asc
-  sha256sum axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  sha256sum axecore-1.2.0-x86_64-linux-gnu.tar.gz
   cat SHA256SUMS.asc
 
 You can also optionally verify the authenticity of your download as an
@@ -520,7 +520,7 @@ Create a working directory for Axe, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.axecore
-  tar xfv axecore-1.2.0.0-x86_64-linux-gnu.tar.gz
+  tar xfv axecore-1.2.0-x86_64-linux-gnu.tar.gz
   cp -f axecore-1.2.0/bin/axed ~/.axecore/
   cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
 
