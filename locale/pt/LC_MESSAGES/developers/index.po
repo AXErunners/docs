@@ -52,7 +52,7 @@ msgstr ""
 "experientes. Este guia pode ser aproveitado para integrar de forma rápida e "
 "eficiente aplicativos externos ao ecossistema Axe. Qualquer pessoa pode "
 "contribuir com o guia enviando um problema ou solicitando solicitação no "
-"GitHub. A documentação está disponível em: https://dev-docs.github.io/en/"
+"GitHub. A documentação está disponível em: https://axerunner.github.io/en/"
 
 #: ../../developers/index.rst:19
 msgid ""

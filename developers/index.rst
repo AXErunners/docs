@@ -9,12 +9,12 @@ Developers
 ==========
 
 Axe Core has published an extensive `Developer Guide 
-<https://dev-docs.github.io/en/>`_ to help new developers get started
+<https://axerunner.github.io/en/>`_ to help new developers get started
 with the Axe code base, and as a reference for experienced developers.
 This guide can be leveraged to quickly and efficiently integrate
 external applications with the Axe ecosystem. Anyone can contribute to
 the guide by submitting an issue or pull request on GitHub. The
-documentation is available at: https://dev-docs.github.io/en/
+documentation is available at: https://axerunner.github.io/en/
 
 The Axe Core Team also maintains the `Axe Roadmap
 <https://github.com/axerunners/axe-roadmap>`_, which sets out delivery

@@ -15,7 +15,7 @@ aspects of regtest (the local-only regression testing mode that provides
 controlled block generation). Unlike testnet, multiple independent
 devnets can be created and coexist without interference. For practical
 documentation on how to use devnets, see the `developer documentation
-<https://dev-docs.github.io/en/developer-examples#devnet-mode>`__ or
+<https://axerunner.github.io/en/developer-examples#devnet-mode>`__ or
 this `blog post <https://blog.docs.axerunners.com/axe-devnets-bc27ecbf0085>`__.
 
 Testnet is a fully functioning Axe blockchain with the one key

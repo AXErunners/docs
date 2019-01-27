@@ -81,7 +81,7 @@ msgid ""
 "**JSON-RPC Interface:** The majority of Bitcoin JSON-RPC commands are "
 "unchanged making integration into existing systems relatively "
 "straightforward. For a complete listing of RPC commands see the "
-"`Developer Guide <https://dev-docs.github.io/en/developer-guide>`__."
+"`Developer Guide <https://axerunner.github.io/en/developer-guide>`__."
 msgstr ""
 
 #: ../../merchants/technical.rst:39
@@ -93,19 +93,19 @@ msgstr ""
 
 #: ../../merchants/technical.rst:43
 msgid ""
-"`GetTransaction <https://dev-docs.github.io/en/developer-"
+"`GetTransaction <https://axerunner.github.io/en/developer-"
 "reference#gettransaction>`__"
 msgstr ""
 
 #: ../../merchants/technical.rst:44
 msgid ""
-"`ListTransactions <https://dev-docs.github.io/en/developer-"
+"`ListTransactions <https://axerunner.github.io/en/developer-"
 "reference#listtransactions>`__"
 msgstr ""
 
 #: ../../merchants/technical.rst:45
 msgid ""
-"`ListSinceBlock <https://dev-docs.github.io/en/developer-"
+"`ListSinceBlock <https://axerunner.github.io/en/developer-"
 "reference#listsinceblock>`__"
 msgstr ""
 
@@ -224,7 +224,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:77
 msgid ""
-"`Masternode Registration <https://dev-docs.github.io/en/developer-"
+"`Masternode Registration <https://axerunner.github.io/en/developer-"
 "reference#proregtx>`__"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:79
 msgid ""
-"`Update Masternode Service <https://dev-docs.github.io/en/developer-"
+"`Update Masternode Service <https://axerunner.github.io/en/developer-"
 "reference#proupservtx>`__"
 msgstr ""
 
@@ -248,7 +248,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:81
 msgid ""
-"`Update Masternode Operator <https://dev-docs.github.io/en/developer-"
+"`Update Masternode Operator <https://axerunner.github.io/en/developer-"
 "reference#proupregtx>`__"
 msgstr ""
 
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:83
 msgid ""
-"`Masternode Revocation <https://dev-docs.github.io/en/developer-"
+"`Masternode Revocation <https://axerunner.github.io/en/developer-"
 "reference#prouprevtx>`__"
 msgstr ""
 
@@ -276,7 +276,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:85
 msgid ""
-"`Masternode List Merkle Proof <https://dev-docs.github.io/en/developer-"
+"`Masternode List Merkle Proof <https://axerunner.github.io/en/developer-"
 "reference#cbtx>`__"
 msgstr ""
 
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:87
 msgid ""
-"`Quorum Commitment <https://dev-docs.github.io/en/developer-"
+"`Quorum Commitment <https://axerunner.github.io/en/developer-"
 "reference#qctx>`__"
 msgstr ""
 
@@ -603,7 +603,7 @@ msgid "Axe Developer Guide"
 msgstr ""
 
 #: ../../merchants/technical.rst:309
-msgid "https://dev-docs.github.io/en/developer-guide"
+msgid "https://axerunner.github.io/en/developer-guide"
 msgstr ""
 
 #: ../../merchants/technical.rst:311
@@ -616,7 +616,7 @@ msgid ""
 msgstr ""
 
 #: ../../merchants/technical.rst:317
-msgid "Documentation: https://dev-docs.github.io/en/developer-guide"
+msgid "Documentation: https://axerunner.github.io/en/developer-guide"
 msgstr ""
 
 #: ../../merchants/technical.rst:320
@@ -883,19 +883,19 @@ msgstr ""
 
 #: ../../merchants/technical.rst:493
 msgid ""
-"GetTransaction: https://dev-docs.github.io/en/developer-"
+"GetTransaction: https://axerunner.github.io/en/developer-"
 "reference#gettransaction"
 msgstr ""
 
 #: ../../merchants/technical.rst:494
 msgid ""
-"ListTransactions: https://dev-docs.github.io/en/developer-"
+"ListTransactions: https://axerunner.github.io/en/developer-"
 "reference#listtransactions"
 msgstr ""
 
 #: ../../merchants/technical.rst:495
 msgid ""
-"ListSinceBlock: https://dev-docs.github.io/en/developer-"
+"ListSinceBlock: https://axerunner.github.io/en/developer-"
 "reference#listsinceblock"
 msgstr ""
 
@@ -963,7 +963,7 @@ msgstr ""
 
 #: ../../merchants/technical.rst:530
 msgid ""
-"More Information: https://dev-docs.github.io/en/developer-"
+"More Information: https://axerunner.github.io/en/developer-"
 "reference#sendrawtransaction"
 msgstr ""
 

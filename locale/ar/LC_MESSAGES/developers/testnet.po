@@ -54,7 +54,7 @@ msgstr ""
 "جوانب regtest (وضع اختبار الانحدار المحلي فقط الذي يوفر إنشاء كتلة محكومة). "
 "على عكس testnet ، يمكن إنشاء العديد من devnets مستقلة وتتعايش دون تدخل. "
 "للحصول على وثائق عملية حول كيفية استخدام devnets ، راجع `وتائق المطورين  "
-"<https://dev-docs.github.io/en/developer-examples#devnet-mode>`__ او `هذا "
+"<https://axerunner.github.io/en/developer-examples#devnet-mode>`__ او `هذا "
 "المقال <https://blog.docs.axerunners.com/axe-devnets-bc27ecbf0085>`__."
 
 #: ../../developers/testnet.rst:21

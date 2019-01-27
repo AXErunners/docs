@@ -37,7 +37,7 @@ msgid ""
 "be leveraged to quickly and efficiently integrate external applications "
 "with the Axe ecosystem. Anyone can contribute to the guide by submitting"
 " an issue or pull request on GitHub. The documentation is available at: "
-"https://dev-docs.github.io/en/"
+"https://axerunner.github.io/en/"
 msgstr ""
 
 #: ../../developers/index.rst:19
@@ -1035,7 +1035,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Axe Core has published an extensive "
-#~ "`Developer Guide <https://dev-docs.github.io/en/>`_"
+#~ "`Developer Guide <https://axerunner.github.io/en/>`_"
 #~ " to help new developers get started"
 #~ " with the Axe code base, and "
 #~ "as a reference for experienced "

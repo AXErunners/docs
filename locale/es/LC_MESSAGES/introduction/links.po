@@ -38,7 +38,7 @@ msgid "**User documentation:** https://www.axerunners.com/wiki"
 msgstr ""
 
 #: ../../introduction/links.rst:15
-msgid "**Protocol documentation:** https://dev-docs.github.io"
+msgid "**Protocol documentation:** https://axerunner.github.io"
 msgstr ""
 
 #: ../../introduction/links.rst:16

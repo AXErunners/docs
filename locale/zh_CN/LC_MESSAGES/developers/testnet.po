@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 "Axe Core 12.3版本新增了一项很棒的功能 — **名为开发者网络** "
 "。开发者网络结合了测试网络（全局及公共测试网络）的部分性能以及regtest的部分性能（局部回归测试模式，提供受控区块生成）。不同于测试网络的是，可以创建多个独立的开发者网络，这些独立的开发者网络能够实现共存，且无干扰。关于如何使用开发者网络的实用文档，请参阅"
-" `开发者文档 <https://dev-docs.github.io/en/developer-examples#devnet-mode>`__ 或"
+" `开发者文档 <https://axerunner.github.io/en/developer-examples#devnet-mode>`__ 或"
 " 此 `博客文章 <https://blog.docs.axerunners.com/axe-devnets-bc27ecbf0085>`__."
 
 #: ../../developers/testnet.rst:21

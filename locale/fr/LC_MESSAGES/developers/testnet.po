@@ -63,7 +63,7 @@ msgstr ""
 "différence du réseau de test, plusieurs réseaux de développement "
 "indépendants peuvent être créés et coexister sans interférer. Pour une "
 "documentation pratique sur l'utilisation des réseaux de développement, voir "
-"la `documentation développeur <https://dev-docs.github.io/en/developer-"
+"la `documentation développeur <https://axerunner.github.io/en/developer-"
 "examples#devnet-mode>`__ ou ce `billet de blog <https://blog.docs.axerunners.com/axe-"
 "devnets-bc27ecbf0085>`__."
 

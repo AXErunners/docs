@@ -43,9 +43,9 @@ msgid ""
 "issue or pull request on GitHub. The documentation is available at: https"
 "://dev-docs.github.io/en/"
 msgstr ""
-"Axe Core发布了一项广泛性的 `开发者指南 <https://dev-docs.github.io/en/>`_ "
+"Axe Core发布了一项广泛性的 `开发者指南 <https://axerunner.github.io/en/>`_ "
 "，旨在帮助新的开发者学习使用达世币代码库，同时也供经验丰富的开发人员参考。利用本指南可以快速有效地将外部应用程序整合入达世币生态系统。任何人都可以通过在GitHub上提交问题或拉取请求，为该指南提供建议。文档获取地址:"
-" https://dev-docs.github.io/en/"
+" https://axerunner.github.io/en/"
 
 #: ../../developers/index.rst:19
 msgid ""
