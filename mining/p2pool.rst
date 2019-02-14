@@ -77,7 +77,7 @@ Setting up port forwarding
 
 If you are on a private network behind a router, you will need to set up
 port forwarding for at least port 8999 (UDP/TCP) for access to the
-sharechain, as well as port 7903 (UDP/TCP) if you want your node to be
+sharechain, as well as port 7923 (UDP/TCP) if you want your node to be
 accessible to the public. How this is done depends on your particular
 network router and is therefore beyond the scope of this documentation.
 An example from the popular DD-WRT open source router distribution is
@@ -140,7 +140,7 @@ run a second script to start p2pool-axe::
 Your P2Pool node is now running. If you see errors similar to **Error
 getting work from axed** or **-10 Axe Core is downloading blocks...**
 then you must wait until Axe finishes synchronisation. Once this is
-done, you can point your miners to ``<ip_address>:7903`` to begin
+done, you can point your miners to ``<ip_address>:7923`` to begin
 mining.
 
 .. image:: img/p2pool-antminer.png
@@ -289,10 +289,10 @@ external IP (if necessary), fee and donation as follows::
 You can then monitor your node by browsing to the following addresses,
 replacing ``<ip_address>`` with the IP address of your P2Pool node:
 
-- Punchy interface: http://ip_address:7903/static
-- Legacy interface: http://ip_address:7903/static/legacy
-- Status interface: http://ip_address:7903/static/status
-- Extended interface: http://ip_address:7903/static/ext
+- Punchy interface: http://ip_address:7923/static
+- Legacy interface: http://ip_address:7923/static/legacy
+- Status interface: http://ip_address:7923/static/status
+- Extended interface: http://ip_address:7923/static/ext
 
 .. image:: img/p2pool-antminer.png
    :width: 400px

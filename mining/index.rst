@@ -208,7 +208,7 @@ all your mining files in a single folder. In this example we will work
 from the Desktop. The node selected for this example is from the
 p2poolming.us list and is located in China::
 
-  http://118.184.180.43:7903/static/
+  http://118.184.180.43:7923/static/
 
 Next, open **Notepad** and type in on one line the command we will use
 to start the miner, followed by pause on the second line. The general
@@ -229,7 +229,7 @@ Where:
 
 For the CPU in the example above, the command may be::
 
-  minerd-avx-aes-sse2-sss3.exe -a X11 -o stratum+tcp://118.184.180.43:7903 -u XwZRjo1f6gmq3LCv7X1Hi5h3NkvDMHvu8G -p x -t 8
+  minerd-avx-aes-sse2-sss3.exe -a X11 -o stratum+tcp://118.184.180.43:7923 -u XwZRjo1f6gmq3LCv7X1Hi5h3NkvDMHvu8G -p x -t 8
   pause
 
 .. figure:: img/notepad.png
@@ -354,7 +354,7 @@ all your mining files in a single folder. In this example we will work
 from the Desktop. The node selected for this example is from the
 p2poolming.us list and is located in China::
 
-  http://118.184.180.43:7903/static/
+  http://118.184.180.43:7923/static/
 
 Next, open **Notepad** and create the basic configuration. The general
 format is as follows::
@@ -362,7 +362,7 @@ format is as follows::
   {
     "pools" : [
       {
-        "url" : "stratum+tcp://pooladdress:7903",
+        "url" : "stratum+tcp://pooladdress:7923",
         "user" : "walletaddress",
         "pass" : "x",
         "algorithm":"darkcoin"

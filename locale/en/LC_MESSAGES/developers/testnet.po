@@ -166,11 +166,11 @@ msgstr ""
 #: ../../developers/testnet.rst:74
 msgid ""
 "http://test.p2pool.axe.siampm.com "
-"[stratum+tcp://test.p2pool.axe.siampm.com:17903] by thelazier"
+"[stratum+tcp://test.p2pool.axe.siampm.com:17923] by thelazier"
 msgstr ""
 
 #: ../../developers/testnet.rst:75
-msgid "http://p2pool.axeninja.pl:17903/static - by elbereth"
+msgid "http://p2pool.axeninja.pl:17923/static - by elbereth"
 msgstr ""
 
 #: ../../developers/testnet.rst:76
@@ -458,7 +458,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "http://test.p2pool.axe.siampm.com "
-#~ "[stratum+tcp://103.58.149.157:17903] by thelazier"
+#~ "[stratum+tcp://103.58.149.157:17923] by thelazier"
 #~ msgstr ""
 
 #~ msgid ""

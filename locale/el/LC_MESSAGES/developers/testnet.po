@@ -192,14 +192,14 @@ msgstr ""
 #: ../../developers/testnet.rst:74
 msgid ""
 "http://test.p2pool.axe.siampm.com "
-"[stratum+tcp://test.p2pool.axe.siampm.com:17903] by thelazier"
+"[stratum+tcp://test.p2pool.axe.siampm.com:17923] by thelazier"
 msgstr ""
 "http://test.p2pool.axe.siampm.com "
-"[stratum+tcp://test.p2pool.axe.siampm.com:17903] by thelazier"
+"[stratum+tcp://test.p2pool.axe.siampm.com:17923] by thelazier"
 
 #: ../../developers/testnet.rst:75
-msgid "http://p2pool.axeninja.pl:17903/static - by elbereth"
-msgstr "http://p2pool.axeninja.pl:17903/static - by elbereth"
+msgid "http://p2pool.axeninja.pl:17923/static - by elbereth"
+msgstr "http://p2pool.axeninja.pl:17923/static - by elbereth"
 
 #: ../../developers/testnet.rst:76
 msgid "http://test.p2pool.masternode.io:18998/static - by coingun"

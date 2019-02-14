@@ -133,7 +133,7 @@ msgstr "设置端口转发"
 msgid ""
 "If you are on a private network behind a router, you will need to set up "
 "port forwarding for at least port 8999 (UDP/TCP) for access to the "
-"sharechain, as well as port 7903 (UDP/TCP) if you want your node to be "
+"sharechain, as well as port 7923 (UDP/TCP) if you want your node to be "
 "accessible to the public. How this is done depends on your particular "
 "network router and is therefore beyond the scope of this documentation. An "
 "example from the popular DD-WRT open source router distribution is shown "
@@ -143,7 +143,7 @@ msgid ""
 "guide/>`__."
 msgstr ""
 "如果您使用的是路由器后面的专用网络，则您需要至少为端口8999 (UDP/TCP) "
-"设置端口转发以访问共享链，如果您需要您的节点被公众访问，则您需要为端口7903 (UDP/TCP) "
+"设置端口转发以访问共享链，如果您需要您的节点被公众访问，则您需要为端口7923 (UDP/TCP) "
 "设置端口转发。这如何操作取决于您的特定网络路由器，因此超出了本文档的范围。来自流行的DD-"
 "WRT开放源码路由器发行版本的示例如下所示。关于设置端口转发的指南可以在\\ `这里 <https://www.wikihow.com/Set-Up-"
 "Port-Forwarding-on-a-Router>`__\\ 和\\ `这里 "
@@ -241,10 +241,10 @@ msgid ""
 "Your P2Pool node is now running. If you see errors similar to **Error "
 "getting work from axed** or **-10 Axe Core is downloading blocks...** then"
 " you must wait until Axe finishes synchronisation. Once this is done, you "
-"can point your miners to ``<ip_address>:7903`` to begin mining."
+"can point your miners to ``<ip_address>:7923`` to begin mining."
 msgstr ""
 "您的P2Pool节点现在正在运行。如果您看到与 **从axed获取工作时出错** 或 **-10 Axe Core正在下载区块** "
-"类似的错误，则您必须等待直到达世币完成同步。达世币同步完成后，您可以将您的矿工指向 ``<ip_address>:7903`` 以开始挖矿。"
+"类似的错误，则您必须等待直到达世币完成同步。达世币同步完成后，您可以将您的矿工指向 ``<ip_address>:7923`` 以开始挖矿。"
 
 #: ../../mining/p2pool.rst:152 ../../mining/p2pool.rst:303
 msgid ""
@@ -389,17 +389,17 @@ msgid ""
 msgstr "然后，您可以通过浏览到以下地址来检测您的节点，用您P2Pool节点的IP地址替换 ``<ip_address>`` :"
 
 #: ../../mining/p2pool.rst:292
-msgid "Punchy interface: http://ip_address:7903/static"
+msgid "Punchy interface: http://ip_address:7923/static"
 msgstr ""
 
 #: ../../mining/p2pool.rst:293
-msgid "Legacy interface: http://ip_address:7903/static/legacy"
+msgid "Legacy interface: http://ip_address:7923/static/legacy"
 msgstr ""
 
 #: ../../mining/p2pool.rst:294
-msgid "Status interface: http://ip_address:7903/static/status"
+msgid "Status interface: http://ip_address:7923/static/status"
 msgstr ""
 
 #: ../../mining/p2pool.rst:295
-msgid "Extended interface: http://ip_address:7903/static/ext"
+msgid "Extended interface: http://ip_address:7923/static/ext"
 msgstr ""

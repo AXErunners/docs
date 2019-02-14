@@ -71,8 +71,8 @@ Pools
 -----
 
 - https://test.pool.docs.axerunners.com [stratum+tcp://test.stratum.docs.axerunners.com] - by flare
-- http://test.p2pool.axe.siampm.com [stratum+tcp://test.p2pool.axe.siampm.com:17903] by thelazier
-- http://p2pool.axeninja.pl:17903/static - by elbereth
+- http://test.p2pool.axe.siampm.com [stratum+tcp://test.p2pool.axe.siampm.com:17923] by thelazier
+- http://p2pool.axeninja.pl:17923/static - by elbereth
 - http://test.p2pool.masternode.io:18998/static - by coingun
 
 Masternodes

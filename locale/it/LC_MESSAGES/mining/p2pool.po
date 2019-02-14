@@ -112,7 +112,7 @@ msgstr ""
 msgid ""
 "If you are on a private network behind a router, you will need to set up "
 "port forwarding for at least port 8999 (UDP/TCP) for access to the "
-"sharechain, as well as port 7903 (UDP/TCP) if you want your node to be "
+"sharechain, as well as port 7923 (UDP/TCP) if you want your node to be "
 "accessible to the public. How this is done depends on your particular "
 "network router and is therefore beyond the scope of this documentation. An "
 "example from the popular DD-WRT open source router distribution is shown "
@@ -204,7 +204,7 @@ msgid ""
 "Your P2Pool node is now running. If you see errors similar to **Error "
 "getting work from axed** or **-10 Axe Core is downloading blocks...** then"
 " you must wait until Axe finishes synchronisation. Once this is done, you "
-"can point your miners to ``<ip_address>:7903`` to begin mining."
+"can point your miners to ``<ip_address>:7923`` to begin mining."
 msgstr ""
 
 #: ../../mining/p2pool.rst:152 ../../mining/p2pool.rst:303
@@ -341,17 +341,17 @@ msgid ""
 msgstr ""
 
 #: ../../mining/p2pool.rst:292
-msgid "Punchy interface: http://ip_address:7903/static"
+msgid "Punchy interface: http://ip_address:7923/static"
 msgstr ""
 
 #: ../../mining/p2pool.rst:293
-msgid "Legacy interface: http://ip_address:7903/static/legacy"
+msgid "Legacy interface: http://ip_address:7923/static/legacy"
 msgstr ""
 
 #: ../../mining/p2pool.rst:294
-msgid "Status interface: http://ip_address:7903/static/status"
+msgid "Status interface: http://ip_address:7923/static/status"
 msgstr ""
 
 #: ../../mining/p2pool.rst:295
-msgid "Extended interface: http://ip_address:7903/static/ext"
+msgid "Extended interface: http://ip_address:7923/static/ext"
 msgstr ""
