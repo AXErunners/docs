@@ -105,7 +105,7 @@ ubuntu.18376/>`_, or simply follow these instructions to get the script.
 To get fetch the script and get started, type::
 
   sudo apt install git
-  git clone https://github.com/strophy/p2pool-axe-deploy
+  git clone https://github.com/axerunners/p2pool-axe-deploy
 
 The files will be created in the p2pool-axe-deploy folder. We now need
 to configure a few variables specific to your system::
