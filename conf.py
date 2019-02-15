@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Axe'
-copyright = u'2018, Axe Core Group, Inc'
+copyright = u'2019, AXErunners'
 author = u'strophy'
 
 # The version info for the project you're documenting, acts as replacement for
