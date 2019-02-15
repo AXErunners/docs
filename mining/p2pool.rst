@@ -37,7 +37,7 @@ relatively low latency.
 
 This following section describes the steps to setup an Ubuntu Server
 running P2Pool for Axe. It has been tested with Ubuntu 16.04 LTS and
-18.04 LTS and Axe 0.12.2.3. While a reasonable effort will be made to
+18.04 LTS and Axe 1.2.1. While a reasonable effort will be made to
 keep it up to date, it should be possible to modify the instructions
 slightly to support different versions or operating systems as
 necessary.
@@ -173,14 +173,14 @@ in the address to the latest version of Axe Core by right clicking or
 pressing **Ctrl + V**::
 
   cd ~
-  wget https://github.com/axerunners/axe/releases/download/v0.12.2.3/axecore-0.12.2.3-linux64.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.1/axecore-1.2.1-linux64.tar.gz
 
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown on the
 Axe website under **Hash File**::
 
-  sha256sum axecore-0.12.2.3-linux64.tar.gz
+  sha256sum axecore-1.2.1-linux64.tar.gz
 
 .. figure:: img/setup-manual-download.png
    :width: 250px
@@ -191,14 +191,14 @@ Create a working directory for Axe, extract the compressed archive,
 copy the necessary files to the directory and set them as executable::
 
   mkdir .axecore
-  tar xfvz axecore-0.12.2.3-linux64.tar.gz
+  tar xfvz axecore-1.2.1-linux64.tar.gz
   cp axecore-0.12.2/bin/axed .axecore/
   cp axecore-0.12.2/bin/axe-cli .axecore/
   chmod 777 .axecore/axe*
 
 Clean up unneeded files::
 
-  rm axecore-0.12.2.3-linux64.tar.gz
+  rm axecore-1.2.1-linux64.tar.gz
   rm -r axecore-0.12.2/
 
 Create a configuration file using the following command::
