@@ -2,12 +2,12 @@
 # Copyright (C) 2018, Axe Core Group, Inc
 # This file is distributed under the same license as the Axe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Ivan SIerraalta <ivansierraalta@gmail.com>, 2018
 # Jahlexis Tafari <ras.alexislugo.i@gmail.com>, 2018
 # Leon White <leon.white@docs.axerunners.com>, 2018
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -96,13 +96,13 @@ msgstr ""
 msgid ""
 "This following section describes the steps to setup an Ubuntu Server running"
 " P2Pool for Axe. It has been tested with Ubuntu 16.04 LTS and 18.04 LTS and"
-" Axe 0.12.2.3. While a reasonable effort will be made to keep it up to "
+" Axe 1.2.1. While a reasonable effort will be made to keep it up to "
 "date, it should be possible to modify the instructions slightly to support "
 "different versions or operating systems as necessary."
 msgstr ""
 "La siguiente sección describe los pasos para configurar un servidor Ubuntu "
 "que ejecute P2Pool para Axe. Ha sido probado con Ubuntu 16.04 LTS y 18.04 "
-"LTS y Axe 0.12.2.3. Si bien se hará un esfuerzo razonable para mantenerlo "
+"LTS y Axe 1.2.1. Si bien se hará un esfuerzo razonable para mantenerlo "
 "actualizado, debería ser posible modificar las instrucciones ligeramente "
 "para admitir diferentes versiones o sistemas operativos según sea necesario."
 
