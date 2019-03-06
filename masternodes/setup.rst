@@ -211,7 +211,7 @@ newly secured environment as the new user::
 
   ufw allow ssh/tcp
   ufw limit ssh/tcp
-  ufw allow 9999/tcp
+  ufw allow 9937/tcp
   ufw logging on
   ufw enable
 
