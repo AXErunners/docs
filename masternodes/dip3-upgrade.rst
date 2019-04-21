@@ -1,14 +1,14 @@
 .. meta::
-   :description: The upgrade to Axe 1.2.0 involves changes to signature formats as defined in DIP3. This documentation walks you through the upgrade process.
+   :description: The upgrade to Axe involves changes to signature formats as defined in DIP3. This documentation walks you through the upgrade process.
    :keywords: axe, cryptocurrency, masternode, maintenance, dip3, upgrade, deterministic, dmt
 
 .. _dip3-upgrade:
 
 ===========================
-Axe 1.2 Upgrade Procedure
+Axe Upgrade Procedure
 ===========================
 
-Axe 1.2.0 implements DIP003, which introduces several changes to how a
+Axe 1.2.0 implemented DIP003, which introduces several changes to how a
 Axe masternode is set up and operated. A list of available
 documentation appears below:
 
@@ -29,11 +29,9 @@ in DIP003. This documentation describes the upgrade procedure in two steps:
    - :ref:`From a hardware wallet <dmt-dip3-upgrade>`
    - :ref:`From the Axe Core wallet <axecore-dip3-upgrade>`
 
-Step 1 should be done immediately as soon as Axe 1.2.0 is released.
-Once miners have updated and DIP003 has activated on the network, it
-will become possible to complete Step 2 and register a DIP003
-masternode. After enough masternodes have completed this step, Spork 15
-will be enabled and all new network functions will take effect.
+After the launch of Axe 1.2.0 Dip003 was activated on the network,
+Spork 15 was enabled requiring the registration of masternodes by 
+completing the following steps.
 
 .. _masternode-dip3-update:
 
@@ -87,19 +85,19 @@ enter the following command, pasting in the address to the latest
 version of Axe Core by right clicking or pressing **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.3.0/axecore-1.3.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  sha256sum axecore-1.2.0-x86_64-linux-gnu.tar.gz
+  sha256sum axecore-1.3.0-x86_64-linux-gnu.tar.gz
 
 Extract the compressed archive and copy the new files to the directory::
 
-  tar xfv axecore-1.2.0-x86_64-linux-gnu.tar.gz
-  cp -f axecore-1.2.0/bin/axed ~/.axecore/
-  cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
+  tar xfv axecore-1.3.0-x86_64-linux-gnu.tar.gz
+  cp -f axecore-1.3.0/bin/axed ~/.axecore/
+  cp -f axecore-1.3.0/bin/axe-cli ~/.axecore/
 
 Restart Axe::
 
@@ -122,9 +120,8 @@ start`` command from an updated Axe Core wallet or DMT to keep your
 masternode in the payment list during the transition period. Ensure the
 protocol version is set to ``70213`` if starting from DMT; see the
 `legacy documentation <https://docs.axerunners.com/en/0.12.3/masternodes/setup.html#start-your-masternode>`__
-for more details. After your masternode software is updated, it is
-necessary to wait until enough miners upgrade for DIP003 to activate
-before you can continue with the DIP003 masternode registration process
+for more details. After your masternode software is updated, 
+you can continue with the DIP003 masternode registration process
 below. You can track DIP003 activation progress `here
 <http://178.254.23.111/~pub/Axe/Axe_Info.html>`__.
 
@@ -475,7 +472,6 @@ Deterministic Masternode List after the transaction is mined to a block.
 You can view this list on the **Masternodes -> DIP3 Masternodes** tab of
 the Axe Core wallet, or in the console using the command ``protx list
 valid``, where the txid of the final ``protx register_submit``
-transaction identifies your DIP003 masternode. Note again that all
-functions related to DIP003 will only take effect once Spork 15 is enabled
-on the network. You can view the spork status using the ``spork active``
+transaction identifies your DIP003 masternode. 
+You can view the spork status using the ``spork active``
 command.

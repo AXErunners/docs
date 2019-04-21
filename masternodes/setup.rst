@@ -211,7 +211,7 @@ newly secured environment as the new user::
 
   ufw allow ssh/tcp
   ufw limit ssh/tcp
-  ufw allow 9999/tcp
+  ufw allow 9937/tcp
   ufw logging on
   ufw enable
 
@@ -491,14 +491,14 @@ address to the latest version of Axe Core by right clicking or pressing
 **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/axerunners/axe/releases/download/v1.2.0/axecore-1.2.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/axerunners/axe/releases/download/v1.2.2/axecore-1.2.2-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
   wget https://github.com/axerunners/axe/releases/download/v1.2.0/SHA256SUMS.asc
-  sha256sum axecore-1.2.0-x86_64-linux-gnu.tar.gz
+  sha256sum axecore-1.2.2-x86_64-linux-gnu.tar.gz
   cat SHA256SUMS.asc
 
 You can also optionally verify the authenticity of your download as an
@@ -520,9 +520,9 @@ Create a working directory for Axe, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.axecore
-  tar xfv axecore-1.2.0-x86_64-linux-gnu.tar.gz
-  cp -f axecore-1.2.0/bin/axed ~/.axecore/
-  cp -f axecore-1.2.0/bin/axe-cli ~/.axecore/
+  tar xfv axecore-1.2.2-x86_64-linux-gnu.tar.gz
+  cp -f axecore-1.2.2/bin/axed ~/.axecore/
+  cp -f axecore-1.2.2/bin/axe-cli ~/.axecore/
 
 Create a configuration file using the following command::
 
@@ -546,6 +546,7 @@ follows::
   masternode=1
   masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
   externalip=XXX.XXX.XXX.XXX
+  masternodeblsprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXX
   #----
 
 Replace the fields marked with ``XXXXXXX`` as follows:
