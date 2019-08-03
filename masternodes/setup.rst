@@ -543,10 +543,9 @@ follows::
   daemon=1
   maxconnections=64
   #----
-  masternode=1
-  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
+  #masternode=1
+  #masternodeblsprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXX
   externalip=XXX.XXX.XXX.XXX
-  masternodeblsprivkey=XXXXXXXXXXXXXXXXXXXXXXXXXXX
   #----
 
 Replace the fields marked with ``XXXXXXX`` as follows:
@@ -555,8 +554,6 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodeprivkey``: this is the legacy masternode private key you
-  generated in the previous step
 - ``externalip``: this is the IP address of your VPS
 
 The result should look something like this:
@@ -671,10 +668,10 @@ follows::
 
   nano ~/.axecore/axe.conf
 
-The editor appears with the existing masternode configuration. Add this
-line to the end of the file, replacing the key with your BLS secret key
-generated above::
+The editor appears with the existing masternode configuration. Add or uncomment these 
+lines in the file, replacing the key with your BLS private key generated above::
 
+  masternode=1
   masternodeblsprivkey=21e27edbabf70a677303d527d750b502628e1c51d66d3bfd2b4583f690fbd14e
 
 Press enter to make sure there is a blank line at the end of the file,
@@ -684,6 +681,7 @@ effect. Enter the following commands, waiting a few seconds in between
 to give Axe Core time to shut down::
 
   ~/.axecore/axe-cli stop
+  sleep 15
   ~/.axecore/axed
 
 At this point you can monitor your masternode using 
@@ -759,10 +757,11 @@ masternode as follows::
 
   nano ~/.axecore/axe.conf
 
-The editor appears with the existing masternode configuration. Add this
-line to the end of the file, replacing the key with your BLS secret key
-generated above::
+The editor appears with the existing masternode configuration. Add or
+uncomment these lines in the file, replacing the key with your BLS
+private key generated above::
 
+  masternode=1
   masternodeblsprivkey=28a85abb5aa8e820f65e33974cef0ab0bf06195f61454d2feb7fa578612d2228
 
 Press enter to make sure there is a blank line at the end of the file,
@@ -772,6 +771,7 @@ effect. Enter the following commands, waiting a few seconds in between
 to give Axe Core time to shut down::
 
   ~/.axecore/axe-cli stop
+  sleep 15
   ~/.axecore/axed
 
 We will now prepare the transaction used to register a DIP003 masternode
@@ -780,27 +780,47 @@ on the network.
 Prepare a ProRegTx transaction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+A pair of BLS keys for the operator were already generated above, and
+the private key was entered on the masternode. The public key is used in
+this transaction as the ``operatorPubKey``.
+
 First, we need to get a new, unused address from the wallet to serve as
-the owner address. This is different to the collateral address. It must
-also be used as the voting address if Spork 15 is not yet active.
-Generate a new address as follows::
+the **owner key address** (``ownerKeyAddr``). This is not the same as
+the collateral address holding 1000 Dash. Generate a new address as
+follows::
 
   getnewaddress
 
   yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5
 
-Then either generate or choose an existing second address to receive the
-owner's masternode payouts::
+This address can also be used as the **voting key address**
+(``votingKeyAddr``). Alternatively, you can specify an address provided
+to you by your chosen voting delegate, or simply generate a new voting
+key address as follows::
+
+  getnewaddress
+
+  yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg
+
+Then either generate or choose an existing address to receive the
+**owner's masternode payouts** (``payoutAddress``). It is also possible
+to use an address external to the wallet::
 
   getnewaddress
 
   yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv
 
-You can also optionally generate and fund a third address to pay the
-transaction fee. The private keys to the owner and fee source addresses
-must exist in the wallet submitting the transaction to the network. If
-your wallet is protect by a password, it must now be unlocked to perform
-the following commands. Unlock your wallet for 5 minutes::
+You can also optionally generate and fund another address as the
+**transaction fee source** (``feeSourceAddress``). If you selected an
+external payout address, you must specify a fee source address. Either
+the payout address or fee source address must have enough balance to pay
+the transaction fee, or the final ``register_submit`` transaction will
+fail.
+
+The private keys to the owner and fee source addresses must exist in the
+wallet submitting the transaction to the network. If your wallet is
+protected by a password, it must now be unlocked to perform the
+following commands. Unlock your wallet for 5 minutes::
 
   walletpassphrase yourSecretPassword 300
 
@@ -847,7 +867,7 @@ Example (remove line breaks if copying)::
     140.82.59.51:9999
     yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5 
     144cbf4d472716b9504a54c7ca26906a3346253b787ffeb1a4999325049f5b2c51ef2e7c215d85f0a9142ec1c78db99b
-    yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5 
+    yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg 
     0
     yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv
 
@@ -856,7 +876,7 @@ Output::
   {
      "tx": "0300010001784e3dcd3c3e8438654c20240455a57494ce3deb09e64b4413f1bd04c18e30ad0000000000feffffff01cccfa204000000001976a9141ea44ced396667eb7d1c5b3699e04b5b3046ecfb88ac00000000d1010000000000784e3dcd3c3e8438654c20240455a57494ce3deb09e64b4413f1bd04c18e30ad0100000000000000000000000000ffff8c523b33271411c59262c9633a1bb810a7fc2b833c43cfa852ab144cbf4d472716b9504a54c7ca26906a3346253b787ffeb1a4999325049f5b2c51ef2e7c215d85f0a9142ec1c78db99b11c59262c9633a1bb810a7fc2b833c43cfa852ab00001976a91405c5fed6a3eb0b92ea5119039efae7a8dee5456488ac4e6cc5451440a6044dbd04d33a11f4cddc9021532ede3012ebbc31c0bb4ceb9c00",
     "collateralAddress": "yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue",
-    "signMessage": "yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv|0|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|4e00de34ee03d28adb4e1fdaec966ae239c11da7e6115f566fc4b3f75c8a5503"
+    "signMessage": "yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv|0|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg|4e00de34ee03d28adb4e1fdaec966ae239c11da7e6115f566fc4b3f75c8a5503"
   }
 
 Next we will use the ``collateralAddress`` and ``signMessage`` fields to
@@ -878,7 +898,7 @@ function of a hardware wallet. The command takes the following syntax::
 
 Example::
 
-  signmessage yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv|0|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|4e00de34ee03d28adb4e1fdaec966ae239c11da7e6115f566fc4b3f75c8a5503
+  signmessage yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv|0|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg|4e00de34ee03d28adb4e1fdaec966ae239c11da7e6115f566fc4b3f75c8a5503
 
 Output::
 
