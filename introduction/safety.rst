@@ -53,42 +53,21 @@ technical assistance, it is best to ask in a public channel/forum or go
 to https://support.docs.axerunners.com and open a ticket. If you engage in personal
 chat with a well-known community member, verify their identity by their
 chat history or through their publicly available cryptographic keys. All
-community members and `Axe Core Group staff <https://docs.axerunners.com/team>`__
+community members and `Axe Core Group staff <https://keybase.io/team/axerunners>`__
 will be able to verify their identity using signed PGP messages.
 Identities can also be verified on Keybase:
 
-- `moocowmoo <https://keybase.io/moocowmoo>`__
-- `strophy <https://keybase.io/strophy>`__
-- `tungfa <https://keybase.io/tungfa>`__
-- `codablock <https://keybase.io/codablock>`__
-- `UdjinM6 <https://keybase.io/udjinm6>`__
-- `Ryan Taylor <https://keybase.io/ryanptaylor>`__
-- `splawik21 <https://keybase.io/splawik21>`_
-- `Bertrand256 <https://keybase.io/bertrand256>`__
-- `akhavr <https://keybase.io/akhavr>`__
+- `charlesrocket <https://keybase.io/charlesrocket>`__
 
 
 Scams
 =====
 
-There are many "fake" Axe/Darkcoin pages on the internet attempting to
-trick users into sending Axe or other cryptocurrencies or "open a
-wallet". Other scams include selling fake mining hardware, fake Axe or
-altcoins with a similar name, and Ponzi schemes (see below). Please be
-careful and do NOT trust any third parties listed here!!
-
-List of known Axe-related scams:
-
-- **axe-wallet dot com** is a known scam!
-- **electrumaxe dot org** is a fake clone of the official site!
-- **axecoinmining dot com** is not affiliated with Axe!
-- **axecrypto dot info** is not affiliated with Axe!
-- **onclooud dot com** is not affiliated with Axe!
-- **as-shop dot su** is selling fake Baikal miners!
-- **minershop dot biz** is selling fake Baikal miners!
-- **axecoinclub dot com** is a Ponzi scheme not affiliated with Axe!
-- **axe-coin dot net** is a fake web wallet, do not send them money!
-- **coinvert dot io** is a fake exchange!
+There are many "fake" Crypto pages on the internet attempting to
+trick users into sending cryptocurrencies or "open a wallet". 
+Other scams include selling fake mining hardware, fake BTC or
+altcoins with a similar name, and Ponzi schemes (see below). 
+Please be careful!!
 
 Beware of fake Twitter accounts impersonating Axe! The official Twitter
 account is: https://twitter.com/axerunners
