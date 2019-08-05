@@ -15,213 +15,62 @@ Links
 
 Official sites
 --------------
-
 - **Website:** https://www.axerunners.com
-- **User documentation:** https://docs.axerunners.com
+- **User documentation:** https://docs.axecore.net
 - **Protocol documentation:** https://axerunner.github.io
-- **Foundation:** https://www.axefoundation.io
 - **GitHub:** https://github.com/axerunners
-- **GitHub (Evolution):** https://github.com/axerunners
-- **Roadmap:** https://github.com/axerunners/axe-roadmap
+- **Travis-ci:** https://travis-ci.com/AXErunners
+- **Docker:** https://hub.docker.com/u/axerunners
+- **NPM:** https://www.npmjs.com/org/axerunners
+- **Blockfolio:** https://blockfolio.com/coin/AXE
+- **Coingecko:** https://www.coingecko.com/coins/axe
+- **Keybase:** https://keybase.io/team/axerunners
+- **Slack:** https://axe-slack.herokuapp.com/
+- **IRC:** irc://irc.freenode.net/axerunners
+- **Crunchbase:** https://www.crunchbase.com/organization/axerunners
 - **DIPs:** https://github.com/axerunners/dips
+- **AIPs:** https://github.com/axerunners/aips
 
-Community sites
----------------
-
-- https://www.axenexus.org
-- https://www.axewatch.org
-- https://www.axeboost.org
-- https://axeroots.fund
-- https://www.axecentral.org
-- https://www.axeninja.pl
-- https://www.axeforcenews.com
-- http://www.axenation.com
-- https://axevotetracker.com
-- https://www.axespain.org
-- http://www.axehaiti.com
-- http://theaxebrain.com
 
 Forums
 ------
 
-- **Axe Forum**: https://www.axerunners.com/forum
-- **BitcoinTalk thread:** https://bitcointalk.org/index.php?topic=421615.0
-- **Cryptocurrencytalk.com:** https://cryptocurrencytalk.com/forum/693-axe
-- **巴比特 (8BTC) Forum:** http://8btc.com/forum-115-1.html
-- **百度贴吧 达世币吧 (Baidu Tieba):** `https://tieba.baidu.com/f?kw=达世币 <https://tieba.baidu.com/f?kw=达世币>`_
-- **彩云比特 达世币 (CYBTC Axe):** http://www.cybtc.com/forum-123-1.html
+-**Bitcointalk thread:** https://bitcointalk.org/index.php?topic=2569112
 
 
 Chat
 ----
 
-- **Axe Nation Discord:** https://discordapp.com/invite/9z8zX5j
-- **Axe Talk Discord:** https://discordapp.com/invite/PXbUxJB
-- **Axe English Telegram:** https://t.me/axe_chat
-- **Axe Brasil Telegram:** https://telegram.me/axebrasil
-- **Axe Russia Telegram:** https://telegram.me/Axe_Ru
-- **Axe en Español Telegram:** http://unete.axeespanol.com
-- **Axe Embassy D-A-CH auf Deutsch Telegram:** https://t.me/axeembassydach
-- **Axe Telegram News Bot:** https://telegram.me/axenews
-- **QQ 达世币官方群 AXE.China:** 419967021
-- **Freenode IRC:** #axerunners
+- **Axe Discord:** https://discord.gg/FkBKpJU
+- **Axerunners Telgram:** https://t.me/axerunners
+- **Axe Venezuela Telgram:** https://t.me/axerunnersVenezuela
+- **Axe Brasil Telgram:** https://t.me/axerunnersBrasil
+- **Axe Russia Ukraine Telgram:** https://t.me/AxeRussiaUkraine
+- **Axe USA Telgram:** https://t.me/axerunnersusa
+- **Axe Africa Telgram:** https://t.me/axe_blockchain_arica
+- **Axe bangladesh Telgram:** https://t.me/axerunnersban
 
 
 Social media
 ------------
 
+- **Facebook:** https://www.facebook.com/axe137/
 - **Reddit:** https://www.reddit.com/r/axerunners
 - **Twitter:** https://twitter.com/axerunners
-- **Steemit:** https://steemit.com/@axerunners
 - **LinkedIn:** https://www.linkedin.com/company/axerunners
 - **YouTube:** https://www.youtube.com/c/AxeOrg
 - **Instagram:** https://www.instagram.com/axecoin
-- **Dailymotion:** http://www.dailymotion.com/axeworld
-- **Youku:** http://i.youku.com/axerunners
-- **Soundcloud:** https://soundcloud.com/axerunners
-- **Google+:** https://plus.google.com/+AxeOrg
-- **Minds:** https://www.minds.com/Axepay
-- **Pinterest:** https://www.pinterest.com/axedigitalcash
-
-
-Facebook
---------
-
-- **English (Official):** https://www.facebook.com/AxePay
-- **Axe News En Español:** https://www.facebook.com/AxeNewsEspanol
-- **Axe Embassy Thailand:** https://www.facebook.com/AxeEmbassyThailand
-- **Brazil:** https://www.facebook.com/AxeBrazil
-- **Denmark:** https://www.facebook.com/AxeDenmark
-- **Germany:** https://www.facebook.com/axegermany
-- **Greece:** https://www.facebook.com/AxeGreece
-- **Poland:** https://www.facebook.com/Axe.Polska
-- **Russia:** https://www.facebook.com/Axe.Russia
-- **Thailand:** https://www.facebook.com/groups/1127359790623640
-- **Venezuela:** https://www.facebook.com/groups/DarkcoinVenezuela
-- **Vietnam:** https://www.facebook.com/axevietnam
-
-
-Twitter
--------
-
-- **Axe Official Account:** https://twitter.com/axerunners
-- **Ryan Taylor, CEO of Axe Core Group:** https://twitter.com/RTaylor05
-- **Axe Force News:** https://twitter.com/AxeForceNews
-- **Joël Valenzuela, Chief Editor, Axe Force News:** https://twitter.com/TheDesertLynx
-- **Mark Mason, Director of Media & PR, Axe Force News:** https://twitter.com/StayAxey
-- **Amanda B. Johnson, Axe Superfan and DAO-funded contractor:** https://twitter.com/AmandaB_Johnson
-- **Tao of Satoshi, Axe Nation Founder and DAO-funded contractor:** `https://twitter.com/Axe_Nation <https://twitter.com/Axe_Nation>`__
-- **とみ三（Samurai33）, Axe Japan:** https://twitter.com/samurai3311
-- **Axe Vietnam:** https://twitter.com/axevietnam
-
-
-News
-----
-
-- **Axe Force News:** https://www.axeforcenews.com
-- **Axe News En Español:** https://axenewsespanol.com
-- **Axe News En Español (YouTube):** https://www.youtube.com/channel/UCG6Cuh8Q2eUt4NlZu4K-u8g
-- **Axe News Korea:** https://axenewskorea.com
-- **Cointelegraph:** https://cointelegraph.com/tags/axe
-- **巴比特 (8BTC):** http://www.8btc.com/axe
-- **比特时代 (BTC38):** http://www.btc38.com/altcoin/axe
-- **Axe Embassy D-A-CH:** http://www.axe-embassy.org/
-- **Axe News Germany:** https://axe-news.de
-- **Axe Vietnam:** https://axevn.blogspot.com
-- **Axe France:** https://axefrance.com/
-- **Axe News China (Wechat):** axenews (or scan QR below)
-
-.. image:: img/axe-wx.png
-    :width: 100 px
-
-
-
-Blogs
------
-
-- **Evan Duffield's blog:** https://medium.com/@eduffield222
-- **Axedot:** https://axedot.io/alpha/
-
-
-Wikipedia
----------
-
-- `https://en.wikipedia.org/wiki/Axe_(cryptocurrency) <https://en.wikipedia.org/wiki/Axe_(cryptocurrency)>`_
-
-
-Inactive
---------
-
-- **Bitcoin.com forum:** https://forum.bitcoin.com/axe-f67
-- **Crypto-city.com page:** https://www.crypto-city.com/index.php/axe-axe-coin
-- **Bitco.in forum:** https://bitco.in/forum/threads/axe-digitalcash.891
 
 
 Tools
 =====
 
-Block explorers, statistics and visualizations
-----------------------------------------------
-
-- https://explorer.docs.axerunners.com
-- https://insight.docs.axerunners.com/insight
-- https://chainz.cryptoid.info/axe
-- https://www.coinexplorer.net/axe
-- https://bitinfocharts.com/axe/explorer
-- https://axeblockexplorer.com
-- https://live.blockcypher.com/axe
-- https://axe.holytransaction.com
-- https://axeradar.com
-- http://explorer.coinpayments.net/index.php?chain=7
-- http://udjinm6.github.io/bitlisten
-- http://insight.axe.crowdnode.io
-
-
-Treasury tools
---------------
-
-- https://www.axewatch.org
-- https://www.axecentral.org
-- https://www.axeboost.org
-- https://axeroots.fund
-- https://axenexus.org
-- https://axevotetracker.com
-- https://proposal.docs.axerunners.com
-- https://www.axeninja.pl/governance.html
-
-
-Masternode management
----------------------
-
-- http://axemasternode.org
-- https://axeninja.pl
-- https://stats.masternode.me
-- https://github.com/Bertrand256/axe-masternode-tool
-- http://178.254.23.111/~pub/Axe/Axe_Info.html
-- https://m1.axe-news.de/axetv/#value=1000
-
-
-Price monitoring and statistics
--------------------------------
-
-- http://www.axe.dog
-- https://coinmarketcap.com/currencies/axe
-- https://bitinfocharts.com/axe
-- https://www.cryptonator.com/widget
-
-
-Axe Community project
-----------------------
-
-- https://axecommunity.github.io
-- http://github.com/axecommunity
-
-
-DarkNet pages
--------------
-
-- **Axe (Mirror of Main Page):** http://axeorg64cjvj4s3.onion
-- **The Hidden Wiki:** `http://zqktlwi4fecvo6ri.onion/wiki/Axe_-_DigitalCash <http://zqktlwi4fecvo6ri.onion/wiki/Axe_-_DigitalCash>`_
+- **Block Explorer:** https://insight.axerunners.com/
+- **AxeRunner:** https://github.com/AXErunners/axerunner
+- **PoolExplorer 1:** https://miningpoolstats.stream/axerunners
+- **PoolExplorer 2:** https://poolexplorer.com/coin/3374
+- **P2Pool-axe:** https://github.com/AXErunners/p2pool-axe
+- **Wallet generator:** https://axerunners.com/wallet-generator/
 
 
 Mobile Apps
@@ -230,35 +79,13 @@ Mobile Apps
 iOS
 ---
 
-- **Axe Wallet:** https://itunes.apple.com/app/id1430269763
-- **Edge Wallet:** https://itunes.apple.com/app/id1344400091
-- **Jaxx Wallet:** https://itunes.apple.com/app/id1084514516
-- **Coinomi Wallet:** https://itunes.apple.com/app/id1333588809
-- **Axey:** https://itunes.apple.com/app/id1033268631
-- **CoinCap:** https://itunes.apple.com/app/id1074052280
-- **Blockfolio:** https://itunes.apple.com/app/id1095564685
-- **Cryptonaut:** https://itunes.apple.com/app/id1312756405
-- **Quoinex:** https://itunes.apple.com/app/id1140955992
-- **Abra:** https://itunes.apple.com/app/id966301394
-- **BitUniverse:** https://itunes.apple.com/app/id1329338902
-
+- **Axe Wallet:** https://apps.apple.com/app/id1430269763
+- **Chameleon Pay:** https://apps.apple.com/us/app/chameleon-pay/id1453863654
 
 Android
 -------
+- **Chameleon Pay:** https://play.google.com/store/apps/details?id=com.chameleon.wallet
 
-- **Axe Wallet:** https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet
-- **Edge Wallet:** https://play.google.com/store/apps/details?id=co.edgesecure.app
-- **Jaxx Wallet:** https://play.google.com/store/apps/details?id=com.kryptokit.jaxx
-- **Coinomi Wallet:** https://play.google.com/store/apps/details?id=com.coinomi.wallet
-- **Cryptonator Wallet:** https://play.google.com/store/apps/details?id=com.aev.cryptonator
-- **AxeCentral:** https://play.google.com/store/apps/details?id=net.paregov.android.axecentral
-- **CoinCap:** https://play.google.com/store/apps/details?id=io.coinCap.coinCap
-- **Blockfolio:** https://play.google.com/store/apps/details?id=com.blockfolio.blockfolio
-- **Cryptonaut:** https://play.google.com/store/apps/details?id=org.cryptonaut.app
-- **Quoinex:** https://play.google.com/store/apps/details?id=mobi.quoine
-- **Abra:** https://play.google.com/store/apps/details?id=com.plutus.wallet
-- **Bitcoin Ticker Widget:** https://play.google.com/store/apps/details?id=st.brothas.mtgoxwidget
-- **BitUniverse:** https://play.google.com/store/apps/details?id=com.bituniverse.portfolio
 
 
 .. _glossary:
@@ -275,10 +102,10 @@ Glossary
   attacker’s hashed transaction block.
 
 Address
-  A Axe address is used to :ref:`Send/Receive a Payment
+  An Axe address is used to :ref:`Send/Receive a Payment
   <axecore-send-receive>` on the Axe network. It contains a string of
   alphanumeric characters, but can also be represented as a scannable QR
-  code. A Axe address is also the public key in the pair of keys used
+  code. An Axe address is also the public key in the pair of keys used
   by Axe holders to digitally sign transactions (see Public key).
 
 Algorithm
@@ -318,12 +145,6 @@ ASIC
   general-purpose use. For example, a chip designed to run in a digital
   voice recorder or for :ref:`high-efficiency Axe mining <asic-mining>`
   is an ASIC.
-
-ATM / BTM
-  A Axe ATM is a physical machine that allows a customer to buy Axe
-  with cash. There are many manufacturers, some of which enable users to
-  sell Axe for cash. They are also sometimes called 'BTMs' or 'Axe
-  AVMS.' Axe is supported on several :ref:`ATMs <how-to-buy>`.
 
 Backlog
   Backlog generally refers to an accumulation over time of work waiting
@@ -492,24 +313,14 @@ Dark Gravity Wave
   times can remain consistent despite fluctuations in hashpower. However
   it doesn't suffer from the time-warp exploit.
 
-Darkcoin
-  Axe was initially launched as XCoin and then rebranded to Darkcoin and
-  finally Axe.
-
 Axe
-  Originally launched as Xcoin and later renamed to Darkcoin, the
-  currency was later renamed "Axe" to avoid association with the
-  darknet markets. Axe is a portmanteau of "Digital Cash." Axe is an
-  open source peer-to- peer cryptocurrency that solves many of Bitcoin's
-  problems. Axe's features include PrivateSend, InstantSend,
-  Decentralized Governance by Blockchain (DGBB), a 2nd tier network
-  (referred to as the masternode network). See the :ref:`Features
-  <features>` page for a full list of Axe's features.
-
-AxeDrive
-  Axe network data storage backend service used by masternodes for
-  off-chain data relating to Evolution. AxeDrive implements `IPFS
-  <https://ipfs.io>`_, a type of distributed file storage system.
+  AXE is a decentralized X11-based cryptocurrency. The foundation of 
+  AXE network is hybrid PoW/PoSe system. First-tier nodes provide hash power
+  to move data and secure the blockchain, while the second tier of full nodes
+  adds extra privacy and increases network performance. 
+  Axe's features include PrivateSend, InstantSend,  Decentralized Governance
+  by Blockchain (DGBB), a 2nd tier network  (referred to as the masternode network).
+  See the :ref:`Features <features>` page for a full list of Axe's features.
 
 Axe Client
   Axe clients are software programs used to interface with the Axe
@@ -525,12 +336,6 @@ Axe Core Wallet
   Core Team and allows both PrivateSend and InstantSend. The AxeCore
   wallet will download the entire blockchain and serve it over the
   internet to any peers who request it.
-
-Axe Evolution
-  This is a 3 tier network Axe developers are presently building. It
-  will make Axe as easy to use as PayPal, while still remaining
-  decentralized. See the :ref:`Evolution <evolution>` page for more
-  information.
 
 Axe Schema
   A JSON-based language specification for defining and validating
@@ -607,19 +412,7 @@ Digital Wallet
     is advised that you don't store large amounts of funds on these
     wallets.
 
-  - **Online/Cloud/Web Wallet** (:ref:`Exodus <third-party-wallets>`,
-    :ref:`MyAxeWallet <web-wallets>`): Third parties that will store
-    your Axe on their servers for you or provide an interface to access
-    your Axe with you providing the keys, so that you can access your
-    Axe from any device connected to the internet. If their website is
-    hacked or if their servers are damaged, you run the risk of losing
-    your Axe. Any online wallets should be secured with strong
-    passphrases and 2FA. You cannot make backup copies of your online
-    wallet, because you do not have access to the private keys. We
-    strongly urge that you NEVER store large amounts of Axe in any
-    online wallet or cryptocurrency exchange.
-
-  - **Hardware Wallets** (:ref:`Trezor <hardware-wallets>`, KeepKey,
+   - **Hardware Wallets** (:ref:`Trezor <hardware-wallets>`, KeepKey,
     Ledger, Nano): A hardware wallet is a specialized, tamper-proof,
     hardware device that stores your private keys. This device is able
     to sign transactions with your private key without being connected
@@ -703,11 +496,6 @@ Escrow Services
   that both parties have satisfied the terms of the agreement, he/she
   will forward the funds and the product (or currency) being purchased
   to the appropriate party.
-
-Evan Duffield
-  Founder and first Lead Developer of Axe. Inventor of X11, InstantSend
-  and PrivateSend. Before creating Axe, Evan was a financial advisor
-  and holds a Series 65 license.
 
 Exchange
   The current price of one Axe compared to the price of other
@@ -987,20 +775,12 @@ State View
   should be displayed in a given social wallet, for example.
 
 Spork
-  The Axe development team created a mechanism known as a ":ref:`spork
-  <sporks>`" by which updated code is released to the network, but not
-  immediately made active (or “enforced”). Communication is sent out to
-  users informing them of the change and the need for them to update
-  their clients. Those who update their clients run the new code, but in
-  the event of errors occurring with that new code, the client’s blocks
-  are not rejected by the network and unintended forks are avoided. Data
-  about the error can then be collected and forwarded to the development
-  team. Once the development team is satisfied with the new code’s
-  stability in the mainnet environment – and once acceptable network
-  consensus is attained – enforcement of the updated code can be
-  activated remotely. Should problems arise, the code can be deactivated
-  in the same manner, without the need for a network-wide rollback or
-  client update.
+  A Spork is a mechanism by which updated code is released to the network,
+  but not immediately made active ("enforced"). This allows for far smoother
+  transitions than in the traditional hard fork paradigm, as well as the 
+  collection of test data in the live network environment. This process of
+  multi-phased forking was originally to be called "soft forking" but the 
+  community affectionately dubbed it "the spork" and the name stuck.
 
 Tainted Coins
   Taint is a measure of correlation between two (wallet) addresses. It
@@ -1066,9 +846,12 @@ Whitepaper
   problem, or make a decision.
 
 X11
-  :ref:`X11 <x11-hash-algorithm>` is a hashing algorithm created by Axe
-  Core developer Evan Duffield.
-
+  :ref:`X11 <x11-hash-algorithm>` is a widely used hashing algorithm
+  created by Dash core developer Evan Duffield. X11’s chained hashing
+  algorithm utilizes a sequence of eleven scientific hashing algorithms
+  for the proof-of-work. This is so that the processing distribution 
+  is fair and coins will be distributed
+  
 Zero Confirmations
   This is a transaction without any confirmations from the blockchain.
   It is technically reversible (unless InstantSend was used).
