@@ -13,13 +13,13 @@ Features
 Specifications
 ==============
 
-- First block mined at 11PM EST, 18th January 2014
-- No premine
+- First block mined on the 9th Febuary 2018
+- 3% premine
 - X11 hashing algorithm, CPU/GPU/ASIC mining available
-- 2.6 minute block time, 2MB blocks, ~56 transactions per second
+- 2.5 minute block time, 2MB blocks, ~56 transactions per second
 - Block reward decreases by 7.14% per year
-- Dark Gravity Wave difficulty adjustment algorithm
-- Between 17.74M and 18.92M total coin supply
+- Dark Gravity Wave (DGW) difficulty adjustment algorithm 
+- 21 million total coin supply
 - Decentralized second-tier masternode network
 - Superior transaction anonymity using PrivateSend
 - Instant transactions using InstantSend
@@ -38,7 +38,7 @@ called masternodes. Thanks to this innovative two tier network, Axe can
 offer innovative features in a trustless and decentralized way.
 Masternodes are used to power PrivateSend, InstantSend, and the
 governance and treasury system. Users are rewarded for running
-masternodes; 45% of the block reward is allocated to pay the masternode
+masternodes;  A proportion of the block reward is allocated to pay the masternode
 network. You can view practical guides on all topics relating to
 masternodes :ref:`here <masternodes>`.
 
@@ -50,8 +50,7 @@ Masternodes enable the following services:
    funds on the blockchain.
 -  **Governance and Treasury** allows stakeholders in Axe to determine
    the direction of the project and devotes 10% of the block reward to
-   development of the project and ecosystem (as of May 2018, our
-   annual budget exceeds $30 million).
+   development of the project and ecosystem.
 -  **Axe Evolution** will make using cryptocurrency as easy as using
    PayPal.
 
@@ -65,15 +64,11 @@ Axe.
 
 Masternodes cost money and effort to host so they are paid a percentage
 of the block reward as an incentivize. With current masternode numbers
-and rewards, masternodes earn approximately a 8% return on 1000 Axe
-(which means 6.97 Axe or USD1360 in July 2017) for the year of 2017.
-This `tool <https://stats.masternode.me/>`_ shows a live calculation of
-masternode earnings. These rewards decrease by 7% each year, but the
-rising value of Axe may offset these reductions. As a matter of fact,
-masternodes were receiving 140 Axe per month at the beginning of 2016,
-but this was actually less money than today: USD600 per month. There is
-also the possibility for masternodes to earn money from fees in the
-future.
+and rewards, masternodes earn approximately a 72% return on 1000 Axe
+(which means 720 Axe in April 2019) for the year of 2019.
+These rewards will decrease as more nodes support the network but the
+rising value of Axe may offset these reductions.There is also the 
+possibility for masternodes to earn money from fees in the future.
 
 
 .. _privatesend:
@@ -154,9 +149,9 @@ confirmation time period.
 
 InstantSend technology will allow for cryptocurrencies such as Axe to
 compete with nearly instantaneous transaction systems such as credit
-cards for point-of-sale situations while not relying on a centralized
+cards for point-of-sale situations while not relying on a centralised
 authority. Widespread vendor acceptance of Axe and InstantSend could
-revolutionize cryptocurrency by shortening the delay in confirmation of
+revolutionise cryptocurrency by shortening the delay in confirmation of
 transactions from as long as an hour (with Bitcoin) to as little as a
 few seconds.
 
@@ -166,29 +161,19 @@ introduced in a whitepaper called `Transaction Locking and Masternode
 Consensus: A Mechanism for Mitigating Double Spending Attacks <https://github.com/axerunners/docs/blob/master/binary/Axe%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_.
 
 
-**How Axe 'InstantSend' Protects Merchants from Double Spends**,
-Axe Detailed by Amanda B. Johnson, 16 September 2016
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 1em; overflow: hidden; max-width: 70%; height: auto;">
-        <iframe src="//www.youtube.com/embed/HJx82On8jig" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
 
 .. _sporks:
 
 Sporks
 ======
 
-In response to unforeseen issues with the rollout of the major "RC3"
-update in June 2014, the Axe development team created a mechanism by
-which updated code is released to the network, but not immediately made
-active ("enforced"). This innovation allows for far smoother transitions
-than in the traditional hard fork paradigm, as well as the collection of
-test data in the live network environment. This process of multi-phased
-forking was originally to be called "soft forking" but the community
-affectionately dubbed it "the spork" and the name stuck.
+A Spork is a mechanism by which updated code is released to the network,
+but not immediately made active ("enforced").
+This allows for far smoother transitions than in the traditional 
+hard fork paradigm, as well as the collection of test data in the 
+live network environment. This process of multi-phased forking was 
+originally to be called "soft forking" but the community affectionately
+dubbed it "the spork" and the name stuck.
 
 New features or versions of Axe undergo extensive testing on testnet
 before they are released to the main network. When a new feature or
@@ -210,12 +195,13 @@ rollback or client update. For technical details on individual sporks,
 see :ref:`here <understanding-sporks>`.
 
 
+
 .. _x11-hash-algorithm:
 
 X11 Hash Algorithm
 ==================
 
-X11 is a widely used hashing algorithm created by Axe core developer
+X11 is a widely used hashing algorithm created by Dash core developer
 Evan Duffield. X11’s chained hashing algorithm utilizes a sequence of
 eleven scientific hashing algorithms for the proof-of-work. This is so
 that the processing distribution is fair and coins will be distributed
@@ -229,7 +215,7 @@ Information on mining with X11 can be found in the :ref:`Mining
 <mining>` section of this documentation.
 
 X11 is the name of the chained proof-of-work (**PoW**) algorithm that
-was introduced in Axe (launched January 2014 as "Xcoin"). It was
+was introduced into Axe in February 2018. It was
 partially inspired by the chained-hashing approach of Quark, adding
 further "depth" and complexity by increasing the number of hashes, yet
 it differs from Quark in that the rounds of hashes are determined *a
@@ -268,11 +254,6 @@ increased safety and longevity for store of wealth purposes, investment
 diversification and hedging against risks associated with single-hash
 currencies plagued by SPOF (Single Point Of Failure).
 
-Evan Duffield, the creator of Axe and X11 chained-hash, has written on
-several occasions that X11 was integrated into Axe not with the
-intention to prevent ASIC manufacturers from creating ASICs for X11 in
-the future, but rather to provide a similar migratory path that Bitcoin
-had (CPUs, GPUs, ASICs).
 
 
 .. _dark-gravity-wave:
@@ -281,9 +262,9 @@ Dark Gravity Wave
 =================
 
 **DGW** or *Dark Gravity Wave* is an open source difficulty-adjusting
-algorithm for Bitcoin-based cryptocurrencies that was first used in Axe
+algorithm for Bitcoin-based cryptocurrencies that was first used in Dash
 and has since appeared in other digital currencies. DGW was authored by
-Evan Duffield, the developer and creator of Axe, as a response to a
+Evan Duffield, the developer and creator of Dash, as a response to a
 time-warp exploit found in *Kimoto's Gravity Well*. In concept, DGW is
 similar to the Kimoto Gravity Well, adjusting the difficulty levels
 every block (instead of every 2016 blocks like Bitcoin) based on
@@ -292,13 +273,9 @@ issue blocks with relatively consistent times, even if the hashing power
 experiences high fluctuations, without suffering from the time-warp
 exploit.
 
-- Version 2.0 of DGW was implemented in Axe from block 45,000 onwards
-  in order to completely alleviate the time-warp exploit.
-
-- Version 3.0 was implemented on May 14 of 2014 to further improve
-  difficulty re-targeting with smoother transitions. It also fixes
-  issues with various architectures that had different levels of
-  floating-point accuracy through the use of integers.
+Axe currently runs on version 3.0 which aids in difficulty re-targeting 
+with smoother transitions. It also fixes issues with various architectures
+that had different levels of floating-point accuracy through the use of integers.
 
 
 .. _emission-rate:
@@ -313,11 +290,8 @@ valid solution for the current :ref:`mining difficulty
 <dark-gravity-wave>` is discovered. Once discovered, the miner is
 permitted to create new units of the currency. This is known as the
 block reward. To ensure that the currency is not subject to endless
-inflation, the block reward is reduced at regular intervals, as `shown
-in this calculation
-<https://docs.google.com/spreadsheets/d/1HqgEkyfZDAA6pIZ3df2PwFE8Z430SVIzQ-mCQ6wGCh4/edit#gid=523620673>`_.
-Graphing this data results in a curve showing total coins in
-circulation, known as the coin emission rate.
+inflation, the block reward is reduced at regular intervals,known
+as the coin emission rate.
 
 While Axe is based on Bitcoin, it significantly modifies the coin
 emission rate to offer a smoother reduction in coin emission over time.
@@ -343,34 +317,26 @@ emission approaching (but never reaching) 21,000,000 BTC. This will
 continue until 2140, but the mining reward reduces so quickly that 99%
 of all bitcoin will be in circulation by 2036, and 99.9% by 2048.
 
-`Axe's total coin emission <https://docs.google.com/spreadsheets/d
-/1JUK4Iy8pjTzQ3Fvc-iV15n2qn19fmiJhnKDDSxebbAA/edit#gid=205877544>`_ is
-also the sum of a geometric series, but the ultimate total coin emission
-is uncertain because it cannot be known how much of the 10% block reward
-reserved for budget proposals will actually be allocated, since this
-depends on future voting behavior. Axe will continue to emit coins for
-approximately 192 years before a full year of mining creates less than 1
-AXE. After 2209 only 14 more AXE will be created. The last AXE will
-take 231 years to be generated, starting in 2246 and ending when
-emission completely stops in 2477. Based on these numbers, a maximum and
-minimum possible coin supply in the year 2254 can be calculated to be
-between:
+`Axe's total coin emission is also the sum of a geometric series,
+but the ultimate total coin emission is uncertain because it cannot 
+be known how much of the 10% block reward reserved for budget proposals 
+will actually be allocated, since this depends on future voting behavior. 
+Axe will continue to emit coins for approximately 192 years before a 
+full year of mining creates less than 1 AXE. 
+After 2210 only 14 more AXE will be created. The last AXE will
+take 231 years to be generated, starting in 2249 and ending when
+emission completely stops in 2479. 
 
-+-----------------+-----------------------------------+
-| 17,742,696 AXE | Assuming zero treasury allocation |
-+-----------------+-----------------------------------+
-| 18,921,005 AXE | Assuming full treasury allocation |
-+-----------------+-----------------------------------+
 
 Block reward allocation
 -----------------------
 
 Unlike Bitcoin, which allocates 100% of the block reward to miners, Axe
 holds back 10% of the block reward for use in the decentralized
-:ref:`budget system <decentralized-governance>`. The remainder of the
-block, as well as any transaction fees, are split 50/50 between the
-:ref:`miner <mining>` and a :ref:`masternode <masternodes>`, which is
-deterministically selected according to the :ref:`payment logic
+:ref:`budget system <decentralized-governance>` (Commenced at block 304,000).
+The remainder of the block, as well as any transaction fees, are split
+50/50 between the :ref:`miner <mining>` and a :ref:`masternode <masternodes>`, 
+which is deterministically selected according to the :ref:`payment logic
 <payment-logic>`. Axe features superblocks, which appear every 16616
 blocks (approx. 30.29 days) and can release up to 10% of the cumulative
 budget held back over that :ref:`budget cycle period <budget-cycles>` to
@@ -386,13 +352,6 @@ a budget cycle as follows:
 | 10% | Decentralized Governance Budget        |
 +-----+----------------------------------------+
 
-This documentation is based on calculations and posts by moocowmoo.
-Please see `this reddit post <https://www.reddit.com/r/axerunners/comments/
-7fc2on/axe_over_1000_in_a_few_weeks/dqb4pjn/>`_ for more details, or
-run your own `emission calculations using this tool
-<https://repl.it/@moocowmoo/axe-minmax-coin-generation>`_. See `this
-site <https://stats.masternode.me>`_ for live data on current network
-statistics.
 
 .. _decentralized-governance:
 
@@ -406,12 +365,7 @@ definition there are no central authorities to make decisions for the
 project. In Axe, such decisions are made by the network, that is, by
 the owners of masternodes. The DGBB system allows each masternode to
 vote once (yes/no/abstain) for each proposal. If a proposal passes, it
-can then be implemented (or not) by Axe's developers. A key example is
-early in 2016, when Axe's Core Team submitted a proposal to the network
-asking whether the blocksize should be increased to 2 MB. Within 24
-hours, consensus had been reached to approve this change. Compare this
-to Bitcoin, where debate on the blocksize has been raging for nearly
-three years.
+can then be implemented (or not) by Axe's developers. 
 
 DGBB also provides a means for Axe to fund its own development. While
 other projects have to depend on donations or premined endowments, Axe
@@ -436,13 +390,13 @@ Sentinel
 =========
 
 Sentinel is an autonomous agent for persisting, processing and
-automating Axe 12.1 governance objects and tasks, and for expanded
-functions in the upcoming Axe V13 release (Evolution). Sentinel is
-implemented as a Python application that binds to a local version 12.1
-axed instance on each Axe 12.1 masternode.
+automating Axe 1.2.0 governance objects and tasks, and for expanded
+functions in upcoming Axe release's. Sentinel is implemented 
+as a Python application that binds to a local version axed 
+instance on each Axe masternode.
 
 A Governance Object (or "govObject") is a generic structure introduced
-in Axe Core 12.1 to allow for the creation of Budget Proposals,
+in Axe Core 1.3.1 to allow for the creation of Budget Proposals,
 Triggers, and Watchdogs. Class inheritance has been utilized to extend
 this generic object into a "Proposal" object to supplant the current
 Axe budget system.
@@ -454,24 +408,7 @@ Axe budget system.
 
 .. epigraph::
 
-   *"The differences with Sentinel are really architectural and not easy/
-   interesting to explain to users as they are a bridge from 12.0
-   towards Evo features (but not fully implementing them), and Sentinel
-   was only a part of 12.1 improvements anyway. Pre-Sentinel, governance
-   functions were 'hard wired' into core code. Sentinel abstracts this
-   process because in Evolution there are many Object types from Users
-   to Accounts to Contacts etc, and if we didn't make this change first,
-   future changes / improvements in Evolution (e.g. adding a new type of
-   Object) would require changing core code. Now Core is agnostic to
-   types of objects and we can take this forward for user experience and
-   not just governance. In terms of documentation, there is no
-   whitepaper specific to Sentinel, but we have various docs for Evo in
-   an on-going RFC process which are used as the basis for Evo
-   development."*
-
-   -- Andy Freer, Evolution Developer
-
-
+   
 .. _fees:
 
 Fees
@@ -494,29 +431,12 @@ included as an incentive to the miner to process the transaction. Most
 wallets include a small fee by default, although some miners will
 process transactions even if no fee is included.
 
-The release of Dash 0.12.2.0 and activation of DIP0001 saw a
-simultaneous reduction of fees by a factor of 10, while the block size
-was increased from 1MB to 2MB to promote continued growth of low-cost
-transactions even as the cost of Axe rises. Axe also supports
-:ref:`instantsend` and :ref:`privatesend` transactions, which operate on
-a different and mandatory fee schedule. Axe 1.2.0.0 introduced
+Axe also supports :ref:`instantsend` and :ref:`privatesend` transactions,
+which operate on a different and mandatory fee schedule. Axe 1.2.0.0 introduced
 InstantSend autolocks, which causes masternodes to automatically attempt
 to lock any transaction with 4 or fewer inputs — which are referred to
 as “simple” transactions — and removes the additional fee for
-InstantSend. The fee schedule for Axe 1.2.x as of December 2018 is as
-follows:
-
-+----------------------+-----------------+-----------------------------------+
-| Transaction type     | Recommended fee | Per unit                          |
-+======================+=================+===================================+
-| Standard transaction | .00001 AXE     | Per kB of transaction data        |
-+----------------------+-----------------+-----------------------------------+
-| InstantSend autolock | .00001 AXE     | Per kB of transaction data        |
-+----------------------+-----------------+-----------------------------------+
-| InstantSend          | .0001 AXE      | Per transaction input             |
-+----------------------+-----------------+-----------------------------------+
-| PrivateSend          | .001 AXE       | Per 10 rounds of mixing (average) |
-+----------------------+-----------------+-----------------------------------+
+InstantSend. 
 
 As an example, a standard and relatively simple transaction on the Axe
 network with one input, one output and a possible change address
@@ -544,29 +464,26 @@ several inputs, while InstantSend charges a fee of 0.0001 AXE per
 input. Always check your fees before sending a transaction.
 
 
-.. _evolution:
+.. _Sharpening:
 
-Evolution
+Sharpening
 ==========
 
-`Axe Evolution <https://www.axerunners.com/evolution/>`_ is the code
-name for a decentralized currency platform built on Axe blockchain
-technology. The goal is to provide simple access to the unique features
-and benefits of Axe to assist in the creation of decentralized
-technology. Axe introduces a tiered network design, which allows users
-to do various jobs for the network, along with decentralized API access
-and a decentralized file system.
+Axe Sharpening  is the code name for a decentralized currency platform 
+built on Axe blockchain technology. The goal is to provide simple access
+to the unique features and benefits of Axe to assist in the creation of
+decentralized technology. Axe introduces a tiered network design,
+which allows users to do various jobs for the network, along with 
+decentralized API access and a decentralized file system.
 
-Axe Evolution will be released in stages. Axe Core releases 12.1
-through to 12.4 will lay the groundwork for the decentralized features
-behind the scenes. An alpha version of Evolution is expected in the
-first half of 2018, including a basic implementation of AxeDrive,
-Primitives, DAPI and a simple T3 wallet. This will be released together
-with a series of Axe Improvement Proposals (DIPs), followed by a
-testnet phase with most basic functionality, and a first stable release
-in summer 2018.
+Axe Sharpening is being released in stages. Axe Core release 1.2.0
+will lay the groundwork for the decentralized features behind the
+scenes. This will be rolled out in stages over the course of 2019, 
+this will include basic implementation of AxeDrive,Primitives,DAPI
+and a simple T3 wallet. This will be released together with a series
+of Axe Improvement Proposals (AIPs).
 
-Included below is our current work on Evolution, that adds many
+Included below is our current work on Sharpening, that adds many
 components such as:
 
 - **AxeDrive:** A decentralized shared file system for user data that
@@ -586,50 +503,3 @@ components such as:
 - **Social Wallet:** We introduce a social wallet, which allows friends
   lists, grouping of users and shared multisig accounts.
 
-Evolution Previews
-------------------
-
-The following videos featuring Axe Founder Evan Duffield and Head of
-UI/UX Development Chuck Williams describe the development process and
-upcoming features of the Axe Evolution platform.
-
-**Evolution Demo #1 - The First Axe DAP**, 16 March 2018
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1em; height: 0; overflow: hidden; max-width: 70%; height: auto;">
-        <iframe src="//www.youtube.com/embed/gbjYhZT2Ulc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-**Evolution Demo #2 - Mobile Evolution**, 25 April 2018
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1em; height: 0; overflow: hidden; max-width: 70%; height: auto;">
-        <iframe src="//www.youtube.com/embed/EtYax7iz4hU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-**Evolution Demo #3 - Axepay User Experience**, 15 May 2018
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1em; height: 0; overflow: hidden; max-width: 70%; height: auto;">
-        <iframe src="//www.youtube.com/embed/ZJVW9iUHqLg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-**Chuck Williams on Evolution**, Axe Conference London, 14 September 2017
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1em; height: 0; overflow: hidden; max-width: 70%; height: auto;">
-        <iframe src="//www.youtube.com/embed/b-XL_ddWCwQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-**Evan Duffield on the Evolution Roadmap**, Axe Force News, 28 June
-2017
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1em; height: 0; overflow: hidden; max-width: 70%; height: auto;">
-        <iframe src="//www.youtube.com/embed/E65QixSRosw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
